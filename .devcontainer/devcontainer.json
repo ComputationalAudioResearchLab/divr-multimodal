@@ -1,0 +1,20 @@
+{
+  "name": "divr-ssl",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dev",
+  "workspaceFolder": "/home/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "ms-python.python",
+        "hediet.vscode-drawio"
+      ]
+    }
+  },
+  "shutdownAction": "none",
+  "onCreateCommand": "export PIPENV_CUSTOM_VENV_NAME=divr-ssl; pipenv install --site-packages --dev"
+}
