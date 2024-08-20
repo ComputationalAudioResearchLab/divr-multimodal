@@ -4,6 +4,9 @@
       "path": "."
     },
     {
+      "path": "divr_ssl"
+    },
+    {
       "path": "../storage"
     }
   ],

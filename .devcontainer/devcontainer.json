@@ -11,7 +11,8 @@
         "ms-python.black-formatter",
         "ms-python.flake8",
         "ms-python.python",
-        "hediet.vscode-drawio"
+        "hediet.vscode-drawio",
+        "ms-toolsai.tensorboard"
       ]
     }
   },
