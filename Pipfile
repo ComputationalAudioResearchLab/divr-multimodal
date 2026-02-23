@@ -4,6 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pyyaml = "*"
+divr-benchmark = "*"
+divr-diagnosis = "*"
+class-argparse = "*"
 
 [dev-packages]
 
