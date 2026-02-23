@@ -1,5 +1,5 @@
 {
-  "name": "divr-ssl",
+  "name": "divr-multimodel",
   "dockerComposeFile": "docker-compose.yml",
   "service": "dev",
   "workspaceFolder": "/home/workspace",
@@ -17,5 +17,5 @@
     }
   },
   "shutdownAction": "none",
-  "onCreateCommand": "export PIPENV_CUSTOM_VENV_NAME=divr-ssl; pipenv install --site-packages --dev"
+  "onCreateCommand": "export PIPENV_CUSTOM_VENV_NAME=divr-multimodel; pipenv install --site-packages --dev"
 }
