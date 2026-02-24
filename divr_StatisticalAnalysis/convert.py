@@ -48,7 +48,7 @@ def build_output(
         "",
         "from ...data_loader import Database, Dataset",
         "",
-    ]x
+    ]
 
     blocks = [
         format_dataset_block("train", train),
@@ -131,6 +131,6 @@ if __name__ == "__main__":
     main()
 
 # Example usage:
-# python convert_svd.py --input-dir ./tasks/svd_tasks --output task_1.py --audio-suffix -phrase.wav
-# python convert_svd.py --input-dir ./tasks/svd_tasks --output-format csv --csv-output task_1.csv
-# python convert_svd.py --input-dir ./tasks/svd_tasks --output-format both --output task_1.py --csv-output task_1.csv
+# python convert.py --input-dir ./tasks/svd_tasks --output task_1.py --audio-suffix -phrase.wav
+# python convert.py --input-dir ./tasks/svd_tasks --output-format csv --csv-output task_1.csv
+# python convert.py --input-dir ./tasks/svd_tasks --output-format both --output task_1.py --csv-output task_1.csv
