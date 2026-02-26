@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: divr-multimodal
+Version: 0.1.0
+Summary: DiVR multimodal task generation and inspection tools
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: divr-benchmark
+Requires-Dist: divr-diagnosis
+Requires-Dist: class-argparse
+Dynamic: license-file
+
+# divr-multimodal
+The purpose of this experiment is to explore the textual information in the voice disorder dataset.
+
+# The latest version of divr-benchmark has not been released yet. Please install it using femh as follows.
+export RELEASE_VERSION=0.1.4
+pip install git+https://github.com/ComputationalAudioResearchLab/divr-benchmark.git

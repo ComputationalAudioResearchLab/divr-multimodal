@@ -1,0 +1,6435 @@
+femh_0000c2s_0:
+  age: 93
+  gender: female
+  label: pathological
+  speaker_id: 0000c2s
+  text_keys:
+  - femh/0000c2s
+  texts:
+  - age=93; gender=female
+femh_0000i84_0:
+  age: 69
+  gender: female
+  label: pathological
+  speaker_id: 0000i84
+  text_keys:
+  - femh/0000i84
+  texts:
+  - age=69; gender=female
+femh_0000jil_0:
+  age: 61
+  gender: male
+  label: pathological
+  speaker_id: 0000jil
+  text_keys:
+  - femh/0000jil
+  texts:
+  - age=61; gender=male
+femh_0000mfg_0:
+  age: 65
+  gender: male
+  label: pathological
+  speaker_id: 0000mfg
+  text_keys:
+  - femh/0000mfg
+  texts:
+  - age=65; gender=male
+femh_00014es_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: 00014es
+  text_keys:
+  - femh/00014es
+  texts:
+  - age=60; gender=female
+femh_0001bef_0:
+  age: 67
+  gender: male
+  label: pathological
+  speaker_id: 0001bef
+  text_keys:
+  - femh/0001bef
+  texts:
+  - age=67; gender=male
+femh_0001pte_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0001pte
+  text_keys:
+  - femh/0001pte
+  texts:
+  - age=63; gender=female
+femh_0002d4p_0:
+  age: 78
+  gender: female
+  label: pathological
+  speaker_id: 0002d4p
+  text_keys:
+  - femh/0002d4p
+  texts:
+  - age=78; gender=female
+femh_0002fk6_0:
+  age: 70
+  gender: male
+  label: pathological
+  speaker_id: 0002fk6
+  text_keys:
+  - femh/0002fk6
+  texts:
+  - age=70; gender=male
+femh_0002iop_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 0002iop
+  text_keys:
+  - femh/0002iop
+  texts:
+  - age=70; gender=female
+femh_01007l8_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 01007l8
+  text_keys:
+  - femh/01007l8
+  texts:
+  - age=70; gender=female
+femh_0100os0_0:
+  age: 68
+  gender: male
+  label: pathological
+  speaker_id: 0100os0
+  text_keys:
+  - femh/0100os0
+  texts:
+  - age=68; gender=male
+femh_0100v91_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: 0100v91
+  text_keys:
+  - femh/0100v91
+  texts:
+  - age=64; gender=male
+femh_01011ql_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 01011ql
+  text_keys:
+  - femh/01011ql
+  texts:
+  - age=53; gender=female
+femh_01012ss_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: 01012ss
+  text_keys:
+  - femh/01012ss
+  texts:
+  - age=64; gender=male
+femh_0101ccr_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: 0101ccr
+  text_keys:
+  - femh/0101ccr
+  texts:
+  - age=60; gender=female
+femh_0101df9_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 0101df9
+  text_keys:
+  - femh/0101df9
+  texts:
+  - age=57; gender=female
+femh_0102iff_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 0102iff
+  text_keys:
+  - femh/0102iff
+  texts:
+  - age=57; gender=male
+femh_0200f4q_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 0200f4q
+  text_keys:
+  - femh/0200f4q
+  texts:
+  - age=52; gender=female
+femh_0200fba_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 0200fba
+  text_keys:
+  - femh/0200fba
+  texts:
+  - age=58; gender=female
+femh_0200kcd_0:
+  age: 73
+  gender: female
+  label: pathological
+  speaker_id: 0200kcd
+  text_keys:
+  - femh/0200kcd
+  texts:
+  - age=73; gender=female
+femh_0200r3p_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: 0200r3p
+  text_keys:
+  - femh/0200r3p
+  texts:
+  - age=64; gender=male
+femh_02011g8_0:
+  age: 74
+  gender: male
+  label: pathological
+  speaker_id: 02011g8
+  text_keys:
+  - femh/02011g8
+  texts:
+  - age=74; gender=male
+femh_0201917_0:
+  age: 75
+  gender: male
+  label: pathological
+  speaker_id: 0201917
+  text_keys:
+  - femh/0201917
+  texts:
+  - age=75; gender=male
+femh_0201cvj_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0201cvj
+  text_keys:
+  - femh/0201cvj
+  texts:
+  - age=35; gender=female
+femh_02022d3_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 02022d3
+  text_keys:
+  - femh/02022d3
+  texts:
+  - age=61; gender=female
+femh_0202n8m_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: 0202n8m
+  text_keys:
+  - femh/0202n8m
+  texts:
+  - age=58; gender=male
+femh_03001o7_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 03001o7
+  text_keys:
+  - femh/03001o7
+  texts:
+  - age=70; gender=female
+femh_03017mj_0:
+  age: 71
+  gender: female
+  label: pathological
+  speaker_id: 03017mj
+  text_keys:
+  - femh/03017mj
+  texts:
+  - age=71; gender=female
+femh_0301en8_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 0301en8
+  text_keys:
+  - femh/0301en8
+  texts:
+  - age=44; gender=female
+femh_0301oi0_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0301oi0
+  text_keys:
+  - femh/0301oi0
+  texts:
+  - age=35; gender=female
+femh_030272m_0:
+  age: 71
+  gender: male
+  label: pathological
+  speaker_id: 030272m
+  text_keys:
+  - femh/030272m
+  texts:
+  - age=71; gender=male
+femh_0302drk_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 0302drk
+  text_keys:
+  - femh/0302drk
+  texts:
+  - age=61; gender=female
+femh_0302fmr_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 0302fmr
+  text_keys:
+  - femh/0302fmr
+  texts:
+  - age=56; gender=female
+femh_0302irr_0:
+  age: 39
+  gender: male
+  label: pathological
+  speaker_id: 0302irr
+  text_keys:
+  - femh/0302irr
+  texts:
+  - age=39; gender=male
+femh_0302nk7_0:
+  age: 83
+  gender: male
+  label: pathological
+  speaker_id: 0302nk7
+  text_keys:
+  - femh/0302nk7
+  texts:
+  - age=83; gender=male
+femh_04006u2_0:
+  age: 86
+  gender: female
+  label: pathological
+  speaker_id: 04006u2
+  text_keys:
+  - femh/04006u2
+  texts:
+  - age=86; gender=female
+femh_0400vh4_0:
+  age: 61
+  gender: male
+  label: pathological
+  speaker_id: 0400vh4
+  text_keys:
+  - femh/0400vh4
+  texts:
+  - age=61; gender=male
+femh_04013ns_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 04013ns
+  text_keys:
+  - femh/04013ns
+  texts:
+  - age=57; gender=male
+femh_0401ibg_0:
+  age: 71
+  gender: male
+  label: pathological
+  speaker_id: 0401ibg
+  text_keys:
+  - femh/0401ibg
+  texts:
+  - age=71; gender=male
+femh_0401vok_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 0401vok
+  text_keys:
+  - femh/0401vok
+  texts:
+  - age=61; gender=female
+femh_04027it_0:
+  age: 72
+  gender: male
+  label: pathological
+  speaker_id: 04027it
+  text_keys:
+  - femh/04027it
+  texts:
+  - age=72; gender=male
+femh_04029np_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 04029np
+  text_keys:
+  - femh/04029np
+  texts:
+  - age=66; gender=female
+femh_0402jvt_0:
+  age: 87
+  gender: male
+  label: pathological
+  speaker_id: 0402jvt
+  text_keys:
+  - femh/0402jvt
+  texts:
+  - age=87; gender=male
+femh_0402lum_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 0402lum
+  text_keys:
+  - femh/0402lum
+  texts:
+  - age=55; gender=male
+femh_04030pt_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 04030pt
+  text_keys:
+  - femh/04030pt
+  texts:
+  - age=53; gender=female
+femh_0500e3n_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 0500e3n
+  text_keys:
+  - femh/0500e3n
+  texts:
+  - age=38; gender=male
+femh_0500kug_0:
+  age: 68
+  gender: female
+  label: pathological
+  speaker_id: 0500kug
+  text_keys:
+  - femh/0500kug
+  texts:
+  - age=68; gender=female
+femh_0500nb9_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 0500nb9
+  text_keys:
+  - femh/0500nb9
+  texts:
+  - age=61; gender=female
+femh_0500o35_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 0500o35
+  text_keys:
+  - femh/0500o35
+  texts:
+  - age=30; gender=female
+femh_05014vg_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 05014vg
+  text_keys:
+  - femh/05014vg
+  texts:
+  - age=46; gender=female
+femh_050171h_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 050171h
+  text_keys:
+  - femh/050171h
+  texts:
+  - age=57; gender=female
+femh_0501hs5_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 0501hs5
+  text_keys:
+  - femh/0501hs5
+  texts:
+  - age=64; gender=female
+femh_05023dl_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 05023dl
+  text_keys:
+  - femh/05023dl
+  texts:
+  - age=57; gender=female
+femh_0502mfl_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 0502mfl
+  text_keys:
+  - femh/0502mfl
+  texts:
+  - age=48; gender=female
+femh_0502sia_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 0502sia
+  text_keys:
+  - femh/0502sia
+  texts:
+  - age=59; gender=female
+femh_0502v0g_0:
+  age: 61
+  gender: male
+  label: pathological
+  speaker_id: 0502v0g
+  text_keys:
+  - femh/0502v0g
+  texts:
+  - age=61; gender=male
+femh_0502vhu_0:
+  age: 65
+  gender: male
+  label: pathological
+  speaker_id: 0502vhu
+  text_keys:
+  - femh/0502vhu
+  texts:
+  - age=65; gender=male
+femh_06008hr_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 06008hr
+  text_keys:
+  - femh/06008hr
+  texts:
+  - age=48; gender=female
+femh_060094r_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 060094r
+  text_keys:
+  - femh/060094r
+  texts:
+  - age=47; gender=female
+femh_0600ord_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 0600ord
+  text_keys:
+  - femh/0600ord
+  texts:
+  - age=57; gender=female
+femh_0600q1h_0:
+  age: 43
+  gender: male
+  label: pathological
+  speaker_id: 0600q1h
+  text_keys:
+  - femh/0600q1h
+  texts:
+  - age=43; gender=male
+femh_0600ql2_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 0600ql2
+  text_keys:
+  - femh/0600ql2
+  texts:
+  - age=55; gender=male
+femh_06012h1_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 06012h1
+  text_keys:
+  - femh/06012h1
+  texts:
+  - age=51; gender=female
+femh_06013l5_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 06013l5
+  text_keys:
+  - femh/06013l5
+  texts:
+  - age=27; gender=female
+femh_060142m_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 060142m
+  text_keys:
+  - femh/060142m
+  texts:
+  - age=50; gender=male
+femh_0601ead_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 0601ead
+  text_keys:
+  - femh/0601ead
+  texts:
+  - age=61; gender=female
+femh_06020kf_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 06020kf
+  text_keys:
+  - femh/06020kf
+  texts:
+  - age=39; gender=female
+femh_060260n_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 060260n
+  text_keys:
+  - femh/060260n
+  texts:
+  - age=66; gender=female
+femh_0602hp7_0:
+  age: 76
+  gender: female
+  label: pathological
+  speaker_id: 0602hp7
+  text_keys:
+  - femh/0602hp7
+  texts:
+  - age=76; gender=female
+femh_0602nc4_0:
+  age: 78
+  gender: female
+  label: pathological
+  speaker_id: 0602nc4
+  text_keys:
+  - femh/0602nc4
+  texts:
+  - age=78; gender=female
+femh_0602ti5_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 0602ti5
+  text_keys:
+  - femh/0602ti5
+  texts:
+  - age=29; gender=female
+femh_06030ae_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: 06030ae
+  text_keys:
+  - femh/06030ae
+  texts:
+  - age=58; gender=male
+femh_07007lf_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 07007lf
+  text_keys:
+  - femh/07007lf
+  texts:
+  - age=63; gender=female
+femh_0700b87_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0700b87
+  text_keys:
+  - femh/0700b87
+  texts:
+  - age=35; gender=female
+femh_0700fpn_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: 0700fpn
+  text_keys:
+  - femh/0700fpn
+  texts:
+  - age=60; gender=female
+femh_0700gge_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 0700gge
+  text_keys:
+  - femh/0700gge
+  texts:
+  - age=50; gender=male
+femh_0700lo9_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 0700lo9
+  text_keys:
+  - femh/0700lo9
+  texts:
+  - age=26; gender=female
+femh_070134s_0:
+  age: 69
+  gender: female
+  label: pathological
+  speaker_id: 070134s
+  text_keys:
+  - femh/070134s
+  texts:
+  - age=69; gender=female
+femh_0701355_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: '0701355'
+  text_keys:
+  - femh/0701355
+  texts:
+  - age=60; gender=female
+femh_07018dk_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 07018dk
+  text_keys:
+  - femh/07018dk
+  texts:
+  - age=56; gender=female
+femh_0701fjn_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0701fjn
+  text_keys:
+  - femh/0701fjn
+  texts:
+  - age=35; gender=female
+femh_0701tmj_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 0701tmj
+  text_keys:
+  - femh/0701tmj
+  texts:
+  - age=28; gender=female
+femh_07020gt_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 07020gt
+  text_keys:
+  - femh/07020gt
+  texts:
+  - age=48; gender=female
+femh_0702mq6_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 0702mq6
+  text_keys:
+  - femh/0702mq6
+  texts:
+  - age=58; gender=female
+femh_0702nkv_0:
+  age: 82
+  gender: male
+  label: pathological
+  speaker_id: 0702nkv
+  text_keys:
+  - femh/0702nkv
+  texts:
+  - age=82; gender=male
+femh_0702t6r_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0702t6r
+  text_keys:
+  - femh/0702t6r
+  texts:
+  - age=63; gender=female
+femh_0702ulb_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 0702ulb
+  text_keys:
+  - femh/0702ulb
+  texts:
+  - age=42; gender=female
+femh_0702vvf_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 0702vvf
+  text_keys:
+  - femh/0702vvf
+  texts:
+  - age=63; gender=male
+femh_08006o6_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 08006o6
+  text_keys:
+  - femh/08006o6
+  texts:
+  - age=44; gender=female
+femh_0800b3j_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 0800b3j
+  text_keys:
+  - femh/0800b3j
+  texts:
+  - age=63; gender=male
+femh_0800jur_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 0800jur
+  text_keys:
+  - femh/0800jur
+  texts:
+  - age=57; gender=male
+femh_0800rfk_0:
+  age: 69
+  gender: male
+  label: pathological
+  speaker_id: 0800rfk
+  text_keys:
+  - femh/0800rfk
+  texts:
+  - age=69; gender=male
+femh_080145c_0:
+  age: 49
+  gender: male
+  label: pathological
+  speaker_id: 080145c
+  text_keys:
+  - femh/080145c
+  texts:
+  - age=49; gender=male
+femh_0801f9e_0:
+  age: 55
+  gender: female
+  label: pathological
+  speaker_id: 0801f9e
+  text_keys:
+  - femh/0801f9e
+  texts:
+  - age=55; gender=female
+femh_0801q5t_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0801q5t
+  text_keys:
+  - femh/0801q5t
+  texts:
+  - age=40; gender=female
+femh_0802469_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 0802469
+  text_keys:
+  - femh/0802469
+  texts:
+  - age=52; gender=female
+femh_0802ggp_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0802ggp
+  text_keys:
+  - femh/0802ggp
+  texts:
+  - age=63; gender=female
+femh_0802gp4_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 0802gp4
+  text_keys:
+  - femh/0802gp4
+  texts:
+  - age=48; gender=female
+femh_0803014_0:
+  age: 51
+  gender: male
+  label: pathological
+  speaker_id: 0803014
+  text_keys:
+  - femh/0803014
+  texts:
+  - age=51; gender=male
+femh_09000c9_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 09000c9
+  text_keys:
+  - femh/09000c9
+  texts:
+  - age=42; gender=female
+femh_09002oa_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 09002oa
+  text_keys:
+  - femh/09002oa
+  texts:
+  - age=45; gender=female
+femh_09007o4_0:
+  age: 23
+  gender: female
+  label: pathological
+  speaker_id: 09007o4
+  text_keys:
+  - femh/09007o4
+  texts:
+  - age=23; gender=female
+femh_0900end_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 0900end
+  text_keys:
+  - femh/0900end
+  texts:
+  - age=30; gender=female
+femh_0900pis_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 0900pis
+  text_keys:
+  - femh/0900pis
+  texts:
+  - age=51; gender=female
+femh_09013qq_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 09013qq
+  text_keys:
+  - femh/09013qq
+  texts:
+  - age=50; gender=male
+femh_09016i9_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 09016i9
+  text_keys:
+  - femh/09016i9
+  texts:
+  - age=62; gender=female
+femh_09019h6_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 09019h6
+  text_keys:
+  - femh/09019h6
+  texts:
+  - age=40; gender=female
+femh_0901cv7_0:
+  age: 78
+  gender: male
+  label: pathological
+  speaker_id: 0901cv7
+  text_keys:
+  - femh/0901cv7
+  texts:
+  - age=78; gender=male
+femh_0901p20_0:
+  age: 52
+  gender: male
+  label: pathological
+  speaker_id: 0901p20
+  text_keys:
+  - femh/0901p20
+  texts:
+  - age=52; gender=male
+femh_09027jf_0:
+  age: 28
+  gender: male
+  label: pathological
+  speaker_id: 09027jf
+  text_keys:
+  - femh/09027jf
+  texts:
+  - age=28; gender=male
+femh_09028u4_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 09028u4
+  text_keys:
+  - femh/09028u4
+  texts:
+  - age=35; gender=female
+femh_09029t8_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 09029t8
+  text_keys:
+  - femh/09029t8
+  texts:
+  - age=39; gender=female
+femh_0902c4u_0:
+  age: 43
+  gender: male
+  label: pathological
+  speaker_id: 0902c4u
+  text_keys:
+  - femh/0902c4u
+  texts:
+  - age=43; gender=male
+femh_0902db2_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 0902db2
+  text_keys:
+  - femh/0902db2
+  texts:
+  - age=46; gender=female
+femh_0902idd_0:
+  age: 54
+  gender: male
+  label: pathological
+  speaker_id: 0902idd
+  text_keys:
+  - femh/0902idd
+  texts:
+  - age=54; gender=male
+femh_0902ife_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0902ife
+  text_keys:
+  - femh/0902ife
+  texts:
+  - age=40; gender=female
+femh_0902sff_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 0902sff
+  text_keys:
+  - femh/0902sff
+  texts:
+  - age=26; gender=female
+femh_0A004c0_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 0A004c0
+  text_keys:
+  - femh/0A004c0
+  texts:
+  - age=57; gender=male
+femh_0A00edq_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: 0A00edq
+  text_keys:
+  - femh/0A00edq
+  texts:
+  - age=24; gender=female
+femh_0A00rh7_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 0A00rh7
+  text_keys:
+  - femh/0A00rh7
+  texts:
+  - age=70; gender=female
+femh_0A01612_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0A01612
+  text_keys:
+  - femh/0A01612
+  texts:
+  - age=40; gender=female
+femh_0A01j0g_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0A01j0g
+  text_keys:
+  - femh/0A01j0g
+  texts:
+  - age=40; gender=female
+femh_0A021cr_0:
+  age: 47
+  gender: male
+  label: pathological
+  speaker_id: 0A021cr
+  text_keys:
+  - femh/0A021cr
+  texts:
+  - age=47; gender=male
+femh_0A02ce1_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 0A02ce1
+  text_keys:
+  - femh/0A02ce1
+  texts:
+  - age=31; gender=male
+femh_0A02k6i_0:
+  age: 22
+  gender: male
+  label: pathological
+  speaker_id: 0A02k6i
+  text_keys:
+  - femh/0A02k6i
+  texts:
+  - age=22; gender=male
+femh_0A02mst_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0A02mst
+  text_keys:
+  - femh/0A02mst
+  texts:
+  - age=34; gender=female
+femh_0A02spo_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 0A02spo
+  text_keys:
+  - femh/0A02spo
+  texts:
+  - age=41; gender=female
+femh_0A031kn_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 0A031kn
+  text_keys:
+  - femh/0A031kn
+  texts:
+  - age=56; gender=female
+femh_0B006ca_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 0B006ca
+  text_keys:
+  - femh/0B006ca
+  texts:
+  - age=38; gender=female
+femh_0B00cgn_0:
+  age: 78
+  gender: male
+  label: pathological
+  speaker_id: 0B00cgn
+  text_keys:
+  - femh/0B00cgn
+  texts:
+  - age=78; gender=male
+femh_0B00jdl_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 0B00jdl
+  text_keys:
+  - femh/0B00jdl
+  texts:
+  - age=30; gender=male
+femh_0B010r1_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0B010r1
+  text_keys:
+  - femh/0B010r1
+  texts:
+  - age=39; gender=female
+femh_0B013d7_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 0B013d7
+  text_keys:
+  - femh/0B013d7
+  texts:
+  - age=64; gender=female
+femh_0B01mh6_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 0B01mh6
+  text_keys:
+  - femh/0B01mh6
+  texts:
+  - age=52; gender=female
+femh_0B01tk0_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 0B01tk0
+  text_keys:
+  - femh/0B01tk0
+  texts:
+  - age=42; gender=female
+femh_0B02e6a_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 0B02e6a
+  text_keys:
+  - femh/0B02e6a
+  texts:
+  - age=42; gender=female
+femh_0B02erj_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 0B02erj
+  text_keys:
+  - femh/0B02erj
+  texts:
+  - age=55; gender=male
+femh_0C0060i_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: 0C0060i
+  text_keys:
+  - femh/0C0060i
+  texts:
+  - age=44; gender=male
+femh_0C0147g_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0C0147g
+  text_keys:
+  - femh/0C0147g
+  texts:
+  - age=39; gender=female
+femh_0C01a2a_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 0C01a2a
+  text_keys:
+  - femh/0C01a2a
+  texts:
+  - age=44; gender=female
+femh_0C01mkr_0:
+  age: 65
+  gender: female
+  label: pathological
+  speaker_id: 0C01mkr
+  text_keys:
+  - femh/0C01mkr
+  texts:
+  - age=65; gender=female
+femh_0C021tr_0:
+  age: 49
+  gender: male
+  label: pathological
+  speaker_id: 0C021tr
+  text_keys:
+  - femh/0C021tr
+  texts:
+  - age=49; gender=male
+femh_0C025sk_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0C025sk
+  text_keys:
+  - femh/0C025sk
+  texts:
+  - age=39; gender=female
+femh_0C0283q_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 0C0283q
+  text_keys:
+  - femh/0C0283q
+  texts:
+  - age=66; gender=female
+femh_0C02cr3_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 0C02cr3
+  text_keys:
+  - femh/0C02cr3
+  texts:
+  - age=48; gender=female
+femh_0C02e1m_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 0C02e1m
+  text_keys:
+  - femh/0C02e1m
+  texts:
+  - age=46; gender=female
+femh_0F001pb_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 0F001pb
+  text_keys:
+  - femh/0F001pb
+  texts:
+  - age=32; gender=female
+femh_0F00mg1_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 0F00mg1
+  text_keys:
+  - femh/0F00mg1
+  texts:
+  - age=43; gender=female
+femh_0F00qcs_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 0F00qcs
+  text_keys:
+  - femh/0F00qcs
+  texts:
+  - age=51; gender=female
+femh_0F00svd_0:
+  age: 35
+  gender: male
+  label: pathological
+  speaker_id: 0F00svd
+  text_keys:
+  - femh/0F00svd
+  texts:
+  - age=35; gender=male
+femh_0F00u8e_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 0F00u8e
+  text_keys:
+  - femh/0F00u8e
+  texts:
+  - age=38; gender=male
+femh_0F021g3_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0F021g3
+  text_keys:
+  - femh/0F021g3
+  texts:
+  - age=39; gender=female
+femh_0F027v6_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 0F027v6
+  text_keys:
+  - femh/0F027v6
+  texts:
+  - age=30; gender=female
+femh_0F02app_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 0F02app
+  text_keys:
+  - femh/0F02app
+  texts:
+  - age=64; gender=female
+femh_0F02g59_0:
+  age: 25
+  gender: male
+  label: pathological
+  speaker_id: 0F02g59
+  text_keys:
+  - femh/0F02g59
+  texts:
+  - age=25; gender=male
+femh_0F02sho_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0F02sho
+  text_keys:
+  - femh/0F02sho
+  texts:
+  - age=34; gender=female
+femh_0G0026i_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0G0026i
+  text_keys:
+  - femh/0G0026i
+  texts:
+  - age=39; gender=female
+femh_0G0030n_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 0G0030n
+  text_keys:
+  - femh/0G0030n
+  texts:
+  - age=62; gender=female
+femh_0G00b5t_0:
+  age: 66
+  gender: male
+  label: pathological
+  speaker_id: 0G00b5t
+  text_keys:
+  - femh/0G00b5t
+  texts:
+  - age=66; gender=male
+femh_0G00n0o_0:
+  age: 47
+  gender: male
+  label: pathological
+  speaker_id: 0G00n0o
+  text_keys:
+  - femh/0G00n0o
+  texts:
+  - age=47; gender=male
+femh_0G00n63_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 0G00n63
+  text_keys:
+  - femh/0G00n63
+  texts:
+  - age=43; gender=female
+femh_0G00qsu_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0G00qsu
+  text_keys:
+  - femh/0G00qsu
+  texts:
+  - age=35; gender=female
+femh_0G015l3_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 0G015l3
+  text_keys:
+  - femh/0G015l3
+  texts:
+  - age=29; gender=female
+femh_0G01blp_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 0G01blp
+  text_keys:
+  - femh/0G01blp
+  texts:
+  - age=46; gender=female
+femh_0G01dtm_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 0G01dtm
+  text_keys:
+  - femh/0G01dtm
+  texts:
+  - age=66; gender=female
+femh_0G01mlh_0:
+  age: 62
+  gender: male
+  label: pathological
+  speaker_id: 0G01mlh
+  text_keys:
+  - femh/0G01mlh
+  texts:
+  - age=62; gender=male
+femh_0G01rap_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 0G01rap
+  text_keys:
+  - femh/0G01rap
+  texts:
+  - age=47; gender=female
+femh_0G02i0b_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 0G02i0b
+  text_keys:
+  - femh/0G02i0b
+  texts:
+  - age=31; gender=female
+femh_0G02ppt_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 0G02ppt
+  text_keys:
+  - femh/0G02ppt
+  texts:
+  - age=50; gender=female
+femh_0G02s7s_0:
+  age: 74
+  gender: male
+  label: pathological
+  speaker_id: 0G02s7s
+  text_keys:
+  - femh/0G02s7s
+  texts:
+  - age=74; gender=male
+femh_0G02soe_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 0G02soe
+  text_keys:
+  - femh/0G02soe
+  texts:
+  - age=41; gender=female
+femh_0H00012_0:
+  age: 49
+  gender: male
+  label: pathological
+  speaker_id: 0H00012
+  text_keys:
+  - femh/0H00012
+  texts:
+  - age=49; gender=male
+femh_0H00505_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 0H00505
+  text_keys:
+  - femh/0H00505
+  texts:
+  - age=53; gender=male
+femh_0H007us_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 0H007us
+  text_keys:
+  - femh/0H007us
+  texts:
+  - age=41; gender=female
+femh_0H00bg5_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 0H00bg5
+  text_keys:
+  - femh/0H00bg5
+  texts:
+  - age=56; gender=female
+femh_0H00fr6_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 0H00fr6
+  text_keys:
+  - femh/0H00fr6
+  texts:
+  - age=41; gender=female
+femh_0H00q15_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 0H00q15
+  text_keys:
+  - femh/0H00q15
+  texts:
+  - age=38; gender=male
+femh_0H00u4i_0:
+  age: 71
+  gender: female
+  label: pathological
+  speaker_id: 0H00u4i
+  text_keys:
+  - femh/0H00u4i
+  texts:
+  - age=71; gender=female
+femh_0H010b5_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: 0H010b5
+  text_keys:
+  - femh/0H010b5
+  texts:
+  - age=42; gender=male
+femh_0H011vi_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0H011vi
+  text_keys:
+  - femh/0H011vi
+  texts:
+  - age=63; gender=female
+femh_0H023dk_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 0H023dk
+  text_keys:
+  - femh/0H023dk
+  texts:
+  - age=46; gender=female
+femh_0H02utm_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: 0H02utm
+  text_keys:
+  - femh/0H02utm
+  texts:
+  - age=58; gender=male
+femh_0J001l1_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 0J001l1
+  text_keys:
+  - femh/0J001l1
+  texts:
+  - age=59; gender=female
+femh_0J00841_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0J00841
+  text_keys:
+  - femh/0J00841
+  texts:
+  - age=40; gender=female
+femh_0J00cb9_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0J00cb9
+  text_keys:
+  - femh/0J00cb9
+  texts:
+  - age=40; gender=female
+femh_0K00bp2_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 0K00bp2
+  text_keys:
+  - femh/0K00bp2
+  texts:
+  - age=42; gender=female
+femh_0K01njp_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 0K01njp
+  text_keys:
+  - femh/0K01njp
+  texts:
+  - age=64; gender=female
+femh_0K0244h_0:
+  age: 35
+  gender: male
+  label: pathological
+  speaker_id: 0K0244h
+  text_keys:
+  - femh/0K0244h
+  texts:
+  - age=35; gender=male
+femh_0K02st1_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: 0K02st1
+  text_keys:
+  - femh/0K02st1
+  texts:
+  - age=59; gender=male
+femh_0M0020q_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 0M0020q
+  text_keys:
+  - femh/0M0020q
+  texts:
+  - age=58; gender=female
+femh_0M004pa_0:
+  age: 74
+  gender: male
+  label: pathological
+  speaker_id: 0M004pa
+  text_keys:
+  - femh/0M004pa
+  texts:
+  - age=74; gender=male
+femh_0M0055g_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: 0M0055g
+  text_keys:
+  - femh/0M0055g
+  texts:
+  - age=56; gender=male
+femh_0M01j8t_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0M01j8t
+  text_keys:
+  - femh/0M01j8t
+  texts:
+  - age=35; gender=female
+femh_0M01n5v_0:
+  age: 65
+  gender: male
+  label: pathological
+  speaker_id: 0M01n5v
+  text_keys:
+  - femh/0M01n5v
+  texts:
+  - age=65; gender=male
+femh_0M01v9u_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 0M01v9u
+  text_keys:
+  - femh/0M01v9u
+  texts:
+  - age=38; gender=female
+femh_0M0249t_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 0M0249t
+  text_keys:
+  - femh/0M0249t
+  texts:
+  - age=37; gender=female
+femh_0M026e8_0:
+  age: 40
+  gender: male
+  label: pathological
+  speaker_id: 0M026e8
+  text_keys:
+  - femh/0M026e8
+  texts:
+  - age=40; gender=male
+femh_0M028o1_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 0M028o1
+  text_keys:
+  - femh/0M028o1
+  texts:
+  - age=53; gender=male
+femh_0M02b8v_0:
+  age: 43
+  gender: male
+  label: pathological
+  speaker_id: 0M02b8v
+  text_keys:
+  - femh/0M02b8v
+  texts:
+  - age=43; gender=male
+femh_0M02glt_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 0M02glt
+  text_keys:
+  - femh/0M02glt
+  texts:
+  - age=45; gender=female
+femh_0R00alc_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 0R00alc
+  text_keys:
+  - femh/0R00alc
+  texts:
+  - age=37; gender=female
+femh_0R00cid_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 0R00cid
+  text_keys:
+  - femh/0R00cid
+  texts:
+  - age=56; gender=female
+femh_0R00jcp_0:
+  age: 36
+  gender: male
+  label: pathological
+  speaker_id: 0R00jcp
+  text_keys:
+  - femh/0R00jcp
+  texts:
+  - age=36; gender=male
+femh_0R00uic_0:
+  age: 66
+  gender: male
+  label: pathological
+  speaker_id: 0R00uic
+  text_keys:
+  - femh/0R00uic
+  texts:
+  - age=66; gender=male
+femh_0R018tk_0:
+  age: 52
+  gender: male
+  label: pathological
+  speaker_id: 0R018tk
+  text_keys:
+  - femh/0R018tk
+  texts:
+  - age=52; gender=male
+femh_0R01b0j_0:
+  age: 37
+  gender: male
+  label: pathological
+  speaker_id: 0R01b0j
+  text_keys:
+  - femh/0R01b0j
+  texts:
+  - age=37; gender=male
+femh_0R020pi_0:
+  age: 88
+  gender: male
+  label: pathological
+  speaker_id: 0R020pi
+  text_keys:
+  - femh/0R020pi
+  texts:
+  - age=88; gender=male
+femh_0R02296_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 0R02296
+  text_keys:
+  - femh/0R02296
+  texts:
+  - age=38; gender=male
+femh_0R022j1_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 0R022j1
+  text_keys:
+  - femh/0R022j1
+  texts:
+  - age=30; gender=male
+femh_0R0264d_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 0R0264d
+  text_keys:
+  - femh/0R0264d
+  texts:
+  - age=61; gender=female
+femh_0S00dsh_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0S00dsh
+  text_keys:
+  - femh/0S00dsh
+  texts:
+  - age=40; gender=female
+femh_0S00h6u_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0S00h6u
+  text_keys:
+  - femh/0S00h6u
+  texts:
+  - age=35; gender=female
+femh_0S00pv2_0:
+  age: 39
+  gender: male
+  label: pathological
+  speaker_id: 0S00pv2
+  text_keys:
+  - femh/0S00pv2
+  texts:
+  - age=39; gender=male
+femh_0S01f4a_0:
+  age: 69
+  gender: female
+  label: pathological
+  speaker_id: 0S01f4a
+  text_keys:
+  - femh/0S01f4a
+  texts:
+  - age=69; gender=female
+femh_0S01m50_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 0S01m50
+  text_keys:
+  - femh/0S01m50
+  texts:
+  - age=50; gender=male
+femh_0S029c5_0:
+  age: 43
+  gender: male
+  label: pathological
+  speaker_id: 0S029c5
+  text_keys:
+  - femh/0S029c5
+  texts:
+  - age=43; gender=male
+femh_0T00f8t_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0T00f8t
+  text_keys:
+  - femh/0T00f8t
+  texts:
+  - age=34; gender=female
+femh_0T00s57_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 0T00s57
+  text_keys:
+  - femh/0T00s57
+  texts:
+  - age=53; gender=female
+femh_0T01rd0_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 0T01rd0
+  text_keys:
+  - femh/0T01rd0
+  texts:
+  - age=41; gender=male
+femh_0T01sdr_0:
+  age: 70
+  gender: male
+  label: pathological
+  speaker_id: 0T01sdr
+  text_keys:
+  - femh/0T01sdr
+  texts:
+  - age=70; gender=male
+femh_0T02481_0:
+  age: 21
+  gender: male
+  label: pathological
+  speaker_id: 0T02481
+  text_keys:
+  - femh/0T02481
+  texts:
+  - age=21; gender=male
+femh_0T02672_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 0T02672
+  text_keys:
+  - femh/0T02672
+  texts:
+  - age=55; gender=male
+femh_0T02e52_0:
+  age: 68
+  gender: female
+  label: pathological
+  speaker_id: 0T02e52
+  text_keys:
+  - femh/0T02e52
+  texts:
+  - age=68; gender=female
+femh_0T02lm3_0:
+  age: 66
+  gender: male
+  label: pathological
+  speaker_id: 0T02lm3
+  text_keys:
+  - femh/0T02lm3
+  texts:
+  - age=66; gender=male
+femh_0U0011i_0:
+  age: 71
+  gender: female
+  label: pathological
+  speaker_id: 0U0011i
+  text_keys:
+  - femh/0U0011i
+  texts:
+  - age=71; gender=female
+femh_0U005ek_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 0U005ek
+  text_keys:
+  - femh/0U005ek
+  texts:
+  - age=32; gender=female
+femh_0U00gf5_0:
+  age: 23
+  gender: male
+  label: pathological
+  speaker_id: 0U00gf5
+  text_keys:
+  - femh/0U00gf5
+  texts:
+  - age=23; gender=male
+femh_0U00se0_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: 0U00se0
+  text_keys:
+  - femh/0U00se0
+  texts:
+  - age=58; gender=male
+femh_0U00u96_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: 0U00u96
+  text_keys:
+  - femh/0U00u96
+  texts:
+  - age=42; gender=male
+femh_0U012s6_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0U012s6
+  text_keys:
+  - femh/0U012s6
+  texts:
+  - age=34; gender=female
+femh_0U0160g_0:
+  age: 20
+  gender: female
+  label: pathological
+  speaker_id: 0U0160g
+  text_keys:
+  - femh/0U0160g
+  texts:
+  - age=20; gender=female
+femh_0U01ft6_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 0U01ft6
+  text_keys:
+  - femh/0U01ft6
+  texts:
+  - age=31; gender=female
+femh_0U02qnt_0:
+  age: 28
+  gender: male
+  label: pathological
+  speaker_id: 0U02qnt
+  text_keys:
+  - femh/0U02qnt
+  texts:
+  - age=28; gender=male
+femh_0W00ftq_0:
+  age: 54
+  gender: male
+  label: pathological
+  speaker_id: 0W00ftq
+  text_keys:
+  - femh/0W00ftq
+  texts:
+  - age=54; gender=male
+femh_0W00hpv_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 0W00hpv
+  text_keys:
+  - femh/0W00hpv
+  texts:
+  - age=53; gender=female
+femh_0W00k6d_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 0W00k6d
+  text_keys:
+  - femh/0W00k6d
+  texts:
+  - age=53; gender=female
+femh_0W00p14_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 0W00p14
+  text_keys:
+  - femh/0W00p14
+  texts:
+  - age=50; gender=male
+femh_0W00tgd_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 0W00tgd
+  text_keys:
+  - femh/0W00tgd
+  texts:
+  - age=54; gender=female
+femh_0W00upg_0:
+  age: 67
+  gender: male
+  label: pathological
+  speaker_id: 0W00upg
+  text_keys:
+  - femh/0W00upg
+  texts:
+  - age=67; gender=male
+femh_0W016ap_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 0W016ap
+  text_keys:
+  - femh/0W016ap
+  texts:
+  - age=59; gender=female
+femh_0W01emb_0:
+  age: 20
+  gender: female
+  label: pathological
+  speaker_id: 0W01emb
+  text_keys:
+  - femh/0W01emb
+  texts:
+  - age=20; gender=female
+femh_0W01fqm_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0W01fqm
+  text_keys:
+  - femh/0W01fqm
+  texts:
+  - age=35; gender=female
+femh_0W01gdi_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 0W01gdi
+  text_keys:
+  - femh/0W01gdi
+  texts:
+  - age=27; gender=female
+femh_0W01gf0_0:
+  age: 72
+  gender: male
+  label: pathological
+  speaker_id: 0W01gf0
+  text_keys:
+  - femh/0W01gf0
+  texts:
+  - age=72; gender=male
+femh_0W01h80_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0W01h80
+  text_keys:
+  - femh/0W01h80
+  texts:
+  - age=34; gender=female
+femh_0W01ia4_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 0W01ia4
+  text_keys:
+  - femh/0W01ia4
+  texts:
+  - age=31; gender=female
+femh_0W01ljm_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 0W01ljm
+  text_keys:
+  - femh/0W01ljm
+  texts:
+  - age=58; gender=female
+femh_0W01ltt_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 0W01ltt
+  text_keys:
+  - femh/0W01ltt
+  texts:
+  - age=30; gender=female
+femh_0W01nta_0:
+  age: 47
+  gender: male
+  label: pathological
+  speaker_id: 0W01nta
+  text_keys:
+  - femh/0W01nta
+  texts:
+  - age=47; gender=male
+femh_0W01o99_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: 0W01o99
+  text_keys:
+  - femh/0W01o99
+  texts:
+  - age=27; gender=male
+femh_0W01pij_0:
+  age: 25
+  gender: male
+  label: pathological
+  speaker_id: 0W01pij
+  text_keys:
+  - femh/0W01pij
+  texts:
+  - age=25; gender=male
+femh_0W01rjn_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0W01rjn
+  text_keys:
+  - femh/0W01rjn
+  texts:
+  - age=35; gender=female
+femh_0W01usk_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 0W01usk
+  text_keys:
+  - femh/0W01usk
+  texts:
+  - age=29; gender=female
+femh_0W020cb_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 0W020cb
+  text_keys:
+  - femh/0W020cb
+  texts:
+  - age=51; gender=female
+femh_0W021oe_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 0W021oe
+  text_keys:
+  - femh/0W021oe
+  texts:
+  - age=39; gender=female
+femh_0W024c1_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 0W024c1
+  text_keys:
+  - femh/0W024c1
+  texts:
+  - age=32; gender=female
+femh_0W0253i_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 0W0253i
+  text_keys:
+  - femh/0W0253i
+  texts:
+  - age=28; gender=female
+femh_0W025ql_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0W025ql
+  text_keys:
+  - femh/0W025ql
+  texts:
+  - age=63; gender=female
+femh_0W029ar_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 0W029ar
+  text_keys:
+  - femh/0W029ar
+  texts:
+  - age=38; gender=male
+femh_0W02cc5_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 0W02cc5
+  text_keys:
+  - femh/0W02cc5
+  texts:
+  - age=45; gender=female
+femh_0W02q4p_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 0W02q4p
+  text_keys:
+  - femh/0W02q4p
+  texts:
+  - age=62; gender=female
+femh_0W02tji_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: 0W02tji
+  text_keys:
+  - femh/0W02tji
+  texts:
+  - age=34; gender=male
+femh_0W02vde_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 0W02vde
+  text_keys:
+  - femh/0W02vde
+  texts:
+  - age=62; gender=female
+femh_0Y005nn_0:
+  age: 74
+  gender: male
+  label: pathological
+  speaker_id: 0Y005nn
+  text_keys:
+  - femh/0Y005nn
+  texts:
+  - age=74; gender=male
+femh_0Y00630_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 0Y00630
+  text_keys:
+  - femh/0Y00630
+  texts:
+  - age=29; gender=female
+femh_0Y008vi_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 0Y008vi
+  text_keys:
+  - femh/0Y008vi
+  texts:
+  - age=30; gender=female
+femh_0Y00ap8_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 0Y00ap8
+  text_keys:
+  - femh/0Y00ap8
+  texts:
+  - age=34; gender=female
+femh_0Y00aq1_0:
+  age: 69
+  gender: female
+  label: pathological
+  speaker_id: 0Y00aq1
+  text_keys:
+  - femh/0Y00aq1
+  texts:
+  - age=69; gender=female
+femh_0Y00bjb_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 0Y00bjb
+  text_keys:
+  - femh/0Y00bjb
+  texts:
+  - age=50; gender=female
+femh_0Y00bm1_0:
+  age: 32
+  gender: male
+  label: pathological
+  speaker_id: 0Y00bm1
+  text_keys:
+  - femh/0Y00bm1
+  texts:
+  - age=32; gender=male
+femh_0Y00hdf_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 0Y00hdf
+  text_keys:
+  - femh/0Y00hdf
+  texts:
+  - age=37; gender=female
+femh_0Y00he3_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 0Y00he3
+  text_keys:
+  - femh/0Y00he3
+  texts:
+  - age=41; gender=male
+femh_0Y00i47_0:
+  age: 33
+  gender: female
+  label: pathological
+  speaker_id: 0Y00i47
+  text_keys:
+  - femh/0Y00i47
+  texts:
+  - age=33; gender=female
+femh_0Y00j38_0:
+  age: 55
+  gender: female
+  label: pathological
+  speaker_id: 0Y00j38
+  text_keys:
+  - femh/0Y00j38
+  texts:
+  - age=55; gender=female
+femh_0Y00m6j_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: 0Y00m6j
+  text_keys:
+  - femh/0Y00m6j
+  texts:
+  - age=42; gender=male
+femh_0Y00nms_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 0Y00nms
+  text_keys:
+  - femh/0Y00nms
+  texts:
+  - age=58; gender=female
+femh_0Y00qnj_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: 0Y00qnj
+  text_keys:
+  - femh/0Y00qnj
+  texts:
+  - age=59; gender=male
+femh_0Y00tkv_0:
+  age: 81
+  gender: female
+  label: pathological
+  speaker_id: 0Y00tkv
+  text_keys:
+  - femh/0Y00tkv
+  texts:
+  - age=81; gender=female
+femh_0Y00vie_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 0Y00vie
+  text_keys:
+  - femh/0Y00vie
+  texts:
+  - age=48; gender=female
+femh_0Y01562_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: 0Y01562
+  text_keys:
+  - femh/0Y01562
+  texts:
+  - age=24; gender=female
+femh_0Y01bhe_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 0Y01bhe
+  text_keys:
+  - femh/0Y01bhe
+  texts:
+  - age=42; gender=female
+femh_0Y01e7c_0:
+  age: 65
+  gender: female
+  label: pathological
+  speaker_id: 0Y01e7c
+  text_keys:
+  - femh/0Y01e7c
+  texts:
+  - age=65; gender=female
+femh_0Y01h50_0:
+  age: 73
+  gender: female
+  label: pathological
+  speaker_id: 0Y01h50
+  text_keys:
+  - femh/0Y01h50
+  texts:
+  - age=73; gender=female
+femh_0Y01k36_0:
+  age: 68
+  gender: male
+  label: pathological
+  speaker_id: 0Y01k36
+  text_keys:
+  - femh/0Y01k36
+  texts:
+  - age=68; gender=male
+femh_0Y01qob_0:
+  age: 54
+  gender: male
+  label: pathological
+  speaker_id: 0Y01qob
+  text_keys:
+  - femh/0Y01qob
+  texts:
+  - age=54; gender=male
+femh_0Y01vnt_0:
+  age: 79
+  gender: female
+  label: pathological
+  speaker_id: 0Y01vnt
+  text_keys:
+  - femh/0Y01vnt
+  texts:
+  - age=79; gender=female
+femh_0Y020t2_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 0Y020t2
+  text_keys:
+  - femh/0Y020t2
+  texts:
+  - age=37; gender=female
+femh_0Y027vp_0:
+  age: 26
+  gender: male
+  label: pathological
+  speaker_id: 0Y027vp
+  text_keys:
+  - femh/0Y027vp
+  texts:
+  - age=26; gender=male
+femh_0Y028ba_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 0Y028ba
+  text_keys:
+  - femh/0Y028ba
+  texts:
+  - age=63; gender=female
+femh_0Y02c2e_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 0Y02c2e
+  text_keys:
+  - femh/0Y02c2e
+  texts:
+  - age=31; gender=male
+femh_0Y02cls_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 0Y02cls
+  text_keys:
+  - femh/0Y02cls
+  texts:
+  - age=45; gender=female
+femh_0Y02eo3_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0Y02eo3
+  text_keys:
+  - femh/0Y02eo3
+  texts:
+  - age=40; gender=female
+femh_0Y02g9m_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 0Y02g9m
+  text_keys:
+  - femh/0Y02g9m
+  texts:
+  - age=57; gender=female
+femh_0Y02goq_0:
+  age: 71
+  gender: male
+  label: pathological
+  speaker_id: 0Y02goq
+  text_keys:
+  - femh/0Y02goq
+  texts:
+  - age=71; gender=male
+femh_0Y02ion_0:
+  age: 49
+  gender: female
+  label: pathological
+  speaker_id: 0Y02ion
+  text_keys:
+  - femh/0Y02ion
+  texts:
+  - age=49; gender=female
+femh_0Y02q4e_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 0Y02q4e
+  text_keys:
+  - femh/0Y02q4e
+  texts:
+  - age=56; gender=female
+femh_0Y02qfl_0:
+  age: 65
+  gender: female
+  label: pathological
+  speaker_id: 0Y02qfl
+  text_keys:
+  - femh/0Y02qfl
+  texts:
+  - age=65; gender=female
+femh_0Y02r99_0:
+  age: 68
+  gender: female
+  label: pathological
+  speaker_id: 0Y02r99
+  text_keys:
+  - femh/0Y02r99
+  texts:
+  - age=68; gender=female
+femh_0Y02r9g_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 0Y02r9g
+  text_keys:
+  - femh/0Y02r9g
+  texts:
+  - age=35; gender=female
+femh_0Y02su0_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 0Y02su0
+  text_keys:
+  - femh/0Y02su0
+  texts:
+  - age=40; gender=female
+femh_0Y0306s_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 0Y0306s
+  text_keys:
+  - femh/0Y0306s
+  texts:
+  - age=45; gender=female
+femh_0u02q3q_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: 0u02q3q
+  text_keys:
+  - femh/0u02q3q
+  texts:
+  - age=56; gender=male
+femh_10003gj_0:
+  age: 54
+  gender: male
+  label: pathological
+  speaker_id: 10003gj
+  text_keys:
+  - femh/10003gj
+  texts:
+  - age=54; gender=male
+femh_1000742_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: '1000742'
+  text_keys:
+  - femh/1000742
+  texts:
+  - age=60; gender=female
+femh_10009l0_0:
+  age: 48
+  gender: male
+  label: pathological
+  speaker_id: 10009l0
+  text_keys:
+  - femh/10009l0
+  texts:
+  - age=48; gender=male
+femh_1000dsk_0:
+  age: 25
+  gender: male
+  label: pathological
+  speaker_id: 1000dsk
+  text_keys:
+  - femh/1000dsk
+  texts:
+  - age=25; gender=male
+femh_1000g51_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 1000g51
+  text_keys:
+  - femh/1000g51
+  texts:
+  - age=63; gender=male
+femh_1000g96_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1000g96
+  text_keys:
+  - femh/1000g96
+  texts:
+  - age=56; gender=female
+femh_1000jgg_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: 1000jgg
+  text_keys:
+  - femh/1000jgg
+  texts:
+  - age=44; gender=male
+femh_1000m3r_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 1000m3r
+  text_keys:
+  - femh/1000m3r
+  texts:
+  - age=58; gender=female
+femh_1000otg_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 1000otg
+  text_keys:
+  - femh/1000otg
+  texts:
+  - age=43; gender=female
+femh_1000pan_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 1000pan
+  text_keys:
+  - femh/1000pan
+  texts:
+  - age=53; gender=male
+femh_1000qee_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1000qee
+  text_keys:
+  - femh/1000qee
+  texts:
+  - age=38; gender=female
+femh_1000qem_0:
+  age: 20
+  gender: male
+  label: pathological
+  speaker_id: 1000qem
+  text_keys:
+  - femh/1000qem
+  texts:
+  - age=20; gender=male
+femh_1000rbo_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 1000rbo
+  text_keys:
+  - femh/1000rbo
+  texts:
+  - age=41; gender=male
+femh_1000th0_0:
+  age: 48
+  gender: male
+  label: pathological
+  speaker_id: 1000th0
+  text_keys:
+  - femh/1000th0
+  texts:
+  - age=48; gender=male
+femh_1000u66_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 1000u66
+  text_keys:
+  - femh/1000u66
+  texts:
+  - age=52; gender=female
+femh_10011nv_0:
+  age: 71
+  gender: female
+  label: pathological
+  speaker_id: 10011nv
+  text_keys:
+  - femh/10011nv
+  texts:
+  - age=71; gender=female
+femh_10012ke_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: 10012ke
+  text_keys:
+  - femh/10012ke
+  texts:
+  - age=27; gender=male
+femh_10015au_0:
+  age: 25
+  gender: male
+  label: pathological
+  speaker_id: 10015au
+  text_keys:
+  - femh/10015au
+  texts:
+  - age=25; gender=male
+femh_100160n_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 100160n
+  text_keys:
+  - femh/100160n
+  texts:
+  - age=54; gender=female
+femh_10016jm_0:
+  age: 39
+  gender: male
+  label: pathological
+  speaker_id: 10016jm
+  text_keys:
+  - femh/10016jm
+  texts:
+  - age=39; gender=male
+femh_1001ac7_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1001ac7
+  text_keys:
+  - femh/1001ac7
+  texts:
+  - age=42; gender=female
+femh_1001ach_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 1001ach
+  text_keys:
+  - femh/1001ach
+  texts:
+  - age=51; gender=female
+femh_1001bha_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 1001bha
+  text_keys:
+  - femh/1001bha
+  texts:
+  - age=52; gender=female
+femh_1001cl0_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 1001cl0
+  text_keys:
+  - femh/1001cl0
+  texts:
+  - age=54; gender=female
+femh_1001fr4_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 1001fr4
+  text_keys:
+  - femh/1001fr4
+  texts:
+  - age=53; gender=female
+femh_1001g6e_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 1001g6e
+  text_keys:
+  - femh/1001g6e
+  texts:
+  - age=30; gender=male
+femh_1001g6p_0:
+  age: 29
+  gender: male
+  label: pathological
+  speaker_id: 1001g6p
+  text_keys:
+  - femh/1001g6p
+  texts:
+  - age=29; gender=male
+femh_1001gh1_0:
+  age: 66
+  gender: male
+  label: pathological
+  speaker_id: 1001gh1
+  text_keys:
+  - femh/1001gh1
+  texts:
+  - age=66; gender=male
+femh_1001gic_0:
+  age: 36
+  gender: male
+  label: pathological
+  speaker_id: 1001gic
+  text_keys:
+  - femh/1001gic
+  texts:
+  - age=36; gender=male
+femh_1001hqh_0:
+  age: 43
+  gender: male
+  label: pathological
+  speaker_id: 1001hqh
+  text_keys:
+  - femh/1001hqh
+  texts:
+  - age=43; gender=male
+femh_1001i70_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1001i70
+  text_keys:
+  - femh/1001i70
+  texts:
+  - age=56; gender=female
+femh_1001i7a_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 1001i7a
+  text_keys:
+  - femh/1001i7a
+  texts:
+  - age=31; gender=male
+femh_1001jlh_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 1001jlh
+  text_keys:
+  - femh/1001jlh
+  texts:
+  - age=30; gender=female
+femh_1001kmt_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 1001kmt
+  text_keys:
+  - femh/1001kmt
+  texts:
+  - age=40; gender=female
+femh_1001krq_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 1001krq
+  text_keys:
+  - femh/1001krq
+  texts:
+  - age=45; gender=female
+femh_1001l94_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1001l94
+  text_keys:
+  - femh/1001l94
+  texts:
+  - age=28; gender=female
+femh_1001nt8_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1001nt8
+  text_keys:
+  - femh/1001nt8
+  texts:
+  - age=28; gender=female
+femh_1001o7l_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 1001o7l
+  text_keys:
+  - femh/1001o7l
+  texts:
+  - age=59; gender=female
+femh_1001ra1_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: 1001ra1
+  text_keys:
+  - femh/1001ra1
+  texts:
+  - age=58; gender=male
+femh_1001shb_0:
+  age: 36
+  gender: male
+  label: pathological
+  speaker_id: 1001shb
+  text_keys:
+  - femh/1001shb
+  texts:
+  - age=36; gender=male
+femh_1001t3o_0:
+  age: 26
+  gender: male
+  label: pathological
+  speaker_id: 1001t3o
+  text_keys:
+  - femh/1001t3o
+  texts:
+  - age=26; gender=male
+femh_1001tpm_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 1001tpm
+  text_keys:
+  - femh/1001tpm
+  texts:
+  - age=41; gender=male
+femh_1001u8n_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 1001u8n
+  text_keys:
+  - femh/1001u8n
+  texts:
+  - age=38; gender=male
+femh_1001ul3_0:
+  age: 67
+  gender: female
+  label: pathological
+  speaker_id: 1001ul3
+  text_keys:
+  - femh/1001ul3
+  texts:
+  - age=67; gender=female
+femh_1001vd9_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1001vd9
+  text_keys:
+  - femh/1001vd9
+  texts:
+  - age=29; gender=female
+femh_1001vum_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 1001vum
+  text_keys:
+  - femh/1001vum
+  texts:
+  - age=35; gender=female
+femh_1001vv0_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 1001vv0
+  text_keys:
+  - femh/1001vv0
+  texts:
+  - age=54; gender=female
+femh_10020ll_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 10020ll
+  text_keys:
+  - femh/10020ll
+  texts:
+  - age=34; gender=female
+femh_100216c_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 100216c
+  text_keys:
+  - femh/100216c
+  texts:
+  - age=35; gender=female
+femh_1002181_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: '1002181'
+  text_keys:
+  - femh/1002181
+  texts:
+  - age=42; gender=female
+femh_10021re_0:
+  age: 68
+  gender: female
+  label: pathological
+  speaker_id: 10021re
+  text_keys:
+  - femh/10021re
+  texts:
+  - age=68; gender=female
+femh_100263f_0:
+  age: 24
+  gender: male
+  label: pathological
+  speaker_id: 100263f
+  text_keys:
+  - femh/100263f
+  texts:
+  - age=24; gender=male
+femh_10027tr_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 10027tr
+  text_keys:
+  - femh/10027tr
+  texts:
+  - age=30; gender=female
+femh_1002907_0:
+  age: 23
+  gender: female
+  label: pathological
+  speaker_id: '1002907'
+  text_keys:
+  - femh/1002907
+  texts:
+  - age=23; gender=female
+femh_10029cp_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: 10029cp
+  text_keys:
+  - femh/10029cp
+  texts:
+  - age=64; gender=male
+femh_1002an0_0:
+  age: 68
+  gender: female
+  label: pathological
+  speaker_id: 1002an0
+  text_keys:
+  - femh/1002an0
+  texts:
+  - age=68; gender=female
+femh_1002b43_0:
+  age: 21
+  gender: female
+  label: pathological
+  speaker_id: 1002b43
+  text_keys:
+  - femh/1002b43
+  texts:
+  - age=21; gender=female
+femh_1002ecf_0:
+  age: 82
+  gender: male
+  label: pathological
+  speaker_id: 1002ecf
+  text_keys:
+  - femh/1002ecf
+  texts:
+  - age=82; gender=male
+femh_1002f84_0:
+  age: 40
+  gender: male
+  label: pathological
+  speaker_id: 1002f84
+  text_keys:
+  - femh/1002f84
+  texts:
+  - age=40; gender=male
+femh_1002feh_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: 1002feh
+  text_keys:
+  - femh/1002feh
+  texts:
+  - age=24; gender=female
+femh_1002fki_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 1002fki
+  text_keys:
+  - femh/1002fki
+  texts:
+  - age=45; gender=female
+femh_1002knh_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 1002knh
+  text_keys:
+  - femh/1002knh
+  texts:
+  - age=25; gender=female
+femh_1002lbq_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 1002lbq
+  text_keys:
+  - femh/1002lbq
+  texts:
+  - age=31; gender=male
+femh_1002ngi_0:
+  age: 74
+  gender: female
+  label: pathological
+  speaker_id: 1002ngi
+  text_keys:
+  - femh/1002ngi
+  texts:
+  - age=74; gender=female
+femh_1002nhi_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 1002nhi
+  text_keys:
+  - femh/1002nhi
+  texts:
+  - age=37; gender=female
+femh_1002ob8_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 1002ob8
+  text_keys:
+  - femh/1002ob8
+  texts:
+  - age=63; gender=male
+femh_1002ol5_0:
+  age: 71
+  gender: male
+  label: pathological
+  speaker_id: 1002ol5
+  text_keys:
+  - femh/1002ol5
+  texts:
+  - age=71; gender=male
+femh_1002oo3_0:
+  age: 66
+  gender: male
+  label: pathological
+  speaker_id: 1002oo3
+  text_keys:
+  - femh/1002oo3
+  texts:
+  - age=66; gender=male
+femh_1002ri3_0:
+  age: 39
+  gender: male
+  label: pathological
+  speaker_id: 1002ri3
+  text_keys:
+  - femh/1002ri3
+  texts:
+  - age=39; gender=male
+femh_1002rl6_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 1002rl6
+  text_keys:
+  - femh/1002rl6
+  texts:
+  - age=53; gender=female
+femh_1002s94_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 1002s94
+  text_keys:
+  - femh/1002s94
+  texts:
+  - age=47; gender=female
+femh_1002srb_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: 1002srb
+  text_keys:
+  - femh/1002srb
+  texts:
+  - age=34; gender=male
+femh_1002u7a_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 1002u7a
+  text_keys:
+  - femh/1002u7a
+  texts:
+  - age=48; gender=female
+femh_1003124_0:
+  age: 65
+  gender: female
+  label: pathological
+  speaker_id: '1003124'
+  text_keys:
+  - femh/1003124
+  texts:
+  - age=65; gender=female
+femh_11001kv_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 11001kv
+  text_keys:
+  - femh/11001kv
+  texts:
+  - age=50; gender=male
+femh_1100361_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: '1100361'
+  text_keys:
+  - femh/1100361
+  texts:
+  - age=70; gender=female
+femh_110036q_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 110036q
+  text_keys:
+  - femh/110036q
+  texts:
+  - age=26; gender=female
+femh_1100536_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: '1100536'
+  text_keys:
+  - femh/1100536
+  texts:
+  - age=52; gender=female
+femh_11005hn_0:
+  age: 22
+  gender: female
+  label: pathological
+  speaker_id: 11005hn
+  text_keys:
+  - femh/11005hn
+  texts:
+  - age=22; gender=female
+femh_11006gd_0:
+  age: 75
+  gender: female
+  label: pathological
+  speaker_id: 11006gd
+  text_keys:
+  - femh/11006gd
+  texts:
+  - age=75; gender=female
+femh_11006j7_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 11006j7
+  text_keys:
+  - femh/11006j7
+  texts:
+  - age=52; gender=female
+femh_11006sp_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 11006sp
+  text_keys:
+  - femh/11006sp
+  texts:
+  - age=37; gender=female
+femh_1100b3e_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1100b3e
+  text_keys:
+  - femh/1100b3e
+  texts:
+  - age=27; gender=female
+femh_1100cai_0:
+  age: 29
+  gender: male
+  label: pathological
+  speaker_id: 1100cai
+  text_keys:
+  - femh/1100cai
+  texts:
+  - age=29; gender=male
+femh_1100cak_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1100cak
+  text_keys:
+  - femh/1100cak
+  texts:
+  - age=28; gender=female
+femh_1100caq_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 1100caq
+  text_keys:
+  - femh/1100caq
+  texts:
+  - age=50; gender=female
+femh_1100eia_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1100eia
+  text_keys:
+  - femh/1100eia
+  texts:
+  - age=38; gender=female
+femh_1100elv_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 1100elv
+  text_keys:
+  - femh/1100elv
+  texts:
+  - age=55; gender=male
+femh_1100g3h_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1100g3h
+  text_keys:
+  - femh/1100g3h
+  texts:
+  - age=39; gender=female
+femh_1100hda_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1100hda
+  text_keys:
+  - femh/1100hda
+  texts:
+  - age=28; gender=female
+femh_1100ihu_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 1100ihu
+  text_keys:
+  - femh/1100ihu
+  texts:
+  - age=32; gender=female
+femh_1100iib_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1100iib
+  text_keys:
+  - femh/1100iib
+  texts:
+  - age=27; gender=female
+femh_1100jbs_0:
+  age: 69
+  gender: male
+  label: pathological
+  speaker_id: 1100jbs
+  text_keys:
+  - femh/1100jbs
+  texts:
+  - age=69; gender=male
+femh_1100jkh_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1100jkh
+  text_keys:
+  - femh/1100jkh
+  texts:
+  - age=28; gender=female
+femh_1100k2j_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1100k2j
+  text_keys:
+  - femh/1100k2j
+  texts:
+  - age=56; gender=female
+femh_1100kft_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1100kft
+  text_keys:
+  - femh/1100kft
+  texts:
+  - age=42; gender=female
+femh_1100kgc_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1100kgc
+  text_keys:
+  - femh/1100kgc
+  texts:
+  - age=42; gender=female
+femh_1100mt1_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1100mt1
+  text_keys:
+  - femh/1100mt1
+  texts:
+  - age=34; gender=female
+femh_1100n4p_0:
+  age: 71
+  gender: female
+  label: pathological
+  speaker_id: 1100n4p
+  text_keys:
+  - femh/1100n4p
+  texts:
+  - age=71; gender=female
+femh_1100npf_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1100npf
+  text_keys:
+  - femh/1100npf
+  texts:
+  - age=26; gender=female
+femh_1100nun_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 1100nun
+  text_keys:
+  - femh/1100nun
+  texts:
+  - age=31; gender=male
+femh_1100obm_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1100obm
+  text_keys:
+  - femh/1100obm
+  texts:
+  - age=39; gender=female
+femh_1100ond_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 1100ond
+  text_keys:
+  - femh/1100ond
+  texts:
+  - age=50; gender=male
+femh_1100ovc_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 1100ovc
+  text_keys:
+  - femh/1100ovc
+  texts:
+  - age=36; gender=female
+femh_1100pic_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 1100pic
+  text_keys:
+  - femh/1100pic
+  texts:
+  - age=53; gender=male
+femh_1100pv9_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 1100pv9
+  text_keys:
+  - femh/1100pv9
+  texts:
+  - age=48; gender=female
+femh_1100qcj_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 1100qcj
+  text_keys:
+  - femh/1100qcj
+  texts:
+  - age=44; gender=female
+femh_1100rb9_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1100rb9
+  text_keys:
+  - femh/1100rb9
+  texts:
+  - age=29; gender=female
+femh_1100rbe_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 1100rbe
+  text_keys:
+  - femh/1100rbe
+  texts:
+  - age=50; gender=female
+femh_1100rbj_0:
+  age: 40
+  gender: male
+  label: pathological
+  speaker_id: 1100rbj
+  text_keys:
+  - femh/1100rbj
+  texts:
+  - age=40; gender=male
+femh_1100rn1_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1100rn1
+  text_keys:
+  - femh/1100rn1
+  texts:
+  - age=42; gender=female
+femh_1100shu_0:
+  age: 55
+  gender: male
+  label: pathological
+  speaker_id: 1100shu
+  text_keys:
+  - femh/1100shu
+  texts:
+  - age=55; gender=male
+femh_1100t99_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 1100t99
+  text_keys:
+  - femh/1100t99
+  texts:
+  - age=41; gender=female
+femh_1100tkh_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 1100tkh
+  text_keys:
+  - femh/1100tkh
+  texts:
+  - age=41; gender=female
+femh_1100tkv_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1100tkv
+  text_keys:
+  - femh/1100tkv
+  texts:
+  - age=34; gender=female
+femh_1100tt1_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 1100tt1
+  text_keys:
+  - femh/1100tt1
+  texts:
+  - age=37; gender=female
+femh_1100tt9_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: 1100tt9
+  text_keys:
+  - femh/1100tt9
+  texts:
+  - age=24; gender=female
+femh_1100u9s_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 1100u9s
+  text_keys:
+  - femh/1100u9s
+  texts:
+  - age=38; gender=male
+femh_1100voc_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 1100voc
+  text_keys:
+  - femh/1100voc
+  texts:
+  - age=31; gender=female
+femh_11010n3_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 11010n3
+  text_keys:
+  - femh/11010n3
+  texts:
+  - age=29; gender=female
+femh_11010oc_0:
+  age: 36
+  gender: male
+  label: pathological
+  speaker_id: 11010oc
+  text_keys:
+  - femh/11010oc
+  texts:
+  - age=36; gender=male
+femh_11011ho_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: 11011ho
+  text_keys:
+  - femh/11011ho
+  texts:
+  - age=46; gender=male
+femh_11011tb_0:
+  age: 37
+  gender: male
+  label: pathological
+  speaker_id: 11011tb
+  text_keys:
+  - femh/11011tb
+  texts:
+  - age=37; gender=male
+femh_110125n_0:
+  age: 37
+  gender: male
+  label: pathological
+  speaker_id: 110125n
+  text_keys:
+  - femh/110125n
+  texts:
+  - age=37; gender=male
+femh_1101260_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: '1101260'
+  text_keys:
+  - femh/1101260
+  texts:
+  - age=24; gender=female
+femh_110126b_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 110126b
+  text_keys:
+  - femh/110126b
+  texts:
+  - age=30; gender=female
+femh_11012om_0:
+  age: 54
+  gender: male
+  label: pathological
+  speaker_id: 11012om
+  text_keys:
+  - femh/11012om
+  texts:
+  - age=54; gender=male
+femh_11012oq_0:
+  age: 73
+  gender: male
+  label: pathological
+  speaker_id: 11012oq
+  text_keys:
+  - femh/11012oq
+  texts:
+  - age=73; gender=male
+femh_11013co_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 11013co
+  text_keys:
+  - femh/11013co
+  texts:
+  - age=30; gender=male
+femh_11013cv_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 11013cv
+  text_keys:
+  - femh/11013cv
+  texts:
+  - age=38; gender=male
+femh_11013d3_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 11013d3
+  text_keys:
+  - femh/11013d3
+  texts:
+  - age=30; gender=female
+femh_11013dg_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 11013dg
+  text_keys:
+  - femh/11013dg
+  texts:
+  - age=62; gender=female
+femh_11014al_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 11014al
+  text_keys:
+  - femh/11014al
+  texts:
+  - age=38; gender=female
+femh_11014at_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 11014at
+  text_keys:
+  - femh/11014at
+  texts:
+  - age=40; gender=female
+femh_11014l9_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 11014l9
+  text_keys:
+  - femh/11014l9
+  texts:
+  - age=43; gender=female
+femh_110157i_0:
+  age: 72
+  gender: male
+  label: pathological
+  speaker_id: 110157i
+  text_keys:
+  - femh/110157i
+  texts:
+  - age=72; gender=male
+femh_110157k_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 110157k
+  text_keys:
+  - femh/110157k
+  texts:
+  - age=57; gender=female
+femh_11016mo_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 11016mo
+  text_keys:
+  - femh/11016mo
+  texts:
+  - age=64; gender=female
+femh_11016nt_0:
+  age: 72
+  gender: female
+  label: pathological
+  speaker_id: 11016nt
+  text_keys:
+  - femh/11016nt
+  texts:
+  - age=72; gender=female
+femh_110172h_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 110172h
+  text_keys:
+  - femh/110172h
+  texts:
+  - age=26; gender=female
+femh_11017i0_0:
+  age: 65
+  gender: male
+  label: pathological
+  speaker_id: 11017i0
+  text_keys:
+  - femh/11017i0
+  texts:
+  - age=65; gender=male
+femh_11017j9_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 11017j9
+  text_keys:
+  - femh/11017j9
+  texts:
+  - age=53; gender=female
+femh_11017vu_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 11017vu
+  text_keys:
+  - femh/11017vu
+  texts:
+  - age=59; gender=female
+femh_1101818_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: '1101818'
+  text_keys:
+  - femh/1101818
+  texts:
+  - age=61; gender=female
+femh_1101aue_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 1101aue
+  text_keys:
+  - femh/1101aue
+  texts:
+  - age=41; gender=female
+femh_1101b3b_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1101b3b
+  text_keys:
+  - femh/1101b3b
+  texts:
+  - age=26; gender=female
+femh_1101b8g_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 1101b8g
+  text_keys:
+  - femh/1101b8g
+  texts:
+  - age=53; gender=male
+femh_1101b9r_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 1101b9r
+  text_keys:
+  - femh/1101b9r
+  texts:
+  - age=37; gender=female
+femh_1101ba1_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 1101ba1
+  text_keys:
+  - femh/1101ba1
+  texts:
+  - age=61; gender=female
+femh_1101brj_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 1101brj
+  text_keys:
+  - femh/1101brj
+  texts:
+  - age=63; gender=male
+femh_1101btc_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 1101btc
+  text_keys:
+  - femh/1101btc
+  texts:
+  - age=58; gender=female
+femh_1101btn_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 1101btn
+  text_keys:
+  - femh/1101btn
+  texts:
+  - age=25; gender=female
+femh_1101cbc_0:
+  age: 32
+  gender: male
+  label: pathological
+  speaker_id: 1101cbc
+  text_keys:
+  - femh/1101cbc
+  texts:
+  - age=32; gender=male
+femh_1101cjo_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: 1101cjo
+  text_keys:
+  - femh/1101cjo
+  texts:
+  - age=27; gender=male
+femh_1101cqk_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 1101cqk
+  text_keys:
+  - femh/1101cqk
+  texts:
+  - age=40; gender=female
+femh_1101dd5_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: 1101dd5
+  text_keys:
+  - femh/1101dd5
+  texts:
+  - age=63; gender=male
+femh_1101drd_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 1101drd
+  text_keys:
+  - femh/1101drd
+  texts:
+  - age=36; gender=female
+femh_1101e7e_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 1101e7e
+  text_keys:
+  - femh/1101e7e
+  texts:
+  - age=64; gender=female
+femh_1101edc_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: 1101edc
+  text_keys:
+  - femh/1101edc
+  texts:
+  - age=33; gender=male
+femh_1101emo_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 1101emo
+  text_keys:
+  - femh/1101emo
+  texts:
+  - age=63; gender=female
+femh_1101enr_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 1101enr
+  text_keys:
+  - femh/1101enr
+  texts:
+  - age=46; gender=female
+femh_1101fh2_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1101fh2
+  text_keys:
+  - femh/1101fh2
+  texts:
+  - age=28; gender=female
+femh_1101g1t_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 1101g1t
+  text_keys:
+  - femh/1101g1t
+  texts:
+  - age=31; gender=male
+femh_1101g22_0:
+  age: 67
+  gender: female
+  label: pathological
+  speaker_id: 1101g22
+  text_keys:
+  - femh/1101g22
+  texts:
+  - age=67; gender=female
+femh_1101g2v_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1101g2v
+  text_keys:
+  - femh/1101g2v
+  texts:
+  - age=42; gender=female
+femh_1101g33_0:
+  age: 33
+  gender: female
+  label: pathological
+  speaker_id: 1101g33
+  text_keys:
+  - femh/1101g33
+  texts:
+  - age=33; gender=female
+femh_1101gpc_0:
+  age: 47
+  gender: male
+  label: pathological
+  speaker_id: 1101gpc
+  text_keys:
+  - femh/1101gpc
+  texts:
+  - age=47; gender=male
+femh_1101hd3_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 1101hd3
+  text_keys:
+  - femh/1101hd3
+  texts:
+  - age=31; gender=male
+femh_1101i07_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1101i07
+  text_keys:
+  - femh/1101i07
+  texts:
+  - age=26; gender=female
+femh_1101i8k_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 1101i8k
+  text_keys:
+  - femh/1101i8k
+  texts:
+  - age=31; gender=female
+femh_1101iab_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: 1101iab
+  text_keys:
+  - femh/1101iab
+  texts:
+  - age=61; gender=female
+femh_1101itq_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: 1101itq
+  text_keys:
+  - femh/1101itq
+  texts:
+  - age=33; gender=male
+femh_1101iup_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1101iup
+  text_keys:
+  - femh/1101iup
+  texts:
+  - age=56; gender=female
+femh_1101k71_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: 1101k71
+  text_keys:
+  - femh/1101k71
+  texts:
+  - age=33; gender=male
+femh_1101km0_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: 1101km0
+  text_keys:
+  - femh/1101km0
+  texts:
+  - age=42; gender=male
+femh_1101ko5_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1101ko5
+  text_keys:
+  - femh/1101ko5
+  texts:
+  - age=39; gender=female
+femh_1101kop_0:
+  age: 28
+  gender: male
+  label: pathological
+  speaker_id: 1101kop
+  text_keys:
+  - femh/1101kop
+  texts:
+  - age=28; gender=male
+femh_1101m55_0:
+  age: 68
+  gender: male
+  label: pathological
+  speaker_id: 1101m55
+  text_keys:
+  - femh/1101m55
+  texts:
+  - age=68; gender=male
+femh_1101m5o_0:
+  age: 69
+  gender: male
+  label: pathological
+  speaker_id: 1101m5o
+  text_keys:
+  - femh/1101m5o
+  texts:
+  - age=69; gender=male
+femh_1101mjk_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: 1101mjk
+  text_keys:
+  - femh/1101mjk
+  texts:
+  - age=44; gender=male
+femh_1101mk6_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1101mk6
+  text_keys:
+  - femh/1101mk6
+  texts:
+  - age=28; gender=female
+femh_1101n8v_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1101n8v
+  text_keys:
+  - femh/1101n8v
+  texts:
+  - age=39; gender=female
+femh_1101n9c_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 1101n9c
+  text_keys:
+  - femh/1101n9c
+  texts:
+  - age=59; gender=female
+femh_1101qfc_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: 1101qfc
+  text_keys:
+  - femh/1101qfc
+  texts:
+  - age=59; gender=female
+femh_1101rg9_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: 1101rg9
+  text_keys:
+  - femh/1101rg9
+  texts:
+  - age=56; gender=male
+femh_1101s2i_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 1101s2i
+  text_keys:
+  - femh/1101s2i
+  texts:
+  - age=51; gender=female
+femh_1101sdp_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 1101sdp
+  text_keys:
+  - femh/1101sdp
+  texts:
+  - age=30; gender=male
+femh_1101seb_0:
+  age: 49
+  gender: male
+  label: pathological
+  speaker_id: 1101seb
+  text_keys:
+  - femh/1101seb
+  texts:
+  - age=49; gender=male
+femh_1101uri_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 1101uri
+  text_keys:
+  - femh/1101uri
+  texts:
+  - age=46; gender=female
+femh_1101urr_0:
+  age: 55
+  gender: female
+  label: pathological
+  speaker_id: 1101urr
+  text_keys:
+  - femh/1101urr
+  texts:
+  - age=55; gender=female
+femh_1101vcr_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 1101vcr
+  text_keys:
+  - femh/1101vcr
+  texts:
+  - age=51; gender=female
+femh_1101vo0_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1101vo0
+  text_keys:
+  - femh/1101vo0
+  texts:
+  - age=56; gender=female
+femh_1101vp3_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: 1101vp3
+  text_keys:
+  - femh/1101vp3
+  texts:
+  - age=34; gender=male
+femh_11020h5_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 11020h5
+  text_keys:
+  - femh/11020h5
+  texts:
+  - age=42; gender=female
+femh_11020vo_0:
+  age: 45
+  gender: male
+  label: pathological
+  speaker_id: 11020vo
+  text_keys:
+  - femh/11020vo
+  texts:
+  - age=45; gender=male
+femh_11020vt_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 11020vt
+  text_keys:
+  - femh/11020vt
+  texts:
+  - age=29; gender=female
+femh_1102101_0:
+  age: 23
+  gender: female
+  label: pathological
+  speaker_id: '1102101'
+  text_keys:
+  - femh/1102101
+  texts:
+  - age=23; gender=female
+femh_11021be_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 11021be
+  text_keys:
+  - femh/11021be
+  texts:
+  - age=57; gender=male
+femh_110222t_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 110222t
+  text_keys:
+  - femh/110222t
+  texts:
+  - age=40; gender=female
+femh_110223c_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 110223c
+  text_keys:
+  - femh/110223c
+  texts:
+  - age=25; gender=female
+femh_110223m_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 110223m
+  text_keys:
+  - femh/110223m
+  texts:
+  - age=39; gender=female
+femh_11022id_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 11022id
+  text_keys:
+  - femh/11022id
+  texts:
+  - age=57; gender=female
+femh_11022ss_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 11022ss
+  text_keys:
+  - femh/11022ss
+  texts:
+  - age=40; gender=female
+femh_11022t1_0:
+  age: 26
+  gender: male
+  label: pathological
+  speaker_id: 11022t1
+  text_keys:
+  - femh/11022t1
+  texts:
+  - age=26; gender=male
+femh_11023kk_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 11023kk
+  text_keys:
+  - femh/11023kk
+  texts:
+  - age=34; gender=female
+femh_1102450_0:
+  age: 60
+  gender: male
+  label: pathological
+  speaker_id: '1102450'
+  text_keys:
+  - femh/1102450
+  texts:
+  - age=60; gender=male
+femh_11024i9_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 11024i9
+  text_keys:
+  - femh/11024i9
+  texts:
+  - age=31; gender=female
+femh_11024il_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 11024il
+  text_keys:
+  - femh/11024il
+  texts:
+  - age=46; gender=female
+femh_11025b5_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 11025b5
+  text_keys:
+  - femh/11025b5
+  texts:
+  - age=40; gender=female
+femh_11025sn_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 11025sn
+  text_keys:
+  - femh/11025sn
+  texts:
+  - age=54; gender=female
+femh_11025t2_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 11025t2
+  text_keys:
+  - femh/11025t2
+  texts:
+  - age=54; gender=female
+femh_11025t8_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 11025t8
+  text_keys:
+  - femh/11025t8
+  texts:
+  - age=28; gender=female
+femh_1102707_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: '1102707'
+  text_keys:
+  - femh/1102707
+  texts:
+  - age=24; gender=female
+femh_11027nc_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 11027nc
+  text_keys:
+  - femh/11027nc
+  texts:
+  - age=50; gender=female
+femh_11028pn_0:
+  age: 65
+  gender: male
+  label: pathological
+  speaker_id: 11028pn
+  text_keys:
+  - femh/11028pn
+  texts:
+  - age=65; gender=male
+femh_110296i_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 110296i
+  text_keys:
+  - femh/110296i
+  texts:
+  - age=63; gender=female
+femh_110296k_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 110296k
+  text_keys:
+  - femh/110296k
+  texts:
+  - age=29; gender=female
+femh_110296n_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 110296n
+  text_keys:
+  - femh/110296n
+  texts:
+  - age=36; gender=female
+femh_11029qi_0:
+  age: 62
+  gender: male
+  label: pathological
+  speaker_id: 11029qi
+  text_keys:
+  - femh/11029qi
+  texts:
+  - age=62; gender=male
+femh_1102abs_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1102abs
+  text_keys:
+  - femh/1102abs
+  texts:
+  - age=29; gender=female
+femh_1102ame_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1102ame
+  text_keys:
+  - femh/1102ame
+  texts:
+  - age=26; gender=female
+femh_1102bpm_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1102bpm
+  text_keys:
+  - femh/1102bpm
+  texts:
+  - age=29; gender=female
+femh_1102br1_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 1102br1
+  text_keys:
+  - femh/1102br1
+  texts:
+  - age=46; gender=female
+femh_1102c68_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 1102c68
+  text_keys:
+  - femh/1102c68
+  texts:
+  - age=44; gender=female
+femh_1102c6h_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 1102c6h
+  text_keys:
+  - femh/1102c6h
+  texts:
+  - age=57; gender=female
+femh_1102cn7_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1102cn7
+  text_keys:
+  - femh/1102cn7
+  texts:
+  - age=38; gender=female
+femh_1102d8u_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 1102d8u
+  text_keys:
+  - femh/1102d8u
+  texts:
+  - age=41; gender=female
+femh_1102di6_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 1102di6
+  text_keys:
+  - femh/1102di6
+  texts:
+  - age=53; gender=female
+femh_1102frs_0:
+  age: 22
+  gender: male
+  label: pathological
+  speaker_id: 1102frs
+  text_keys:
+  - femh/1102frs
+  texts:
+  - age=22; gender=male
+femh_1102fso_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: 1102fso
+  text_keys:
+  - femh/1102fso
+  texts:
+  - age=44; gender=male
+femh_1102hc2_0:
+  age: 21
+  gender: female
+  label: pathological
+  speaker_id: 1102hc2
+  text_keys:
+  - femh/1102hc2
+  texts:
+  - age=21; gender=female
+femh_1102hm3_0:
+  age: 28
+  gender: male
+  label: pathological
+  speaker_id: 1102hm3
+  text_keys:
+  - femh/1102hm3
+  texts:
+  - age=28; gender=male
+femh_1102hm8_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 1102hm8
+  text_keys:
+  - femh/1102hm8
+  texts:
+  - age=35; gender=female
+femh_1102ial_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 1102ial
+  text_keys:
+  - femh/1102ial
+  texts:
+  - age=43; gender=female
+femh_1102ioq_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 1102ioq
+  text_keys:
+  - femh/1102ioq
+  texts:
+  - age=70; gender=female
+femh_1102j0t_0:
+  age: 40
+  gender: male
+  label: pathological
+  speaker_id: 1102j0t
+  text_keys:
+  - femh/1102j0t
+  texts:
+  - age=40; gender=male
+femh_1102k04_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1102k04
+  text_keys:
+  - femh/1102k04
+  texts:
+  - age=34; gender=female
+femh_1102k2d_0:
+  age: 51
+  gender: male
+  label: pathological
+  speaker_id: 1102k2d
+  text_keys:
+  - femh/1102k2d
+  texts:
+  - age=51; gender=male
+femh_1102krs_0:
+  age: 45
+  gender: male
+  label: pathological
+  speaker_id: 1102krs
+  text_keys:
+  - femh/1102krs
+  texts:
+  - age=45; gender=male
+femh_1102m8p_0:
+  age: 60
+  gender: male
+  label: pathological
+  speaker_id: 1102m8p
+  text_keys:
+  - femh/1102m8p
+  texts:
+  - age=60; gender=male
+femh_1102m8v_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 1102m8v
+  text_keys:
+  - femh/1102m8v
+  texts:
+  - age=30; gender=female
+femh_1102ng1_0:
+  age: 49
+  gender: female
+  label: pathological
+  speaker_id: 1102ng1
+  text_keys:
+  - femh/1102ng1
+  texts:
+  - age=49; gender=female
+femh_1102nie_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1102nie
+  text_keys:
+  - femh/1102nie
+  texts:
+  - age=34; gender=female
+femh_1102nq7_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 1102nq7
+  text_keys:
+  - femh/1102nq7
+  texts:
+  - age=43; gender=female
+femh_1102o5o_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1102o5o
+  text_keys:
+  - femh/1102o5o
+  texts:
+  - age=34; gender=female
+femh_1102ohq_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 1102ohq
+  text_keys:
+  - femh/1102ohq
+  texts:
+  - age=53; gender=female
+femh_1102oia_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 1102oia
+  text_keys:
+  - femh/1102oia
+  texts:
+  - age=46; gender=female
+femh_1102oii_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 1102oii
+  text_keys:
+  - femh/1102oii
+  texts:
+  - age=64; gender=female
+femh_1102pas_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 1102pas
+  text_keys:
+  - femh/1102pas
+  texts:
+  - age=43; gender=female
+femh_1102pe1_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 1102pe1
+  text_keys:
+  - femh/1102pe1
+  texts:
+  - age=66; gender=female
+femh_1102ptp_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 1102ptp
+  text_keys:
+  - femh/1102ptp
+  texts:
+  - age=50; gender=female
+femh_1102r63_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: 1102r63
+  text_keys:
+  - femh/1102r63
+  texts:
+  - age=53; gender=male
+femh_1102rot_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 1102rot
+  text_keys:
+  - femh/1102rot
+  texts:
+  - age=41; gender=male
+femh_1102rpb_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 1102rpb
+  text_keys:
+  - femh/1102rpb
+  texts:
+  - age=44; gender=female
+femh_1102rqu_0:
+  age: 48
+  gender: male
+  label: pathological
+  speaker_id: 1102rqu
+  text_keys:
+  - femh/1102rqu
+  texts:
+  - age=48; gender=male
+femh_1102s9h_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1102s9h
+  text_keys:
+  - femh/1102s9h
+  texts:
+  - age=29; gender=female
+femh_1102sa7_0:
+  age: 45
+  gender: male
+  label: pathological
+  speaker_id: 1102sa7
+  text_keys:
+  - femh/1102sa7
+  texts:
+  - age=45; gender=male
+femh_1102t1k_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 1102t1k
+  text_keys:
+  - femh/1102t1k
+  texts:
+  - age=41; gender=female
+femh_1102t4n_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1102t4n
+  text_keys:
+  - femh/1102t4n
+  texts:
+  - age=39; gender=female
+femh_1102tlf_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 1102tlf
+  text_keys:
+  - femh/1102tlf
+  texts:
+  - age=40; gender=female
+femh_1102u3k_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 1102u3k
+  text_keys:
+  - femh/1102u3k
+  texts:
+  - age=58; gender=female
+femh_1102u4b_0:
+  age: 67
+  gender: female
+  label: pathological
+  speaker_id: 1102u4b
+  text_keys:
+  - femh/1102u4b
+  texts:
+  - age=67; gender=female
+femh_1102up1_0:
+  age: 21
+  gender: female
+  label: pathological
+  speaker_id: 1102up1
+  text_keys:
+  - femh/1102up1
+  texts:
+  - age=21; gender=female
+femh_1103070_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: '1103070'
+  text_keys:
+  - femh/1103070
+  texts:
+  - age=36; gender=female
+femh_11030kc_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 11030kc
+  text_keys:
+  - femh/11030kc
+  texts:
+  - age=64; gender=female
+femh_11030oq_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 11030oq
+  text_keys:
+  - femh/11030oq
+  texts:
+  - age=39; gender=female
+femh_11030qu_0:
+  age: 49
+  gender: female
+  label: pathological
+  speaker_id: 11030qu
+  text_keys:
+  - femh/11030qu
+  texts:
+  - age=49; gender=female
+femh_11030rd_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 11030rd
+  text_keys:
+  - femh/11030rd
+  texts:
+  - age=46; gender=female
+femh_11030rg_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 11030rg
+  text_keys:
+  - femh/11030rg
+  texts:
+  - age=27; gender=female
+femh_120003k_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 120003k
+  text_keys:
+  - femh/120003k
+  texts:
+  - age=51; gender=female
+femh_12000u9_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 12000u9
+  text_keys:
+  - femh/12000u9
+  texts:
+  - age=51; gender=female
+femh_12000ue_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 12000ue
+  text_keys:
+  - femh/12000ue
+  texts:
+  - age=25; gender=female
+femh_12002i1_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 12002i1
+  text_keys:
+  - femh/12002i1
+  texts:
+  - age=36; gender=female
+femh_1200373_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: '1200373'
+  text_keys:
+  - femh/1200373
+  texts:
+  - age=42; gender=male
+femh_120037a_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 120037a
+  text_keys:
+  - femh/120037a
+  texts:
+  - age=56; gender=female
+femh_12003pb_0:
+  age: 51
+  gender: male
+  label: pathological
+  speaker_id: 12003pb
+  text_keys:
+  - femh/12003pb
+  texts:
+  - age=51; gender=male
+femh_120049h_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 120049h
+  text_keys:
+  - femh/120049h
+  texts:
+  - age=36; gender=female
+femh_12004an_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 12004an
+  text_keys:
+  - femh/12004an
+  texts:
+  - age=35; gender=female
+femh_12004b0_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: 12004b0
+  text_keys:
+  - femh/12004b0
+  texts:
+  - age=46; gender=male
+femh_1200536_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: '1200536'
+  text_keys:
+  - femh/1200536
+  texts:
+  - age=36; gender=female
+femh_120061e_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 120061e
+  text_keys:
+  - femh/120061e
+  texts:
+  - age=54; gender=female
+femh_12007ja_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: 12007ja
+  text_keys:
+  - femh/12007ja
+  texts:
+  - age=43; gender=female
+femh_120085l_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: 120085l
+  text_keys:
+  - femh/120085l
+  texts:
+  - age=33; gender=male
+femh_1200866_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: '1200866'
+  text_keys:
+  - femh/1200866
+  texts:
+  - age=27; gender=female
+femh_120086t_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 120086t
+  text_keys:
+  - femh/120086t
+  texts:
+  - age=38; gender=female
+femh_12008rb_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 12008rb
+  text_keys:
+  - femh/12008rb
+  texts:
+  - age=45; gender=female
+femh_1200ak8_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 1200ak8
+  text_keys:
+  - femh/1200ak8
+  texts:
+  - age=38; gender=male
+femh_1200lr0_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 1200lr0
+  text_keys:
+  - femh/1200lr0
+  texts:
+  - age=32; gender=female
+femh_1200qq0_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: 1200qq0
+  text_keys:
+  - femh/1200qq0
+  texts:
+  - age=60; gender=female
+femh_1200sn6_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 1200sn6
+  text_keys:
+  - femh/1200sn6
+  texts:
+  - age=35; gender=female
+femh_1200t6q_0:
+  age: 23
+  gender: male
+  label: pathological
+  speaker_id: 1200t6q
+  text_keys:
+  - femh/1200t6q
+  texts:
+  - age=23; gender=male
+femh_1200vmc_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 1200vmc
+  text_keys:
+  - femh/1200vmc
+  texts:
+  - age=62; gender=female
+femh_12015ip_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: 12015ip
+  text_keys:
+  - femh/12015ip
+  texts:
+  - age=27; gender=male
+femh_120168k_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 120168k
+  text_keys:
+  - femh/120168k
+  texts:
+  - age=50; gender=female
+femh_12017m3_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: 12017m3
+  text_keys:
+  - femh/12017m3
+  texts:
+  - age=41; gender=female
+femh_12018r8_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 12018r8
+  text_keys:
+  - femh/12018r8
+  texts:
+  - age=39; gender=female
+femh_12019eq_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 12019eq
+  text_keys:
+  - femh/12019eq
+  texts:
+  - age=50; gender=female
+femh_1201afc_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 1201afc
+  text_keys:
+  - femh/1201afc
+  texts:
+  - age=36; gender=female
+femh_1201c1t_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 1201c1t
+  text_keys:
+  - femh/1201c1t
+  texts:
+  - age=47; gender=female
+femh_1201cl1_0:
+  age: 75
+  gender: male
+  label: pathological
+  speaker_id: 1201cl1
+  text_keys:
+  - femh/1201cl1
+  texts:
+  - age=75; gender=male
+femh_1201cut_0:
+  age: 49
+  gender: male
+  label: pathological
+  speaker_id: 1201cut
+  text_keys:
+  - femh/1201cut
+  texts:
+  - age=49; gender=male
+femh_1201dme_0:
+  age: 73
+  gender: female
+  label: pathological
+  speaker_id: 1201dme
+  text_keys:
+  - femh/1201dme
+  texts:
+  - age=73; gender=female
+femh_1201emt_0:
+  age: 33
+  gender: female
+  label: pathological
+  speaker_id: 1201emt
+  text_keys:
+  - femh/1201emt
+  texts:
+  - age=33; gender=female
+femh_1201fcg_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1201fcg
+  text_keys:
+  - femh/1201fcg
+  texts:
+  - age=38; gender=female
+femh_1201fct_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: 1201fct
+  text_keys:
+  - femh/1201fct
+  texts:
+  - age=44; gender=male
+femh_1201g08_0:
+  age: 26
+  gender: male
+  label: pathological
+  speaker_id: 1201g08
+  text_keys:
+  - femh/1201g08
+  texts:
+  - age=26; gender=male
+femh_1201j6c_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: 1201j6c
+  text_keys:
+  - femh/1201j6c
+  texts:
+  - age=64; gender=male
+femh_1201jhf_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 1201jhf
+  text_keys:
+  - femh/1201jhf
+  texts:
+  - age=32; gender=female
+femh_1201ji7_0:
+  age: 23
+  gender: female
+  label: pathological
+  speaker_id: 1201ji7
+  text_keys:
+  - femh/1201ji7
+  texts:
+  - age=23; gender=female
+femh_1201pke_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: 1201pke
+  text_keys:
+  - femh/1201pke
+  texts:
+  - age=70; gender=female
+femh_1201rg0_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1201rg0
+  text_keys:
+  - femh/1201rg0
+  texts:
+  - age=27; gender=female
+femh_1201s1t_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1201s1t
+  text_keys:
+  - femh/1201s1t
+  texts:
+  - age=27; gender=female
+femh_1201u9j_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 1201u9j
+  text_keys:
+  - femh/1201u9j
+  texts:
+  - age=37; gender=female
+femh_1201v4f_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: 1201v4f
+  text_keys:
+  - femh/1201v4f
+  texts:
+  - age=32; gender=female
+femh_1201v4t_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1201v4t
+  text_keys:
+  - femh/1201v4t
+  texts:
+  - age=38; gender=female
+femh_1201vnp_0:
+  age: 72
+  gender: female
+  label: pathological
+  speaker_id: 1201vnp
+  text_keys:
+  - femh/1201vnp
+  texts:
+  - age=72; gender=female
+femh_120233r_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: 120233r
+  text_keys:
+  - femh/120233r
+  texts:
+  - age=31; gender=male
+femh_12023dv_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 12023dv
+  text_keys:
+  - femh/12023dv
+  texts:
+  - age=54; gender=female
+femh_120246j_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 120246j
+  text_keys:
+  - femh/120246j
+  texts:
+  - age=38; gender=female
+femh_120246m_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 120246m
+  text_keys:
+  - femh/120246m
+  texts:
+  - age=51; gender=female
+femh_120248h_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: 120248h
+  text_keys:
+  - femh/120248h
+  texts:
+  - age=44; gender=female
+femh_12025o3_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 12025o3
+  text_keys:
+  - femh/12025o3
+  texts:
+  - age=45; gender=female
+femh_12026bi_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 12026bi
+  text_keys:
+  - femh/12026bi
+  texts:
+  - age=30; gender=female
+femh_1202a46_0:
+  age: 21
+  gender: female
+  label: pathological
+  speaker_id: 1202a46
+  text_keys:
+  - femh/1202a46
+  texts:
+  - age=21; gender=female
+femh_1202b0m_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 1202b0m
+  text_keys:
+  - femh/1202b0m
+  texts:
+  - age=25; gender=female
+femh_1202bm8_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1202bm8
+  text_keys:
+  - femh/1202bm8
+  texts:
+  - age=42; gender=female
+femh_1202bml_0:
+  age: 40
+  gender: female
+  label: pathological
+  speaker_id: 1202bml
+  text_keys:
+  - femh/1202bml
+  texts:
+  - age=40; gender=female
+femh_1202boa_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1202boa
+  text_keys:
+  - femh/1202boa
+  texts:
+  - age=26; gender=female
+femh_1202c95_0:
+  age: 50
+  gender: female
+  label: pathological
+  speaker_id: 1202c95
+  text_keys:
+  - femh/1202c95
+  texts:
+  - age=50; gender=female
+femh_1202cak_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: 1202cak
+  text_keys:
+  - femh/1202cak
+  texts:
+  - age=64; gender=female
+femh_1202dkm_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 1202dkm
+  text_keys:
+  - femh/1202dkm
+  texts:
+  - age=47; gender=female
+femh_1202f15_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1202f15
+  text_keys:
+  - femh/1202f15
+  texts:
+  - age=39; gender=female
+femh_1202hsm_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 1202hsm
+  text_keys:
+  - femh/1202hsm
+  texts:
+  - age=48; gender=female
+femh_1202j6g_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 1202j6g
+  text_keys:
+  - femh/1202j6g
+  texts:
+  - age=37; gender=female
+femh_1202jia_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: 1202jia
+  text_keys:
+  - femh/1202jia
+  texts:
+  - age=57; gender=male
+femh_1202jl4_0:
+  age: 52
+  gender: male
+  label: pathological
+  speaker_id: 1202jl4
+  text_keys:
+  - femh/1202jl4
+  texts:
+  - age=52; gender=male
+femh_1202lcj_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1202lcj
+  text_keys:
+  - femh/1202lcj
+  texts:
+  - age=38; gender=female
+femh_1202lcm_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 1202lcm
+  text_keys:
+  - femh/1202lcm
+  texts:
+  - age=48; gender=female
+femh_1202n6s_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: 1202n6s
+  text_keys:
+  - femh/1202n6s
+  texts:
+  - age=56; gender=female
+femh_1202o9j_0:
+  age: 36
+  gender: female
+  label: pathological
+  speaker_id: 1202o9j
+  text_keys:
+  - femh/1202o9j
+  texts:
+  - age=36; gender=female
+femh_1202ovc_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: 1202ovc
+  text_keys:
+  - femh/1202ovc
+  texts:
+  - age=27; gender=male
+femh_1202s6i_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: 1202s6i
+  text_keys:
+  - femh/1202s6i
+  texts:
+  - age=34; gender=male
+femh_1202t6l_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 1202t6l
+  text_keys:
+  - femh/1202t6l
+  texts:
+  - age=45; gender=female
+femh_1202t7v_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: 1202t7v
+  text_keys:
+  - femh/1202t7v
+  texts:
+  - age=54; gender=female
+femh_1202u3l_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: 1202u3l
+  text_keys:
+  - femh/1202u3l
+  texts:
+  - age=51; gender=female
+femh_1202u49_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 1202u49
+  text_keys:
+  - femh/1202u49
+  texts:
+  - age=66; gender=female
+femh_1202u4m_0:
+  age: 20
+  gender: male
+  label: pathological
+  speaker_id: 1202u4m
+  text_keys:
+  - femh/1202u4m
+  texts:
+  - age=20; gender=male
+femh_1202u6p_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: 1202u6p
+  text_keys:
+  - femh/1202u6p
+  texts:
+  - age=52; gender=female
+femh_1202unf_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1202unf
+  text_keys:
+  - femh/1202unf
+  texts:
+  - age=27; gender=female
+femh_1202v6e_0:
+  age: 38
+  gender: male
+  label: pathological
+  speaker_id: 1202v6e
+  text_keys:
+  - femh/1202v6e
+  texts:
+  - age=38; gender=male
+femh_12030jp_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: 12030jp
+  text_keys:
+  - femh/12030jp
+  texts:
+  - age=30; gender=female
+femh_12030n2_0:
+  age: 33
+  gender: female
+  label: pathological
+  speaker_id: 12030n2
+  text_keys:
+  - femh/12030n2
+  texts:
+  - age=33; gender=female
+femh_12030o1_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: 12030o1
+  text_keys:
+  - femh/12030o1
+  texts:
+  - age=42; gender=male
+femh_13000hp_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 13000hp
+  text_keys:
+  - femh/13000hp
+  texts:
+  - age=39; gender=female
+femh_1300190_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: '1300190'
+  text_keys:
+  - femh/1300190
+  texts:
+  - age=46; gender=male
+femh_13005tc_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: 13005tc
+  text_keys:
+  - femh/13005tc
+  texts:
+  - age=59; gender=male
+femh_13007d1_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 13007d1
+  text_keys:
+  - femh/13007d1
+  texts:
+  - age=29; gender=female
+femh_1300hnu_0:
+  age: 32
+  gender: male
+  label: pathological
+  speaker_id: 1300hnu
+  text_keys:
+  - femh/1300hnu
+  texts:
+  - age=32; gender=male
+femh_1300mt8_0:
+  age: 52
+  gender: male
+  label: pathological
+  speaker_id: 1300mt8
+  text_keys:
+  - femh/1300mt8
+  texts:
+  - age=52; gender=male
+femh_13019nh_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 13019nh
+  text_keys:
+  - femh/13019nh
+  texts:
+  - age=47; gender=female
+femh_1301ag6_0:
+  age: 62
+  gender: male
+  label: pathological
+  speaker_id: 1301ag6
+  text_keys:
+  - femh/1301ag6
+  texts:
+  - age=62; gender=male
+femh_1301aju_0:
+  age: 29
+  gender: female
+  label: pathological
+  speaker_id: 1301aju
+  text_keys:
+  - femh/1301aju
+  texts:
+  - age=29; gender=female
+femh_1301cl7_0:
+  age: 86
+  gender: female
+  label: pathological
+  speaker_id: 1301cl7
+  text_keys:
+  - femh/1301cl7
+  texts:
+  - age=86; gender=female
+femh_1301e9t_0:
+  age: 21
+  gender: female
+  label: pathological
+  speaker_id: 1301e9t
+  text_keys:
+  - femh/1301e9t
+  texts:
+  - age=21; gender=female
+femh_1301eaq_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: 1301eaq
+  text_keys:
+  - femh/1301eaq
+  texts:
+  - age=26; gender=female
+femh_1301ii9_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1301ii9
+  text_keys:
+  - femh/1301ii9
+  texts:
+  - age=42; gender=female
+femh_1301iib_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: 1301iib
+  text_keys:
+  - femh/1301iib
+  texts:
+  - age=47; gender=female
+femh_1301ikm_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 1301ikm
+  text_keys:
+  - femh/1301ikm
+  texts:
+  - age=45; gender=female
+femh_1301j4l_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: 1301j4l
+  text_keys:
+  - femh/1301j4l
+  texts:
+  - age=53; gender=female
+femh_1301l5m_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: 1301l5m
+  text_keys:
+  - femh/1301l5m
+  texts:
+  - age=28; gender=female
+femh_1301m9t_0:
+  age: 30
+  gender: male
+  label: pathological
+  speaker_id: 1301m9t
+  text_keys:
+  - femh/1301m9t
+  texts:
+  - age=30; gender=male
+femh_1301mb7_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: 1301mb7
+  text_keys:
+  - femh/1301mb7
+  texts:
+  - age=62; gender=female
+femh_1301mu0_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: 1301mu0
+  text_keys:
+  - femh/1301mu0
+  texts:
+  - age=60; gender=female
+femh_1301qj5_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: 1301qj5
+  text_keys:
+  - femh/1301qj5
+  texts:
+  - age=31; gender=female
+femh_1301s5i_0:
+  age: 63
+  gender: female
+  label: pathological
+  speaker_id: 1301s5i
+  text_keys:
+  - femh/1301s5i
+  texts:
+  - age=63; gender=female
+femh_1301s8k_0:
+  age: 61
+  gender: male
+  label: pathological
+  speaker_id: 1301s8k
+  text_keys:
+  - femh/1301s8k
+  texts:
+  - age=61; gender=male
+femh_1301skj_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: 1301skj
+  text_keys:
+  - femh/1301skj
+  texts:
+  - age=27; gender=female
+femh_1301t9c_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: 1301t9c
+  text_keys:
+  - femh/1301t9c
+  texts:
+  - age=46; gender=female
+femh_1301v3h_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 1301v3h
+  text_keys:
+  - femh/1301v3h
+  texts:
+  - age=38; gender=female
+femh_1301v4e_0:
+  age: 68
+  gender: male
+  label: pathological
+  speaker_id: 1301v4e
+  text_keys:
+  - femh/1301v4e
+  texts:
+  - age=68; gender=male
+femh_13021ib_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: 13021ib
+  text_keys:
+  - femh/13021ib
+  texts:
+  - age=58; gender=female
+femh_13021ig_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 13021ig
+  text_keys:
+  - femh/13021ig
+  texts:
+  - age=57; gender=female
+femh_13022k2_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: 13022k2
+  text_keys:
+  - femh/13022k2
+  texts:
+  - age=38; gender=female
+femh_13022kb_0:
+  age: 37
+  gender: female
+  label: pathological
+  speaker_id: 13022kb
+  text_keys:
+  - femh/13022kb
+  texts:
+  - age=37; gender=female
+femh_13023ef_0:
+  age: 61
+  gender: male
+  label: pathological
+  speaker_id: 13023ef
+  text_keys:
+  - femh/13023ef
+  texts:
+  - age=61; gender=male
+femh_13024kr_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: 13024kr
+  text_keys:
+  - femh/13024kr
+  texts:
+  - age=35; gender=female
+femh_130254f_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: 130254f
+  text_keys:
+  - femh/130254f
+  texts:
+  - age=59; gender=male
+femh_13025s8_0:
+  age: 20
+  gender: female
+  label: pathological
+  speaker_id: 13025s8
+  text_keys:
+  - femh/13025s8
+  texts:
+  - age=20; gender=female
+femh_13026jo_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 13026jo
+  text_keys:
+  - femh/13026jo
+  texts:
+  - age=41; gender=male
+femh_13026u6_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 13026u6
+  text_keys:
+  - femh/13026u6
+  texts:
+  - age=42; gender=female
+femh_13028gn_0:
+  age: 25
+  gender: female
+  label: pathological
+  speaker_id: 13028gn
+  text_keys:
+  - femh/13028gn
+  texts:
+  - age=25; gender=female
+femh_13028p7_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: 13028p7
+  text_keys:
+  - femh/13028p7
+  texts:
+  - age=59; gender=male
+femh_13028qh_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 13028qh
+  text_keys:
+  - femh/13028qh
+  texts:
+  - age=48; gender=female
+femh_1302aad_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1302aad
+  text_keys:
+  - femh/1302aad
+  texts:
+  - age=39; gender=female
+femh_1302c70_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: 1302c70
+  text_keys:
+  - femh/1302c70
+  texts:
+  - age=34; gender=female
+femh_1302e3u_0:
+  age: 48
+  gender: female
+  label: pathological
+  speaker_id: 1302e3u
+  text_keys:
+  - femh/1302e3u
+  texts:
+  - age=48; gender=female
+femh_1302edd_0:
+  age: 81
+  gender: male
+  label: pathological
+  speaker_id: 1302edd
+  text_keys:
+  - femh/1302edd
+  texts:
+  - age=81; gender=male
+femh_1302g47_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: 1302g47
+  text_keys:
+  - femh/1302g47
+  texts:
+  - age=56; gender=male
+femh_1302gp2_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: 1302gp2
+  text_keys:
+  - femh/1302gp2
+  texts:
+  - age=50; gender=male
+femh_1302had_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1302had
+  text_keys:
+  - femh/1302had
+  texts:
+  - age=42; gender=female
+femh_1302hmq_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: 1302hmq
+  text_keys:
+  - femh/1302hmq
+  texts:
+  - age=33; gender=male
+femh_1302irt_0:
+  age: 23
+  gender: female
+  label: pathological
+  speaker_id: 1302irt
+  text_keys:
+  - femh/1302irt
+  texts:
+  - age=23; gender=female
+femh_1302j63_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: 1302j63
+  text_keys:
+  - femh/1302j63
+  texts:
+  - age=39; gender=female
+femh_1302lp0_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: 1302lp0
+  text_keys:
+  - femh/1302lp0
+  texts:
+  - age=41; gender=male
+femh_1302lpp_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1302lpp
+  text_keys:
+  - femh/1302lpp
+  texts:
+  - age=42; gender=female
+femh_1302m1r_0:
+  age: 20
+  gender: male
+  label: pathological
+  speaker_id: 1302m1r
+  text_keys:
+  - femh/1302m1r
+  texts:
+  - age=20; gender=male
+femh_1302m1t_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: 1302m1t
+  text_keys:
+  - femh/1302m1t
+  texts:
+  - age=42; gender=female
+femh_1302mm8_0:
+  age: 66
+  gender: female
+  label: pathological
+  speaker_id: 1302mm8
+  text_keys:
+  - femh/1302mm8
+  texts:
+  - age=66; gender=female
+femh_1302n31_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: 1302n31
+  text_keys:
+  - femh/1302n31
+  texts:
+  - age=24; gender=female
+femh_1302nsm_0:
+  age: 72
+  gender: female
+  label: pathological
+  speaker_id: 1302nsm
+  text_keys:
+  - femh/1302nsm
+  texts:
+  - age=72; gender=female
+femh_1302p6f_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: 1302p6f
+  text_keys:
+  - femh/1302p6f
+  texts:
+  - age=57; gender=female
+femh_1302pia_0:
+  age: 45
+  gender: female
+  label: pathological
+  speaker_id: 1302pia
+  text_keys:
+  - femh/1302pia
+  texts:
+  - age=45; gender=female

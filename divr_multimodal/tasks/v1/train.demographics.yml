@@ -1,0 +1,15 @@
+pathological:
+  female:
+    age_stats:
+      max: 93
+      mean: 45.54507337526206
+      min: 20
+      std: 14.283760018188831
+    total: 477
+  male:
+    age_stats:
+      max: 88
+      mean: 48.73529411764706
+      min: 20
+      std: 15.658853002033391
+    total: 238
