@@ -17,6 +17,7 @@ class Main(ClassArgParser):
         self,
         version: str,
         data_store_path: Path,
+        task_name: str = "",
         diagnosis_map: str = "USVAC_2025",
         datasets: List[str] = [],
         text_fields: List[str] = [],
@@ -36,17 +37,27 @@ class Main(ClassArgParser):
         selected_datasets = datasets if len(datasets) > 0 else None
         selected_text_fields = text_fields if len(text_fields) > 0 else None
 
+        selected_task_name = (
+            task_name.strip() if len(task_name.strip()) > 0 else None
+        )
+
         await generate_tasks(
             version=version,
             source_path=data_store_path,
             diagnosis_map=diag_map,
             databases=selected_datasets,
             text_fields=selected_text_fields,
+            task_name=selected_task_name,
         )
 
+        output_name = (
+            selected_task_name
+            if selected_task_name is not None
+            else version
+        )
         print(
             "Task generation complete. "
-            "Generated files are under divr_multimodel/tasks/<version>/"
+            f"Generated files are under divr_multimodal/tasks/{output_name}/"
         )
 
     async def inspect_task(

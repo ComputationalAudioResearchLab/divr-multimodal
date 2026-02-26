@@ -22,9 +22,11 @@ async def generate_tasks(
     diagnosis_map: DiagnosisMap,
     databases: list[str] | None = None,
     text_fields: list[str] | None = None,
+    task_name: str | None = None,
 ) -> None:
     module_path = Path(__file__).parent.parent.resolve()
-    tasks_path = Path(f"{module_path}/tasks/{version}")
+    output_name = task_name if task_name is not None else version
+    tasks_path = Path(f"{module_path}/tasks/{output_name}")
     await generator_map[version](
         source_path=source_path,
         tasks_path=tasks_path,
