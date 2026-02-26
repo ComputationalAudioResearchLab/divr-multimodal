@@ -7,5 +7,6 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "divr_ssl": true
-  }
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:pipenv"
 }

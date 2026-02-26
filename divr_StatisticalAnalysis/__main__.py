@@ -1,6 +1,4 @@
 from tqdm import tqdm
-import sys
-import divr_benchmark
 from pathlib import Path
 from divr_benchmark import Benchmark
 from divr_benchmark.task_generator import DatabaseFunc, Dataset
