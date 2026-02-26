@@ -1,9 +1,9 @@
 services:
   dev:
     build: .
-    image: divr-multimodel:v1
+    image: divr-multimodal:v1
     # We do not want to recreate the container or have multiple instances of it running ever
-    container_name: divr-multimodel
+    container_name: divr-multimodal
     volumes:
       # Mount SSH Keys as readonly
       # The owners for the ssh/config file should be root:$USER (this ensures both root and $USER can access it)
