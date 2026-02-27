@@ -1,3 +1,18 @@
+cyst:
+  female:
+    age_stats:
+      max: 86
+      mean: 47.24285714285714
+      min: 21
+      std: 14.31269398505155
+    total: 70
+  male:
+    age_stats:
+      max: 83
+      mean: 49.75
+      min: 21
+      std: 15.053987811195007
+    total: 52
 muscle_tension:
   female:
     age_stats:
@@ -13,18 +28,108 @@ muscle_tension:
       min: 20
       std: 9.576975594542441
     total: 26
-organic:
+papilloma:
+  female:
+    age_stats:
+      max: 73
+      mean: 48.42857142857143
+      min: 29
+      std: 18.509971572615868
+    total: 7
+  male:
+    age_stats:
+      max: 62
+      mean: 41.75
+      min: 23
+      std: 12.263211799376363
+    total: 12
+presbyphonia:
   female:
     age_stats:
       max: 93
-      mean: 46.34834123222749
-      min: 20
-      std: 14.367073883320662
-    total: 422
+      mean: 67.37209302325581
+      min: 48
+      std: 8.720592093850687
+    total: 43
   male:
     age_stats:
       max: 88
-      mean: 50.66981132075472
+      mean: 66.1891891891892
       min: 20
-      std: 15.169951402580315
-    total: 212
+      std: 11.423265338378119
+    total: 37
+reinkes_edema:
+  female:
+    age_stats:
+      max: 66
+      mean: 44.689189189189186
+      min: 24
+      std: 11.041547533580603
+    total: 74
+  male:
+    age_stats:
+      max: 66
+      mean: 47.76923076923077
+      min: 27
+      std: 11.053715003772052
+    total: 26
+spasmodic_dysphonia:
+  female:
+    age_stats:
+      max: 73
+      mean: 51.65
+      min: 25
+      std: 14.098432163672818
+    total: 20
+  male:
+    age_stats:
+      max: 67
+      mean: 50.333333333333336
+      min: 26
+      std: 21.548395145191982
+    total: 3
+varix:
+  female:
+    age_stats:
+      max: 66
+      mean: 45.125
+      min: 20
+      std: 16.55672068979845
+    total: 8
+  male:
+    age_stats:
+      max: 34
+      mean: 34
+      min: 34
+      std: null
+    total: 1
+vocal_fold_nodules:
+  female:
+    age_stats:
+      max: 67
+      mean: 39.84426229508197
+      min: 20
+      std: 11.214674928361255
+    total: 122
+  male:
+    age_stats:
+      max: 57
+      mean: 39.888888888888886
+      min: 20
+      std: 9.73706616575752
+    total: 18
+vocal_fold_polyp:
+  female:
+    age_stats:
+      max: 69
+      mean: 44.282051282051285
+      min: 23
+      std: 12.658242462170735
+    total: 78
+  male:
+    age_stats:
+      max: 87
+      mean: 48.57142857142857
+      min: 22
+      std: 14.070919778398933
+    total: 63

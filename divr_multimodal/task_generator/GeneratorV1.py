@@ -93,10 +93,13 @@ class GeneratorV1(Generator):
         source_path: Path,
         tasks_path: Path,
         diagnosis_map: DiagnosisMap,
+        diag_level: int = 0,
         databases: List[str] | None = None,
         text_fields: List[str] | None = None,
     ) -> None:
         print("Generating text tasks for benchmark v1")
+        if diag_level < 0:
+            raise ValueError("diag_level must be >= 0")
         tasks_path.mkdir(parents=True, exist_ok=True)
         normalized_text_fields = self.normalize_text_fields(text_fields)
 
@@ -135,9 +138,9 @@ class GeneratorV1(Generator):
 
         for db_name in selected_databases:
             db = await _init_db(self.__db_map[db_name])
-            train_tasks.extend(db.all_train(level=0))
-            val_tasks.extend(db.all_val(level=0))
-            test_tasks.extend(db.all_test(level=0))
+            train_tasks.extend(db.all_train(level=diag_level))
+            val_tasks.extend(db.all_val(level=diag_level))
+            test_tasks.extend(db.all_test(level=diag_level))
 
         self.to_task_file(
             tasks=train_tasks,

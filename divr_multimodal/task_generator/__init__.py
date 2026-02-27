@@ -20,6 +20,7 @@ async def generate_tasks(
     version: VERSIONS,
     source_path: Path,
     diagnosis_map: DiagnosisMap,
+    diag_level: int = 0,
     databases: list[str] | None = None,
     text_fields: list[str] | None = None,
     task_name: str | None = None,
@@ -31,6 +32,7 @@ async def generate_tasks(
         source_path=source_path,
         tasks_path=tasks_path,
         diagnosis_map=diagnosis_map,
+        diag_level=diag_level,
         databases=databases,
         text_fields=text_fields,
     )

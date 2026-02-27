@@ -65,7 +65,7 @@ class Main(ClassArgParser):
         # this is called 'task' because in most datasets the audios represent different vocal tasks
         db = await database_func(name="femh", min_tasks=None)
         diag_map = diagnosis_maps.USVAC_2025(allow_unmapped=False)
-        diag_level = 1
+        diag_level = diag_map.max_diag_level
 
         def filter_unclassified(tasks):
             # example of filtering tasks by label

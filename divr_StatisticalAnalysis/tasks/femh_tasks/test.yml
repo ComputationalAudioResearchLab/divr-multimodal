@@ -3,84 +3,84 @@ femh_00003h4_0:
   audio_keys:
   - femh/selectwav/00003h4.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 00003h4
 femh_0001hec_0:
   age: 56
   audio_keys:
   - femh/selectwav/0001hec.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0001hec
 femh_0001pvo_0:
   age: 68
   audio_keys:
   - femh/selectwav/0001pvo.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0001pvo
 femh_000205s_0:
   age: 61
   audio_keys:
   - femh/selectwav/000205s.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 000205s
 femh_0002aca_0:
   age: 63
   audio_keys:
   - femh/selectwav/0002aca.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0002aca
 femh_0100o4g_0:
   age: 72
   audio_keys:
   - femh/selectwav/0100o4g.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0100o4g
 femh_01024cj_0:
   age: 68
   audio_keys:
   - femh/selectwav/01024cj.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 01024cj
 femh_0200l33_0:
   age: 63
   audio_keys:
   - femh/selectwav/0200l33.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 0200l33
 femh_0202cfe_0:
   age: 37
   audio_keys:
   - femh/selectwav/0202cfe.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0202cfe
 femh_0300ahf_0:
   age: 70
   audio_keys:
   - femh/selectwav/0300ahf.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0300ahf
 femh_030208k_0:
   age: 37
   audio_keys:
   - femh/selectwav/030208k.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 030208k
 femh_0302li9_0:
   age: 51
   audio_keys:
   - femh/selectwav/0302li9.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0302li9
 femh_0302pv5_0:
   age: 55
@@ -94,147 +94,147 @@ femh_0400n0h_0:
   audio_keys:
   - femh/selectwav/0400n0h.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0400n0h
 femh_0401h6i_0:
   age: 32
   audio_keys:
   - femh/selectwav/0401h6i.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0401h6i
 femh_0500a7j_0:
   age: 36
   audio_keys:
   - femh/selectwav/0500a7j.wav
   gender: female
-  label: organic
+  label: papilloma
   speaker_id: 0500a7j
 femh_0500nlr_0:
   age: 63
   audio_keys:
   - femh/selectwav/0500nlr.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 0500nlr
 femh_050296l_0:
   age: 55
   audio_keys:
   - femh/selectwav/050296l.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 050296l
 femh_0502coa_0:
   age: 30
   audio_keys:
   - femh/selectwav/0502coa.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 0502coa
 femh_0502l1d_0:
   age: 56
   audio_keys:
   - femh/selectwav/0502l1d.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0502l1d
 femh_0601bcu_0:
   age: 57
   audio_keys:
   - femh/selectwav/0601bcu.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0601bcu
 femh_0601kia_0:
   age: 68
   audio_keys:
   - femh/selectwav/0601kia.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0601kia
 femh_07023sn_0:
   age: 52
   audio_keys:
   - femh/selectwav/07023sn.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 07023sn
 femh_0801ifi_0:
   age: 34
   audio_keys:
   - femh/selectwav/0801ifi.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0801ifi
 femh_0802cbi_0:
   age: 66
   audio_keys:
   - femh/selectwav/0802cbi.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 0802cbi
 femh_0802hb7_0:
   age: 38
   audio_keys:
   - femh/selectwav/0802hb7.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0802hb7
 femh_09012aa_0:
   age: 42
   audio_keys:
   - femh/selectwav/09012aa.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 09012aa
 femh_09012dj_0:
   age: 67
   audio_keys:
   - femh/selectwav/09012dj.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 09012dj
 femh_09017bb_0:
   age: 54
   audio_keys:
   - femh/selectwav/09017bb.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 09017bb
 femh_0901g2l_0:
   age: 38
   audio_keys:
   - femh/selectwav/0901g2l.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0901g2l
 femh_0A015h2_0:
   age: 64
   audio_keys:
   - femh/selectwav/0A015h2.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0A015h2
 femh_0A01bft_0:
   age: 40
   audio_keys:
   - femh/selectwav/0A01bft.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0A01bft
 femh_0B00onp_0:
   age: 43
   audio_keys:
   - femh/selectwav/0B00onp.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0B00onp
 femh_0C006lk_0:
   age: 30
   audio_keys:
   - femh/selectwav/0C006lk.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0C006lk
 femh_0C00p42_0:
   age: 40
@@ -248,7 +248,7 @@ femh_0C01q1a_0:
   audio_keys:
   - femh/selectwav/0C01q1a.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0C01q1a
 femh_0F02b88_0:
   age: 48
@@ -262,28 +262,28 @@ femh_0F02qrc_0:
   audio_keys:
   - femh/selectwav/0F02qrc.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0F02qrc
 femh_0G0112e_0:
   age: 39
   audio_keys:
   - femh/selectwav/0G0112e.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0G0112e
 femh_0G018t8_0:
   age: 43
   audio_keys:
   - femh/selectwav/0G018t8.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0G018t8
 femh_0G01n62_0:
   age: 57
   audio_keys:
   - femh/selectwav/0G01n62.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0G01n62
 femh_0G02m0p_0:
   age: 50
@@ -297,91 +297,91 @@ femh_0H00crk_0:
   audio_keys:
   - femh/selectwav/0H00crk.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0H00crk
 femh_0H014nv_0:
   age: 54
   audio_keys:
   - femh/selectwav/0H014nv.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0H014nv
 femh_0H027kj_0:
   age: 39
   audio_keys:
   - femh/selectwav/0H027kj.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0H027kj
 femh_0H02cde_0:
   age: 42
   audio_keys:
   - femh/selectwav/0H02cde.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0H02cde
 femh_0H02k1b_0:
   age: 51
   audio_keys:
   - femh/selectwav/0H02k1b.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0H02k1b
 femh_0H02oda_0:
   age: 40
   audio_keys:
   - femh/selectwav/0H02oda.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0H02oda
 femh_0J024fq_0:
   age: 60
   audio_keys:
   - femh/selectwav/0J024fq.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0J024fq
 femh_0J02566_0:
   age: 35
   audio_keys:
   - femh/selectwav/0J02566.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0J02566
 femh_0K0097o_0:
   age: 46
   audio_keys:
   - femh/selectwav/0K0097o.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 0K0097o
 femh_0K01phn_0:
   age: 67
   audio_keys:
   - femh/selectwav/0K01phn.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0K01phn
 femh_0K02k2r_0:
   age: 61
   audio_keys:
   - femh/selectwav/0K02k2r.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0K02k2r
 femh_0M009e1_0:
   age: 52
   audio_keys:
   - femh/selectwav/0M009e1.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0M009e1
 femh_0M00pnl_0:
   age: 32
   audio_keys:
   - femh/selectwav/0M00pnl.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0M00pnl
 femh_0M0125n_0:
   age: 20
@@ -402,7 +402,7 @@ femh_0R00ie0_0:
   audio_keys:
   - femh/selectwav/0R00ie0.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0R00ie0
 femh_0R01sin_0:
   age: 28
@@ -423,21 +423,21 @@ femh_0S00agl_0:
   audio_keys:
   - femh/selectwav/0S00agl.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0S00agl
 femh_0T0064u_0:
   age: 37
   audio_keys:
   - femh/selectwav/0T0064u.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0T0064u
 femh_0T0092q_0:
   age: 30
   audio_keys:
   - femh/selectwav/0T0092q.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0T0092q
 femh_0T017ij_0:
   age: 37
@@ -451,189 +451,189 @@ femh_0W00bub_0:
   audio_keys:
   - femh/selectwav/0W00bub.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0W00bub
 femh_0W00hqc_0:
   age: 57
   audio_keys:
   - femh/selectwav/0W00hqc.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0W00hqc
 femh_0W00m9l_0:
   age: 30
   audio_keys:
   - femh/selectwav/0W00m9l.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0W00m9l
 femh_0W01a47_0:
   age: 43
   audio_keys:
   - femh/selectwav/0W01a47.wav
   gender: female
-  label: organic
+  label: varix
   speaker_id: 0W01a47
 femh_0W01q0t_0:
   age: 48
   audio_keys:
   - femh/selectwav/0W01q0t.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0W01q0t
 femh_0W01r3i_0:
   age: 43
   audio_keys:
   - femh/selectwav/0W01r3i.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0W01r3i
 femh_0W02hvs_0:
   age: 49
   audio_keys:
   - femh/selectwav/0W02hvs.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0W02hvs
 femh_0W02ppq_0:
   age: 50
   audio_keys:
   - femh/selectwav/0W02ppq.wav
   gender: female
-  label: organic
+  label: varix
   speaker_id: 0W02ppq
 femh_0W02vjb_0:
   age: 62
   audio_keys:
   - femh/selectwav/0W02vjb.wav
   gender: female
-  label: organic
+  label: varix
   speaker_id: 0W02vjb
 femh_0Y0098l_0:
   age: 70
   audio_keys:
   - femh/selectwav/0Y0098l.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 0Y0098l
 femh_0Y00a1d_0:
   age: 43
   audio_keys:
   - femh/selectwav/0Y00a1d.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0Y00a1d
 femh_0Y00eb8_0:
   age: 53
   audio_keys:
   - femh/selectwav/0Y00eb8.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 0Y00eb8
 femh_0Y00ptm_0:
   age: 60
   audio_keys:
   - femh/selectwav/0Y00ptm.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 0Y00ptm
 femh_0Y00r0l_0:
   age: 45
   audio_keys:
   - femh/selectwav/0Y00r0l.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0Y00r0l
 femh_0Y00uiq_0:
   age: 46
   audio_keys:
   - femh/selectwav/0Y00uiq.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 0Y00uiq
 femh_0Y011c5_0:
   age: 54
   audio_keys:
   - femh/selectwav/0Y011c5.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0Y011c5
 femh_0Y0171h_0:
   age: 78
   audio_keys:
   - femh/selectwav/0Y0171h.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 0Y0171h
 femh_0Y01lbp_0:
   age: 25
   audio_keys:
   - femh/selectwav/0Y01lbp.wav
   gender: female
-  label: organic
+  label: varix
   speaker_id: 0Y01lbp
 femh_0Y020hm_0:
   age: 59
   audio_keys:
   - femh/selectwav/0Y020hm.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 0Y020hm
 femh_0Y029vr_0:
   age: 39
   audio_keys:
   - femh/selectwav/0Y029vr.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0Y029vr
 femh_0Y02bbb_0:
   age: 75
   audio_keys:
   - femh/selectwav/0Y02bbb.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0Y02bbb
 femh_10000hr_0:
   age: 39
   audio_keys:
   - femh/selectwav/10000hr.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 10000hr
 femh_1000cdl_0:
   age: 43
   audio_keys:
   - femh/selectwav/1000cdl.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1000cdl
 femh_1000i65_0:
   age: 44
   audio_keys:
   - femh/selectwav/1000i65.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1000i65
 femh_1000n59_0:
   age: 44
   audio_keys:
   - femh/selectwav/1000n59.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1000n59
 femh_1000p0e_0:
   age: 33
   audio_keys:
   - femh/selectwav/1000p0e.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1000p0e
 femh_1000pj8_0:
   age: 42
   audio_keys:
   - femh/selectwav/1000pj8.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1000pj8
 femh_1000t42_0:
   age: 29
@@ -654,154 +654,154 @@ femh_1001fpr_0:
   audio_keys:
   - femh/selectwav/1001fpr.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 1001fpr
 femh_1001fqb_0:
   age: 41
   audio_keys:
   - femh/selectwav/1001fqb.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1001fqb
 femh_1001i3p_0:
   age: 31
   audio_keys:
   - femh/selectwav/1001i3p.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1001i3p
 femh_1001i68_0:
   age: 42
   audio_keys:
   - femh/selectwav/1001i68.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1001i68
 femh_10025r6_0:
   age: 41
   audio_keys:
   - femh/selectwav/10025r6.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 10025r6
 femh_1002u49_0:
   age: 63
   audio_keys:
   - femh/selectwav/1002u49.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 1002u49
 femh_11004fr_0:
   age: 52
   audio_keys:
   - femh/selectwav/11004fr.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11004fr
 femh_11006gh_0:
   age: 51
   audio_keys:
   - femh/selectwav/11006gh.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 11006gh
 femh_1100blb_0:
   age: 62
   audio_keys:
   - femh/selectwav/1100blb.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1100blb
 femh_1100f0u_0:
   age: 31
   audio_keys:
   - femh/selectwav/1100f0u.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100f0u
 femh_1100f1j_0:
   age: 36
   audio_keys:
   - femh/selectwav/1100f1j.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100f1j
 femh_1100h50_0:
   age: 48
   audio_keys:
   - femh/selectwav/1100h50.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100h50
 femh_1100jcs_0:
   age: 70
   audio_keys:
   - femh/selectwav/1100jcs.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1100jcs
 femh_1100lnt_0:
   age: 62
   audio_keys:
   - femh/selectwav/1100lnt.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100lnt
 femh_1100mrs_0:
   age: 43
   audio_keys:
   - femh/selectwav/1100mrs.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1100mrs
 femh_1100mt5_0:
   age: 43
   audio_keys:
   - femh/selectwav/1100mt5.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100mt5
 femh_1100omj_0:
   age: 70
   audio_keys:
   - femh/selectwav/1100omj.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 1100omj
 femh_1100rat_0:
   age: 41
   audio_keys:
   - femh/selectwav/1100rat.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100rat
 femh_1100tsn_0:
   age: 26
   audio_keys:
   - femh/selectwav/1100tsn.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100tsn
 femh_1100tt2_0:
   age: 30
   audio_keys:
   - femh/selectwav/1100tt2.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100tt2
 femh_1100uab_0:
   age: 69
   audio_keys:
   - femh/selectwav/1100uab.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100uab
 femh_1100ukv_0:
   age: 38
   audio_keys:
   - femh/selectwav/1100ukv.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100ukv
 femh_11011gt_0:
   age: 23
@@ -815,7 +815,7 @@ femh_11012pj_0:
   audio_keys:
   - femh/selectwav/11012pj.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 11012pj
 femh_11014cb_0:
   age: 31
@@ -829,98 +829,98 @@ femh_11014kh_0:
   audio_keys:
   - femh/selectwav/11014kh.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 11014kh
 femh_11014km_0:
   age: 33
   audio_keys:
   - femh/selectwav/11014km.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 11014km
 femh_11014l7_0:
   age: 55
   audio_keys:
   - femh/selectwav/11014l7.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 11014l7
 femh_11015lb_0:
   age: 42
   audio_keys:
   - femh/selectwav/11015lb.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11015lb
 femh_110168v_0:
   age: 65
   audio_keys:
   - femh/selectwav/110168v.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 110168v
 femh_11017jh_0:
   age: 39
   audio_keys:
   - femh/selectwav/11017jh.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 11017jh
 femh_11019sl_0:
   age: 51
   audio_keys:
   - femh/selectwav/11019sl.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11019sl
 femh_1101bu8_0:
   age: 21
   audio_keys:
   - femh/selectwav/1101bu8.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101bu8
 femh_1101cbs_0:
   age: 48
   audio_keys:
   - femh/selectwav/1101cbs.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101cbs
 femh_1101cqm_0:
   age: 48
   audio_keys:
   - femh/selectwav/1101cqm.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1101cqm
 femh_1101ds4_0:
   age: 73
   audio_keys:
   - femh/selectwav/1101ds4.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1101ds4
 femh_1101hve_0:
   age: 39
   audio_keys:
   - femh/selectwav/1101hve.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1101hve
 femh_1101k85_0:
   age: 57
   audio_keys:
   - femh/selectwav/1101k85.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101k85
 femh_1101l4o_0:
   age: 34
   audio_keys:
   - femh/selectwav/1101l4o.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1101l4o
 femh_1101mkr_0:
   age: 27
@@ -934,63 +934,63 @@ femh_1101p4t_0:
   audio_keys:
   - femh/selectwav/1101p4t.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 1101p4t
 femh_1101p6c_0:
   age: 44
   audio_keys:
   - femh/selectwav/1101p6c.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101p6c
 femh_1101rga_0:
   age: 42
   audio_keys:
   - femh/selectwav/1101rga.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1101rga
 femh_1101t8u_0:
   age: 38
   audio_keys:
   - femh/selectwav/1101t8u.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1101t8u
 femh_110244m_0:
   age: 33
   audio_keys:
   - femh/selectwav/110244m.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 110244m
 femh_11025aa_0:
   age: 44
   audio_keys:
   - femh/selectwav/11025aa.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11025aa
 femh_110270g_0:
   age: 51
   audio_keys:
   - femh/selectwav/110270g.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 110270g
 femh_11027pn_0:
   age: 48
   audio_keys:
   - femh/selectwav/11027pn.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11027pn
 femh_110296t_0:
   age: 34
   audio_keys:
   - femh/selectwav/110296t.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 110296t
 femh_1102c6i_0:
   age: 24
@@ -1004,70 +1004,70 @@ femh_1102dvv_0:
   audio_keys:
   - femh/selectwav/1102dvv.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102dvv
 femh_1102hbb_0:
   age: 46
   audio_keys:
   - femh/selectwav/1102hbb.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102hbb
 femh_1102hli_0:
   age: 29
   audio_keys:
   - femh/selectwav/1102hli.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102hli
 femh_1102hmk_0:
   age: 30
   audio_keys:
   - femh/selectwav/1102hmk.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102hmk
 femh_1102kcc_0:
   age: 36
   audio_keys:
   - femh/selectwav/1102kcc.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1102kcc
 femh_1102mbb_0:
   age: 41
   audio_keys:
   - femh/selectwav/1102mbb.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102mbb
 femh_1102mbk_0:
   age: 43
   audio_keys:
   - femh/selectwav/1102mbk.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102mbk
 femh_1102o3g_0:
   age: 66
   audio_keys:
   - femh/selectwav/1102o3g.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1102o3g
 femh_1102oi8_0:
   age: 48
   audio_keys:
   - femh/selectwav/1102oi8.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102oi8
 femh_1102sa2_0:
   age: 28
   audio_keys:
   - femh/selectwav/1102sa2.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102sa2
 femh_1102sa9_0:
   age: 39
@@ -1081,49 +1081,49 @@ femh_1102tn3_0:
   audio_keys:
   - femh/selectwav/1102tn3.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102tn3
 femh_1102vm7_0:
   age: 28
   audio_keys:
   - femh/selectwav/1102vm7.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102vm7
 femh_1103168_0:
   age: 53
   audio_keys:
   - femh/selectwav/1103168.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: '1103168'
 femh_120001s_0:
   age: 30
   audio_keys:
   - femh/selectwav/120001s.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 120001s
 femh_12000jk_0:
   age: 30
   audio_keys:
   - femh/selectwav/12000jk.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 12000jk
 femh_12000u8_0:
   age: 66
   audio_keys:
   - femh/selectwav/12000u8.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 12000u8
 femh_12001mk_0:
   age: 40
   audio_keys:
   - femh/selectwav/12001mk.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 12001mk
 femh_12002hl_0:
   age: 30
@@ -1151,14 +1151,14 @@ femh_12007bm_0:
   audio_keys:
   - femh/selectwav/12007bm.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 12007bm
 femh_1200ahd_0:
   age: 39
   audio_keys:
   - femh/selectwav/1200ahd.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1200ahd
 femh_1200kt5_0:
   age: 39
@@ -1172,35 +1172,35 @@ femh_1200meh_0:
   audio_keys:
   - femh/selectwav/1200meh.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1200meh
 femh_120169g_0:
   age: 40
   audio_keys:
   - femh/selectwav/120169g.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 120169g
 femh_1201720_0:
   age: 45
   audio_keys:
   - femh/selectwav/1201720.wav
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: '1201720'
 femh_12018r6_0:
   age: 39
   audio_keys:
   - femh/selectwav/12018r6.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 12018r6
 femh_12019oc_0:
   age: 35
   audio_keys:
   - femh/selectwav/12019oc.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 12019oc
 femh_12019od_0:
   age: 26
@@ -1214,28 +1214,28 @@ femh_1201fum_0:
   audio_keys:
   - femh/selectwav/1201fum.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1201fum
 femh_1201gaq_0:
   age: 32
   audio_keys:
   - femh/selectwav/1201gaq.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1201gaq
 femh_1201hfq_0:
   age: 37
   audio_keys:
   - femh/selectwav/1201hfq.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 1201hfq
 femh_1201j5l_0:
   age: 70
   audio_keys:
   - femh/selectwav/1201j5l.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 1201j5l
 femh_1201jho_0:
   age: 46
@@ -1249,49 +1249,49 @@ femh_1201kuh_0:
   audio_keys:
   - femh/selectwav/1201kuh.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1201kuh
 femh_1201mhi_0:
   age: 52
   audio_keys:
   - femh/selectwav/1201mhi.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1201mhi
 femh_1201pkr_0:
   age: 40
   audio_keys:
   - femh/selectwav/1201pkr.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 1201pkr
 femh_1201rbu_0:
   age: 45
   audio_keys:
   - femh/selectwav/1201rbu.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 1201rbu
 femh_1201s1c_0:
   age: 44
   audio_keys:
   - femh/selectwav/1201s1c.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1201s1c
 femh_1201tc7_0:
   age: 46
   audio_keys:
   - femh/selectwav/1201tc7.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1201tc7
 femh_1201tum_0:
   age: 43
   audio_keys:
   - femh/selectwav/1201tum.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1201tum
 femh_1201ua1_0:
   age: 37
@@ -1305,21 +1305,21 @@ femh_120246l_0:
   audio_keys:
   - femh/selectwav/120246l.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 120246l
 femh_12025mg_0:
   age: 34
   audio_keys:
   - femh/selectwav/12025mg.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 12025mg
 femh_120269s_0:
   age: 30
   audio_keys:
   - femh/selectwav/120269s.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 120269s
 femh_1202b01_0:
   age: 28
@@ -1333,112 +1333,112 @@ femh_1202clm_0:
   audio_keys:
   - femh/selectwav/1202clm.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1202clm
 femh_1202kf2_0:
   age: 55
   audio_keys:
   - femh/selectwav/1202kf2.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 1202kf2
 femh_1202kvg_0:
   age: 68
   audio_keys:
   - femh/selectwav/1202kvg.wav
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 1202kvg
 femh_1202lc4_0:
   age: 43
   audio_keys:
   - femh/selectwav/1202lc4.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1202lc4
 femh_1202n51_0:
   age: 61
   audio_keys:
   - femh/selectwav/1202n51.wav
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1202n51
 femh_1202stf_0:
   age: 28
   audio_keys:
   - femh/selectwav/1202stf.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1202stf
 femh_1202v5a_0:
   age: 40
   audio_keys:
   - femh/selectwav/1202v5a.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1202v5a
 femh_13000hi_0:
   age: 44
   audio_keys:
   - femh/selectwav/13000hi.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13000hi
 femh_13000k0_0:
   age: 37
   audio_keys:
   - femh/selectwav/13000k0.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13000k0
 femh_13002gt_0:
   age: 69
   audio_keys:
   - femh/selectwav/13002gt.wav
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 13002gt
 femh_13005dk_0:
   age: 25
   audio_keys:
   - femh/selectwav/13005dk.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13005dk
 femh_13005es_0:
   age: 51
   audio_keys:
   - femh/selectwav/13005es.wav
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 13005es
 femh_1300olo_0:
   age: 46
   audio_keys:
   - femh/selectwav/1300olo.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1300olo
 femh_1301ncd_0:
   age: 33
   audio_keys:
   - femh/selectwav/1301ncd.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1301ncd
 femh_1301ncm_0:
   age: 67
   audio_keys:
   - femh/selectwav/1301ncm.wav
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 1301ncm
 femh_1301tv6_0:
   age: 60
   audio_keys:
   - femh/selectwav/1301tv6.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1301tv6
 femh_130203u_0:
   age: 42
@@ -1452,54 +1452,54 @@ femh_130204c_0:
   audio_keys:
   - femh/selectwav/130204c.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 130204c
 femh_1302451_0:
   age: 27
   audio_keys:
   - femh/selectwav/1302451.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: '1302451'
 femh_13028ek_0:
   age: 37
   audio_keys:
   - femh/selectwav/13028ek.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13028ek
 femh_1302ckn_0:
   age: 38
   audio_keys:
   - femh/selectwav/1302ckn.wav
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1302ckn
 femh_1302j6t_0:
   age: 29
   audio_keys:
   - femh/selectwav/1302j6t.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1302j6t
 femh_1302jtq_0:
   age: 20
   audio_keys:
   - femh/selectwav/1302jtq.wav
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1302jtq
 femh_1302oal_0:
   age: 50
   audio_keys:
   - femh/selectwav/1302oal.wav
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1302oal
 femh_1302p73_0:
   age: 41
   audio_keys:
   - femh/selectwav/1302p73.wav
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1302p73

@@ -1,3 +1,18 @@
+cyst:
+  female:
+    age_stats:
+      max: 66
+      mean: 42.875
+      min: 32
+      std: 10.632497354808041
+    total: 16
+  male:
+    age_stats:
+      max: 57
+      mean: 57
+      min: 57
+      std: null
+    total: 1
 muscle_tension:
   female:
     age_stats:
@@ -6,18 +21,73 @@ muscle_tension:
       min: 23
       std: 7.763551202428388
     total: 11
-organic:
+papilloma:
+  male:
+    age_stats:
+      max: 45
+      mean: 41.5
+      min: 38
+      std: 4.949747468305833
+    total: 2
+presbyphonia:
   female:
     age_stats:
       max: 77
-      mean: 44.1025641025641
-      min: 23
-      std: 12.733624313022123
-    total: 78
+      mean: 68.55555555555556
+      min: 60
+      std: 6.207074816512024
+    total: 9
   male:
     age_stats:
       max: 67
-      mean: 48.9
+      mean: 66
+      min: 65
+      std: 1.4142135623730951
+    total: 2
+reinkes_edema:
+  female:
+    age_stats:
+      max: 59
+      mean: 44
+      min: 36
+      std: 7.524319545007682
+    total: 14
+spasmodic_dysphonia:
+  female:
+    age_stats:
+      max: 55
+      mean: 46.333333333333336
+      min: 30
+      std: 14.153915830374764
+    total: 3
+varix:
+  female:
+    age_stats:
+      max: 26
+      mean: 26
+      min: 26
+      std: null
+    total: 1
+vocal_fold_nodules:
+  female:
+    age_stats:
+      max: 49
+      mean: 35.95
+      min: 23
+      std: 7.315988259321246
+    total: 20
+vocal_fold_polyp:
+  female:
+    age_stats:
+      max: 56
+      mean: 42.46666666666667
+      min: 26
+      std: 9.2956723161654
+    total: 15
+  male:
+    age_stats:
+      max: 53
+      mean: 43.4
       min: 34
-      std: 11.229425630903835
-    total: 10
+      std: 7.021395872616783
+    total: 5

@@ -1,11 +1,19 @@
-pathological:
+muscle_tension:
+  female:
+    age_stats:
+      max: 46
+      mean: 34.45454545454545
+      min: 23
+      std: 7.763551202428388
+    total: 11
+organic:
   female:
     age_stats:
       max: 77
-      mean: 42.91011235955056
+      mean: 44.1025641025641
       min: 23
-      std: 12.606492239244863
-    total: 89
+      std: 12.733624313022123
+    total: 78
   male:
     age_stats:
       max: 67

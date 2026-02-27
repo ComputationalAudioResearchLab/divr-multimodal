@@ -11,6 +11,7 @@ from ...prepare_dataset.processed import (
 )
 import re
 
+
 class FEMH(Base):
 
     DB_NAME = "femh"
@@ -117,6 +118,7 @@ class FEMH(Base):
         ].apply(self.__clean_diagnosis)
        
         return df
+    
     def __clean_diagnosis(self, diagnosis: str) -> str:
         diagnosis = diagnosis.lower().strip()
         diagnosis = re.sub(r"[0-9\.]+", "", diagnosis)
@@ -129,13 +131,7 @@ class FEMH(Base):
 
     def __extract_smoking(self, row) -> str | None:
         possible_columns = [
-            "Smoking",
-            "smoking",
-            "Smoking history",
-            "Smoking History",
-            "smoking history",
-            "Smoke",
-            "smoke",
+            "Smoking"
         ]
         for column in possible_columns:
             if column not in row.index:

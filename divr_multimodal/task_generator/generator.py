@@ -29,13 +29,10 @@ class Generator:
     _supported_text_fields = {
         "dataset",
         "speaker_id",
-        "session_id",
         "age",
         "gender",
         "diagnosis",
-        "classification",
-        "pathologies",
-        "utterance",
+        "label",
         "smoking",
     }
 
@@ -146,6 +143,8 @@ class Generator:
                 metadata["gender"] = str(task.gender)
             if "diagnosis" not in metadata:
                 metadata["diagnosis"] = task.label.name
+            if "label" not in metadata:
+                metadata["label"] = task.label.name
 
             selected = []
             for key in text_fields:
@@ -223,4 +222,3 @@ class Generator:
                     new_tasks += [task]
             new_list += [new_tasks]
         return new_list
-0

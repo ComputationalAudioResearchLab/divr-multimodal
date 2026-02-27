@@ -1,1935 +1,1935 @@
 femh_00003h4_0:
   age: 68
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 00003h4
   text_keys:
   - femh/00003h4
   texts:
-  - age=68; gender=female
+  - age=68; gender=female; label=organic
 femh_0001hec_0:
   age: 56
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0001hec
   text_keys:
   - femh/0001hec
   texts:
-  - age=56; gender=female
+  - age=56; gender=female; label=organic
 femh_0001pvo_0:
   age: 68
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0001pvo
   text_keys:
   - femh/0001pvo
   texts:
-  - age=68; gender=female
+  - age=68; gender=female; label=organic
 femh_000205s_0:
   age: 61
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 000205s
   text_keys:
   - femh/000205s
   texts:
-  - age=61; gender=male
+  - age=61; gender=male; label=organic
 femh_0002aca_0:
   age: 63
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0002aca
   text_keys:
   - femh/0002aca
   texts:
-  - age=63; gender=female
+  - age=63; gender=female; label=organic
 femh_0100o4g_0:
   age: 72
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0100o4g
   text_keys:
   - femh/0100o4g
   texts:
-  - age=72; gender=female
+  - age=72; gender=female; label=organic
 femh_01024cj_0:
   age: 68
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 01024cj
   text_keys:
   - femh/01024cj
   texts:
-  - age=68; gender=female
+  - age=68; gender=female; label=organic
 femh_0200l33_0:
   age: 63
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0200l33
   text_keys:
   - femh/0200l33
   texts:
-  - age=63; gender=male
+  - age=63; gender=male; label=organic
 femh_0202cfe_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0202cfe
   text_keys:
   - femh/0202cfe
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_0300ahf_0:
   age: 70
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0300ahf
   text_keys:
   - femh/0300ahf
   texts:
-  - age=70; gender=female
+  - age=70; gender=female; label=organic
 femh_030208k_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 030208k
   text_keys:
   - femh/030208k
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_0302li9_0:
   age: 51
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0302li9
   text_keys:
   - femh/0302li9
   texts:
-  - age=51; gender=female
+  - age=51; gender=female; label=organic
 femh_0302pv5_0:
   age: 55
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0302pv5
   text_keys:
   - femh/0302pv5
   texts:
-  - age=55; gender=female
+  - age=55; gender=female; label=muscle_tension
 femh_0400n0h_0:
   age: 72
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0400n0h
   text_keys:
   - femh/0400n0h
   texts:
-  - age=72; gender=female
+  - age=72; gender=female; label=organic
 femh_0401h6i_0:
   age: 32
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0401h6i
   text_keys:
   - femh/0401h6i
   texts:
-  - age=32; gender=female
+  - age=32; gender=female; label=organic
 femh_0500a7j_0:
   age: 36
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0500a7j
   text_keys:
   - femh/0500a7j
   texts:
-  - age=36; gender=female
+  - age=36; gender=female; label=organic
 femh_0500nlr_0:
   age: 63
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0500nlr
   text_keys:
   - femh/0500nlr
   texts:
-  - age=63; gender=male
+  - age=63; gender=male; label=organic
 femh_050296l_0:
   age: 55
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 050296l
   text_keys:
   - femh/050296l
   texts:
-  - age=55; gender=male
+  - age=55; gender=male; label=organic
 femh_0502coa_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0502coa
   text_keys:
   - femh/0502coa
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_0502l1d_0:
   age: 56
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0502l1d
   text_keys:
   - femh/0502l1d
   texts:
-  - age=56; gender=female
+  - age=56; gender=female; label=organic
 femh_0601bcu_0:
   age: 57
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0601bcu
   text_keys:
   - femh/0601bcu
   texts:
-  - age=57; gender=female
+  - age=57; gender=female; label=organic
 femh_0601kia_0:
   age: 68
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0601kia
   text_keys:
   - femh/0601kia
   texts:
-  - age=68; gender=female
+  - age=68; gender=female; label=organic
 femh_07023sn_0:
   age: 52
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 07023sn
   text_keys:
   - femh/07023sn
   texts:
-  - age=52; gender=male
+  - age=52; gender=male; label=organic
 femh_0801ifi_0:
   age: 34
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0801ifi
   text_keys:
   - femh/0801ifi
   texts:
-  - age=34; gender=female
+  - age=34; gender=female; label=organic
 femh_0802cbi_0:
   age: 66
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0802cbi
   text_keys:
   - femh/0802cbi
   texts:
-  - age=66; gender=male
+  - age=66; gender=male; label=organic
 femh_0802hb7_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0802hb7
   text_keys:
   - femh/0802hb7
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_09012aa_0:
   age: 42
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 09012aa
   text_keys:
   - femh/09012aa
   texts:
-  - age=42; gender=male
+  - age=42; gender=male; label=organic
 femh_09012dj_0:
   age: 67
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 09012dj
   text_keys:
   - femh/09012dj
   texts:
-  - age=67; gender=female
+  - age=67; gender=female; label=organic
 femh_09017bb_0:
   age: 54
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 09017bb
   text_keys:
   - femh/09017bb
   texts:
-  - age=54; gender=female
+  - age=54; gender=female; label=organic
 femh_0901g2l_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0901g2l
   text_keys:
   - femh/0901g2l
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_0A015h2_0:
   age: 64
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0A015h2
   text_keys:
   - femh/0A015h2
   texts:
-  - age=64; gender=female
+  - age=64; gender=female; label=organic
 femh_0A01bft_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0A01bft
   text_keys:
   - femh/0A01bft
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_0B00onp_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0B00onp
   text_keys:
   - femh/0B00onp
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_0C006lk_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0C006lk
   text_keys:
   - femh/0C006lk
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_0C00p42_0:
   age: 40
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0C00p42
   text_keys:
   - femh/0C00p42
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=muscle_tension
 femh_0C01q1a_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0C01q1a
   text_keys:
   - femh/0C01q1a
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_0F02b88_0:
   age: 48
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0F02b88
   text_keys:
   - femh/0F02b88
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=muscle_tension
 femh_0F02qrc_0:
   age: 41
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0F02qrc
   text_keys:
   - femh/0F02qrc
   texts:
-  - age=41; gender=female
+  - age=41; gender=female; label=organic
 femh_0G0112e_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0G0112e
   text_keys:
   - femh/0G0112e
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_0G018t8_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0G018t8
   text_keys:
   - femh/0G018t8
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_0G01n62_0:
   age: 57
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0G01n62
   text_keys:
   - femh/0G01n62
   texts:
-  - age=57; gender=female
+  - age=57; gender=female; label=organic
 femh_0G02m0p_0:
   age: 50
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0G02m0p
   text_keys:
   - femh/0G02m0p
   texts:
-  - age=50; gender=female
+  - age=50; gender=female; label=muscle_tension
 femh_0H00crk_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H00crk
   text_keys:
   - femh/0H00crk
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_0H014nv_0:
   age: 54
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H014nv
   text_keys:
   - femh/0H014nv
   texts:
-  - age=54; gender=female
+  - age=54; gender=female; label=organic
 femh_0H027kj_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H027kj
   text_keys:
   - femh/0H027kj
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_0H02cde_0:
   age: 42
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H02cde
   text_keys:
   - femh/0H02cde
   texts:
-  - age=42; gender=female
+  - age=42; gender=female; label=organic
 femh_0H02k1b_0:
   age: 51
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H02k1b
   text_keys:
   - femh/0H02k1b
   texts:
-  - age=51; gender=female
+  - age=51; gender=female; label=organic
 femh_0H02oda_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0H02oda
   text_keys:
   - femh/0H02oda
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_0J024fq_0:
   age: 60
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0J024fq
   text_keys:
   - femh/0J024fq
   texts:
-  - age=60; gender=female
+  - age=60; gender=female; label=organic
 femh_0J02566_0:
   age: 35
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0J02566
   text_keys:
   - femh/0J02566
   texts:
-  - age=35; gender=female
+  - age=35; gender=female; label=organic
 femh_0K0097o_0:
   age: 46
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0K0097o
   text_keys:
   - femh/0K0097o
   texts:
-  - age=46; gender=male
+  - age=46; gender=male; label=organic
 femh_0K01phn_0:
   age: 67
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0K01phn
   text_keys:
   - femh/0K01phn
   texts:
-  - age=67; gender=female
+  - age=67; gender=female; label=organic
 femh_0K02k2r_0:
   age: 61
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0K02k2r
   text_keys:
   - femh/0K02k2r
   texts:
-  - age=61; gender=female
+  - age=61; gender=female; label=organic
 femh_0M009e1_0:
   age: 52
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0M009e1
   text_keys:
   - femh/0M009e1
   texts:
-  - age=52; gender=female
+  - age=52; gender=female; label=organic
 femh_0M00pnl_0:
   age: 32
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0M00pnl
   text_keys:
   - femh/0M00pnl
   texts:
-  - age=32; gender=female
+  - age=32; gender=female; label=organic
 femh_0M0125n_0:
   age: 20
   gender: male
-  label: pathological
+  label: muscle_tension
   speaker_id: 0M0125n
   text_keys:
   - femh/0M0125n
   texts:
-  - age=20; gender=male
+  - age=20; gender=male; label=muscle_tension
 femh_0M01k5l_0:
   age: 30
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0M01k5l
   text_keys:
   - femh/0M01k5l
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=muscle_tension
 femh_0R00ie0_0:
   age: 56
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0R00ie0
   text_keys:
   - femh/0R00ie0
   texts:
-  - age=56; gender=female
+  - age=56; gender=female; label=organic
 femh_0R01sin_0:
   age: 28
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0R01sin
   text_keys:
   - femh/0R01sin
   texts:
-  - age=28; gender=female
+  - age=28; gender=female; label=muscle_tension
 femh_0S001du_0:
   age: 36
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0S001du
   text_keys:
   - femh/0S001du
   texts:
-  - age=36; gender=female
+  - age=36; gender=female; label=muscle_tension
 femh_0S00agl_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0S00agl
   text_keys:
   - femh/0S00agl
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_0T0064u_0:
   age: 37
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0T0064u
   text_keys:
   - femh/0T0064u
   texts:
-  - age=37; gender=male
+  - age=37; gender=male; label=organic
 femh_0T0092q_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0T0092q
   text_keys:
   - femh/0T0092q
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_0T017ij_0:
   age: 37
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 0T017ij
   text_keys:
   - femh/0T017ij
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=muscle_tension
 femh_0W00bub_0:
   age: 55
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W00bub
   text_keys:
   - femh/0W00bub
   texts:
-  - age=55; gender=female
+  - age=55; gender=female; label=organic
 femh_0W00hqc_0:
   age: 57
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W00hqc
   text_keys:
   - femh/0W00hqc
   texts:
-  - age=57; gender=female
+  - age=57; gender=female; label=organic
 femh_0W00m9l_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W00m9l
   text_keys:
   - femh/0W00m9l
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_0W01a47_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W01a47
   text_keys:
   - femh/0W01a47
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_0W01q0t_0:
   age: 48
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W01q0t
   text_keys:
   - femh/0W01q0t
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=organic
 femh_0W01r3i_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W01r3i
   text_keys:
   - femh/0W01r3i
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_0W02hvs_0:
   age: 49
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W02hvs
   text_keys:
   - femh/0W02hvs
   texts:
-  - age=49; gender=female
+  - age=49; gender=female; label=organic
 femh_0W02ppq_0:
   age: 50
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W02ppq
   text_keys:
   - femh/0W02ppq
   texts:
-  - age=50; gender=female
+  - age=50; gender=female; label=organic
 femh_0W02vjb_0:
   age: 62
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0W02vjb
   text_keys:
   - femh/0W02vjb
   texts:
-  - age=62; gender=female
+  - age=62; gender=female; label=organic
 femh_0Y0098l_0:
   age: 70
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0Y0098l
   text_keys:
   - femh/0Y0098l
   texts:
-  - age=70; gender=male
+  - age=70; gender=male; label=organic
 femh_0Y00a1d_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y00a1d
   text_keys:
   - femh/0Y00a1d
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_0Y00eb8_0:
   age: 53
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0Y00eb8
   text_keys:
   - femh/0Y00eb8
   texts:
-  - age=53; gender=male
+  - age=53; gender=male; label=organic
 femh_0Y00ptm_0:
   age: 60
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0Y00ptm
   text_keys:
   - femh/0Y00ptm
   texts:
-  - age=60; gender=male
+  - age=60; gender=male; label=organic
 femh_0Y00r0l_0:
   age: 45
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y00r0l
   text_keys:
   - femh/0Y00r0l
   texts:
-  - age=45; gender=female
+  - age=45; gender=female; label=organic
 femh_0Y00uiq_0:
   age: 46
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0Y00uiq
   text_keys:
   - femh/0Y00uiq
   texts:
-  - age=46; gender=male
+  - age=46; gender=male; label=organic
 femh_0Y011c5_0:
   age: 54
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y011c5
   text_keys:
   - femh/0Y011c5
   texts:
-  - age=54; gender=female
+  - age=54; gender=female; label=organic
 femh_0Y0171h_0:
   age: 78
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 0Y0171h
   text_keys:
   - femh/0Y0171h
   texts:
-  - age=78; gender=male
+  - age=78; gender=male; label=organic
 femh_0Y01lbp_0:
   age: 25
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y01lbp
   text_keys:
   - femh/0Y01lbp
   texts:
-  - age=25; gender=female
+  - age=25; gender=female; label=organic
 femh_0Y020hm_0:
   age: 59
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y020hm
   text_keys:
   - femh/0Y020hm
   texts:
-  - age=59; gender=female
+  - age=59; gender=female; label=organic
 femh_0Y029vr_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y029vr
   text_keys:
   - femh/0Y029vr
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_0Y02bbb_0:
   age: 75
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 0Y02bbb
   text_keys:
   - femh/0Y02bbb
   texts:
-  - age=75; gender=female
+  - age=75; gender=female; label=organic
 femh_10000hr_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 10000hr
   text_keys:
   - femh/10000hr
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_1000cdl_0:
   age: 43
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1000cdl
   text_keys:
   - femh/1000cdl
   texts:
-  - age=43; gender=male
+  - age=43; gender=male; label=organic
 femh_1000i65_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1000i65
   text_keys:
   - femh/1000i65
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_1000n59_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1000n59
   text_keys:
   - femh/1000n59
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_1000p0e_0:
   age: 33
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1000p0e
   text_keys:
   - femh/1000p0e
   texts:
-  - age=33; gender=female
+  - age=33; gender=female; label=organic
 femh_1000pj8_0:
   age: 42
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1000pj8
   text_keys:
   - femh/1000pj8
   texts:
-  - age=42; gender=male
+  - age=42; gender=male; label=organic
 femh_1000t42_0:
   age: 29
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1000t42
   text_keys:
   - femh/1000t42
   texts:
-  - age=29; gender=female
+  - age=29; gender=female; label=muscle_tension
 femh_1001bdp_0:
   age: 40
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1001bdp
   text_keys:
   - femh/1001bdp
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=muscle_tension
 femh_1001fpr_0:
   age: 22
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1001fpr
   text_keys:
   - femh/1001fpr
   texts:
-  - age=22; gender=male
+  - age=22; gender=male; label=organic
 femh_1001fqb_0:
   age: 41
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1001fqb
   text_keys:
   - femh/1001fqb
   texts:
-  - age=41; gender=female
+  - age=41; gender=female; label=organic
 femh_1001i3p_0:
   age: 31
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1001i3p
   text_keys:
   - femh/1001i3p
   texts:
-  - age=31; gender=female
+  - age=31; gender=female; label=organic
 femh_1001i68_0:
   age: 42
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1001i68
   text_keys:
   - femh/1001i68
   texts:
-  - age=42; gender=female
+  - age=42; gender=female; label=organic
 femh_10025r6_0:
   age: 41
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 10025r6
   text_keys:
   - femh/10025r6
   texts:
-  - age=41; gender=female
+  - age=41; gender=female; label=organic
 femh_1002u49_0:
   age: 63
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1002u49
   text_keys:
   - femh/1002u49
   texts:
-  - age=63; gender=female
+  - age=63; gender=female; label=organic
 femh_11004fr_0:
   age: 52
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11004fr
   text_keys:
   - femh/11004fr
   texts:
-  - age=52; gender=female
+  - age=52; gender=female; label=organic
 femh_11006gh_0:
   age: 51
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 11006gh
   text_keys:
   - femh/11006gh
   texts:
-  - age=51; gender=male
+  - age=51; gender=male; label=organic
 femh_1100blb_0:
   age: 62
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100blb
   text_keys:
   - femh/1100blb
   texts:
-  - age=62; gender=female
+  - age=62; gender=female; label=organic
 femh_1100f0u_0:
   age: 31
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100f0u
   text_keys:
   - femh/1100f0u
   texts:
-  - age=31; gender=female
+  - age=31; gender=female; label=organic
 femh_1100f1j_0:
   age: 36
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100f1j
   text_keys:
   - femh/1100f1j
   texts:
-  - age=36; gender=female
+  - age=36; gender=female; label=organic
 femh_1100h50_0:
   age: 48
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100h50
   text_keys:
   - femh/1100h50
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=organic
 femh_1100jcs_0:
   age: 70
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100jcs
   text_keys:
   - femh/1100jcs
   texts:
-  - age=70; gender=female
+  - age=70; gender=female; label=organic
 femh_1100lnt_0:
   age: 62
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1100lnt
   text_keys:
   - femh/1100lnt
   texts:
-  - age=62; gender=male
+  - age=62; gender=male; label=organic
 femh_1100mrs_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100mrs
   text_keys:
   - femh/1100mrs
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_1100mt5_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100mt5
   text_keys:
   - femh/1100mt5
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_1100omj_0:
   age: 70
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1100omj
   text_keys:
   - femh/1100omj
   texts:
-  - age=70; gender=male
+  - age=70; gender=male; label=organic
 femh_1100rat_0:
   age: 41
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1100rat
   text_keys:
   - femh/1100rat
   texts:
-  - age=41; gender=male
+  - age=41; gender=male; label=organic
 femh_1100tsn_0:
   age: 26
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100tsn
   text_keys:
   - femh/1100tsn
   texts:
-  - age=26; gender=female
+  - age=26; gender=female; label=organic
 femh_1100tt2_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100tt2
   text_keys:
   - femh/1100tt2
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_1100uab_0:
   age: 69
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100uab
   text_keys:
   - femh/1100uab
   texts:
-  - age=69; gender=female
+  - age=69; gender=female; label=organic
 femh_1100ukv_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1100ukv
   text_keys:
   - femh/1100ukv
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_11011gt_0:
   age: 23
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 11011gt
   text_keys:
   - femh/11011gt
   texts:
-  - age=23; gender=female
+  - age=23; gender=female; label=muscle_tension
 femh_11012pj_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11012pj
   text_keys:
   - femh/11012pj
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_11014cb_0:
   age: 31
   gender: male
-  label: pathological
+  label: muscle_tension
   speaker_id: 11014cb
   text_keys:
   - femh/11014cb
   texts:
-  - age=31; gender=male
+  - age=31; gender=male; label=muscle_tension
 femh_11014kh_0:
   age: 47
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11014kh
   text_keys:
   - femh/11014kh
   texts:
-  - age=47; gender=female
+  - age=47; gender=female; label=organic
 femh_11014km_0:
   age: 33
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11014km
   text_keys:
   - femh/11014km
   texts:
-  - age=33; gender=female
+  - age=33; gender=female; label=organic
 femh_11014l7_0:
   age: 55
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11014l7
   text_keys:
   - femh/11014l7
   texts:
-  - age=55; gender=female
+  - age=55; gender=female; label=organic
 femh_11015lb_0:
   age: 42
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11015lb
   text_keys:
   - femh/11015lb
   texts:
-  - age=42; gender=female
+  - age=42; gender=female; label=organic
 femh_110168v_0:
   age: 65
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 110168v
   text_keys:
   - femh/110168v
   texts:
-  - age=65; gender=female
+  - age=65; gender=female; label=organic
 femh_11017jh_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11017jh
   text_keys:
   - femh/11017jh
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_11019sl_0:
   age: 51
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 11019sl
   text_keys:
   - femh/11019sl
   texts:
-  - age=51; gender=male
+  - age=51; gender=male; label=organic
 femh_1101bu8_0:
   age: 21
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101bu8
   text_keys:
   - femh/1101bu8
   texts:
-  - age=21; gender=female
+  - age=21; gender=female; label=organic
 femh_1101cbs_0:
   age: 48
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101cbs
   text_keys:
   - femh/1101cbs
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=organic
 femh_1101cqm_0:
   age: 48
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101cqm
   text_keys:
   - femh/1101cqm
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=organic
 femh_1101ds4_0:
   age: 73
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101ds4
   text_keys:
   - femh/1101ds4
   texts:
-  - age=73; gender=female
+  - age=73; gender=female; label=organic
 femh_1101hve_0:
   age: 39
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1101hve
   text_keys:
   - femh/1101hve
   texts:
-  - age=39; gender=male
+  - age=39; gender=male; label=organic
 femh_1101k85_0:
   age: 57
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1101k85
   text_keys:
   - femh/1101k85
   texts:
-  - age=57; gender=male
+  - age=57; gender=male; label=organic
 femh_1101l4o_0:
   age: 34
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101l4o
   text_keys:
   - femh/1101l4o
   texts:
-  - age=34; gender=female
+  - age=34; gender=female; label=organic
 femh_1101mkr_0:
   age: 27
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1101mkr
   text_keys:
   - femh/1101mkr
   texts:
-  - age=27; gender=female
+  - age=27; gender=female; label=muscle_tension
 femh_1101p4t_0:
   age: 63
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1101p4t
   text_keys:
   - femh/1101p4t
   texts:
-  - age=63; gender=male
+  - age=63; gender=male; label=organic
 femh_1101p6c_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101p6c
   text_keys:
   - femh/1101p6c
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_1101rga_0:
   age: 42
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101rga
   text_keys:
   - femh/1101rga
   texts:
-  - age=42; gender=female
+  - age=42; gender=female; label=organic
 femh_1101t8u_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1101t8u
   text_keys:
   - femh/1101t8u
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_110244m_0:
   age: 33
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 110244m
   text_keys:
   - femh/110244m
   texts:
-  - age=33; gender=male
+  - age=33; gender=male; label=organic
 femh_11025aa_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 11025aa
   text_keys:
   - femh/11025aa
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_110270g_0:
   age: 51
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 110270g
   text_keys:
   - femh/110270g
   texts:
-  - age=51; gender=female
+  - age=51; gender=female; label=organic
 femh_11027pn_0:
   age: 48
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 11027pn
   text_keys:
   - femh/11027pn
   texts:
-  - age=48; gender=male
+  - age=48; gender=male; label=organic
 femh_110296t_0:
   age: 34
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 110296t
   text_keys:
   - femh/110296t
   texts:
-  - age=34; gender=male
+  - age=34; gender=male; label=organic
 femh_1102c6i_0:
   age: 24
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1102c6i
   text_keys:
   - femh/1102c6i
   texts:
-  - age=24; gender=female
+  - age=24; gender=female; label=muscle_tension
 femh_1102dvv_0:
   age: 46
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102dvv
   text_keys:
   - femh/1102dvv
   texts:
-  - age=46; gender=female
+  - age=46; gender=female; label=organic
 femh_1102hbb_0:
   age: 46
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1102hbb
   text_keys:
   - femh/1102hbb
   texts:
-  - age=46; gender=male
+  - age=46; gender=male; label=organic
 femh_1102hli_0:
   age: 29
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102hli
   text_keys:
   - femh/1102hli
   texts:
-  - age=29; gender=female
+  - age=29; gender=female; label=organic
 femh_1102hmk_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102hmk
   text_keys:
   - femh/1102hmk
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_1102kcc_0:
   age: 36
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1102kcc
   text_keys:
   - femh/1102kcc
   texts:
-  - age=36; gender=male
+  - age=36; gender=male; label=organic
 femh_1102mbb_0:
   age: 41
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102mbb
   text_keys:
   - femh/1102mbb
   texts:
-  - age=41; gender=female
+  - age=41; gender=female; label=organic
 femh_1102mbk_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102mbk
   text_keys:
   - femh/1102mbk
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_1102o3g_0:
   age: 66
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102o3g
   text_keys:
   - femh/1102o3g
   texts:
-  - age=66; gender=female
+  - age=66; gender=female; label=organic
 femh_1102oi8_0:
   age: 48
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102oi8
   text_keys:
   - femh/1102oi8
   texts:
-  - age=48; gender=female
+  - age=48; gender=female; label=organic
 femh_1102sa2_0:
   age: 28
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102sa2
   text_keys:
   - femh/1102sa2
   texts:
-  - age=28; gender=female
+  - age=28; gender=female; label=organic
 femh_1102sa9_0:
   age: 39
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1102sa9
   text_keys:
   - femh/1102sa9
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=muscle_tension
 femh_1102tn3_0:
   age: 43
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1102tn3
   text_keys:
   - femh/1102tn3
   texts:
-  - age=43; gender=male
+  - age=43; gender=male; label=organic
 femh_1102vm7_0:
   age: 28
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1102vm7
   text_keys:
   - femh/1102vm7
   texts:
-  - age=28; gender=female
+  - age=28; gender=female; label=organic
 femh_1103168_0:
   age: 53
   gender: male
-  label: pathological
+  label: organic
   speaker_id: '1103168'
   text_keys:
   - femh/1103168
   texts:
-  - age=53; gender=male
+  - age=53; gender=male; label=organic
 femh_120001s_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 120001s
   text_keys:
   - femh/120001s
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_12000jk_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12000jk
   text_keys:
   - femh/12000jk
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_12000u8_0:
   age: 66
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 12000u8
   text_keys:
   - femh/12000u8
   texts:
-  - age=66; gender=male
+  - age=66; gender=male; label=organic
 femh_12001mk_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12001mk
   text_keys:
   - femh/12001mk
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_12002hl_0:
   age: 30
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 12002hl
   text_keys:
   - femh/12002hl
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=muscle_tension
 femh_12004a8_0:
   age: 22
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 12004a8
   text_keys:
   - femh/12004a8
   texts:
-  - age=22; gender=female
+  - age=22; gender=female; label=muscle_tension
 femh_12006hb_0:
   age: 34
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 12006hb
   text_keys:
   - femh/12006hb
   texts:
-  - age=34; gender=female
+  - age=34; gender=female; label=muscle_tension
 femh_12007bm_0:
   age: 36
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12007bm
   text_keys:
   - femh/12007bm
   texts:
-  - age=36; gender=female
+  - age=36; gender=female; label=organic
 femh_1200ahd_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1200ahd
   text_keys:
   - femh/1200ahd
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_1200kt5_0:
   age: 39
   gender: male
-  label: pathological
+  label: muscle_tension
   speaker_id: 1200kt5
   text_keys:
   - femh/1200kt5
   texts:
-  - age=39; gender=male
+  - age=39; gender=male; label=muscle_tension
 femh_1200meh_0:
   age: 35
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1200meh
   text_keys:
   - femh/1200meh
   texts:
-  - age=35; gender=female
+  - age=35; gender=female; label=organic
 femh_120169g_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 120169g
   text_keys:
   - femh/120169g
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_1201720_0:
   age: 45
   gender: female
-  label: pathological
+  label: organic
   speaker_id: '1201720'
   text_keys:
   - femh/1201720
   texts:
-  - age=45; gender=female
+  - age=45; gender=female; label=organic
 femh_12018r6_0:
   age: 39
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12018r6
   text_keys:
   - femh/12018r6
   texts:
-  - age=39; gender=female
+  - age=39; gender=female; label=organic
 femh_12019oc_0:
   age: 35
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12019oc
   text_keys:
   - femh/12019oc
   texts:
-  - age=35; gender=female
+  - age=35; gender=female; label=organic
 femh_12019od_0:
   age: 26
   gender: male
-  label: pathological
+  label: muscle_tension
   speaker_id: 12019od
   text_keys:
   - femh/12019od
   texts:
-  - age=26; gender=male
+  - age=26; gender=male; label=muscle_tension
 femh_1201fum_0:
   age: 23
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201fum
   text_keys:
   - femh/1201fum
   texts:
-  - age=23; gender=female
+  - age=23; gender=female; label=organic
 femh_1201gaq_0:
   age: 32
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201gaq
   text_keys:
   - femh/1201gaq
   texts:
-  - age=32; gender=female
+  - age=32; gender=female; label=organic
 femh_1201hfq_0:
   age: 37
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1201hfq
   text_keys:
   - femh/1201hfq
   texts:
-  - age=37; gender=male
+  - age=37; gender=male; label=organic
 femh_1201j5l_0:
   age: 70
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1201j5l
   text_keys:
   - femh/1201j5l
   texts:
-  - age=70; gender=male
+  - age=70; gender=male; label=organic
 femh_1201jho_0:
   age: 46
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1201jho
   text_keys:
   - femh/1201jho
   texts:
-  - age=46; gender=female
+  - age=46; gender=female; label=muscle_tension
 femh_1201kuh_0:
   age: 35
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201kuh
   text_keys:
   - femh/1201kuh
   texts:
-  - age=35; gender=female
+  - age=35; gender=female; label=organic
 femh_1201mhi_0:
   age: 52
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201mhi
   text_keys:
   - femh/1201mhi
   texts:
-  - age=52; gender=female
+  - age=52; gender=female; label=organic
 femh_1201pkr_0:
   age: 40
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1201pkr
   text_keys:
   - femh/1201pkr
   texts:
-  - age=40; gender=male
+  - age=40; gender=male; label=organic
 femh_1201rbu_0:
   age: 45
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201rbu
   text_keys:
   - femh/1201rbu
   texts:
-  - age=45; gender=female
+  - age=45; gender=female; label=organic
 femh_1201s1c_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201s1c
   text_keys:
   - femh/1201s1c
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_1201tc7_0:
   age: 46
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201tc7
   text_keys:
   - femh/1201tc7
   texts:
-  - age=46; gender=female
+  - age=46; gender=female; label=organic
 femh_1201tum_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1201tum
   text_keys:
   - femh/1201tum
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_1201ua1_0:
   age: 37
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1201ua1
   text_keys:
   - femh/1201ua1
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=muscle_tension
 femh_120246l_0:
   age: 47
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 120246l
   text_keys:
   - femh/120246l
   texts:
-  - age=47; gender=female
+  - age=47; gender=female; label=organic
 femh_12025mg_0:
   age: 34
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 12025mg
   text_keys:
   - femh/12025mg
   texts:
-  - age=34; gender=female
+  - age=34; gender=female; label=organic
 femh_120269s_0:
   age: 30
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 120269s
   text_keys:
   - femh/120269s
   texts:
-  - age=30; gender=female
+  - age=30; gender=female; label=organic
 femh_1202b01_0:
   age: 28
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 1202b01
   text_keys:
   - femh/1202b01
   texts:
-  - age=28; gender=female
+  - age=28; gender=female; label=muscle_tension
 femh_1202clm_0:
   age: 55
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202clm
   text_keys:
   - femh/1202clm
   texts:
-  - age=55; gender=female
+  - age=55; gender=female; label=organic
 femh_1202kf2_0:
   age: 55
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202kf2
   text_keys:
   - femh/1202kf2
   texts:
-  - age=55; gender=female
+  - age=55; gender=female; label=organic
 femh_1202kvg_0:
   age: 68
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202kvg
   text_keys:
   - femh/1202kvg
   texts:
-  - age=68; gender=female
+  - age=68; gender=female; label=organic
 femh_1202lc4_0:
   age: 43
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202lc4
   text_keys:
   - femh/1202lc4
   texts:
-  - age=43; gender=female
+  - age=43; gender=female; label=organic
 femh_1202n51_0:
   age: 61
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1202n51
   text_keys:
   - femh/1202n51
   texts:
-  - age=61; gender=male
+  - age=61; gender=male; label=organic
 femh_1202stf_0:
   age: 28
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202stf
   text_keys:
   - femh/1202stf
   texts:
-  - age=28; gender=female
+  - age=28; gender=female; label=organic
 femh_1202v5a_0:
   age: 40
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1202v5a
   text_keys:
   - femh/1202v5a
   texts:
-  - age=40; gender=female
+  - age=40; gender=female; label=organic
 femh_13000hi_0:
   age: 44
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 13000hi
   text_keys:
   - femh/13000hi
   texts:
-  - age=44; gender=female
+  - age=44; gender=female; label=organic
 femh_13000k0_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 13000k0
   text_keys:
   - femh/13000k0
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_13002gt_0:
   age: 69
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 13002gt
   text_keys:
   - femh/13002gt
   texts:
-  - age=69; gender=female
+  - age=69; gender=female; label=organic
 femh_13005dk_0:
   age: 25
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 13005dk
   text_keys:
   - femh/13005dk
   texts:
-  - age=25; gender=female
+  - age=25; gender=female; label=organic
 femh_13005es_0:
   age: 51
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 13005es
   text_keys:
   - femh/13005es
   texts:
-  - age=51; gender=male
+  - age=51; gender=male; label=organic
 femh_1300olo_0:
   age: 46
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1300olo
   text_keys:
   - femh/1300olo
   texts:
-  - age=46; gender=female
+  - age=46; gender=female; label=organic
 femh_1301ncd_0:
   age: 33
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1301ncd
   text_keys:
   - femh/1301ncd
   texts:
-  - age=33; gender=female
+  - age=33; gender=female; label=organic
 femh_1301ncm_0:
   age: 67
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1301ncm
   text_keys:
   - femh/1301ncm
   texts:
-  - age=67; gender=male
+  - age=67; gender=male; label=organic
 femh_1301tv6_0:
   age: 60
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1301tv6
   text_keys:
   - femh/1301tv6
   texts:
-  - age=60; gender=female
+  - age=60; gender=female; label=organic
 femh_130203u_0:
   age: 42
   gender: female
-  label: pathological
+  label: muscle_tension
   speaker_id: 130203u
   text_keys:
   - femh/130203u
   texts:
-  - age=42; gender=female
+  - age=42; gender=female; label=muscle_tension
 femh_130204c_0:
   age: 23
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 130204c
   text_keys:
   - femh/130204c
   texts:
-  - age=23; gender=female
+  - age=23; gender=female; label=organic
 femh_1302451_0:
   age: 27
   gender: female
-  label: pathological
+  label: organic
   speaker_id: '1302451'
   text_keys:
   - femh/1302451
   texts:
-  - age=27; gender=female
+  - age=27; gender=female; label=organic
 femh_13028ek_0:
   age: 37
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 13028ek
   text_keys:
   - femh/13028ek
   texts:
-  - age=37; gender=female
+  - age=37; gender=female; label=organic
 femh_1302ckn_0:
   age: 38
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1302ckn
   text_keys:
   - femh/1302ckn
   texts:
-  - age=38; gender=female
+  - age=38; gender=female; label=organic
 femh_1302j6t_0:
   age: 29
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1302j6t
   text_keys:
   - femh/1302j6t
   texts:
-  - age=29; gender=female
+  - age=29; gender=female; label=organic
 femh_1302jtq_0:
   age: 20
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1302jtq
   text_keys:
   - femh/1302jtq
   texts:
-  - age=20; gender=female
+  - age=20; gender=female; label=organic
 femh_1302oal_0:
   age: 50
   gender: female
-  label: pathological
+  label: organic
   speaker_id: 1302oal
   text_keys:
   - femh/1302oal
   texts:
-  - age=50; gender=female
+  - age=50; gender=female; label=organic
 femh_1302p73_0:
   age: 41
   gender: male
-  label: pathological
+  label: organic
   speaker_id: 1302p73
   text_keys:
   - femh/1302p73
   texts:
-  - age=41; gender=male
+  - age=41; gender=male; label=organic

@@ -6,6 +6,7 @@ from divr_diagnosis import diagnosis_maps
 
 from ..benchmark import Benchmark
 from ..task_generator import versions, generate_tasks
+from ..statisticalanalysis.convert_csv import convert_text_csv
 
 
 class Main(ClassArgParser):
@@ -19,6 +20,7 @@ class Main(ClassArgParser):
         data_store_path: Path,
         task_name: str = "",
         diagnosis_map: str = "USVAC_2025",
+        diag_level: int = 0,
         datasets: List[str] = [],
         text_fields: List[str] = [],
     ) -> None:
@@ -32,6 +34,8 @@ class Main(ClassArgParser):
             raise ValueError(
                 f"Invalid version ({version}). Choose from {versions}"
             )
+        if diag_level < 0:
+            raise ValueError("diag_level must be >= 0")
 
         diag_map = getattr(diagnosis_maps, diagnosis_map)(allow_unmapped=False)
         selected_datasets = datasets if len(datasets) > 0 else None
@@ -45,6 +49,7 @@ class Main(ClassArgParser):
             version=version,
             source_path=data_store_path,
             diagnosis_map=diag_map,
+            diag_level=diag_level,
             databases=selected_datasets,
             text_fields=selected_text_fields,
             task_name=selected_task_name,
@@ -102,6 +107,40 @@ class Main(ClassArgParser):
             print(f"  num texts     : {len(sample.texts)}")
             preview = sample.texts[0][:120] if len(sample.texts) > 0 else ""
             print(f"  text preview  : {preview}")
+
+    async def convert_text_csv(
+        self,
+        data_store_path: Path,
+        csv_output: Path,
+        diagnosis_map: str = "USVAC_2025",
+        diag_level: int = 0,
+        datasets: List[str] = [],
+        text_fields: List[str] = [],
+        labels: List[str] = [],
+    ) -> None:
+        if not data_store_path.is_dir():
+            raise ValueError(
+                f"data_store_path does not exist: {data_store_path}"
+            )
+        if not hasattr(diagnosis_maps, diagnosis_map):
+            raise ValueError(f"Unknown diagnosis map: {diagnosis_map}")
+        if diag_level < 0:
+            raise ValueError("diag_level must be >= 0")
+
+        diag_map = getattr(diagnosis_maps, diagnosis_map)(allow_unmapped=False)
+        selected_datasets = datasets if len(datasets) > 0 else None
+        selected_text_fields = text_fields if len(text_fields) > 0 else None
+        selected_labels = labels if len(labels) > 0 else None
+
+        await convert_text_csv(
+            source_path=data_store_path,
+            output_csv_path=csv_output,
+            diagnosis_map=diag_map,
+            diag_level=diag_level,
+            databases=selected_datasets,
+            text_fields=selected_text_fields,
+            labels=selected_labels,
+        )
 
 
 if __name__ == "__main__":
