@@ -31,7 +31,7 @@ class Generator:
         "speaker_id",
         "age",
         "gender",
-        "diagnosis",
+        "original label",
         "label",
         "smoking",
     }

@@ -50,7 +50,7 @@ class FEMH(Base):
             smoking = self.__extract_smoking(row)
             text_payload = (
                 f"dataset=femh; speaker_id={speaker_id}; "
-                f"age={age}; gender={gender}; diagnosis={diagnosis.name}"
+                f"age={age}; gender={gender}; original label={diagnosis.name}"
             )
             if smoking is not None:
                 text_payload = f"{text_payload}; smoking={smoking}"

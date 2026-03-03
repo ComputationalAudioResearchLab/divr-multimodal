@@ -82,9 +82,9 @@ class SVD(Base):
             )
             if self.__include(path):
                 text_payload = (
-                    f"dataset=svd; speaker_id={speaker_id}; session_id={session_id}; "
-                    f"age={age}; gender={gender}; classification={classification}; "
-                    f"pathologies={input_diagnosis}; utterance={file_key}"
+                    f"dataset=svd; speaker_id={speaker_id};  "
+                    f"age={age}; gender={gender}; original label={classification};  "
+                    f"utterance={file_key}"
                 )
                 texts += [
                     ProcessedText(

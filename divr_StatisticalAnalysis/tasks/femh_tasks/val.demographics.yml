@@ -1,65 +1,127 @@
+contact_granuloma:
+  male:
+    age_stats:
+      max: 68
+      mean: 53
+      min: 38
+      std: 10.690449676496975
+    total: 8
 cyst:
   female:
     age_stats:
-      max: 66
-      mean: 42.875
-      min: 32
-      std: 10.632497354808041
+      max: 60
+      mean: 43.4375
+      min: 31
+      std: 8.414025988391844
     total: 16
   male:
     age_stats:
-      max: 57
-      mean: 57
-      min: 57
+      max: 53
+      mean: 53
+      min: 53
       std: null
     total: 1
+dysplasia:
+  male:
+    age_stats:
+      max: 65
+      mean: 61.5
+      min: 58
+      std: 4.949747468305833
+    total: 2
+laryngeal cancer:
+  male:
+    age_stats:
+      max: 61
+      mean: 57
+      min: 50
+      std: 6.082762530298219
+    total: 3
 muscle_tension:
   female:
     age_stats:
-      max: 46
-      mean: 34.45454545454545
-      min: 23
-      std: 7.763551202428388
+      max: 48
+      mean: 35
+      min: 21
+      std: 8.94427190999916
     total: 11
 papilloma:
   male:
     age_stats:
-      max: 45
-      mean: 41.5
-      min: 38
-      std: 4.949747468305833
+      max: 40
+      mean: 35
+      min: 30
+      std: 7.0710678118654755
     total: 2
+paralysis:
+  female:
+    age_stats:
+      max: 66
+      mean: 56
+      min: 48
+      std: 6.658328118479393
+    total: 7
+  male:
+    age_stats:
+      max: 76
+      mean: 59.333333333333336
+      min: 50
+      std: 8.689073598491383
+    total: 9
+paresis:
+  female:
+    age_stats:
+      max: 63
+      mean: 53.4
+      min: 43
+      std: 9.6591925128346
+    total: 5
+  male:
+    age_stats:
+      max: 65
+      mean: 55.27272727272727
+      min: 41
+      std: 8.319746499634578
+    total: 11
 presbyphonia:
   female:
     age_stats:
-      max: 77
-      mean: 68.55555555555556
+      max: 71
+      mean: 67
       min: 60
-      std: 6.207074816512024
+      std: 4.301162633521313
     total: 9
   male:
     age_stats:
-      max: 67
-      mean: 66
+      max: 66
+      mean: 65.5
       min: 65
-      std: 1.4142135623730951
+      std: 0.7071067811865476
     total: 2
 reinkes_edema:
   female:
     age_stats:
-      max: 59
-      mean: 44
-      min: 36
-      std: 7.524319545007682
+      max: 56
+      mean: 42.92857142857143
+      min: 35
+      std: 6.673302558176651
     total: 14
 spasmodic_dysphonia:
   female:
     age_stats:
-      max: 55
-      mean: 46.333333333333336
+      max: 59
+      mean: 46.666666666666664
       min: 30
-      std: 14.153915830374764
+      std: 14.977761292440647
     total: 3
+ulcer:
+  female:
+    age_stats:
+      max: 48
+      mean: 35.666666666666664
+      min: 25
+      std: 10.112698288126007
+    total: 6
 varix:
   female:
     age_stats:
@@ -68,26 +130,72 @@ varix:
       min: 26
       std: null
     total: 1
+vocal_fold_atrophic:
+  female:
+    age_stats:
+      max: 60
+      mean: 54
+      min: 50
+      std: 5.291502622129181
+    total: 3
+  male:
+    age_stats:
+      max: 73
+      mean: 63.2
+      min: 51
+      std: 6.155137227204142
+    total: 15
 vocal_fold_nodules:
   female:
     age_stats:
-      max: 49
-      mean: 35.95
-      min: 23
-      std: 7.315988259321246
+      max: 48
+      mean: 36.1
+      min: 20
+      std: 7.362064927722384
     total: 20
 vocal_fold_polyp:
   female:
     age_stats:
-      max: 56
-      mean: 42.46666666666667
-      min: 26
-      std: 9.2956723161654
+      max: 58
+      mean: 42.6
+      min: 28
+      std: 8.533965750374875
     total: 15
   male:
     age_stats:
-      max: 53
-      mean: 43.4
-      min: 34
-      std: 7.021395872616783
+      max: 55
+      mean: 45
+      min: 38
+      std: 6.670832032063167
     total: 5
+vocal_fold_scar:
+  female:
+    age_stats:
+      max: 62
+      mean: 62
+      min: 62
+      std: null
+    total: 1
+vocal_fold_sulcus:
+  female:
+    age_stats:
+      max: 46
+      mean: 34
+      min: 25
+      std: 8.426149773176359
+    total: 5
+  male:
+    age_stats:
+      max: 53
+      mean: 44.142857142857146
+      min: 30
+      std: 8.029706749078105
+    total: 7
+vocal_tremor:
+  female:
+    age_stats:
+      max: 72
+      mean: 72
+      min: 72
+      std: null
+    total: 1
