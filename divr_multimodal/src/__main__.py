@@ -23,6 +23,7 @@ class Main(ClassArgParser):
         diag_level: int = 0,
         datasets: List[str] = [],
         text_fields: List[str] = [],
+        text_equals: List[str] = [],
     ) -> None:
         if not data_store_path.is_dir():
             raise ValueError(
@@ -40,6 +41,7 @@ class Main(ClassArgParser):
         diag_map = getattr(diagnosis_maps, diagnosis_map)(allow_unmapped=False)
         selected_datasets = datasets if len(datasets) > 0 else None
         selected_text_fields = text_fields if len(text_fields) > 0 else None
+        selected_text_equals = text_equals if len(text_equals) > 0 else None
 
         selected_task_name = (
             task_name.strip() if len(task_name.strip()) > 0 else None
@@ -52,6 +54,7 @@ class Main(ClassArgParser):
             diag_level=diag_level,
             databases=selected_datasets,
             text_fields=selected_text_fields,
+            text_equals=selected_text_equals,
             task_name=selected_task_name,
         )
 
@@ -116,6 +119,7 @@ class Main(ClassArgParser):
         diag_level: int = 0,
         datasets: List[str] = [],
         text_fields: List[str] = [],
+        text_equals: List[str] = [],
         labels: List[str] = [],
     ) -> None:
         if not data_store_path.is_dir():
@@ -130,6 +134,7 @@ class Main(ClassArgParser):
         diag_map = getattr(diagnosis_maps, diagnosis_map)(allow_unmapped=False)
         selected_datasets = datasets if len(datasets) > 0 else None
         selected_text_fields = text_fields if len(text_fields) > 0 else None
+        selected_text_equals = text_equals if len(text_equals) > 0 else None
         selected_labels = labels if len(labels) > 0 else None
 
         await convert_text_csv(
@@ -139,6 +144,7 @@ class Main(ClassArgParser):
             diag_level=diag_level,
             databases=selected_datasets,
             text_fields=selected_text_fields,
+            text_equals=selected_text_equals,
             labels=selected_labels,
         )
 

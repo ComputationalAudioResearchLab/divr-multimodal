@@ -47,6 +47,7 @@ class GeneratorV1(Generator):
         diagnosis_map: DiagnosisMap,
         allow_incomplete_classification: bool = False,
         text_fields: List[str] | None = None,
+        text_equals: List[str] | None = None,
     ) -> None:
         async def __database(
             name: str,
@@ -71,21 +72,25 @@ class GeneratorV1(Generator):
 
         tasks = await filter_func(__database)
         normalized_text_fields = self.normalize_text_fields(text_fields)
+        normalized_text_equals = self.normalize_text_equals(text_equals)
         task_path.mkdir(parents=True, exist_ok=True)
         self.to_task_file(
             tasks=tasks.train,
             output_path=Path(f"{task_path}/train"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )
         self.to_task_file(
             tasks=tasks.val,
             output_path=Path(f"{task_path}/val"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )
         self.to_task_file(
             tasks=tasks.test,
             output_path=Path(f"{task_path}/test"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )
 
     async def __call__(
@@ -96,12 +101,14 @@ class GeneratorV1(Generator):
         diag_level: int = 0,
         databases: List[str] | None = None,
         text_fields: List[str] | None = None,
+        text_equals: List[str] | None = None,
     ) -> None:
         print("Generating text tasks for benchmark v1")
         if diag_level < 0:
             raise ValueError("diag_level must be >= 0")
         tasks_path.mkdir(parents=True, exist_ok=True)
         normalized_text_fields = self.normalize_text_fields(text_fields)
+        normalized_text_equals = self.normalize_text_equals(text_equals)
 
         if databases is None:
             selected_databases = list(self.__db_map.keys())
@@ -146,14 +153,17 @@ class GeneratorV1(Generator):
             tasks=train_tasks,
             output_path=Path(f"{tasks_path}/train"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )
         self.to_task_file(
             tasks=val_tasks,
             output_path=Path(f"{tasks_path}/val"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )
         self.to_task_file(
             tasks=test_tasks,
             output_path=Path(f"{tasks_path}/test"),
             text_fields=normalized_text_fields,
+            text_equals=normalized_text_equals,
         )

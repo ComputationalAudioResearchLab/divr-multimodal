@@ -46,6 +46,7 @@ def task_rows(
     tasks: Iterable[Task],
     split: str,
     selected_fields: list[str],
+    text_equals: list[tuple[str | None, str, str]] | None,
     label_filter: set[str] | None,
     parser: Generator,
 ) -> list[dict[str, str]]:
@@ -56,17 +57,19 @@ def task_rows(
             continue
 
         for text_index, payload in enumerate(task.texts):
-            metadata = parser._parse_text_payload(payload=payload)
-            if "speaker_id" not in metadata:
-                metadata["speaker_id"] = str(task.speaker_id)
-            if "age" not in metadata and task.age is not None:
-                metadata["age"] = str(task.age)
-            if "gender" not in metadata:
-                metadata["gender"] = str(task.gender)
-            if "diagnosis" not in metadata:
-                metadata["diagnosis"] = label_name
-            if "label" not in metadata:
-                metadata["label"] = label_name
+            metadata = parser._task_text_metadata(task=task, payload=payload)
+
+            if text_equals is not None:
+                dataset_name = metadata.get("dataset", "").strip().lower()
+                matched = True
+                for scope, key, expected in text_equals:
+                    if scope is not None and dataset_name != scope:
+                        continue
+                    if metadata.get(key) != expected:
+                        matched = False
+                        break
+                if not matched:
+                    continue
 
             row: dict[str, str] = {
                 "split": split,
@@ -88,6 +91,7 @@ async def convert_text_csv(
     diag_level: int = 0,
     databases: list[str] | None = None,
     text_fields: list[str] | None = None,
+    text_equals: list[str] | None = None,
     labels: list[str] | None = None,
 ) -> None:
     if not source_path.is_dir():
@@ -97,6 +101,7 @@ async def convert_text_csv(
 
     parser = Generator()
     normalized_fields = parser.normalize_text_fields(text_fields)
+    normalized_equals = parser.normalize_text_equals(text_equals)
     selected_fields = (
         sorted(parser._supported_text_fields)
         if normalized_fields is None
@@ -119,6 +124,7 @@ async def convert_text_csv(
                 tasks=db.all_train(level=diag_level),
                 split="train",
                 selected_fields=selected_fields,
+                text_equals=normalized_equals,
                 label_filter=selected_labels,
                 parser=parser,
             )
@@ -128,6 +134,7 @@ async def convert_text_csv(
                 tasks=db.all_val(level=diag_level),
                 split="val",
                 selected_fields=selected_fields,
+                text_equals=normalized_equals,
                 label_filter=selected_labels,
                 parser=parser,
             )
@@ -137,6 +144,7 @@ async def convert_text_csv(
                 tasks=db.all_test(level=diag_level),
                 split="test",
                 selected_fields=selected_fields,
+                text_equals=normalized_equals,
                 label_filter=selected_labels,
                 parser=parser,
             )
@@ -159,5 +167,7 @@ async def convert_text_csv(
     print(f"rows={len(rows)}")
     if selected_labels is not None:
         print(f"label filter: {sorted(selected_labels)}")
+    if normalized_equals is not None:
+        print(f"text_equals: {normalized_equals}")
     print(f"text_fields: {selected_fields}")
     print(f"datasets: {selected_dbs}")

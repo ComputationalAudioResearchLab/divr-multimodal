@@ -74,6 +74,46 @@ python -m divr_multimodal.src inspect_task \
     --diagnosis_map USVAC_2025
 ```
 
+Filter by exact text metadata value (example: only `svd_utterance=a_n`):
+
+```sh
+python -m divr_multimodal.src generate_text_tasks \
+    v1 /home/storage/data \
+    --task_name svd_a_n \
+    --diagnosis_map USVAC_2025 \
+    --datasets svd \
+    --text_fields age gender svd_utterance \
+    --text_equals svd_utterance=a_n
+```
+
+When multiple datasets are selected, scope a filter to one dataset:
+
+```sh
+python -m divr_multimodal.src convert_text_csv \
+    /home/storage/data \
+    /home/workspace/texts.csv \
+    --diagnosis_map USVAC_2025 \
+    --diag_level 1 \
+    --datasets femh svd \
+    --text_fields dataset age gender label \
+    --labels organic \
+    --text_equals svd.svd_utterance=a_n
+```
+
+`dataset.key=value` only applies to that dataset (e.g. `svd.svd_utterance=a_n`), while plain `key=value` remains a global filter.
+
+Export CSV with the same metadata filter:
+
+```sh
+python -m divr_multimodal.src convert_text_csv \
+    /home/storage/data \
+    /home/workspace/tmp/svd_a_n.csv \
+    --diagnosis_map USVAC_2025 \
+    --datasets svd \
+    --text_fields svd_utterance label \
+    --text_equals svd_utterance=a_n
+```
+
 ## How to use
 
 This library supports:

@@ -76,19 +76,29 @@ class SVD(Base):
         input_diagnosis = pathologies if pathologies != "" else classification
         texts = []
         for file in session["files"]:
-            file_key = file.split("file=")[1]
+            file_key = file.split("file=", 1)[1]
+            file_session_id, utterance = (
+                file_key.split("-", 1)
+                if "-" in file_key
+                else (session_id, file_key)
+            )
+
             path = Path(
-                f"{source_path}/{classification}/{gender}/{speaker_id}/{session_id}/{file_key}.wav"
+                f"{source_path}/{classification}/{gender}/"
+                f"{speaker_id}/{file_session_id}/{file_key}.wav"
             )
             if self.__include(path):
                 text_payload = (
                     f"dataset=svd; speaker_id={speaker_id};  "
                     f"age={age}; gender={gender}; original label={classification};  "
-                    f"utterance={file_key}"
+                    f"svd_utterance={utterance}"
                 )
                 texts += [
                     ProcessedText(
-                        key=f"svd/{classification}/{gender}/{speaker_id}/{session_id}/{file_key}.wav",
+                        key=(
+                            f"svd/{classification}/{gender}/"
+                            f"{speaker_id}/{file_session_id}/{file_key}.wav"
+                        ),
                         text=text_payload,
                     )
                 ]

@@ -32,8 +32,14 @@ class Generator:
         "age",
         "gender",
         "original label",
+        "utterance",
+        "svd_utterance",
         "label",
         "smoking",
+    }
+    _supported_dataset_scopes = {
+        "femh",
+        "svd",
     }
 
     def to_task_file(
@@ -41,21 +47,32 @@ class Generator:
         tasks: List[Task],
         output_path: Path,
         text_fields: List[str] | None = None,
+        text_equals: list[tuple[str | None, str, str]] | None = None,
     ) -> None:
         tasks_dict = {}
+        exported_tasks: List[Task] = []
         for task in tasks:
             if len(task.text_keys) < 1:
                 raise ValueError(f"Invalid task (no text keys): {task.id}")
             if len(task.texts) < 1:
                 raise ValueError(f"Invalid task (no texts): {task.id}")
+
+            task = self._apply_text_equals(task=task, text_equals=text_equals)
+            if task is None:
+                continue
+
             task = self._apply_text_fields(task=task, text_fields=text_fields)
             task_data = task.__dict__.copy()
             del task_data["id"]
             task_data["label"] = task.label.name
             tasks_dict[task.id] = task_data
+            exported_tasks += [task]
         with open(f"{output_path}.yml", "w") as output_file:
             yaml.dump(tasks_dict, output_file)
-        self.generate_demographics(tasks=tasks, output_path=output_path)
+        self.generate_demographics(
+            tasks=exported_tasks,
+            output_path=output_path,
+        )
 
     def generate_demographics(
         self,
@@ -125,6 +142,87 @@ class Generator:
             )
         return normalized
 
+    @classmethod
+    def normalize_text_equals(
+        cls,
+        text_equals: List[str] | None,
+    ) -> list[tuple[str | None, str, str]] | None:
+        if text_equals is None:
+            return None
+
+        normalized: list[tuple[str | None, str, str]] = []
+        seen_global_keys: set[str] = set()
+        seen_scoped_keys: set[tuple[str, str]] = set()
+        for item in text_equals:
+            if item is None:
+                continue
+            entries = [entry.strip() for entry in item.split(",")]
+            for entry in entries:
+                if entry == "":
+                    continue
+                if "=" not in entry:
+                    raise ValueError(
+                        "Invalid text_equals entry. "
+                        "Expected key=value or dataset.key=value, "
+                        f"got: {entry}"
+                    )
+                key, value = entry.split("=", 1)
+                normalized_key = key.strip().lower()
+                normalized_value = value.strip()
+                if normalized_key == "":
+                    raise ValueError(
+                        f"Invalid text_equals key in entry: {entry}"
+                    )
+
+                scope: str | None = None
+                field_key = normalized_key
+                if "." in normalized_key:
+                    scope_part, field_part = normalized_key.split(".", 1)
+                    scope = scope_part.strip()
+                    field_key = field_part.strip()
+                    if scope == "" or field_key == "":
+                        raise ValueError(
+                            f"Invalid scoped text_equals key: {normalized_key}"
+                        )
+                    if scope not in cls._supported_dataset_scopes:
+                        raise ValueError(
+                            f"Unsupported text_equals scope: {scope}. "
+                            "Supported scopes: "
+                            f"{sorted(cls._supported_dataset_scopes)}"
+                        )
+
+                if field_key not in cls._supported_text_fields:
+                    raise ValueError(
+                        f"Unsupported text_equals key: {field_key}. "
+                        f"Supported: {sorted(cls._supported_text_fields)}"
+                    )
+                if normalized_value == "":
+                    raise ValueError(
+                        f"Invalid text_equals value for key: {normalized_key}"
+                    )
+
+                if scope is None:
+                    if field_key in seen_global_keys:
+                        raise ValueError(
+                            "Duplicate text_equals key is not allowed: "
+                            f"{field_key}"
+                        )
+                    seen_global_keys.add(field_key)
+                else:
+                    scoped_key = (scope, field_key)
+                    if scoped_key in seen_scoped_keys:
+                        raise ValueError(
+                            "Duplicate scoped text_equals key is not allowed: "
+                            f"{scope}.{field_key}"
+                        )
+                    seen_scoped_keys.add(scoped_key)
+
+                normalized += [(scope, field_key, normalized_value)]
+
+        if len(normalized) == 0:
+            raise ValueError("text_equals cannot be empty")
+        return normalized
+
     def _apply_text_fields(
         self,
         task: Task,
@@ -159,6 +257,51 @@ class Generator:
                 updated_texts.append(payload)
 
         task.texts = updated_texts
+        return task
+
+    def _task_text_metadata(self, task: Task, payload: str) -> dict[str, str]:
+        metadata = self._parse_text_payload(payload=payload)
+        if "speaker_id" not in metadata:
+            metadata["speaker_id"] = str(task.speaker_id)
+        if "age" not in metadata and task.age is not None:
+            metadata["age"] = str(task.age)
+        if "gender" not in metadata:
+            metadata["gender"] = str(task.gender)
+        if "diagnosis" not in metadata:
+            metadata["diagnosis"] = task.label.name
+        if "label" not in metadata:
+            metadata["label"] = task.label.name
+        return metadata
+
+    def _apply_text_equals(
+        self,
+        task: Task,
+        text_equals: list[tuple[str | None, str, str]] | None,
+    ) -> Task | None:
+        if text_equals is None:
+            return task
+
+        filtered_texts: List[str] = []
+        filtered_text_keys: List[str] = []
+        for text_key, payload in zip(task.text_keys, task.texts):
+            metadata = self._task_text_metadata(task=task, payload=payload)
+            dataset_name = metadata.get("dataset", "").strip().lower()
+            matches = True
+            for scope, key, expected in text_equals:
+                if scope is not None and dataset_name != scope:
+                    continue
+                if metadata.get(key) != expected:
+                    matches = False
+                    break
+            if matches:
+                filtered_text_keys += [text_key]
+                filtered_texts += [payload]
+
+        if len(filtered_texts) == 0:
+            return None
+
+        task.text_keys = filtered_text_keys
+        task.texts = filtered_texts
         return task
 
     def _parse_text_payload(self, payload: str) -> dict[str, str]:
