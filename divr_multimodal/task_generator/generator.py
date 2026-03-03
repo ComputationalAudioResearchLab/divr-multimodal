@@ -26,20 +26,30 @@ class Dataset:
 
 
 class Generator:
-    _supported_text_fields = {
+    _common_text_fields = {
         "dataset",
         "speaker_id",
         "age",
         "gender",
         "original label",
-        "utterance",
-        "svd_utterance",
         "label",
-        "smoking",
     }
-    _supported_dataset_scopes = {
-        "femh",
-        "svd",
+    _private_text_fields_by_dataset = {
+        "femh": {
+            "smoking",
+        },
+        "svd": {
+            "svd_utterance",
+        },
+    }
+    _supported_dataset_scopes = set(_private_text_fields_by_dataset.keys())
+    _supported_text_fields = {
+        *_common_text_fields,
+        *{
+            field
+            for fields in _private_text_fields_by_dataset.values()
+            for field in fields
+        },
     }
 
     def to_task_file(
@@ -189,6 +199,17 @@ class Generator:
                             f"Unsupported text_equals scope: {scope}. "
                             "Supported scopes: "
                             f"{sorted(cls._supported_dataset_scopes)}"
+                        )
+                    supported_scoped_fields = (
+                        cls._common_text_fields
+                        | cls._private_text_fields_by_dataset[scope]
+                    )
+                    if field_key not in supported_scoped_fields:
+                        raise ValueError(
+                            "Unsupported scoped text_equals key: "
+                            f"{scope}.{field_key}. "
+                            f"Supported for {scope}: "
+                            f"{sorted(supported_scoped_fields)}"
                         )
 
                 if field_key not in cls._supported_text_fields:
