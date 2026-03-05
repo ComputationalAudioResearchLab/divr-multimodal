@@ -38,6 +38,7 @@ class Voiced(Base):
             )
             age = int(row["Age"])
             gender = Gender.format(row["Gender"])
+            
             if allow_incomplete_classification or not diagnosis.incompletely_classified:
                 num_files = 1
                 if min_tasks is None or num_files >= min_tasks:

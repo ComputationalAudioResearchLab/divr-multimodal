@@ -31,7 +31,7 @@ class Generator:
         "speaker_id",
         "age",
         "gender",
-        "original label",
+        "original_label",
         "label",
     }
     _private_text_fields_by_dataset = {
