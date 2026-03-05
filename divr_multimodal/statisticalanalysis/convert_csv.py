@@ -6,12 +6,18 @@ from divr_diagnosis import DiagnosisMap
 
 from ..task_generator.generator import Generator
 from ..task_generator.task import Task
-from ..task_generator.databases import FEMH, SVD, Base as Database
+from ..task_generator.databases import (
+    FEMH,
+    SVD,
+    Voiced,
+    Base as Database,
+)
 
 
 DB_MAP: dict[str, type[Database]] = {
     FEMH.DB_NAME: FEMH,
     SVD.DB_NAME: SVD,
+    Voiced.DB_NAME: Voiced,
 }
 
 

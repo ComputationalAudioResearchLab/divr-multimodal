@@ -3,7 +3,7 @@ from divr_diagnosis import DiagnosisMap
 from typing import Awaitable, Callable, Dict, List
 
 from .generator import Generator, DatabaseFunc, Dataset
-from .databases import FEMH, SVD, Base as Database
+from .databases import FEMH, SVD, Voiced, Base as Database
 
 
 class GeneratorV1(Generator):
@@ -11,12 +11,13 @@ class GeneratorV1(Generator):
     __db_map = {
         FEMH.DB_NAME: FEMH,
         SVD.DB_NAME: SVD,
+        Voiced.DB_NAME: Voiced,
     }
 
     async def collect_diagnosis_terms(
         self, source_path: Path
     ) -> Dict[str, List[str]]:
-        dbs = [FEMH, SVD]
+        dbs = [FEMH, SVD, Voiced]
         terms = {}
         for db in dbs:
             db_instance = db(source_path=source_path)

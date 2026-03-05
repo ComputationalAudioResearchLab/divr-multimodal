@@ -1,13 +1,13 @@
 import pandas as pd
 from pathlib import Path
-from typing import List, Set
+from typing import List, Set, Tuple
 from divr_diagnosis import DiagnosisMap
 
 from .Base import Base
 from .gender import Gender
 from ...prepare_dataset.processed import (
     ProcessedSession,
-    ProcessedFile,
+    ProcessedText,
 )
 
 
@@ -26,22 +26,31 @@ class Voiced(Base):
         diagnosis_map: DiagnosisMap,
     ) -> List[ProcessedSession]:
         sessions = []
-        data_path, all_data = self.__read_data(source_path)
+        _, all_data = self.__read_data(source_path)
 
         for _, row in all_data.iterrows():
             speaker_id = row["ID"]
-            diagnosis = row["Diagnosis"]
+            raw_diagnosis = row["Diagnosis"]
             diagnosis = (
-                diagnosis_map[diagnosis]
-                if diagnosis in diagnosis_map
+                diagnosis_map[raw_diagnosis]
+                if raw_diagnosis in diagnosis_map
                 else diagnosis_map.unclassified
             )
             age = int(row["Age"])
             gender = Gender.format(row["Gender"])
-            
-            if allow_incomplete_classification or not diagnosis.incompletely_classified:
-                num_files = 1
-                if min_tasks is None or num_files >= min_tasks:
+
+            if (
+                allow_incomplete_classification
+                or not diagnosis.incompletely_classified
+            ):
+                text_key = f"voiced/{speaker_id}.wav"
+                text_payload = (
+                    f"dataset=voiced; speaker_id={speaker_id}; "
+                    f"age={age}; gender={gender}; "
+                    f"original_label={raw_diagnosis}"
+                )
+                num_texts = 1
+                if min_tasks is None or num_texts >= min_tasks:
                     sessions += [
                         ProcessedSession(
                             id=f"voiced_{speaker_id}",
@@ -49,20 +58,21 @@ class Voiced(Base):
                             age=age,
                             gender=gender,
                             diagnosis=[diagnosis],
-                            files=[
-                                ProcessedFile(
-                                    path=Path(f"{data_path}/{speaker_id}.wav")
+                            texts=[
+                                ProcessedText(
+                                    key=text_key,
+                                    text=text_payload,
                                 )
                             ],
-                            num_files=num_files,
+                            num_texts=num_texts,
                         )
                     ]
         return sessions
 
-    def __read_data(self, source_path):
-        data_path = f"{source_path}/voice-icar-federico-ii-database-1.0.0"
+    def __read_data(self, source_path: Path) -> Tuple[Path, pd.DataFrame]:
+        data_path = source_path / "voice-icar-federico-ii-database-1.0.0"
 
-        info_files = list(Path(data_path).rglob("*-info.txt"))
+        info_files = list(data_path.rglob("*-info.txt"))
         rows = []
         for ifile in info_files:
             df = pd.read_csv(ifile, delimiter="\t", header=None)
@@ -83,6 +93,9 @@ class Voiced(Base):
         """
         filekey = ifile.stem.removesuffix("-info")
         if row["ID"] != filekey:
-            print(f"Info: Fixing DB error where original ID={row['ID']}, ifile={ifile}")
+            print(
+                "Info: Fixing DB error where "
+                f"original ID={row['ID']}, ifile={ifile}"
+            )
             row["ID"] = filekey
         return row
