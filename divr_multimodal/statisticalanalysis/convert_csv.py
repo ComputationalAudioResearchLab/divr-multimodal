@@ -165,7 +165,11 @@ async def convert_text_csv(
     with output_csv_path.open(
         "w", encoding="utf-8", newline=""
     ) as output_file:
-        writer = csv.DictWriter(output_file, fieldnames=fieldnames)
+        writer = csv.DictWriter(
+            output_file,
+            fieldnames=fieldnames,
+            delimiter="\t",
+        )
         writer.writeheader()
         writer.writerows(rows)
 

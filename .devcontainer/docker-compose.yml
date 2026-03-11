@@ -19,13 +19,18 @@ services:
       # Mount storage and cache
       - ../.cache/s3prl:/root/.cache/s3prl/
       - "${RESEARCH_DATA_PATH}:/home/storage"
+    # Explicitly request GPU devices for this container.
     deploy:
       resources:
         reservations:
           devices:
-            - capabilities: [gpu]
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
     environment:
       - RELEASE_VERSION=v0.0.0
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
     # The following commands ensure that the container stays active
     entrypoint: bash
     stdin_open: true
