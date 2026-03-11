@@ -69,7 +69,7 @@ class FEMH(Base):
                             diagnosis=[diagnosis],  # Diagnosis list (single diagnosis)
                             texts=[
                                 ProcessedText(
-                                    key=f"femh/{speaker_id}",
+                                    text_key=f"{source_path}/selectwav/{speaker_id}.wav",
                                     text=text_payload,
                                 )
                             ],

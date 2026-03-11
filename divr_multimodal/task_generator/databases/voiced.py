@@ -43,7 +43,7 @@ class Voiced(Base):
                 allow_incomplete_classification
                 or not diagnosis.incompletely_classified
             ):
-                text_key = f"voiced/{speaker_id}.wav"
+                text_key = f"{source_path}/{speaker_id}.wav"
                 text_payload = (
                     f"dataset=voiced; speaker_id={speaker_id}; "
                     f"age={age}; gender={gender}; "
@@ -60,7 +60,7 @@ class Voiced(Base):
                             diagnosis=[diagnosis],
                             texts=[
                                 ProcessedText(
-                                    key=text_key,
+                                    text_key=text_key,
                                     text=text_payload,
                                 )
                             ],

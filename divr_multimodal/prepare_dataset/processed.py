@@ -6,13 +6,13 @@ from divr_diagnosis import Diagnosis
 
 @dataclass
 class ProcessedText:
-    key: str
+    text_key: str
     text: str
 
     @property
     def __dict__(self):
         return {
-            "key": self.key,
+            "text_key": self.text_key,
             "text": self.text,
         }
 
@@ -39,7 +39,7 @@ class ProcessedSession:
             "age": self.age,
             "gender": self.gender,
             "diagnosis": [diagnosis.name for diagnosis in self.diagnosis],
-            "texts": self.texts,
+            "texts": [text.__dict__ for text in self.texts],
             "num_texts": self.num_texts,
         }
 
@@ -79,9 +79,9 @@ class ProcessedDataset:
     def __dict__(self):
         return {
             "db_name": self.db_name,
-            "train_sessions": self.train_sessions,
-            "val_sessions": self.val_sessions,
-            "test_sessions": self.test_sessions,
+            "train_sessions": [session.__dict__ for session in self.train_sessions],
+            "val_sessions": [session.__dict__ for session in self.val_sessions],
+            "test_sessions": [session.__dict__ for session in self.test_sessions],
         }
 
     @property

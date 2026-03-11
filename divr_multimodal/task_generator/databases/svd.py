@@ -95,9 +95,9 @@ class SVD(Base):
                 )
                 texts += [
                     ProcessedText(
-                        key=(
-                            f"svd/{classification}/{gender}/"
-                            f"{speaker_id}/{file_session_id}/{file_key}"
+                        text_key=(
+                            f"{source_path}/{classification}/{gender}/"
+                            f"{speaker_id}/{file_session_id}/{file_key}.wav"
                         ),
                         text=text_payload,
                     )
