@@ -60,7 +60,7 @@ class Base:
         raise NotImplementedError()
 
     def to_text_key(self, source_text: ProcessedText) -> str:
-        return source_text.key
+        return source_text.text_key
 
     def all_train(self, level: int) -> List[Task]:
         return self.to_individual_text_tasks(
