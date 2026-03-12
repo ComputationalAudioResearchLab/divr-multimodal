@@ -4,6 +4,7 @@ import csv
 import json
 
 import torch
+from sklearn.metrics import f1_score
 from tqdm import tqdm
 
 from experiments.base.hparams import HParams
@@ -27,6 +28,7 @@ class Trainer:
         self.optimizer = hparams.optimizer
         self.unique_diagnosis = self.data_loader.unique_diagnosis
         self.best_eval_accuracy = -1.0
+        self.best_eval_macro_f1 = 0.0
         self.best_epoch = 0
         self.history: list[dict[str, float | int]] = []
         hparams.checkpoints_dir.mkdir(parents=True, exist_ok=True)
@@ -43,13 +45,14 @@ class Trainer:
             position=0,
         ):
             train_loss = self._train_loop()
-            eval_loss, eval_accuracy = self._eval_loop()
+            eval_loss, eval_accuracy, eval_macro_f1 = self._eval_loop()
             self.history.append(
                 {
                     "epoch": epoch,
                     "train_loss": train_loss,
                     "eval_loss": eval_loss,
                     "eval_accuracy": eval_accuracy,
+                    "eval_macro_f1": eval_macro_f1,
                 }
             )
             self.tboard.add_scalars(
@@ -62,11 +65,22 @@ class Trainer:
                 eval_accuracy,
                 global_step=epoch,
             )
-            self._save(epoch=epoch, eval_accuracy=eval_accuracy)
+            self.tboard.add_scalar(
+                "eval_macro_f1",
+                eval_macro_f1,
+                global_step=epoch,
+            )
+            self._save(
+                epoch=epoch,
+                eval_accuracy=eval_accuracy,
+                eval_macro_f1=eval_macro_f1,
+            )
         self._write_history()
         summary = {
             "best_epoch": self.best_epoch,
             "best_eval_accuracy": self.best_eval_accuracy,
+            "best_eval_macro_f1": self.best_eval_macro_f1,
+            "best_selection_metric": "eval_accuracy",
             "best_checkpoint": "best.pt",
         }
         with open(
@@ -97,12 +111,14 @@ class Trainer:
         return total_loss / max(1, total_batches)
 
     @torch.no_grad()
-    def _eval_loop(self) -> tuple[float, float]:
+    def _eval_loop(self) -> tuple[float, float, float]:
         self.model.eval()
         total_loss = 0.0
         total_batches = 0
         total_correct = 0
         total_items = 0
+        all_labels: list[int] = []
+        all_predictions: list[int] = []
         for batch in tqdm(
             self.data_loader.eval(),
             desc="Validating",
@@ -116,8 +132,22 @@ class Trainer:
             total_batches += 1
             total_correct += (predictions == labels).sum().item()
             total_items += labels.size(0)
+            all_labels.extend(labels.cpu().tolist())
+            all_predictions.extend(predictions.cpu().tolist())
         accuracy = total_correct / max(1, total_items)
-        return total_loss / max(1, total_batches), accuracy
+        macro_f1 = (
+            float(
+                f1_score(
+                    all_labels,
+                    all_predictions,
+                    average="macro",
+                    zero_division=0,
+                )
+            )
+            if all_labels
+            else 0.0
+        )
+        return total_loss / max(1, total_batches), accuracy, macro_f1
 
     def _forward_batch(self, batch) -> torch.Tensor:
         audio_inputs = batch.audio_inputs
@@ -143,24 +173,42 @@ class Trainer:
             return self.model(text_inputs)
         raise ValueError("Batch did not contain audio inputs or text inputs")
 
-    def _save(self, epoch: int, eval_accuracy: float) -> None:
+    def _save(
+        self,
+        epoch: int,
+        eval_accuracy: float,
+        eval_macro_f1: float,
+    ) -> None:
         if not self.hparams.save_enabled:
             return
         if epoch % self.hparams.save_every == 0:
             self.model.save(
                 epoch,
-                extra={"epoch": epoch, "eval_accuracy": eval_accuracy},
+                extra={
+                    "epoch": epoch,
+                    "eval_accuracy": eval_accuracy,
+                    "eval_macro_f1": eval_macro_f1,
+                },
             )
         if eval_accuracy >= self.best_eval_accuracy:
             self.best_eval_accuracy = eval_accuracy
+            self.best_eval_macro_f1 = eval_macro_f1
             self.best_epoch = epoch
             self.model.save(
                 "best.pt",
-                extra={"epoch": epoch, "eval_accuracy": eval_accuracy},
+                extra={
+                    "epoch": epoch,
+                    "eval_accuracy": eval_accuracy,
+                    "eval_macro_f1": eval_macro_f1,
+                },
             )
         self.model.save(
             "last.pt",
-            extra={"epoch": epoch, "eval_accuracy": eval_accuracy},
+            extra={
+                "epoch": epoch,
+                "eval_accuracy": eval_accuracy,
+                "eval_macro_f1": eval_macro_f1,
+            },
         )
 
     def _write_history(self) -> None:
@@ -173,6 +221,7 @@ class Trainer:
                     "train_loss",
                     "eval_loss",
                     "eval_accuracy",
+                    "eval_macro_f1",
                 ],
             )
             writer.writeheader()

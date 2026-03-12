@@ -1,18 +1,16 @@
 import torch
-from pathlib import Path
 from s3prl.nn import S3PRLUpstream
 from data_loader import InputTensors
-from model.savable_module import SavableModule
 
 
-class S3PrlFrozen(SavableModule):
+class S3PrlFrozen(torch.nn.Module):
     model_name: str
     device: torch.device
 
     def __init__(
-        self, model_name: str, device: torch.device, checkpoint_path: Path
+        self, model_name: str, device: torch.device
     ) -> None:
-        super().__init__(checkpoint_path=checkpoint_path)
+        super().__init__()
         self.model_name = model_name
         self.device = device
         self.model = S3PRLUpstream(self.model_name).eval().to(self.device)

@@ -15,7 +15,7 @@ The current workflow is built around task folders under `tasks/`, automatic trai
 - Save checkpoints every N epochs and always keep the best model.
 - Automatically test the best checkpoint after training.
 - Save test predictions to CSV before generating analysis artifacts.
-- Generate confusion matrices and accuracy summaries, including age-bucket accuracy when age metadata is available.
+- Generate confusion matrices plus overall accuracy and macro F1 summaries, including age-bucket accuracy when age metadata is available.
 
 ## Repository Layout
 
@@ -166,6 +166,7 @@ The training pipeline:
 
 - trains for the requested number of epochs
 - evaluates on the validation split every epoch
+- records validation accuracy and macro F1 in `results/history.csv`
 - saves `best.pt` when validation accuracy improves
 - saves `last.pt` every epoch
 - saves `epoch_XXXX.pt` every `--save-every` epochs
@@ -186,6 +187,8 @@ Outputs are written under the run directory, typically in:
 - `results/analysis/accuracy_by_label.png`
 - `results/analysis/accuracy_by_age_bucket.csv`
 - `results/analysis/accuracy_by_age_bucket.png`
+
+`results/training_summary.json` includes the best checkpoint epoch and validation metrics. `results/test_summary.json` includes the loaded checkpoint epoch plus test accuracy and macro F1.
 
 Age-bucket outputs are generated only when the task metadata contains usable age values.
 

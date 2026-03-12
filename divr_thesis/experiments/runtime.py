@@ -67,7 +67,6 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
         feature = S3PrlFrozen(
             model_name=config.feature_model,
             device=config.device,
-            checkpoint_path=config.run_dir / "feature_cache",
         )
         audio_feature_size = infer_feature_size(
             feature,

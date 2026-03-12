@@ -6,7 +6,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 import torch
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, f1_score
 from tqdm import tqdm
 
 from experiments.base.hparams import HParams
@@ -23,7 +23,10 @@ class Tester:
         hparams.analysis_dir.mkdir(parents=True, exist_ok=True)
 
     @torch.no_grad()
-    def run(self, checkpoint_name: str = "best.pt") -> dict[str, str | float]:
+    def run(
+        self,
+        checkpoint_name: str = "best.pt",
+    ) -> dict[str, str | float | int]:
         checkpoint_metadata = self.model.load(
             checkpoint_name,
             map_location=self.hparams.device,
@@ -59,10 +62,17 @@ class Tester:
         summary = self._analyze_from_csv(predictions_path)
         summary["checkpoint"] = checkpoint_name
         summary["checkpoint_epoch"] = checkpoint_metadata.get("epoch")
+        summary["checkpoint_eval_accuracy"] = checkpoint_metadata.get(
+            "eval_accuracy"
+        )
+        summary["checkpoint_eval_macro_f1"] = checkpoint_metadata.get(
+            "eval_macro_f1"
+        )
         summary_path = self.hparams.results_dir / "test_summary.json"
         with open(summary_path, "w", encoding="utf-8") as handle:
             json.dump(summary, handle, indent=2)
         return {
+            **summary,
             "predictions_csv": str(predictions_path),
             "summary_json": str(summary_path),
             "analysis_dir": str(self.hparams.analysis_dir),
@@ -92,11 +102,27 @@ class Tester:
             return self.model(text_inputs)
         raise ValueError("Batch did not contain audio inputs or text inputs")
 
-    def _analyze_from_csv(self, csv_path: Path) -> dict[str, float | str]:
+    def _analyze_from_csv(
+        self,
+        csv_path: Path,
+    ) -> dict[str, float | str | int]:
         frame = pd.read_csv(csv_path)
         frame["correct"] = frame["correct"].astype(int)
         overall_accuracy = (
             float(frame["correct"].mean()) if len(frame) else 0.0
+        )
+        overall_macro_f1 = (
+            float(
+                f1_score(
+                    frame["label"],
+                    frame["prediction"],
+                    labels=self.label_names,
+                    average="macro",
+                    zero_division=0,
+                )
+            )
+            if len(frame)
+            else 0.0
         )
         confusion = confusion_matrix(
             frame["label"],
@@ -133,6 +159,7 @@ class Tester:
 
         summary: dict[str, float | str] = {
             "overall_accuracy": overall_accuracy,
+            "overall_macro_f1": overall_macro_f1,
             "num_samples": int(len(frame)),
         }
 
