@@ -151,11 +151,20 @@ class Tester:
                     lambda value: f"{value}-{value + bucket_size - 1}"
                 )
                 age_accuracy = (
-                    age_frame.groupby("age_bucket", dropna=False)["correct"]
+                    age_frame.groupby(
+                        "age_bucket_start", dropna=False
+                    )["correct"]
                     .agg(["mean", "count"])
                     .reset_index()
                     .rename(columns={"mean": "accuracy", "count": "count"})
+                    .sort_values("age_bucket_start")
                 )
+                age_accuracy["age_bucket"] = age_accuracy[
+                    "age_bucket_start"
+                ].map(lambda value: f"{value}-{value + bucket_size - 1}")
+                age_accuracy = age_accuracy[
+                    ["age_bucket", "accuracy", "count"]
+                ]
                 age_accuracy.to_csv(
                     self.hparams.analysis_dir / "accuracy_by_age_bucket.csv",
                     index=False,
