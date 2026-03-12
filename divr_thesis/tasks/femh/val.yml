@@ -4,888 +4,888 @@ femh_0101ulg_0:
   label: organic
   speaker_id: 0101ulg
   text_keys:
-  - femh/0101ulg
+  - /home/storage/data/femh/selectwav/0101ulg.wav
   texts:
-  - age=69; gender=female; label=organic
+  - age=69; gender=female
 femh_02011hc_0:
   age: 75
   gender: female
   label: organic
   speaker_id: 02011hc
   text_keys:
-  - femh/02011hc
+  - /home/storage/data/femh/selectwav/02011hc.wav
   texts:
-  - age=75; gender=female; label=organic
+  - age=75; gender=female
 femh_0300j17_0:
   age: 57
   gender: male
   label: organic
   speaker_id: 0300j17
   text_keys:
-  - femh/0300j17
+  - /home/storage/data/femh/selectwav/0300j17.wav
   texts:
-  - age=57; gender=male; label=organic
+  - age=57; gender=male
 femh_0301889_0:
   age: 35
   gender: female
   label: organic
   speaker_id: 0301889
   text_keys:
-  - femh/0301889
+  - /home/storage/data/femh/selectwav/0301889.wav
   texts:
-  - age=35; gender=female; label=organic
+  - age=35; gender=female
 femh_07006qe_0:
   age: 65
   gender: male
   label: organic
   speaker_id: 07006qe
   text_keys:
-  - femh/07006qe
+  - /home/storage/data/femh/selectwav/07006qe.wav
   texts:
-  - age=65; gender=male; label=organic
+  - age=65; gender=male
 femh_0802gef_0:
   age: 64
   gender: female
   label: organic
   speaker_id: 0802gef
   text_keys:
-  - femh/0802gef
+  - /home/storage/data/femh/selectwav/0802gef.wav
   texts:
-  - age=64; gender=female; label=organic
+  - age=64; gender=female
 femh_0802gj3_0:
   age: 37
   gender: female
   label: organic
   speaker_id: 0802gj3
   text_keys:
-  - femh/0802gj3
+  - /home/storage/data/femh/selectwav/0802gj3.wav
   texts:
-  - age=37; gender=female; label=organic
+  - age=37; gender=female
 femh_0802m5c_0:
   age: 57
   gender: female
   label: organic
   speaker_id: 0802m5c
   text_keys:
-  - femh/0802m5c
+  - /home/storage/data/femh/selectwav/0802m5c.wav
   texts:
-  - age=57; gender=female; label=organic
+  - age=57; gender=female
 femh_0900g6t_0:
   age: 54
   gender: female
   label: organic
   speaker_id: 0900g6t
   text_keys:
-  - femh/0900g6t
+  - /home/storage/data/femh/selectwav/0900g6t.wav
   texts:
-  - age=54; gender=female; label=organic
+  - age=54; gender=female
 femh_0902e1m_0:
   age: 38
   gender: female
   label: organic
   speaker_id: 0902e1m
   text_keys:
-  - femh/0902e1m
+  - /home/storage/data/femh/selectwav/0902e1m.wav
   texts:
-  - age=38; gender=female; label=organic
+  - age=38; gender=female
 femh_0902g3q_0:
   age: 36
   gender: female
   label: organic
   speaker_id: 0902g3q
   text_keys:
-  - femh/0902g3q
+  - /home/storage/data/femh/selectwav/0902g3q.wav
   texts:
-  - age=36; gender=female; label=organic
+  - age=36; gender=female
 femh_0A00ai3_0:
   age: 38
   gender: male
   label: organic
   speaker_id: 0A00ai3
   text_keys:
-  - femh/0A00ai3
+  - /home/storage/data/femh/selectwav/0A00ai3.wav
   texts:
-  - age=38; gender=male; label=organic
+  - age=38; gender=male
 femh_0B0119v_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 0B0119v
   text_keys:
-  - femh/0B0119v
+  - /home/storage/data/femh/selectwav/0B0119v.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_0B01l4f_0:
   age: 36
   gender: female
   label: organic
   speaker_id: 0B01l4f
   text_keys:
-  - femh/0B01l4f
+  - /home/storage/data/femh/selectwav/0B01l4f.wav
   texts:
-  - age=36; gender=female; label=organic
+  - age=36; gender=female
 femh_0B0222n_0:
   age: 43
   gender: female
   label: organic
   speaker_id: 0B0222n
   text_keys:
-  - femh/0B0222n
+  - /home/storage/data/femh/selectwav/0B0222n.wav
   texts:
-  - age=43; gender=female; label=organic
+  - age=43; gender=female
 femh_0B02gv8_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 0B02gv8
   text_keys:
-  - femh/0B02gv8
+  - /home/storage/data/femh/selectwav/0B02gv8.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_0F023au_0:
   age: 39
   gender: female
   label: organic
   speaker_id: 0F023au
   text_keys:
-  - femh/0F023au
+  - /home/storage/data/femh/selectwav/0F023au.wav
   texts:
-  - age=39; gender=female; label=organic
+  - age=39; gender=female
 femh_0G02hvg_0:
   age: 46
   gender: female
   label: organic
   speaker_id: 0G02hvg
   text_keys:
-  - femh/0G02hvg
+  - /home/storage/data/femh/selectwav/0G02hvg.wav
   texts:
-  - age=46; gender=female; label=organic
+  - age=46; gender=female
 femh_0H01hrf_0:
   age: 38
   gender: female
   label: organic
   speaker_id: 0H01hrf
   text_keys:
-  - femh/0H01hrf
+  - /home/storage/data/femh/selectwav/0H01hrf.wav
   texts:
-  - age=38; gender=female; label=organic
+  - age=38; gender=female
 femh_0J02bg5_0:
   age: 45
   gender: male
   label: organic
   speaker_id: 0J02bg5
   text_keys:
-  - femh/0J02bg5
+  - /home/storage/data/femh/selectwav/0J02bg5.wav
   texts:
-  - age=45; gender=male; label=organic
+  - age=45; gender=male
 femh_0M021uc_0:
   age: 32
   gender: female
   label: organic
   speaker_id: 0M021uc
   text_keys:
-  - femh/0M021uc
+  - /home/storage/data/femh/selectwav/0M021uc.wav
   texts:
-  - age=32; gender=female; label=organic
+  - age=32; gender=female
 femh_0M02v2a_0:
   age: 59
   gender: female
   label: organic
   speaker_id: 0M02v2a
   text_keys:
-  - femh/0M02v2a
+  - /home/storage/data/femh/selectwav/0M02v2a.wav
   texts:
-  - age=59; gender=female; label=organic
+  - age=59; gender=female
 femh_0S01spi_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 0S01spi
   text_keys:
-  - femh/0S01spi
+  - /home/storage/data/femh/selectwav/0S01spi.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_0S02tsp_0:
   age: 41
   gender: female
   label: organic
   speaker_id: 0S02tsp
   text_keys:
-  - femh/0S02tsp
+  - /home/storage/data/femh/selectwav/0S02tsp.wav
   texts:
-  - age=41; gender=female; label=organic
+  - age=41; gender=female
 femh_0T01087_0:
   age: 57
   gender: female
   label: organic
   speaker_id: 0T01087
   text_keys:
-  - femh/0T01087
+  - /home/storage/data/femh/selectwav/0T01087.wav
   texts:
-  - age=57; gender=female; label=organic
+  - age=57; gender=female
 femh_0U024mj_0:
   age: 27
   gender: female
   label: muscle_tension
   speaker_id: 0U024mj
   text_keys:
-  - femh/0U024mj
+  - /home/storage/data/femh/selectwav/0U024mj.wav
   texts:
-  - age=27; gender=female; label=muscle_tension
+  - age=27; gender=female
 femh_0U02g8u_0:
   age: 77
   gender: female
   label: organic
   speaker_id: 0U02g8u
   text_keys:
-  - femh/0U02g8u
+  - /home/storage/data/femh/selectwav/0U02g8u.wav
   texts:
-  - age=77; gender=female; label=organic
+  - age=77; gender=female
 femh_0W007m3_0:
   age: 32
   gender: female
   label: muscle_tension
   speaker_id: 0W007m3
   text_keys:
-  - femh/0W007m3
+  - /home/storage/data/femh/selectwav/0W007m3.wav
   texts:
-  - age=32; gender=female; label=muscle_tension
+  - age=32; gender=female
 femh_0W01g09_0:
   age: 36
   gender: female
   label: muscle_tension
   speaker_id: 0W01g09
   text_keys:
-  - femh/0W01g09
+  - /home/storage/data/femh/selectwav/0W01g09.wav
   texts:
-  - age=36; gender=female; label=muscle_tension
+  - age=36; gender=female
 femh_0W01la0_0:
   age: 53
   gender: male
   label: organic
   speaker_id: 0W01la0
   text_keys:
-  - femh/0W01la0
+  - /home/storage/data/femh/selectwav/0W01la0.wav
   texts:
-  - age=53; gender=male; label=organic
+  - age=53; gender=male
 femh_0W0227b_0:
   age: 45
   gender: male
   label: organic
   speaker_id: 0W0227b
   text_keys:
-  - femh/0W0227b
+  - /home/storage/data/femh/selectwav/0W0227b.wav
   texts:
-  - age=45; gender=male; label=organic
+  - age=45; gender=male
 femh_0Y0006c_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 0Y0006c
   text_keys:
-  - femh/0Y0006c
+  - /home/storage/data/femh/selectwav/0Y0006c.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_0Y00qur_0:
   age: 34
   gender: male
   label: organic
   speaker_id: 0Y00qur
   text_keys:
-  - femh/0Y00qur
+  - /home/storage/data/femh/selectwav/0Y00qur.wav
   texts:
-  - age=34; gender=male; label=organic
+  - age=34; gender=male
 femh_0Y031e9_0:
   age: 37
   gender: female
   label: organic
   speaker_id: 0Y031e9
   text_keys:
-  - femh/0Y031e9
+  - /home/storage/data/femh/selectwav/0Y031e9.wav
   texts:
-  - age=37; gender=female; label=organic
+  - age=37; gender=female
 femh_10000gk_0:
   age: 43
   gender: female
   label: organic
   speaker_id: 10000gk
   text_keys:
-  - femh/10000gk
+  - /home/storage/data/femh/selectwav/10000gk.wav
   texts:
-  - age=43; gender=female; label=organic
+  - age=43; gender=female
 femh_10007ur_0:
   age: 55
   gender: female
   label: organic
   speaker_id: 10007ur
   text_keys:
-  - femh/10007ur
+  - /home/storage/data/femh/selectwav/10007ur.wav
   texts:
-  - age=55; gender=female; label=organic
+  - age=55; gender=female
 femh_1000a5n_0:
   age: 26
   gender: female
   label: muscle_tension
   speaker_id: 1000a5n
   text_keys:
-  - femh/1000a5n
+  - /home/storage/data/femh/selectwav/1000a5n.wav
   texts:
-  - age=26; gender=female; label=muscle_tension
+  - age=26; gender=female
 femh_1000jgs_0:
   age: 26
   gender: female
   label: organic
   speaker_id: 1000jgs
   text_keys:
-  - femh/1000jgs
+  - /home/storage/data/femh/selectwav/1000jgs.wav
   texts:
-  - age=26; gender=female; label=organic
+  - age=26; gender=female
 femh_10016l8_0:
   age: 67
   gender: female
   label: organic
   speaker_id: 10016l8
   text_keys:
-  - femh/10016l8
+  - /home/storage/data/femh/selectwav/10016l8.wav
   texts:
-  - age=67; gender=female; label=organic
+  - age=67; gender=female
 femh_1001hph_0:
   age: 38
   gender: female
   label: organic
   speaker_id: 1001hph
   text_keys:
-  - femh/1001hph
+  - /home/storage/data/femh/selectwav/1001hph.wav
   texts:
-  - age=38; gender=female; label=organic
+  - age=38; gender=female
 femh_1001jk3_0:
   age: 39
   gender: female
   label: muscle_tension
   speaker_id: 1001jk3
   text_keys:
-  - femh/1001jk3
+  - /home/storage/data/femh/selectwav/1001jk3.wav
   texts:
-  - age=39; gender=female; label=muscle_tension
+  - age=39; gender=female
 femh_1001kgl_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 1001kgl
   text_keys:
-  - femh/1001kgl
+  - /home/storage/data/femh/selectwav/1001kgl.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_10026m9_0:
   age: 35
   gender: female
   label: organic
   speaker_id: 10026m9
   text_keys:
-  - femh/10026m9
+  - /home/storage/data/femh/selectwav/10026m9.wav
   texts:
-  - age=35; gender=female; label=organic
+  - age=35; gender=female
 femh_1002ied_0:
   age: 49
   gender: female
   label: organic
   speaker_id: 1002ied
   text_keys:
-  - femh/1002ied
+  - /home/storage/data/femh/selectwav/1002ied.wav
   texts:
-  - age=49; gender=female; label=organic
+  - age=49; gender=female
 femh_11006ip_0:
   age: 38
   gender: female
   label: organic
   speaker_id: 11006ip
   text_keys:
-  - femh/11006ip
+  - /home/storage/data/femh/selectwav/11006ip.wav
   texts:
-  - age=38; gender=female; label=organic
+  - age=38; gender=female
 femh_1100j1i_0:
   age: 49
   gender: female
   label: organic
   speaker_id: 1100j1i
   text_keys:
-  - femh/1100j1i
+  - /home/storage/data/femh/selectwav/1100j1i.wav
   texts:
-  - age=49; gender=female; label=organic
+  - age=49; gender=female
 femh_11011sn_0:
   age: 52
   gender: female
   label: organic
   speaker_id: 11011sn
   text_keys:
-  - femh/11011sn
+  - /home/storage/data/femh/selectwav/11011sn.wav
   texts:
-  - age=52; gender=female; label=organic
+  - age=52; gender=female
 femh_11012n8_0:
   age: 67
   gender: male
   label: organic
   speaker_id: 11012n8
   text_keys:
-  - femh/11012n8
+  - /home/storage/data/femh/selectwav/11012n8.wav
   texts:
-  - age=67; gender=male; label=organic
+  - age=67; gender=male
 femh_11018as_0:
   age: 56
   gender: female
   label: organic
   speaker_id: 11018as
   text_keys:
-  - femh/11018as
+  - /home/storage/data/femh/selectwav/11018as.wav
   texts:
-  - age=56; gender=female; label=organic
+  - age=56; gender=female
 femh_1101af3_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 1101af3
   text_keys:
-  - femh/1101af3
+  - /home/storage/data/femh/selectwav/1101af3.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_1101at6_0:
   age: 43
   gender: female
   label: muscle_tension
   speaker_id: 1101at6
   text_keys:
-  - femh/1101at6
+  - /home/storage/data/femh/selectwav/1101at6.wav
   texts:
-  - age=43; gender=female; label=muscle_tension
+  - age=43; gender=female
 femh_1101l4b_0:
   age: 32
   gender: female
   label: organic
   speaker_id: 1101l4b
   text_keys:
-  - femh/1101l4b
+  - /home/storage/data/femh/selectwav/1101l4b.wav
   texts:
-  - age=32; gender=female; label=organic
+  - age=32; gender=female
 femh_1101qsp_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 1101qsp
   text_keys:
-  - femh/1101qsp
+  - /home/storage/data/femh/selectwav/1101qsp.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_1101rfa_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 1101rfa
   text_keys:
-  - femh/1101rfa
+  - /home/storage/data/femh/selectwav/1101rfa.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_1101seg_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 1101seg
   text_keys:
-  - femh/1101seg
+  - /home/storage/data/femh/selectwav/1101seg.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_110223e_0:
   age: 43
   gender: female
   label: organic
   speaker_id: 110223e
   text_keys:
-  - femh/110223e
+  - /home/storage/data/femh/selectwav/110223e.wav
   texts:
-  - age=43; gender=female; label=organic
+  - age=43; gender=female
 femh_11024iq_0:
   age: 36
   gender: female
   label: organic
   speaker_id: 11024iq
   text_keys:
-  - femh/11024iq
+  - /home/storage/data/femh/selectwav/11024iq.wav
   texts:
-  - age=36; gender=female; label=organic
+  - age=36; gender=female
 femh_110268p_0:
   age: 54
   gender: female
   label: organic
   speaker_id: 110268p
   text_keys:
-  - femh/110268p
+  - /home/storage/data/femh/selectwav/110268p.wav
   texts:
-  - age=54; gender=female; label=organic
+  - age=54; gender=female
 femh_110269b_0:
   age: 45
   gender: female
   label: organic
   speaker_id: 110269b
   text_keys:
-  - femh/110269b
+  - /home/storage/data/femh/selectwav/110269b.wav
   texts:
-  - age=45; gender=female; label=organic
+  - age=45; gender=female
 femh_11027f4_0:
   age: 40
   gender: male
   label: organic
   speaker_id: 11027f4
   text_keys:
-  - femh/11027f4
+  - /home/storage/data/femh/selectwav/11027f4.wav
   texts:
-  - age=40; gender=male; label=organic
+  - age=40; gender=male
 femh_11027gm_0:
   age: 23
   gender: female
   label: organic
   speaker_id: 11027gm
   text_keys:
-  - femh/11027gm
+  - /home/storage/data/femh/selectwav/11027gm.wav
   texts:
-  - age=23; gender=female; label=organic
+  - age=23; gender=female
 femh_1102ba0_0:
   age: 60
   gender: female
   label: organic
   speaker_id: 1102ba0
   text_keys:
-  - femh/1102ba0
+  - /home/storage/data/femh/selectwav/1102ba0.wav
   texts:
-  - age=60; gender=female; label=organic
+  - age=60; gender=female
 femh_1102c6c_0:
   age: 46
   gender: female
   label: muscle_tension
   speaker_id: 1102c6c
   text_keys:
-  - femh/1102c6c
+  - /home/storage/data/femh/selectwav/1102c6c.wav
   texts:
-  - age=46; gender=female; label=muscle_tension
+  - age=46; gender=female
 femh_1102edk_0:
   age: 36
   gender: female
   label: organic
   speaker_id: 1102edk
   text_keys:
-  - femh/1102edk
+  - /home/storage/data/femh/selectwav/1102edk.wav
   texts:
-  - age=36; gender=female; label=organic
+  - age=36; gender=female
 femh_1102eos_0:
   age: 34
   gender: female
   label: organic
   speaker_id: 1102eos
   text_keys:
-  - femh/1102eos
+  - /home/storage/data/femh/selectwav/1102eos.wav
   texts:
-  - age=34; gender=female; label=organic
+  - age=34; gender=female
 femh_1102jkl_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 1102jkl
   text_keys:
-  - femh/1102jkl
+  - /home/storage/data/femh/selectwav/1102jkl.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_1102mo3_0:
   age: 30
   gender: female
   label: organic
   speaker_id: 1102mo3
   text_keys:
-  - femh/1102mo3
+  - /home/storage/data/femh/selectwav/1102mo3.wav
   texts:
-  - age=30; gender=female; label=organic
+  - age=30; gender=female
 femh_1102rol_0:
   age: 66
   gender: female
   label: organic
   speaker_id: 1102rol
   text_keys:
-  - femh/1102rol
+  - /home/storage/data/femh/selectwav/1102rol.wav
   texts:
-  - age=66; gender=female; label=organic
+  - age=66; gender=female
 femh_1102sa1_0:
   age: 56
   gender: female
   label: organic
   speaker_id: 1102sa1
   text_keys:
-  - femh/1102sa1
+  - /home/storage/data/femh/selectwav/1102sa1.wav
   texts:
-  - age=56; gender=female; label=organic
+  - age=56; gender=female
 femh_1102sa5_0:
   age: 46
   gender: female
   label: organic
   speaker_id: 1102sa5
   text_keys:
-  - femh/1102sa5
+  - /home/storage/data/femh/selectwav/1102sa5.wav
   texts:
-  - age=46; gender=female; label=organic
+  - age=46; gender=female
 femh_1102t51_0:
   age: 47
   gender: female
   label: organic
   speaker_id: 1102t51
   text_keys:
-  - femh/1102t51
+  - /home/storage/data/femh/selectwav/1102t51.wav
   texts:
-  - age=47; gender=female; label=organic
+  - age=47; gender=female
 femh_1102tn2_0:
   age: 31
   gender: female
   label: muscle_tension
   speaker_id: 1102tn2
   text_keys:
-  - femh/1102tn2
+  - /home/storage/data/femh/selectwav/1102tn2.wav
   texts:
-  - age=31; gender=female; label=muscle_tension
+  - age=31; gender=female
 femh_1102vmh_0:
   age: 27
   gender: female
   label: organic
   speaker_id: 1102vmh
   text_keys:
-  - femh/1102vmh
+  - /home/storage/data/femh/selectwav/1102vmh.wav
   texts:
-  - age=27; gender=female; label=organic
+  - age=27; gender=female
 femh_12001o0_0:
   age: 33
   gender: female
   label: organic
   speaker_id: 12001o0
   text_keys:
-  - femh/12001o0
+  - /home/storage/data/femh/selectwav/12001o0.wav
   texts:
-  - age=33; gender=female; label=organic
+  - age=33; gender=female
 femh_12008ri_0:
   age: 26
   gender: female
   label: organic
   speaker_id: 12008ri
   text_keys:
-  - femh/12008ri
+  - /home/storage/data/femh/selectwav/12008ri.wav
   texts:
-  - age=26; gender=female; label=organic
+  - age=26; gender=female
 femh_12009rh_0:
   age: 31
   gender: female
   label: organic
   speaker_id: 12009rh
   text_keys:
-  - femh/12009rh
+  - /home/storage/data/femh/selectwav/12009rh.wav
   texts:
-  - age=31; gender=female; label=organic
+  - age=31; gender=female
 femh_12015gb_0:
   age: 65
   gender: female
   label: organic
   speaker_id: 12015gb
   text_keys:
-  - femh/12015gb
+  - /home/storage/data/femh/selectwav/12015gb.wav
   texts:
-  - age=65; gender=female; label=organic
+  - age=65; gender=female
 femh_1201ad3_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 1201ad3
   text_keys:
-  - femh/1201ad3
+  - /home/storage/data/femh/selectwav/1201ad3.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_1201msg_0:
   age: 45
   gender: male
   label: organic
   speaker_id: 1201msg
   text_keys:
-  - femh/1201msg
+  - /home/storage/data/femh/selectwav/1201msg.wav
   texts:
-  - age=45; gender=male; label=organic
+  - age=45; gender=male
 femh_1201mui_0:
   age: 30
   gender: female
   label: organic
   speaker_id: 1201mui
   text_keys:
-  - femh/1201mui
+  - /home/storage/data/femh/selectwav/1201mui.wav
   texts:
-  - age=30; gender=female; label=organic
+  - age=30; gender=female
 femh_1201rg5_0:
   age: 34
   gender: female
   label: organic
   speaker_id: 1201rg5
   text_keys:
-  - femh/1201rg5
+  - /home/storage/data/femh/selectwav/1201rg5.wav
   texts:
-  - age=34; gender=female; label=organic
+  - age=34; gender=female
 femh_12024lq_0:
   age: 30
   gender: female
   label: organic
   speaker_id: 12024lq
   text_keys:
-  - femh/12024lq
+  - /home/storage/data/femh/selectwav/12024lq.wav
   texts:
-  - age=30; gender=female; label=organic
+  - age=30; gender=female
 femh_12027pq_0:
   age: 49
   gender: female
   label: organic
   speaker_id: 12027pq
   text_keys:
-  - femh/12027pq
+  - /home/storage/data/femh/selectwav/12027pq.wav
   texts:
-  - age=49; gender=female; label=organic
+  - age=49; gender=female
 femh_120285g_0:
   age: 30
   gender: female
   label: organic
   speaker_id: 120285g
   text_keys:
-  - femh/120285g
+  - /home/storage/data/femh/selectwav/120285g.wav
   texts:
-  - age=30; gender=female; label=organic
+  - age=30; gender=female
 femh_1202hr0_0:
   age: 44
   gender: female
   label: muscle_tension
   speaker_id: 1202hr0
   text_keys:
-  - femh/1202hr0
+  - /home/storage/data/femh/selectwav/1202hr0.wav
   texts:
-  - age=44; gender=female; label=muscle_tension
+  - age=44; gender=female
 femh_1202kc5_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 1202kc5
   text_keys:
-  - femh/1202kc5
+  - /home/storage/data/femh/selectwav/1202kc5.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_1202l09_0:
   age: 32
   gender: female
   label: organic
   speaker_id: 1202l09
   text_keys:
-  - femh/1202l09
+  - /home/storage/data/femh/selectwav/1202l09.wav
   texts:
-  - age=32; gender=female; label=organic
+  - age=32; gender=female
 femh_1202uos_0:
   age: 34
   gender: female
   label: organic
   speaker_id: 1202uos
   text_keys:
-  - femh/1202uos
+  - /home/storage/data/femh/selectwav/1202uos.wav
   texts:
-  - age=34; gender=female; label=organic
+  - age=34; gender=female
 femh_13000jf_0:
   age: 61
   gender: female
   label: organic
   speaker_id: 13000jf
   text_keys:
-  - femh/13000jf
+  - /home/storage/data/femh/selectwav/13000jf.wav
   texts:
-  - age=61; gender=female; label=organic
+  - age=61; gender=female
 femh_13003p3_0:
   age: 32
   gender: female
   label: muscle_tension
   speaker_id: 13003p3
   text_keys:
-  - femh/13003p3
+  - /home/storage/data/femh/selectwav/13003p3.wav
   texts:
-  - age=32; gender=female; label=muscle_tension
+  - age=32; gender=female
 femh_13019dp_0:
   age: 41
   gender: female
   label: organic
   speaker_id: 13019dp
   text_keys:
-  - femh/13019dp
+  - /home/storage/data/femh/selectwav/13019dp.wav
   texts:
-  - age=41; gender=female; label=organic
+  - age=41; gender=female
 femh_1301evn_0:
   age: 40
   gender: female
   label: organic
   speaker_id: 1301evn
   text_keys:
-  - femh/1301evn
+  - /home/storage/data/femh/selectwav/1301evn.wav
   texts:
-  - age=40; gender=female; label=organic
+  - age=40; gender=female
 femh_1301nd3_0:
   age: 46
   gender: female
   label: organic
   speaker_id: 1301nd3
   text_keys:
-  - femh/1301nd3
+  - /home/storage/data/femh/selectwav/1301nd3.wav
   texts:
-  - age=46; gender=female; label=organic
+  - age=46; gender=female
 femh_1301tu1_0:
   age: 75
   gender: female
   label: organic
   speaker_id: 1301tu1
   text_keys:
-  - femh/1301tu1
+  - /home/storage/data/femh/selectwav/1301tu1.wav
   texts:
-  - age=75; gender=female; label=organic
+  - age=75; gender=female
 femh_13021sr_0:
   age: 69
   gender: female
   label: organic
   speaker_id: 13021sr
   text_keys:
-  - femh/13021sr
+  - /home/storage/data/femh/selectwav/13021sr.wav
   texts:
-  - age=69; gender=female; label=organic
+  - age=69; gender=female
 femh_130234l_0:
   age: 34
   gender: female
   label: organic
   speaker_id: 130234l
   text_keys:
-  - femh/130234l
+  - /home/storage/data/femh/selectwav/130234l.wav
   texts:
-  - age=34; gender=female; label=organic
+  - age=34; gender=female
 femh_130270h_0:
   age: 35
   gender: female
   label: organic
   speaker_id: 130270h
   text_keys:
-  - femh/130270h
+  - /home/storage/data/femh/selectwav/130270h.wav
   texts:
-  - age=35; gender=female; label=organic
+  - age=35; gender=female
 femh_1302c6e_0:
   age: 23
   gender: female
   label: muscle_tension
   speaker_id: 1302c6e
   text_keys:
-  - femh/1302c6e
+  - /home/storage/data/femh/selectwav/1302c6e.wav
   texts:
-  - age=23; gender=female; label=muscle_tension
+  - age=23; gender=female
 femh_1302m24_0:
   age: 27
   gender: female
   label: organic
   speaker_id: 1302m24
   text_keys:
-  - femh/1302m24
+  - /home/storage/data/femh/selectwav/1302m24.wav
   texts:
-  - age=27; gender=female; label=organic
+  - age=27; gender=female
