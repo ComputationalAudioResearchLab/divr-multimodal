@@ -49,6 +49,7 @@ class GeneratorV1(Generator):
         allow_incomplete_classification: bool = False,
         text_fields: List[str] | None = None,
         text_equals: List[str] | None = None,
+        labels: List[str] | None = None,
     ) -> None:
         async def __database(
             name: str,
@@ -74,24 +75,28 @@ class GeneratorV1(Generator):
         tasks = await filter_func(__database)
         normalized_text_fields = self.normalize_text_fields(text_fields)
         normalized_text_equals = self.normalize_text_equals(text_equals)
+        normalized_labels = self.normalize_labels(labels)
         task_path.mkdir(parents=True, exist_ok=True)
         self.to_task_file(
             tasks=tasks.train,
             output_path=Path(f"{task_path}/train"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )
         self.to_task_file(
             tasks=tasks.val,
             output_path=Path(f"{task_path}/val"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )
         self.to_task_file(
             tasks=tasks.test,
             output_path=Path(f"{task_path}/test"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )
 
     async def __call__(
@@ -103,6 +108,7 @@ class GeneratorV1(Generator):
         databases: List[str] | None = None,
         text_fields: List[str] | None = None,
         text_equals: List[str] | None = None,
+        labels: List[str] | None = None,
     ) -> None:
         print("Generating text tasks for benchmark v1")
         if diag_level < 0:
@@ -110,6 +116,7 @@ class GeneratorV1(Generator):
         tasks_path.mkdir(parents=True, exist_ok=True)
         normalized_text_fields = self.normalize_text_fields(text_fields)
         normalized_text_equals = self.normalize_text_equals(text_equals)
+        normalized_labels = self.normalize_labels(labels)
 
         if databases is None:
             selected_databases = list(self.__db_map.keys())
@@ -155,16 +162,19 @@ class GeneratorV1(Generator):
             output_path=Path(f"{tasks_path}/train"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )
         self.to_task_file(
             tasks=val_tasks,
             output_path=Path(f"{tasks_path}/val"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )
         self.to_task_file(
             tasks=test_tasks,
             output_path=Path(f"{tasks_path}/test"),
             text_fields=normalized_text_fields,
             text_equals=normalized_text_equals,
+            labels=normalized_labels,
         )

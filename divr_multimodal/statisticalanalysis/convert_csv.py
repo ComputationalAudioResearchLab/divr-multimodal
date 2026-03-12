@@ -21,16 +21,6 @@ DB_MAP: dict[str, type[Database]] = {
 }
 
 
-def parse_label_filter(labels: list[str] | None) -> set[str] | None:
-    if labels is None:
-        return None
-    parsed: set[str] = set()
-    for label in labels:
-        parts = [item.strip() for item in label.split(",")]
-        parsed.update(item for item in parts if item)
-    return parsed if len(parsed) > 0 else None
-
-
 def normalize_databases(databases: list[str] | None) -> list[str]:
     if databases is None:
         return list(DB_MAP.keys())
@@ -114,7 +104,7 @@ async def convert_text_csv(
         else normalized_fields
     )
     selected_dbs = normalize_databases(databases)
-    selected_labels = parse_label_filter(labels)
+    selected_labels = parser.normalize_labels(labels)
 
     rows: list[dict[str, str]] = []
     for db_name in selected_dbs:

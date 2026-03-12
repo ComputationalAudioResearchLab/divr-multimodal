@@ -24,6 +24,7 @@ async def generate_tasks(
     databases: list[str] | None = None,
     text_fields: list[str] | None = None,
     text_equals: list[str] | None = None,
+    labels: list[str] | None = None,
     task_name: str | None = None,
 ) -> None:
     module_path = Path(__file__).parent.parent.resolve()
@@ -37,6 +38,7 @@ async def generate_tasks(
         databases=databases,
         text_fields=text_fields,
         text_equals=text_equals,
+        labels=labels,
     )
 
 

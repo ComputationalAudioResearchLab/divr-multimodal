@@ -38,6 +38,8 @@ class Benchmark:
         diagnosis_map: DiagnosisMap,
         allow_incomplete_classification: bool,
         text_fields: list[str] | None = None,
+        text_equals: list[str] | None = None,
+        labels: list[str] | None = None,
     ) -> None:
         await self.__task_generator.generate_task(
             source_path=self.__data_path,
@@ -46,6 +48,8 @@ class Benchmark:
             diagnosis_map=diagnosis_map,
             allow_incomplete_classification=allow_incomplete_classification,
             text_fields=text_fields,
+            text_equals=text_equals,
+            labels=labels,
         )
 
     def load_task(

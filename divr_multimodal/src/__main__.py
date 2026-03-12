@@ -24,6 +24,7 @@ class Main(ClassArgParser):
         datasets: List[str] = [],
         text_fields: List[str] = [],
         text_equals: List[str] = [],
+        labels: List[str] = [],
     ) -> None:
         if not data_store_path.is_dir():
             raise ValueError(
@@ -42,6 +43,7 @@ class Main(ClassArgParser):
         selected_datasets = datasets if len(datasets) > 0 else None
         selected_text_fields = text_fields if len(text_fields) > 0 else None
         selected_text_equals = text_equals if len(text_equals) > 0 else None
+        selected_labels = labels if len(labels) > 0 else None
 
         selected_task_name = (
             task_name.strip() if len(task_name.strip()) > 0 else None
@@ -55,6 +57,7 @@ class Main(ClassArgParser):
             databases=selected_datasets,
             text_fields=selected_text_fields,
             text_equals=selected_text_equals,
+            labels=selected_labels,
             task_name=selected_task_name,
         )
 

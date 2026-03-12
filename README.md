@@ -86,6 +86,18 @@ python -m divr_multimodal.src generate_text_tasks \
     --text_equals svd_utterance=a_n
 ```
 
+Filter generated tasks by label at the same time:
+
+```sh
+python -m divr_multimodal.src generate_text_tasks \
+    v1 /home/storage/data \
+    --task_name organic_only \
+    --diagnosis_map USVAC_2025 \
+    --datasets femh svd \
+    --labels organic \
+    --text_fields dataset age gender label
+```
+
 When multiple datasets are selected, scope a filter to one dataset:
 
 ```sh

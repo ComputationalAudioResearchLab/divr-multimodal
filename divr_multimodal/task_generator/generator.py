@@ -59,10 +59,13 @@ class Generator:
         output_path: Path,
         text_fields: List[str] | None = None,
         text_equals: list[tuple[str | None, str, str]] | None = None,
+        labels: set[str] | None = None,
     ) -> None:
         tasks_dict = {}
         exported_tasks: List[Task] = []
         for task in tasks:
+            if labels is not None and task.label.name not in labels:
+                continue
             if len(task.text_keys) < 1:
                 raise ValueError(f"Invalid task (no text keys): {task.id}")
             if len(task.texts) < 1:
@@ -244,6 +247,23 @@ class Generator:
         if len(normalized) == 0:
             raise ValueError("text_equals cannot be empty")
         return normalized
+
+    @classmethod
+    def normalize_labels(
+        cls,
+        labels: List[str] | None,
+    ) -> set[str] | None:
+        if labels is None:
+            return None
+
+        normalized: set[str] = set()
+        for label in labels:
+            if label is None:
+                continue
+            entries = [entry.strip() for entry in label.split(",")]
+            normalized.update(entry for entry in entries if entry)
+
+        return normalized if len(normalized) > 0 else None
 
     def _apply_text_fields(
         self,
