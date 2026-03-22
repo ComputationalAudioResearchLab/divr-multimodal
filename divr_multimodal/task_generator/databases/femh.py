@@ -47,14 +47,12 @@ class FEMH(Base):
             # Extract patient basic information
             age = int(row["Age"])  # Age, converted to integer
             gender = Gender.format(row["Sex"])  # Gender, standardized format
-            smoking = self.__extract_smoking(row)
+            smoking = int(row["Smoking"])
             text_payload = (
                 f"dataset=femh; speaker_id={speaker_id}; "
-                f"age={age}; gender={gender}; original_label={diagnosis.name}"
+                f"age={age}; gender={gender}; original_label={diagnosis.name};"
+                f"smoking={smoking}"
             )
-            if smoking is not None:
-                text_payload = f"{text_payload}; smoking={smoking}"
-
             # Decide whether to include this data based on classification completeness
             if allow_incomplete_classification or not diagnosis.incompletely_classified:
                 num_texts = 1
@@ -100,15 +98,12 @@ class FEMH(Base):
             FileNotFoundError: When Excel file is not found
             ValueError: When Excel file column structure doesn't match expectations
         """
-       
-
-        
 
         # Read Excel file (contains 2001 rows: 1 header row + 2000 data rows)
         df = pd.read_excel(f"{source_path}/selectwav/medicalhistory.xlsx")
 
-        # Keep only the four required columns
-        df = df[["ID", "Sex", "Age", "Disease category"]]
+        # Keep only the five required columns
+        df = df[["ID", "Sex", "Age", "Smoking", "Disease category"]]
 
         # Convert gender column to string type, convert 1 and 2 to 'male' and 'female'
         df["Sex"] = df["Sex"].astype(str).apply(self.__clean_sex)
@@ -129,16 +124,4 @@ class FEMH(Base):
         sex = sex.replace("1", "male").replace("2", "female")
         return sex
 
-    def __extract_smoking(self, row) -> str | None:
-        possible_columns = [
-            "Smoking"
-        ]
-        for column in possible_columns:
-            if column not in row.index:
-                continue
-            value = row[column]
-            if pd.isna(value):
-                return None
-            normalized = str(value).strip()
-            return normalized if normalized != "" else None
-        return None
+    
