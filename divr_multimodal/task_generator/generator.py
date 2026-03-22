@@ -41,7 +41,9 @@ class Generator:
         "svd": {
             "svd_utterance",
         },
-        "voiced": set(),
+        "voiced": {
+            "smoker",
+        },
     }
     _supported_dataset_scopes = set(_private_text_fields_by_dataset.keys())
     _supported_text_fields = {

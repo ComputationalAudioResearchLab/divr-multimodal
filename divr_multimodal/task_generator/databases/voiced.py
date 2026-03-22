@@ -47,7 +47,8 @@ class Voiced(Base):
                 text_payload = (
                     f"dataset=voiced; speaker_id={speaker_id}; "
                     f"age={age}; gender={gender}; "
-                    f"original_label={raw_diagnosis}"
+                    f"original_label={raw_diagnosis}; "
+                    f"smoker={row['Smoker']}"
                 )
                 num_texts = 1
                 if min_tasks is None or num_texts >= min_tasks:
@@ -83,8 +84,9 @@ class Voiced(Base):
             row = self.__fix_errors(ifile, row)
             rows += [row]
         all_data = pd.DataFrame(rows)
-        all_data = all_data[["ID", "Diagnosis", "Gender", "Age"]]
+        all_data = all_data[["ID", "Diagnosis", "Gender", "Age", "Smoker"]]
         all_data["Diagnosis"] = all_data["Diagnosis"].str.lower().str.strip()
+        all_data['Smoker'] = all_data['Smoker'].str.lower().str.strip()
         return data_path, all_data
 
     def __fix_errors(self, ifile: Path, row: pd.Series) -> pd.Series:
