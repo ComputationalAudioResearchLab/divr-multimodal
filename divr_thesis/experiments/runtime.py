@@ -14,10 +14,9 @@ from experiments.base.hparams import HParams
 from experiments.base.tester import Tester
 from experiments.base.trainer import Trainer
 from model import (
+    AudioEncoder,
     AudioClassifier,
     AudioTextClassifier,
-    S3PrlFrozen,
-    TextClassifier,
 )
 
 
@@ -43,7 +42,7 @@ class RunConfig:
 
 
 def run_experiment(config: RunConfig) -> dict[str, object]:
-    include_audio = config.combine_mode != "text"
+    include_audio = True
     include_text = config.combine_mode != "audio"
     text_fields = config.text_fields if include_text else None
     text_equals = config.text_equals if include_text else None
@@ -59,20 +58,17 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
         num_workers=config.num_workers,
     )
 
-    feature = None
-    audio_feature_size = None
-    if include_audio:
-        if not config.feature_model:
-            raise ValueError("Audio-enabled runs require --feature-model")
-        feature = S3PrlFrozen(
-            model_name=config.feature_model,
-            device=config.device,
-        )
-        audio_feature_size = infer_feature_size(
-            feature,
-            data_module,
-            config.device,
-        )
+    if not config.feature_model:
+        raise ValueError("This experiment always requires --feature-model")
+    feature = AudioEncoder(
+        model_name=config.feature_model,
+        device=config.device,
+    )
+    audio_feature_size = infer_feature_size(
+        feature,
+        data_module,
+        config.device,
+    )
 
     checkpoints_dir = config.run_dir / "checkpoints"
     if config.combine_mode == "audio":
@@ -83,15 +79,12 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
             checkpoint_path=checkpoints_dir,
         )
         model_name = f"audio_{config.feature_model}"
-    elif config.combine_mode == "text":
-        model = TextClassifier(
-            vocab_size=data_module.text_vocab_size,
-            text_embedding_dim=config.text_embedding_dim,
-            num_classes=len(data_module.label_names),
-            checkpoint_path=checkpoints_dir,
-        )
-        model_name = "text_only"
-    else:
+    elif config.combine_mode in {
+        "concatenation",
+        "cross_attention",
+        "gated",
+        "film",
+    }:
         assert audio_feature_size is not None
         model = AudioTextClassifier(
             input_size=audio_feature_size,
@@ -102,6 +95,8 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
             fusion_type=config.combine_mode,
         )
         model_name = f"{config.feature_model}_{config.combine_mode}"
+    else:
+        raise ValueError(f"Unsupported combine_mode: {config.combine_mode}")
 
     class_weights = (
         data_module.class_counts.sum()
@@ -151,7 +146,7 @@ def build_run_dir(
     combine_mode: str,
 ) -> Path:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    model_key = feature_model or "text"
+    model_key = feature_model or "audio"
     return (
         project_root
         / ".cache"
@@ -161,7 +156,7 @@ def build_run_dir(
 
 
 def infer_feature_size(
-    feature: S3PrlFrozen,
+    feature: AudioEncoder,
     data_module: TaskDataModule,
     device: torch.device,
 ) -> int:

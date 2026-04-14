@@ -31,8 +31,8 @@ def parse_args() -> argparse.Namespace:
         type=str,
         default="wavlm_base",
         help=(
-            "S3PRL upstream model name. Required for audio or "
-            "multimodal runs."
+            "Audio pretrained model name. Supports S3PRL names and "
+            "aliases: hear (Google heAR), clap."
         ),
     )
     parser.add_argument(
@@ -41,15 +41,14 @@ def parse_args() -> argparse.Namespace:
         default="concatenation",
         choices=[
             "audio",
-            "text",
             "concatenation",
             "cross_attention",
             "gated",
             "film",
         ],
         help=(
-            "Use audio only, text only, or a specific audio-text "
-            "fusion method."
+            "Use audio only or a specific audio-text fusion method. "
+            "Audio is always required."
         ),
     )
     parser.add_argument("--epochs", type=int, default=100)
@@ -132,8 +131,6 @@ def main() -> None:
         raise FileNotFoundError(f"Task directory does not exist: {task_dir}")
 
     feature_model = args.feature_model
-    if args.combine_mode == "text":
-        feature_model = None
 
     text_fields = args.text_fields
     text_equals = args.text_equals

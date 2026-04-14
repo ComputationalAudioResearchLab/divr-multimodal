@@ -1,6 +1,6 @@
 # DIVR Thesis
 
-This repository provides a unified entry point for running audio, text, and audio-text classification experiments directly from `src/__main__.py`.
+This repository provides a unified entry point for running audio and audio-text classification experiments directly from `src/__main__.py`.
 
 The current workflow is built around task folders under `tasks/`, automatic training and validation, periodic and best-checkpoint saving, automatic testing after training, and CSV-first analysis outputs.
 
@@ -8,9 +8,8 @@ The current workflow is built around task folders under `tasks/`, automatic trai
 
 - Run experiments from a single CLI entry point.
 - Read datasets directly from `tasks/<task_name>/train.yml`, `val.yml`, and `test.yml`.
-- Support three experiment modes:
+- Support experiment modes with mandatory audio input:
   - audio only
-  - text only
   - audio + text fusion
 - Save checkpoints every N epochs and always keep the best model.
 - Automatically test the best checkpoint after training.
@@ -37,6 +36,7 @@ Core packages used by the current pipeline:
 - `torchaudio`
 - `librosa`
 - `s3prl`
+- `transformers`
 - `PyYAML`
 - `pandas`
 - `matplotlib`
@@ -93,8 +93,8 @@ python src/__main__.py --list-tasks
 ## Main Options
 
 - `--task-dir`: path to a task folder
-- `--combine-mode`: one of `audio`, `text`, `concatenation`, `cross_attention`, `gated`, `film`
-- `--feature-model`: S3PRL upstream model name for audio or multimodal runs
+- `--combine-mode`: one of `audio`, `concatenation`, `cross_attention`, `gated`, `film`
+- `--feature-model`: audio pretrained model name (S3PRL upstream name, HuggingFace model ID, or aliases `hear`/`clap`)
 - `--epochs`: number of training epochs
 - `--batch-size`: batch size
 - `--learning-rate`: optimizer learning rate
@@ -108,7 +108,7 @@ python src/__main__.py --list-tasks
 Notes:
 
 - In `audio` mode, `--text-fields` and `--text-equals` are ignored.
-- In `text` mode, `--feature-model` is not used.
+- This experiment always requires audio input and `--feature-model`.
 
 ## Example Commands
 
@@ -122,17 +122,6 @@ python src/__main__.py \
   --epochs 50 \
   --save-every 10 \
   --batch-size 16
-```
-
-Text only:
-
-```bash
-python src/__main__.py \
-  --task-dir tasks/femh \
-  --combine-mode text \
-  --text-fields age gender \
-  --epochs 50 \
-  --save-every 10
 ```
 
 Audio + text with concatenation fusion:
@@ -153,9 +142,16 @@ Filter text payloads:
 ```bash
 python src/__main__.py \
   --task-dir tasks/femh \
-  --combine-mode text \
+  --combine-mode concatenation \
+  --feature-model hear \
   --text-fields age gender \
   --text-equals gender=female
+
+Model selection behavior:
+
+- `hear` and `clap` use HuggingFace audio models (Google heAR and LAION CLAP)
+- other names use S3PRL upstreams
+- you can also pass a HuggingFace model ID directly to `--feature-model`
 ```
 
 ## Training and Checkpoints
@@ -213,7 +209,7 @@ Run directories follow this pattern:
 Examples:
 
 - `femh_wav2vec_large_audio_20260311_152902`
-- `femh_text_text_20260311_142952`
+- `femh_hear_concatenation_20260311_142952`
 
 ## Development Notes
 
@@ -228,7 +224,8 @@ If you only want to verify that the pipeline runs:
 ```bash
 python src/__main__.py \
   --task-dir tasks/femh \
-  --combine-mode text \
+  --combine-mode audio \
+  --feature-model wavlm_base \
   --text-fields age gender \
   --epochs 1 \
   --batch-size 8 \

@@ -1,4 +1,5 @@
-from model.feature import S3PrlFrozen
+from model.audio_encoder import AudioEncoder, HuggingFaceFrozen, S3PrlFrozen
+from model.demographic_encoder import DemographicEncoder
 from model.fusion import (
     ConcatenationFusion,
     CrossAttentionFusion,
@@ -14,8 +15,11 @@ from model.output import (
 from model.savable_module import SavableModule
 
 __all__ = [
+    "AudioEncoder",
     "AudioClassifier",
     "AudioTextClassifier",
+    "DemographicEncoder",
+    "HuggingFaceFrozen",
     "S3PrlFrozen",
     "SavableModule",
     "TextClassifier",

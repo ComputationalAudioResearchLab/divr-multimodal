@@ -9,7 +9,7 @@ from torch import nn
 from torch.optim.optimizer import Optimizer
 
 from data_loader import TaskDataModule
-from model import S3PrlFrozen, SavableModule
+from model import AudioEncoder, SavableModule
 
 project_root = Path(__file__).parent.parent.parent.resolve()
 
@@ -29,7 +29,7 @@ class HParams:
     save_every: int
     task_dir: Path
 
-    feature: S3PrlFrozen | None = None
+    feature: AudioEncoder | None = None
     text_fields: Sequence[str] | None = None
     text_equals: Sequence[str] | None = None
     age_bucket_size: int = 5
