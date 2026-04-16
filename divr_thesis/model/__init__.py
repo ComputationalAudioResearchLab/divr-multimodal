@@ -1,4 +1,10 @@
-from model.audio_encoder import AudioEncoder, HuggingFaceFrozen, S3PrlFrozen
+from model.audio_encoder import (
+    AudioEncoder,
+    HuggingFaceClapFrozen,
+    HuggingFaceGenericFrozen,
+    HuggingFaceHearFrozen,
+    S3PrlFrozen,
+)
 from model.demographic_encoder import DemographicEncoder
 from model.fusion import (
     ConcatenationFusion,
@@ -19,7 +25,9 @@ __all__ = [
     "AudioClassifier",
     "AudioTextClassifier",
     "DemographicEncoder",
-    "HuggingFaceFrozen",
+    "HuggingFaceClapFrozen",
+    "HuggingFaceHearFrozen",
+    "HuggingFaceGenericFrozen",
     "S3PrlFrozen",
     "SavableModule",
     "TextClassifier",
