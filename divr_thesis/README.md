@@ -103,6 +103,8 @@ python src/__main__.py --list-tasks
 - `--device`: `auto`, `cpu`, or `cuda`
 - `--text-fields`: select which key-value fields from `texts` should be used as text input
 - `--text-equals`: filter text payloads by key-value conditions
+- `--demographic-embedding-dim`: per-field embedding dimension for age/gender/smoking/drinking (total demographic dim is 4x)
+- `--enable-shap`: enable SHAP analysis during testing (default is disabled)
 - `--disable-tensorboard`: disable TensorBoard logging
 
 Notes:
@@ -189,6 +191,7 @@ Outputs are written under the run directory, typically in:
 `results/training_summary.json` includes the best checkpoint epoch and validation metrics. `results/test_summary.json` includes the loaded checkpoint epoch plus test accuracy and macro F1.
 
 SHAP outputs are generated when `shap` is installed and test samples contain metadata. The SHAP CSV reports per-class contribution ratios for audio features, age, gender, smoking, and drinking.
+SHAP is disabled by default. Add `--enable-shap` when you want to generate SHAP outputs.
 
 ## How Text Input Works
 

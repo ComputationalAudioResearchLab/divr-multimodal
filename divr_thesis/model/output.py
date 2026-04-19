@@ -70,17 +70,17 @@ class AudioTextClassifier(SavableModule):
     def __init__(
         self,
         input_size: int,
-        text_embedding_dim: int,
+        demographic_embedding_dim: int,
         num_classes: int,
         checkpoint_path: Path,
         fusion_type: str = "concatenation",
     ) -> None:
         super().__init__(checkpoint_path)
         self.demographic_encoder = DemographicEncoder(
-            age_embedding_dim=text_embedding_dim,
-            gender_embedding_dim=text_embedding_dim,
-            smoking_embedding_dim=text_embedding_dim,
-            drinking_embedding_dim=text_embedding_dim,
+            age_embedding_dim=demographic_embedding_dim,
+            gender_embedding_dim=demographic_embedding_dim,
+            smoking_embedding_dim=demographic_embedding_dim,
+            drinking_embedding_dim=demographic_embedding_dim,
         )
         demographic_dim = self.demographic_encoder.demographic_dim
         if fusion_type == "concatenation":

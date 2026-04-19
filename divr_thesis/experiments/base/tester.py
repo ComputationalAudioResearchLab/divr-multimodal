@@ -27,6 +27,7 @@ class Tester:
     def run(
         self,
         checkpoint_name: str = "best.pt",
+        enable_shap: bool = False,
     ) -> dict[str, str | float | int]:
         checkpoint_metadata = self.model.load(
             checkpoint_name,
@@ -65,7 +66,7 @@ class Tester:
                     row[key] = values[index]
                 rows.append(row)
 
-            if audio_inputs is not None:
+            if enable_shap and audio_inputs is not None:
                 shap_batches.append(
                     {
                         "audio_features": audio_inputs[0].detach().cpu(),
@@ -103,15 +104,25 @@ class Tester:
             label_names=self.label_names,
             analysis_dir=self.hparams.analysis_dir,
         )
-        summary.update(
-            analyze_shap_contributions(
-                batch_records=shap_batches,
-                model=self.model,
-                label_names=self.label_names,
-                device=self.hparams.device,
-                analysis_dir=self.hparams.analysis_dir,
+        if enable_shap:
+            summary.update(
+                analyze_shap_contributions(
+                    batch_records=shap_batches,
+                    model=self.model,
+                    label_names=self.label_names,
+                    device=self.hparams.device,
+                    analysis_dir=self.hparams.analysis_dir,
+                )
             )
-        )
+        else:
+            summary.update(
+                {
+                    "shap_status": "skipped_disabled",
+                    "shap_hint": (
+                        "Run with --enable-shap to generate SHAP outputs."
+                    ),
+                }
+            )
 
         summary["checkpoint"] = checkpoint_name
         summary["checkpoint_epoch"] = checkpoint_metadata.get("epoch")

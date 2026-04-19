@@ -97,6 +97,8 @@ python src/__main__.py --list-tasks
 - `--device`：`auto`、`cpu`、`cuda`
 - `--text-fields`：从 `texts` 中选择文本字段
 - `--text-equals`：按键值过滤文本负载
+- `--demographic-embedding-dim`：年龄/性别/吸烟/饮酒每个字段的嵌入维度（总 demographic 维度为该值的 4 倍）
+- `--enable-shap`：在测试阶段启用 SHAP 分析（默认关闭）
 - `--disable-tensorboard`：关闭 TensorBoard
 
 注意：
@@ -168,6 +170,7 @@ python src/__main__.py \
 - `results/analysis/shap_signed_demographic_by_class.png`
 
 若安装了 `shap` 且测试样本包含可用元数据，会额外生成 SHAP 贡献度结果。SHAP CSV 会按类别给出音频特征、年龄、性别、吸烟和饮酒的贡献比例。
+默认不会执行 SHAP。需要生成 SHAP 结果时请添加 `--enable-shap`。
 
 ## 文本输入机制
 

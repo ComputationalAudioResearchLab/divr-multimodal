@@ -77,7 +77,15 @@ def parse_args() -> argparse.Namespace:
             "--combine-mode=audio"
         ),
     )
-    parser.add_argument("--text-embedding-dim", type=int, default=128)
+    parser.add_argument(
+        "--demographic-embedding-dim",
+        type=int,
+        default=128,
+        help=(
+            "Per-field embedding dimension for age, gender, smoking, "
+            "and drinking. Total demographic dimension is 4x this value."
+        ),
+    )
     parser.add_argument("--num-workers", type=int, default=0)
     parser.add_argument(
         "--device",
@@ -89,6 +97,11 @@ def parse_args() -> argparse.Namespace:
         "--disable-tensorboard",
         action="store_true",
         help="Disable TensorBoard logging",
+    )
+    parser.add_argument(
+        "--enable-shap",
+        action="store_true",
+        help="Enable SHAP analysis during testing (disabled by default)",
     )
     parser.add_argument(
         "--list-tasks",
@@ -156,9 +169,10 @@ def main() -> None:
         random_seed=args.seed,
         text_fields=text_fields,
         text_equals=text_equals,
-        text_embedding_dim=args.text_embedding_dim,
+        demographic_embedding_dim=args.demographic_embedding_dim,
         num_workers=args.num_workers,
         tboard_enabled=not args.disable_tensorboard,
+        shap_enabled=args.enable_shap,
         device=torch.device(device),
         run_dir=run_dir,
     )

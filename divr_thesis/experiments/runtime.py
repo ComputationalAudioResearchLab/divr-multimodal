@@ -33,9 +33,10 @@ class RunConfig:
     random_seed: int
     text_fields: Sequence[str] | None
     text_equals: Sequence[str] | None
-    text_embedding_dim: int
+    demographic_embedding_dim: int
     num_workers: int
     tboard_enabled: bool
+    shap_enabled: bool
     device: torch.device
     run_dir: Path
 
@@ -87,7 +88,7 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
         assert audio_feature_size is not None
         model = AudioTextClassifier(
             input_size=audio_feature_size,
-            text_embedding_dim=config.text_embedding_dim,
+            demographic_embedding_dim=config.demographic_embedding_dim,
             num_classes=len(data_module.label_names),
             checkpoint_path=checkpoints_dir,
             fusion_type=config.combine_mode,
@@ -129,7 +130,10 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
     trainer = Trainer(hparams=hparams)
     training_summary = trainer.run()
     tester = Tester(hparams=hparams)
-    test_summary = tester.run(checkpoint_name="best.pt")
+    test_summary = tester.run(
+        checkpoint_name="best.pt",
+        enable_shap=config.shap_enabled,
+    )
     return {
         "training": training_summary,
         "testing": test_summary,
