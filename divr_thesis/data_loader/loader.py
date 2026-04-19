@@ -1,9 +1,8 @@
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable, Sequence
+from typing import Any, Sequence
 
 import librosa
 import numpy as np
@@ -15,13 +14,12 @@ from torch.utils.data import Dataset as TorchDataset
 from data_loader.dtypes import (
     Batch,
     BatchMetadata,
+    DemographicTensors,
     InputTensors,
     TaskRecord,
-    TextTensors,
 )
 
 
-TOKEN_SPLIT_RE = re.compile(r"[^0-9A-Za-z_=./-]+")
 RESERVED_TASK_KEYS = {"label", "text_keys", "texts"}
 
 
@@ -88,10 +86,6 @@ def normalize_text_equals(
     return normalized or None
 
 
-def tokenize_text(text: str) -> list[str]:
-    return [token.lower() for token in TOKEN_SPLIT_RE.split(text) if token]
-
-
 def try_parse_age(value: Any) -> int | None:
     if value is None:
         return None
@@ -115,34 +109,6 @@ class TaskSample:
     audio_paths: list[str]
     selected_text: str
     metadata: dict[str, Any]
-
-
-class TextVocabulary:
-    pad_index = 0
-    unk_index = 1
-
-    def __init__(self) -> None:
-        self._token_to_id = {"<pad>": self.pad_index, "<unk>": self.unk_index}
-        self._id_to_token = ["<pad>", "<unk>"]
-
-    def __len__(self) -> int:
-        return len(self._id_to_token)
-
-    def add_tokens(self, texts: Iterable[str]) -> None:
-        for text in texts:
-            for token in tokenize_text(text):
-                if token not in self._token_to_id:
-                    self._token_to_id[token] = len(self._id_to_token)
-                    self._id_to_token.append(token)
-
-    def encode(self, text: str) -> list[int]:
-        encoded = [
-            self._token_to_id.get(token, self.unk_index)
-            for token in tokenize_text(text)
-        ]
-        if not encoded:
-            return [self.unk_index]
-        return encoded
 
 
 class TaskDataset(TorchDataset[TaskSample]):
@@ -334,22 +300,12 @@ class TaskDataModule:
         self.label_names = label_names
         self.unique_diagnosis = label_names
 
-        self.text_vocab = TextVocabulary()
-        if include_text:
-            self.text_vocab.add_tokens(
-                sample.selected_text for sample in self.train_dataset.samples
-            )
-
         train_label_ids = [
             self.label_to_index[sample.label]
             for sample in self.train_dataset.samples
         ]
         counts = np.bincount(train_label_ids, minlength=len(self.label_names))
         self.class_counts = torch.tensor(counts, dtype=torch.long)
-
-    @property
-    def text_vocab_size(self) -> int:
-        return len(self.text_vocab)
 
     def train(self) -> TorchDataLoader[Batch]:
         return self._make_loader(self.train_dataset, shuffle=True)
@@ -428,16 +384,16 @@ class TaskDataModule:
         if self.include_audio:
             audio_inputs = self._collate_audio(batch)
 
-        text_inputs = None
+        demographic_inputs = None
         if self.include_text:
-            text_inputs = self._collate_text(batch)
+            demographic_inputs = self._collate_demographics(batch)
 
         metadata = self._collate_metadata(batch)
         return Batch(
             sample_ids=sample_ids,
             labels=labels,
             audio_inputs=audio_inputs,
-            text_inputs=text_inputs,
+            demographic_inputs=demographic_inputs,
             audio_paths=[list(sample.audio_paths) for sample in batch],
             selected_texts=[sample.selected_text for sample in batch],
             metadata=metadata,
@@ -457,26 +413,6 @@ class TaskDataModule:
             torch.tensor(audio_lens, dtype=torch.long),
         )
 
-    def _collate_text(self, batch: Sequence[TaskSample]) -> TextTensors:
-        encoded_texts = [
-            self.text_vocab.encode(sample.selected_text)
-            for sample in batch
-        ]
-        max_len = max(len(text) for text in encoded_texts)
-        text_tensor = torch.full(
-            (len(batch), max_len),
-            fill_value=self.text_vocab.pad_index,
-            dtype=torch.long,
-        )
-        text_lens = torch.zeros((len(batch),), dtype=torch.long)
-        for index, token_ids in enumerate(encoded_texts):
-            text_tensor[index, : len(token_ids)] = torch.tensor(
-                token_ids,
-                dtype=torch.long,
-            )
-            text_lens[index] = len(token_ids)
-        return text_tensor, text_lens
-
     def _collate_metadata(self, batch: Sequence[TaskSample]) -> BatchMetadata:
         keys = sorted(
             {key for sample in batch for key in sample.metadata.keys()}
@@ -488,6 +424,60 @@ class TaskDataModule:
         if any(age is not None for age in ages):
             metadata["age"] = ages
         return metadata
+
+    def _collate_demographics(
+        self,
+        batch: Sequence[TaskSample],
+    ) -> DemographicTensors:
+        gender_to_id = {
+            "male": 0,
+            "m": 0,
+            "female": 1,
+            "f": 1,
+        }
+        smoking_to_id = {
+            "never": 0,
+            "past": 1,
+            "active": 2,
+            "e-cigarette": 3,
+            "unknown": 4,
+        }
+        drinking_to_id = {
+            "never": 0,
+            "past": 1,
+            "active": 2,
+            "unknown": 3,
+        }
+
+        ages: list[int] = []
+        genders: list[int] = []
+        smokings: list[int] = []
+        drinkings: list[int] = []
+        for sample in batch:
+            age_value = try_parse_age(sample.metadata.get("age"))
+            ages.append(-1 if age_value is None else int(age_value))
+
+            raw_gender = str(
+                sample.metadata.get("gender", "unknown")
+            ).strip().lower()
+            genders.append(gender_to_id.get(raw_gender, 2))
+
+            raw_smoking = str(
+                sample.metadata.get("smoking", "unknown")
+            ).strip().lower()
+            smokings.append(smoking_to_id.get(raw_smoking, 4))
+
+            raw_drinking = str(
+                sample.metadata.get("drinking", "unknown")
+            ).strip().lower()
+            drinkings.append(drinking_to_id.get(raw_drinking, 3))
+
+        return (
+            torch.tensor(ages, dtype=torch.long),
+            torch.tensor(genders, dtype=torch.long),
+            torch.tensor(smokings, dtype=torch.long),
+            torch.tensor(drinkings, dtype=torch.long),
+        )
 
     def _load_audio(self, audio_paths: Sequence[str]) -> np.ndarray:
         if not audio_paths:

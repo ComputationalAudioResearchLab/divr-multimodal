@@ -151,7 +151,7 @@ class Trainer:
 
     def _forward_batch(self, batch) -> torch.Tensor:
         audio_inputs = batch.audio_inputs
-        text_inputs = batch.text_inputs
+        demographic_inputs = batch.demographic_inputs
         if audio_inputs is not None:
             audio_inputs = (
                 audio_inputs[0].to(self.hparams.device),
@@ -159,19 +159,19 @@ class Trainer:
             )
             if self.feature is not None:
                 audio_inputs = self.feature(audio_inputs)
-        if text_inputs is not None:
-            text_inputs = (
-                text_inputs[0].to(self.hparams.device),
-                text_inputs[1].to(self.hparams.device),
+        if demographic_inputs is not None:
+            demographic_inputs = tuple(
+                value.to(self.hparams.device)
+                for value in demographic_inputs
             )
 
-        if audio_inputs is not None and text_inputs is not None:
-            return self.model(audio_inputs, text_inputs)
+        if audio_inputs is not None and demographic_inputs is not None:
+            return self.model(audio_inputs, demographic_inputs)
         if audio_inputs is not None:
             return self.model(audio_inputs)
-        if text_inputs is not None:
-            return self.model(text_inputs)
-        raise ValueError("Batch did not contain audio inputs or text inputs")
+        raise ValueError(
+            "Pure-text mode is disabled; audio inputs are required"
+        )
 
     def _save(
         self,

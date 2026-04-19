@@ -37,6 +37,7 @@ class Generator:
     _private_text_fields_by_dataset = {
         "femh": {
             "smoking",
+            "drinking",
         },
         "svd": {
             "svd_utterance",

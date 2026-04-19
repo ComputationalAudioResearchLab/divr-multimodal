@@ -40,6 +40,7 @@ tasks/               含 train/val/test YAML 的任务目录
 - `matplotlib`
 - `scikit-learn`
 - `tqdm`
+- `shap`
 
 若启用 TensorBoard，请额外安装 `tensorboard`；否则可使用 `--disable-tensorboard`。
 
@@ -88,7 +89,7 @@ python src/__main__.py --list-tasks
 
 - `--task-dir`：任务目录路径
 - `--combine-mode`：`audio`、`concatenation`、`cross_attention`、`gated`、`film`
-- `--feature-model`：音频预训练模型名（S3PRL 名称、HuggingFace 模型 ID，或别名 `hear`、`clap`）
+- `--feature-model`：音频预训练模型名（S3PRL 名称或 HuggingFace 模型 ID）
 - `--epochs`：训练轮数
 - `--batch-size`：批大小
 - `--learning-rate`：学习率
@@ -96,7 +97,6 @@ python src/__main__.py --list-tasks
 - `--device`：`auto`、`cpu`、`cuda`
 - `--text-fields`：从 `texts` 中选择文本字段
 - `--text-equals`：按键值过滤文本负载
-- `--age-bucket-size`：年龄分桶步长
 - `--disable-tensorboard`：关闭 TensorBoard
 
 注意：
@@ -132,50 +132,26 @@ python src/__main__.py \
   --batch-size 16
 ```
 
-### 3) 使用 heAR 别名
+### 3) 文本过滤（仅在融合模式下生效）
 
 ```bash
 python src/__main__.py \
   --task-dir tasks/femh \
   --combine-mode concatenation \
-  --feature-model hear \
-  --text-fields age gender \
-  --epochs 50
-```
-
-### 4) 文本过滤（仅在融合模式下生效）
-
-```bash
-python src/__main__.py \
-  --task-dir tasks/femh \
-  --combine-mode concatenation \
-  --feature-model hear \
+  --feature-model wavlm_base \
   --text-fields age gender \
   --text-equals gender=female
+```
 
 模型选择规则：
 
-- `hear` 与 `clap` 走 HuggingFace 音频模型（Google heAR 与 LAION CLAP）
-- 其它模型名走 S3PRL upstream
-- 也可以直接在 `--feature-model` 传入 HuggingFace 模型 ID
-```
+- S3PRL upstream 名称可直接使用。
+- 也可以在 `--feature-model` 传入 HuggingFace 模型 ID（需安装 `transformers`）。
 
 ## 训练与检查点
 
 每次运行会在 `.cache/runs/` 下创建带时间戳的目录。
 
-训练流程：
-
-- 按设定 epoch 训练
-- 每轮在验证集评估
-- 在 `results/history.csv` 记录验证指标
-- 验证准确率提升时保存 `best.pt`
-- 每轮保存 `last.pt`
-- 每 `--save-every` 轮保存 `epoch_XXXX.pt`
-
-## 测试与分析输出
-
-训练结束后自动加载最佳模型进行测试，常见输出：
 
 - `results/predictions.csv`
 - `results/test_summary.json`
@@ -185,10 +161,13 @@ python src/__main__.py \
 - `results/analysis/confusion_matrix.png`
 - `results/analysis/accuracy_by_label.csv`
 - `results/analysis/accuracy_by_label.png`
-- `results/analysis/accuracy_by_age_bucket.csv`
-- `results/analysis/accuracy_by_age_bucket.png`
+- `results/analysis/shap_contribution_by_class.csv`
+- `results/analysis/shap_abs_audio_demographic_by_class.png`
+- `results/analysis/shap_abs_demographic_by_class.png`
+- `results/analysis/shap_signed_audio_demographic_by_class.png`
+- `results/analysis/shap_signed_demographic_by_class.png`
 
-若任务元数据包含可用年龄字段，会生成年龄分桶统计。
+若安装了 `shap` 且测试样本包含可用元数据，会额外生成 SHAP 贡献度结果。SHAP CSV 会按类别给出音频特征、年龄、性别、吸烟和饮酒的贡献比例。
 
 ## 文本输入机制
 
@@ -207,7 +186,7 @@ python src/__main__.py \
 示例：
 
 - `femh_wav2vec_large_audio_20260311_152902`
-- `femh_hear_concatenation_20260311_142952`
+- `femh_wavlm_base_concatenation_20260311_142952`
 
 ## 快速自检
 

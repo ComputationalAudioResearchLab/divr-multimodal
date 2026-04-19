@@ -5,11 +5,11 @@ from .dtypes import (
     DataPoint,
     DataPointWithDemo,
     Dataset,
+    DemographicTensors,
     DemographicInfo,
     InputArrays,
     InputTensors,
     TaskRecord,
-    TextTensors,
 )
 from .loader import (
     DataLoader,
@@ -30,10 +30,10 @@ __all__ = [
     "DataPoint",
     "DataPointWithDemo",
     "Dataset",
+    "DemographicTensors",
     "TaskDataModule",
     "TaskRecord",
     "InputArrays",
     "InputTensors",
     "DemographicInfo",
-    "TextTensors",
 ]

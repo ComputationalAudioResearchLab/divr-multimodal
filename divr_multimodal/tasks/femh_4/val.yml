@@ -1,66 +1,66 @@
 femh_0000i84_0:
   age: 69
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0000i84
   text_keys:
   - /home/storage/femh/selectwav/0000i84.wav
   texts:
-  - age=69; gender=female; smoking=never; drinking=never
+  - age=69; gender=female; smoking=0; drinking=0
 femh_00014es_0:
   age: 60
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 00014es
   text_keys:
   - /home/storage/femh/selectwav/00014es.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=never
+  - age=60; gender=female; smoking=0; drinking=0
 femh_01011ql_0:
   age: 53
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 01011ql
   text_keys:
   - /home/storage/femh/selectwav/01011ql.wav
   texts:
-  - age=53; gender=female; smoking=never; drinking=never
+  - age=53; gender=female; smoking=0; drinking=0
 femh_0101ulg_0:
   age: 69
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0101ulg
   text_keys:
   - /home/storage/femh/selectwav/0101ulg.wav
   texts:
-  - age=69; gender=female; smoking=never; drinking=never
+  - age=69; gender=female; smoking=0; drinking=0
 femh_0102504_0:
   age: 53
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: '0102504'
   text_keys:
   - /home/storage/femh/selectwav/0102504.wav
   texts:
-  - age=53; gender=male; smoking=never; drinking=never
+  - age=53; gender=male; smoking=0; drinking=0
 femh_0102d2s_0:
   age: 60
   gender: female
-  label: organic
+  label: paresis
   speaker_id: 0102d2s
   text_keys:
   - /home/storage/femh/selectwav/0102d2s.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=never
+  - age=60; gender=female; smoking=0; drinking=0
 femh_0201mog_0:
   age: 52
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0201mog
   text_keys:
   - /home/storage/femh/selectwav/0201mog.wav
   texts:
-  - age=52; gender=female; smoking=never; drinking=never
+  - age=52; gender=female; smoking=0; drinking=0
 femh_0301oi0_0:
   age: 35
   gender: female
@@ -69,331 +69,331 @@ femh_0301oi0_0:
   text_keys:
   - /home/storage/femh/selectwav/0301oi0.wav
   texts:
-  - age=35; gender=female; smoking=never; drinking=never
+  - age=35; gender=female; smoking=0; drinking=0
 femh_030208k_0:
   age: 37
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 030208k
   text_keys:
   - /home/storage/femh/selectwav/030208k.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=never
+  - age=37; gender=female; smoking=0; drinking=0
 femh_0302qb2_0:
   age: 64
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0302qb2
   text_keys:
   - /home/storage/femh/selectwav/0302qb2.wav
   texts:
-  - age=64; gender=male; smoking=never; drinking=never
+  - age=64; gender=male; smoking=0; drinking=0
 femh_0402urc_0:
   age: 48
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 0402urc
   text_keys:
   - /home/storage/femh/selectwav/0402urc.wav
   texts:
-  - age=48; gender=male; smoking=never; drinking=never
+  - age=48; gender=male; smoking=0; drinking=0
 femh_050296l_0:
   age: 55
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 050296l
   text_keys:
   - /home/storage/femh/selectwav/050296l.wav
   texts:
-  - age=55; gender=male; smoking=never; drinking=active
+  - age=55; gender=male; smoking=0; drinking=2
 femh_0502coa_0:
   age: 30
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 0502coa
   text_keys:
   - /home/storage/femh/selectwav/0502coa.wav
   texts:
-  - age=30; gender=female; smoking=never; drinking=never
+  - age=30; gender=female; smoking=0; drinking=0
 femh_0502n95_0:
   age: 68
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 0502n95
   text_keys:
   - /home/storage/femh/selectwav/0502n95.wav
   texts:
-  - age=68; gender=male; smoking=past; drinking=never
+  - age=68; gender=male; smoking=1; drinking=0
 femh_0601g2n_0:
   age: 52
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0601g2n
   text_keys:
   - /home/storage/femh/selectwav/0601g2n.wav
   texts:
-  - age=52; gender=male; smoking=active; drinking=active
+  - age=52; gender=male; smoking=2; drinking=2
 femh_0701355_0:
   age: 60
   gender: female
-  label: organic
+  label: cyst
   speaker_id: '0701355'
   text_keys:
   - /home/storage/femh/selectwav/0701355.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=never
+  - age=60; gender=female; smoking=0; drinking=0
 femh_0701fjn_0:
   age: 35
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0701fjn
   text_keys:
   - /home/storage/femh/selectwav/0701fjn.wav
   texts:
-  - age=35; gender=female; smoking=never; drinking=active
+  - age=35; gender=female; smoking=0; drinking=2
 femh_08006o6_0:
   age: 44
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 08006o6
   text_keys:
   - /home/storage/femh/selectwav/08006o6.wav
   texts:
-  - age=44; gender=female; smoking=never; drinking=active
+  - age=44; gender=female; smoking=0; drinking=2
 femh_0802gj3_0:
   age: 37
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0802gj3
   text_keys:
   - /home/storage/femh/selectwav/0802gj3.wav
   texts:
-  - age=37; gender=female; smoking=active; drinking=active
+  - age=37; gender=female; smoking=2; drinking=2
 femh_0900g6t_0:
   age: 54
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0900g6t
   text_keys:
   - /home/storage/femh/selectwav/0900g6t.wav
   texts:
-  - age=54; gender=female; smoking=active; drinking=never
+  - age=54; gender=female; smoking=2; drinking=0
 femh_0902db2_0:
   age: 46
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0902db2
   text_keys:
   - /home/storage/femh/selectwav/0902db2.wav
   texts:
-  - age=46; gender=female; smoking=active; drinking=never
+  - age=46; gender=female; smoking=2; drinking=0
 femh_0902g3q_0:
   age: 36
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0902g3q
   text_keys:
   - /home/storage/femh/selectwav/0902g3q.wav
   texts:
-  - age=36; gender=female; smoking=never; drinking=never
+  - age=36; gender=female; smoking=0; drinking=0
 femh_0902i4e_0:
   age: 56
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 0902i4e
   text_keys:
   - /home/storage/femh/selectwav/0902i4e.wav
   texts:
-  - age=56; gender=male; smoking=never; drinking=never
+  - age=56; gender=male; smoking=0; drinking=0
 femh_0902n7c_0:
   age: 62
   gender: female
-  label: organic
+  label: vocal_fold_scar
   speaker_id: 0902n7c
   text_keys:
   - /home/storage/femh/selectwav/0902n7c.wav
   texts:
-  - age=62; gender=female; smoking=never; drinking=never
+  - age=62; gender=female; smoking=0; drinking=0
 femh_0A007p1_0:
   age: 63
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0A007p1
   text_keys:
   - /home/storage/femh/selectwav/0A007p1.wav
   texts:
-  - age=63; gender=female; smoking=never; drinking=never
+  - age=63; gender=female; smoking=0; drinking=0
 femh_0A00rh7_0:
   age: 70
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0A00rh7
   text_keys:
   - /home/storage/femh/selectwav/0A00rh7.wav
   texts:
-  - age=70; gender=female; smoking=never; drinking=never
+  - age=70; gender=female; smoking=0; drinking=0
 femh_0A018t9_0:
   age: 65
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0A018t9
   text_keys:
   - /home/storage/femh/selectwav/0A018t9.wav
   texts:
-  - age=65; gender=male; smoking=past; drinking=active
+  - age=65; gender=male; smoking=1; drinking=2
 femh_0A01fjn_0:
   age: 43
   gender: female
-  label: organic
+  label: paresis
   speaker_id: 0A01fjn
   text_keys:
   - /home/storage/femh/selectwav/0A01fjn.wav
   texts:
-  - age=43; gender=female; smoking=never; drinking=never
+  - age=43; gender=female; smoking=0; drinking=0
 femh_0A021cr_0:
   age: 47
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 0A021cr
   text_keys:
   - /home/storage/femh/selectwav/0A021cr.wav
   texts:
-  - age=47; gender=male; smoking=past; drinking=active
+  - age=47; gender=male; smoking=1; drinking=2
 femh_0B005e2_0:
   age: 42
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 0B005e2
   text_keys:
   - /home/storage/femh/selectwav/0B005e2.wav
   texts:
-  - age=42; gender=male; smoking=never; drinking=never
+  - age=42; gender=male; smoking=0; drinking=0
 femh_0B00er4_0:
   age: 25
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 0B00er4
   text_keys:
   - /home/storage/femh/selectwav/0B00er4.wav
   texts:
-  - age=25; gender=female; smoking=never; drinking=active
+  - age=25; gender=female; smoking=0; drinking=2
 femh_0B00jdl_0:
   age: 30
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 0B00jdl
   text_keys:
   - /home/storage/femh/selectwav/0B00jdl.wav
   texts:
-  - age=30; gender=male; smoking=never; drinking=active
+  - age=30; gender=male; smoking=0; drinking=2
 femh_0B00uql_0:
   age: 56
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0B00uql
   text_keys:
   - /home/storage/femh/selectwav/0B00uql.wav
   texts:
-  - age=56; gender=female; smoking=never; drinking=never
+  - age=56; gender=female; smoking=0; drinking=0
 femh_0B010r1_0:
   age: 39
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0B010r1
   text_keys:
   - /home/storage/femh/selectwav/0B010r1.wav
   texts:
-  - age=39; gender=female; smoking=active; drinking=active
+  - age=39; gender=female; smoking=2; drinking=2
 femh_0B01ir9_0:
   age: 56
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0B01ir9
   text_keys:
   - /home/storage/femh/selectwav/0B01ir9.wav
   texts:
-  - age=56; gender=male; smoking=active; drinking=active
+  - age=56; gender=male; smoking=2; drinking=2
 femh_0B02e6a_0:
   age: 42
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0B02e6a
   text_keys:
   - /home/storage/femh/selectwav/0B02e6a.wav
   texts:
-  - age=42; gender=female; smoking=never; drinking=never
+  - age=42; gender=female; smoking=0; drinking=0
 femh_0C00ac0_0:
   age: 50
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0C00ac0
   text_keys:
   - /home/storage/femh/selectwav/0C00ac0.wav
   texts:
-  - age=50; gender=female; smoking=never; drinking=never
+  - age=50; gender=female; smoking=0; drinking=0
 femh_0C00mbq_0:
   age: 52
   gender: female
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 0C00mbq
   text_keys:
   - /home/storage/femh/selectwav/0C00mbq.wav
   texts:
-  - age=52; gender=female; smoking=never; drinking=never
+  - age=52; gender=female; smoking=0; drinking=0
 femh_0C00rvg_0:
   age: 59
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 0C00rvg
   text_keys:
   - /home/storage/femh/selectwav/0C00rvg.wav
   texts:
-  - age=59; gender=male; smoking=never; drinking=active
+  - age=59; gender=male; smoking=0; drinking=2
 femh_0C01mkr_0:
   age: 65
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0C01mkr
   text_keys:
   - /home/storage/femh/selectwav/0C01mkr.wav
   texts:
-  - age=65; gender=female; smoking=never; drinking=never
+  - age=65; gender=female; smoking=0; drinking=0
 femh_0C01q1a_0:
   age: 40
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0C01q1a
   text_keys:
   - /home/storage/femh/selectwav/0C01q1a.wav
   texts:
-  - age=40; gender=female; smoking=never; drinking=never
+  - age=40; gender=female; smoking=0; drinking=0
 femh_0C02cr3_0:
   age: 48
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 0C02cr3
   text_keys:
   - /home/storage/femh/selectwav/0C02cr3.wav
   texts:
-  - age=48; gender=female; smoking=never; drinking=never
+  - age=48; gender=female; smoking=0; drinking=0
 femh_0F00d4r_0:
   age: 61
   gender: male
-  label: organic
+  label: laryngeal cancer
   speaker_id: 0F00d4r
   text_keys:
   - /home/storage/femh/selectwav/0F00d4r.wav
   texts:
-  - age=61; gender=male; smoking=active; drinking=never
+  - age=61; gender=male; smoking=2; drinking=0
 femh_0F023au_0:
   age: 39
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0F023au
   text_keys:
   - /home/storage/femh/selectwav/0F023au.wav
   texts:
-  - age=39; gender=female; smoking=active; drinking=active
+  - age=39; gender=female; smoking=2; drinking=2
 femh_0F02b88_0:
   age: 48
   gender: female
@@ -402,304 +402,304 @@ femh_0F02b88_0:
   text_keys:
   - /home/storage/femh/selectwav/0F02b88.wav
   texts:
-  - age=48; gender=female; smoking=never; drinking=never
+  - age=48; gender=female; smoking=0; drinking=0
 femh_0G00b5t_0:
   age: 66
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 0G00b5t
   text_keys:
   - /home/storage/femh/selectwav/0G00b5t.wav
   texts:
-  - age=66; gender=male; smoking=never; drinking=never
+  - age=66; gender=male; smoking=0; drinking=0
 femh_0G00qsu_0:
   age: 35
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0G00qsu
   text_keys:
   - /home/storage/femh/selectwav/0G00qsu.wav
   texts:
-  - age=35; gender=female; smoking=active; drinking=active
+  - age=35; gender=female; smoking=2; drinking=2
 femh_0H004vr_0:
   age: 53
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0H004vr
   text_keys:
   - /home/storage/femh/selectwav/0H004vr.wav
   texts:
-  - age=53; gender=male; smoking=past; drinking=never
+  - age=53; gender=male; smoking=1; drinking=0
 femh_0H00crk_0:
   age: 37
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0H00crk
   text_keys:
   - /home/storage/femh/selectwav/0H00crk.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=active
+  - age=37; gender=female; smoking=0; drinking=2
 femh_0H010k0_0:
   age: 64
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0H010k0
   text_keys:
   - /home/storage/femh/selectwav/0H010k0.wav
   texts:
-  - age=64; gender=male; smoking=never; drinking=active
+  - age=64; gender=male; smoking=0; drinking=2
 femh_0H01ikq_0:
   age: 67
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0H01ikq
   text_keys:
   - /home/storage/femh/selectwav/0H01ikq.wav
   texts:
-  - age=67; gender=male; smoking=never; drinking=never
+  - age=67; gender=male; smoking=0; drinking=0
 femh_0J00cb9_0:
   age: 40
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0J00cb9
   text_keys:
   - /home/storage/femh/selectwav/0J00cb9.wav
   texts:
-  - age=40; gender=female; smoking=active; drinking=active
+  - age=40; gender=female; smoking=2; drinking=2
 femh_0J00ig9_0:
   age: 48
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 0J00ig9
   text_keys:
   - /home/storage/femh/selectwav/0J00ig9.wav
   texts:
-  - age=48; gender=female; smoking=never; drinking=never
+  - age=48; gender=female; smoking=0; drinking=0
 femh_0J00t8f_0:
   age: 35
   gender: female
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 0J00t8f
   text_keys:
   - /home/storage/femh/selectwav/0J00t8f.wav
   texts:
-  - age=35; gender=female; smoking=never; drinking=never
+  - age=35; gender=female; smoking=0; drinking=0
 femh_0J02566_0:
   age: 35
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0J02566
   text_keys:
   - /home/storage/femh/selectwav/0J02566.wav
   texts:
-  - age=35; gender=female; smoking=active; drinking=active
+  - age=35; gender=female; smoking=2; drinking=2
 femh_0M02glt_0:
   age: 45
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0M02glt
   text_keys:
   - /home/storage/femh/selectwav/0M02glt.wav
   texts:
-  - age=45; gender=female; smoking=never; drinking=never
+  - age=45; gender=female; smoking=0; drinking=0
 femh_0R000qh_0:
   age: 60
   gender: male
-  label: organic
+  label: laryngeal cancer
   speaker_id: 0R000qh
   text_keys:
   - /home/storage/femh/selectwav/0R000qh.wav
   texts:
-  - age=60; gender=male; smoking=active; drinking=active
+  - age=60; gender=male; smoking=2; drinking=2
 femh_0R00ie0_0:
   age: 56
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0R00ie0
   text_keys:
   - /home/storage/femh/selectwav/0R00ie0.wav
   texts:
-  - age=56; gender=female; smoking=never; drinking=never
+  - age=56; gender=female; smoking=0; drinking=0
 femh_0R00igm_0:
   age: 58
   gender: female
-  label: organic
+  label: paresis
   speaker_id: 0R00igm
   text_keys:
   - /home/storage/femh/selectwav/0R00igm.wav
   texts:
-  - age=58; gender=female; smoking=never; drinking=never
+  - age=58; gender=female; smoking=0; drinking=0
 femh_0R00jbk_0:
   age: 50
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0R00jbk
   text_keys:
   - /home/storage/femh/selectwav/0R00jbk.wav
   texts:
-  - age=50; gender=male; smoking=never; drinking=never
+  - age=50; gender=male; smoking=0; drinking=0
 femh_0R02090_0:
   age: 50
   gender: female
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 0R02090
   text_keys:
   - /home/storage/femh/selectwav/0R02090.wav
   texts:
-  - age=50; gender=female; smoking=never; drinking=active
+  - age=50; gender=female; smoking=0; drinking=2
 femh_0S00dsh_0:
   age: 40
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0S00dsh
   text_keys:
   - /home/storage/femh/selectwav/0S00dsh.wav
   texts:
-  - age=40; gender=female; smoking=active; drinking=active
+  - age=40; gender=female; smoking=2; drinking=2
 femh_0T00nsl_0:
   age: 58
   gender: male
-  label: organic
+  label: dysplasia
   speaker_id: 0T00nsl
   text_keys:
   - /home/storage/femh/selectwav/0T00nsl.wav
   texts:
-  - age=58; gender=male; smoking=never; drinking=never
+  - age=58; gender=male; smoking=0; drinking=0
 femh_0T01uvq_0:
   age: 56
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0T01uvq
   text_keys:
   - /home/storage/femh/selectwav/0T01uvq.wav
   texts:
-  - age=56; gender=male; smoking=past; drinking=never
+  - age=56; gender=male; smoking=1; drinking=0
 femh_0U01ft6_0:
   age: 31
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 0U01ft6
   text_keys:
   - /home/storage/femh/selectwav/0U01ft6.wav
   texts:
-  - age=31; gender=female; smoking=never; drinking=active
+  - age=31; gender=female; smoking=0; drinking=2
 femh_0U024bi_0:
   age: 64
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 0U024bi
   text_keys:
   - /home/storage/femh/selectwav/0U024bi.wav
   texts:
-  - age=64; gender=male; smoking=past; drinking=never
+  - age=64; gender=male; smoking=1; drinking=0
 femh_0U02ni5_0:
   age: 73
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 0U02ni5
   text_keys:
   - /home/storage/femh/selectwav/0U02ni5.wav
   texts:
-  - age=73; gender=male; smoking=past; drinking=never
+  - age=73; gender=male; smoking=1; drinking=0
 femh_0W00if4_0:
   age: 66
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0W00if4
   text_keys:
   - /home/storage/femh/selectwav/0W00if4.wav
   texts:
-  - age=66; gender=female; smoking=never; drinking=never
+  - age=66; gender=female; smoking=0; drinking=0
 femh_0W00nvj_0:
   age: 47
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 0W00nvj
   text_keys:
   - /home/storage/femh/selectwav/0W00nvj.wav
   texts:
-  - age=47; gender=female; smoking=never; drinking=never
+  - age=47; gender=female; smoking=0; drinking=0
 femh_0W00pmk_0:
   age: 57
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 0W00pmk
   text_keys:
   - /home/storage/femh/selectwav/0W00pmk.wav
   texts:
-  - age=57; gender=female; smoking=never; drinking=never
+  - age=57; gender=female; smoking=0; drinking=0
 femh_0W00t01_0:
   age: 63
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0W00t01
   text_keys:
   - /home/storage/femh/selectwav/0W00t01.wav
   texts:
-  - age=63; gender=male; smoking=never; drinking=active
+  - age=63; gender=male; smoking=0; drinking=2
 femh_0W00t8r_0:
   age: 56
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0W00t8r
   text_keys:
   - /home/storage/femh/selectwav/0W00t8r.wav
   texts:
-  - age=56; gender=male; smoking=past; drinking=never
+  - age=56; gender=male; smoking=1; drinking=0
 femh_0W011bi_0:
   age: 44
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 0W011bi
   text_keys:
   - /home/storage/femh/selectwav/0W011bi.wav
   texts:
-  - age=44; gender=male; smoking=never; drinking=never
+  - age=44; gender=male; smoking=0; drinking=0
 femh_0W015di_0:
   age: 31
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 0W015di
   text_keys:
   - /home/storage/femh/selectwav/0W015di.wav
   texts:
-  - age=31; gender=female; smoking=never; drinking=never
+  - age=31; gender=female; smoking=0; drinking=0
 femh_0W02peb_0:
   age: 42
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0W02peb
   text_keys:
   - /home/storage/femh/selectwav/0W02peb.wav
   texts:
-  - age=42; gender=male; smoking=never; drinking=never
+  - age=42; gender=male; smoking=0; drinking=0
 femh_0W02v95_0:
   age: 52
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 0W02v95
   text_keys:
   - /home/storage/femh/selectwav/0W02v95.wav
   texts:
-  - age=52; gender=male; smoking=never; drinking=never
+  - age=52; gender=male; smoking=0; drinking=0
 femh_0Y00aq1_0:
   age: 69
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 0Y00aq1
   text_keys:
   - /home/storage/femh/selectwav/0Y00aq1.wav
   texts:
-  - age=69; gender=female; smoking=never; drinking=never
+  - age=69; gender=female; smoking=0; drinking=0
 femh_0Y00h8b_0:
   age: 53
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0Y00h8b
   text_keys:
   - /home/storage/femh/selectwav/0Y00h8b.wav
   texts:
-  - age=53; gender=male; smoking=never; drinking=never
+  - age=53; gender=male; smoking=0; drinking=0
 femh_0Y00hdf_0:
   age: 37
   gender: female
@@ -708,358 +708,358 @@ femh_0Y00hdf_0:
   text_keys:
   - /home/storage/femh/selectwav/0Y00hdf.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=never
+  - age=37; gender=female; smoking=0; drinking=0
 femh_0Y011c5_0:
   age: 54
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 0Y011c5
   text_keys:
   - /home/storage/femh/selectwav/0Y011c5.wav
   texts:
-  - age=54; gender=female; smoking=active; drinking=never
+  - age=54; gender=female; smoking=2; drinking=0
 femh_0Y012dv_0:
   age: 53
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 0Y012dv
   text_keys:
   - /home/storage/femh/selectwav/0Y012dv.wav
   texts:
-  - age=53; gender=male; smoking=past; drinking=never
+  - age=53; gender=male; smoking=1; drinking=0
 femh_0Y01798_0:
   age: 65
   gender: male
-  label: organic
+  label: dysplasia
   speaker_id: 0Y01798
   text_keys:
   - /home/storage/femh/selectwav/0Y01798.wav
   texts:
-  - age=65; gender=male; smoking=active; drinking=active
+  - age=65; gender=male; smoking=2; drinking=2
 femh_0Y020hm_0:
   age: 59
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 0Y020hm
   text_keys:
   - /home/storage/femh/selectwav/0Y020hm.wav
   texts:
-  - age=59; gender=female; smoking=never; drinking=active
+  - age=59; gender=female; smoking=0; drinking=2
 femh_0Y02593_0:
   age: 67
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 0Y02593
   text_keys:
   - /home/storage/femh/selectwav/0Y02593.wav
   texts:
-  - age=67; gender=male; smoking=never; drinking=never
+  - age=67; gender=male; smoking=0; drinking=0
 femh_0Y02bvo_0:
   age: 49
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 0Y02bvo
   text_keys:
   - /home/storage/femh/selectwav/0Y02bvo.wav
   texts:
-  - age=49; gender=male; smoking=never; drinking=never
+  - age=49; gender=male; smoking=0; drinking=0
 femh_0Y02hmk_0:
   age: 37
   gender: female
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 0Y02hmk
   text_keys:
   - /home/storage/femh/selectwav/0Y02hmk.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=never
+  - age=37; gender=female; smoking=0; drinking=0
 femh_10000hr_0:
   age: 39
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 10000hr
   text_keys:
   - /home/storage/femh/selectwav/10000hr.wav
   texts:
-  - age=39; gender=female; smoking=never; drinking=never
+  - age=39; gender=female; smoking=0; drinking=0
 femh_100021l_0:
   age: 63
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 100021l
   text_keys:
   - /home/storage/femh/selectwav/100021l.wav
   texts:
-  - age=63; gender=male; smoking=never; drinking=active
+  - age=63; gender=male; smoking=0; drinking=2
 femh_1000742_0:
   age: 60
   gender: female
-  label: organic
+  label: cyst
   speaker_id: '1000742'
   text_keys:
   - /home/storage/femh/selectwav/1000742.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=never
+  - age=60; gender=female; smoking=0; drinking=0
 femh_10009ut_0:
   age: 41
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 10009ut
   text_keys:
   - /home/storage/femh/selectwav/10009ut.wav
   texts:
-  - age=41; gender=male; smoking=never; drinking=active
+  - age=41; gender=male; smoking=0; drinking=2
 femh_10009v7_0:
   age: 26
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 10009v7
   text_keys:
   - /home/storage/femh/selectwav/10009v7.wav
   texts:
-  - age=26; gender=female; smoking=never; drinking=never
+  - age=26; gender=female; smoking=0; drinking=0
 femh_1000jgs_0:
   age: 26
   gender: female
-  label: organic
+  label: varix
   speaker_id: 1000jgs
   text_keys:
   - /home/storage/femh/selectwav/1000jgs.wav
   texts:
-  - age=26; gender=female; smoking=never; drinking=active
+  - age=26; gender=female; smoking=0; drinking=2
 femh_1000pan_0:
   age: 53
   gender: male
-  label: organic
+  label: cyst
   speaker_id: 1000pan
   text_keys:
   - /home/storage/femh/selectwav/1000pan.wav
   texts:
-  - age=53; gender=male; smoking=never; drinking=never
+  - age=53; gender=male; smoking=0; drinking=0
 femh_1000qee_0:
   age: 38
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1000qee
   text_keys:
   - /home/storage/femh/selectwav/1000qee.wav
   texts:
-  - age=38; gender=female; smoking=never; drinking=never
+  - age=38; gender=female; smoking=0; drinking=0
 femh_10011nv_0:
   age: 71
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 10011nv
   text_keys:
   - /home/storage/femh/selectwav/10011nv.wav
   texts:
-  - age=71; gender=female; smoking=never; drinking=never
+  - age=71; gender=female; smoking=0; drinking=0
 femh_10017kr_0:
   age: 30
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 10017kr
   text_keys:
   - /home/storage/femh/selectwav/10017kr.wav
   texts:
-  - age=30; gender=male; smoking=never; drinking=never
+  - age=30; gender=male; smoking=0; drinking=0
 femh_1001ach_0:
   age: 51
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1001ach
   text_keys:
   - /home/storage/femh/selectwav/1001ach.wav
   texts:
-  - age=51; gender=female; smoking=active; drinking=never
+  - age=51; gender=female; smoking=2; drinking=0
 femh_1001b60_0:
   age: 59
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1001b60
   text_keys:
   - /home/storage/femh/selectwav/1001b60.wav
   texts:
-  - age=59; gender=male; smoking=past; drinking=active
+  - age=59; gender=male; smoking=1; drinking=2
 femh_1001brv_0:
   age: 63
   gender: female
-  label: organic
+  label: paresis
   speaker_id: 1001brv
   text_keys:
   - /home/storage/femh/selectwav/1001brv.wav
   texts:
-  - age=63; gender=female; smoking=never; drinking=never
+  - age=63; gender=female; smoking=0; drinking=0
 femh_1001ci8_0:
   age: 37
   gender: female
-  label: organic
+  label: ulcer
   speaker_id: 1001ci8
   text_keys:
   - /home/storage/femh/selectwav/1001ci8.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=never
+  - age=37; gender=female; smoking=0; drinking=0
 femh_1001f1u_0:
   age: 43
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 1001f1u
   text_keys:
   - /home/storage/femh/selectwav/1001f1u.wav
   texts:
-  - age=43; gender=male; smoking=never; drinking=never
+  - age=43; gender=male; smoking=0; drinking=0
 femh_1001ghu_0:
   age: 76
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 1001ghu
   text_keys:
   - /home/storage/femh/selectwav/1001ghu.wav
   texts:
-  - age=76; gender=male; smoking=never; drinking=never
+  - age=76; gender=male; smoking=0; drinking=0
 femh_1001kgl_0:
   age: 45
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1001kgl
   text_keys:
   - /home/storage/femh/selectwav/1001kgl.wav
   texts:
-  - age=45; gender=female; smoking=never; drinking=never
+  - age=45; gender=female; smoking=0; drinking=0
 femh_1001srt_0:
   age: 40
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 1001srt
   text_keys:
   - /home/storage/femh/selectwav/1001srt.wav
   texts:
-  - age=40; gender=male; smoking=past; drinking=active
+  - age=40; gender=male; smoking=1; drinking=2
 femh_1002181_0:
   age: 42
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: '1002181'
   text_keys:
   - /home/storage/femh/selectwav/1002181.wav
   texts:
-  - age=42; gender=female; smoking=active; drinking=active
+  - age=42; gender=female; smoking=2; drinking=2
 femh_1002bo1_0:
   age: 55
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 1002bo1
   text_keys:
   - /home/storage/femh/selectwav/1002bo1.wav
   texts:
-  - age=55; gender=male; smoking=never; drinking=never
+  - age=55; gender=male; smoking=0; drinking=0
 femh_1002lbp_0:
   age: 70
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1002lbp
   text_keys:
   - /home/storage/femh/selectwav/1002lbp.wav
   texts:
-  - age=70; gender=male; smoking=never; drinking=never
+  - age=70; gender=male; smoking=0; drinking=0
 femh_1002qkq_0:
   age: 57
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1002qkq
   text_keys:
   - /home/storage/femh/selectwav/1002qkq.wav
   texts:
-  - age=57; gender=male; smoking=never; drinking=never
+  - age=57; gender=male; smoking=0; drinking=0
 femh_1100bea_0:
   age: 70
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1100bea
   text_keys:
   - /home/storage/femh/selectwav/1100bea.wav
   texts:
-  - age=70; gender=male; smoking=past; drinking=active
+  - age=70; gender=male; smoking=1; drinking=2
 femh_1100elr_0:
   age: 53
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 1100elr
   text_keys:
   - /home/storage/femh/selectwav/1100elr.wav
   texts:
-  - age=53; gender=male; smoking=never; drinking=never
+  - age=53; gender=male; smoking=0; drinking=0
 femh_1100ihu_0:
   age: 32
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100ihu
   text_keys:
   - /home/storage/femh/selectwav/1100ihu.wav
   texts:
-  - age=32; gender=female; smoking=never; drinking=active
+  - age=32; gender=female; smoking=0; drinking=2
 femh_1100j0u_0:
   age: 50
   gender: male
-  label: organic
+  label: laryngeal cancer
   speaker_id: 1100j0u
   text_keys:
   - /home/storage/femh/selectwav/1100j0u.wav
   texts:
-  - age=50; gender=male; smoking=active; drinking=active
+  - age=50; gender=male; smoking=2; drinking=2
 femh_1100ms3_0:
   age: 25
   gender: female
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 1100ms3
   text_keys:
   - /home/storage/femh/selectwav/1100ms3.wav
   texts:
-  - age=25; gender=female; smoking=never; drinking=active
+  - age=25; gender=female; smoking=0; drinking=2
 femh_1100mt1_0:
   age: 34
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100mt1
   text_keys:
   - /home/storage/femh/selectwav/1100mt1.wav
   texts:
-  - age=34; gender=female; smoking=never; drinking=never
+  - age=34; gender=female; smoking=0; drinking=0
 femh_1100obm_0:
   age: 39
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1100obm
   text_keys:
   - /home/storage/femh/selectwav/1100obm.wav
   texts:
-  - age=39; gender=female; smoking=never; drinking=never
+  - age=39; gender=female; smoking=0; drinking=0
 femh_1100qcj_0:
   age: 44
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100qcj
   text_keys:
   - /home/storage/femh/selectwav/1100qcj.wav
   texts:
-  - age=44; gender=female; smoking=active; drinking=never
+  - age=44; gender=female; smoking=2; drinking=0
 femh_1100qj5_0:
   age: 43
   gender: female
-  label: organic
+  label: paresis
   speaker_id: 1100qj5
   text_keys:
   - /home/storage/femh/selectwav/1100qj5.wav
   texts:
-  - age=43; gender=female; smoking=never; drinking=never
+  - age=43; gender=female; smoking=0; drinking=0
 femh_1100sqq_0:
   age: 53
   gender: male
-  label: organic
+  label: paresis
   speaker_id: 1100sqq
   text_keys:
   - /home/storage/femh/selectwav/1100sqq.wav
   texts:
-  - age=53; gender=male; smoking=past; drinking=never
+  - age=53; gender=male; smoking=1; drinking=0
 femh_1100tkv_0:
   age: 34
   gender: female
@@ -1068,88 +1068,88 @@ femh_1100tkv_0:
   text_keys:
   - /home/storage/femh/selectwav/1100tkv.wav
   texts:
-  - age=34; gender=female; smoking=never; drinking=never
+  - age=34; gender=female; smoking=0; drinking=0
 femh_1100u9s_0:
   age: 38
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1100u9s
   text_keys:
   - /home/storage/femh/selectwav/1100u9s.wav
   texts:
-  - age=38; gender=male; smoking=past; drinking=active
+  - age=38; gender=male; smoking=1; drinking=2
 femh_11015lb_0:
   age: 42
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11015lb
   text_keys:
   - /home/storage/femh/selectwav/11015lb.wav
   texts:
-  - age=42; gender=female; smoking=never; drinking=never
+  - age=42; gender=female; smoking=0; drinking=0
 femh_11017i0_0:
   age: 65
   gender: male
-  label: organic
+  label: presbyphonia
   speaker_id: 11017i0
   text_keys:
   - /home/storage/femh/selectwav/11017i0.wav
   texts:
-  - age=65; gender=male; smoking=never; drinking=active
+  - age=65; gender=male; smoking=0; drinking=2
 femh_11017ij_0:
   age: 60
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 11017ij
   text_keys:
   - /home/storage/femh/selectwav/11017ij.wav
   texts:
-  - age=60; gender=male; smoking=never; drinking=never
+  - age=60; gender=male; smoking=0; drinking=0
 femh_110180q_0:
   age: 46
   gender: female
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 110180q
   text_keys:
   - /home/storage/femh/selectwav/110180q.wav
   texts:
-  - age=46; gender=female; smoking=never; drinking=never
+  - age=46; gender=female; smoking=0; drinking=0
 femh_1101aue_0:
   age: 41
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101aue
   text_keys:
   - /home/storage/femh/selectwav/1101aue.wav
   texts:
-  - age=41; gender=female; smoking=never; drinking=never
+  - age=41; gender=female; smoking=0; drinking=0
 femh_1101cbs_0:
   age: 48
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101cbs
   text_keys:
   - /home/storage/femh/selectwav/1101cbs.wav
   texts:
-  - age=48; gender=female; smoking=never; drinking=never
+  - age=48; gender=female; smoking=0; drinking=0
 femh_1101n8v_0:
   age: 39
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1101n8v
   text_keys:
   - /home/storage/femh/selectwav/1101n8v.wav
   texts:
-  - age=39; gender=female; smoking=active; drinking=active
+  - age=39; gender=female; smoking=2; drinking=2
 femh_11020vo_0:
   age: 45
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11020vo
   text_keys:
   - /home/storage/femh/selectwav/11020vo.wav
   texts:
-  - age=45; gender=male; smoking=active; drinking=never
+  - age=45; gender=male; smoking=2; drinking=0
 femh_11020vt_0:
   age: 29
   gender: female
@@ -1158,79 +1158,79 @@ femh_11020vt_0:
   text_keys:
   - /home/storage/femh/selectwav/11020vt.wav
   texts:
-  - age=29; gender=female; smoking=never; drinking=never
+  - age=29; gender=female; smoking=0; drinking=0
 femh_11022gu_0:
   age: 47
   gender: male
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 11022gu
   text_keys:
   - /home/storage/femh/selectwav/11022gu.wav
   texts:
-  - age=47; gender=male; smoking=past; drinking=never
+  - age=47; gender=male; smoking=1; drinking=0
 femh_11024iq_0:
   age: 36
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 11024iq
   text_keys:
   - /home/storage/femh/selectwav/11024iq.wav
   texts:
-  - age=36; gender=female; smoking=never; drinking=never
+  - age=36; gender=female; smoking=0; drinking=0
 femh_11025sn_0:
   age: 54
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11025sn
   text_keys:
   - /home/storage/femh/selectwav/11025sn.wav
   texts:
-  - age=54; gender=female; smoking=never; drinking=never
+  - age=54; gender=female; smoking=0; drinking=0
 femh_11025t8_0:
   age: 28
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11025t8
   text_keys:
   - /home/storage/femh/selectwav/11025t8.wav
   texts:
-  - age=28; gender=female; smoking=never; drinking=active
+  - age=28; gender=female; smoking=0; drinking=2
 femh_11026vh_0:
   age: 67
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 11026vh
   text_keys:
   - /home/storage/femh/selectwav/11026vh.wav
   texts:
-  - age=67; gender=male; smoking=never; drinking=active
+  - age=67; gender=male; smoking=0; drinking=2
 femh_110270g_0:
   age: 51
   gender: female
-  label: organic
+  label: spasmodic_dysphonia
   speaker_id: 110270g
   text_keys:
   - /home/storage/femh/selectwav/110270g.wav
   texts:
-  - age=51; gender=female; smoking=active; drinking=never
+  - age=51; gender=female; smoking=2; drinking=0
 femh_11027f4_0:
   age: 40
   gender: male
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 11027f4
   text_keys:
   - /home/storage/femh/selectwav/11027f4.wav
   texts:
-  - age=40; gender=male; smoking=past; drinking=active
+  - age=40; gender=male; smoking=1; drinking=2
 femh_1102ba0_0:
   age: 60
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1102ba0
   text_keys:
   - /home/storage/femh/selectwav/1102ba0.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=never
+  - age=60; gender=female; smoking=0; drinking=0
 femh_1102c6c_0:
   age: 46
   gender: female
@@ -1239,106 +1239,106 @@ femh_1102c6c_0:
   text_keys:
   - /home/storage/femh/selectwav/1102c6c.wav
   texts:
-  - age=46; gender=female; smoking=never; drinking=never
+  - age=46; gender=female; smoking=0; drinking=0
 femh_1102cn7_0:
   age: 38
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102cn7
   text_keys:
   - /home/storage/femh/selectwav/1102cn7.wav
   texts:
-  - age=38; gender=female; smoking=never; drinking=never
+  - age=38; gender=female; smoking=0; drinking=0
 femh_1102dvv_0:
   age: 46
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102dvv
   text_keys:
   - /home/storage/femh/selectwav/1102dvv.wav
   texts:
-  - age=46; gender=female; smoking=active; drinking=never
+  - age=46; gender=female; smoking=2; drinking=0
 femh_1102ial_0:
   age: 43
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102ial
   text_keys:
   - /home/storage/femh/selectwav/1102ial.wav
   texts:
-  - age=43; gender=female; smoking=never; drinking=never
+  - age=43; gender=female; smoking=0; drinking=0
 femh_1102iap_0:
   age: 60
   gender: female
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1102iap
   text_keys:
   - /home/storage/femh/selectwav/1102iap.wav
   texts:
-  - age=60; gender=female; smoking=never; drinking=active
+  - age=60; gender=female; smoking=0; drinking=2
 femh_1102ip6_0:
   age: 38
   gender: male
-  label: organic
+  label: contact_granuloma
   speaker_id: 1102ip6
   text_keys:
   - /home/storage/femh/selectwav/1102ip6.wav
   texts:
-  - age=38; gender=male; smoking=never; drinking=never
+  - age=38; gender=male; smoking=0; drinking=0
 femh_1102jkl_0:
   age: 40
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102jkl
   text_keys:
   - /home/storage/femh/selectwav/1102jkl.wav
   texts:
-  - age=40; gender=female; smoking=never; drinking=active
+  - age=40; gender=female; smoking=0; drinking=2
 femh_1102oia_0:
   age: 46
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1102oia
   text_keys:
   - /home/storage/femh/selectwav/1102oia.wav
   texts:
-  - age=46; gender=female; smoking=never; drinking=never
+  - age=46; gender=female; smoking=0; drinking=0
 femh_1102pdl_0:
   age: 72
   gender: female
-  label: organic
+  label: vocal_tremor
   speaker_id: 1102pdl
   text_keys:
   - /home/storage/femh/selectwav/1102pdl.wav
   texts:
-  - age=72; gender=female; smoking=never; drinking=never
+  - age=72; gender=female; smoking=0; drinking=0
 femh_1102tlf_0:
   age: 40
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1102tlf
   text_keys:
   - /home/storage/femh/selectwav/1102tlf.wav
   texts:
-  - age=40; gender=female; smoking=never; drinking=never
+  - age=40; gender=female; smoking=0; drinking=0
 femh_1102u3k_0:
   age: 58
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 1102u3k
   text_keys:
   - /home/storage/femh/selectwav/1102u3k.wav
   texts:
-  - age=58; gender=female; smoking=never; drinking=never
+  - age=58; gender=female; smoking=0; drinking=0
 femh_1102vjo_0:
   age: 63
   gender: male
-  label: organic
+  label: paralysis
   speaker_id: 1102vjo
   text_keys:
   - /home/storage/femh/selectwav/1102vjo.wav
   texts:
-  - age=63; gender=male; smoking=never; drinking=never
+  - age=63; gender=male; smoking=0; drinking=0
 femh_12002hl_0:
   age: 30
   gender: female
@@ -1347,16 +1347,16 @@ femh_12002hl_0:
   text_keys:
   - /home/storage/femh/selectwav/12002hl.wav
   texts:
-  - age=30; gender=female; smoking=never; drinking=never
+  - age=30; gender=female; smoking=0; drinking=0
 femh_12007bm_0:
   age: 36
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: 12007bm
   text_keys:
   - /home/storage/femh/selectwav/12007bm.wav
   texts:
-  - age=36; gender=female; smoking=never; drinking=active
+  - age=36; gender=female; smoking=0; drinking=2
 femh_12008rb_0:
   age: 45
   gender: female
@@ -1365,88 +1365,88 @@ femh_12008rb_0:
   text_keys:
   - /home/storage/femh/selectwav/12008rb.wav
   texts:
-  - age=45; gender=female; smoking=never; drinking=never
+  - age=45; gender=female; smoking=0; drinking=0
 femh_12009rh_0:
   age: 31
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 12009rh
   text_keys:
   - /home/storage/femh/selectwav/12009rh.wav
   texts:
-  - age=31; gender=female; smoking=never; drinking=active
+  - age=31; gender=female; smoking=0; drinking=2
 femh_120169g_0:
   age: 40
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 120169g
   text_keys:
   - /home/storage/femh/selectwav/120169g.wav
   texts:
-  - age=40; gender=female; smoking=never; drinking=never
+  - age=40; gender=female; smoking=0; drinking=0
 femh_1201720_0:
   age: 45
   gender: female
-  label: organic
+  label: vocal_fold_polyp
   speaker_id: '1201720'
   text_keys:
   - /home/storage/femh/selectwav/1201720.wav
   texts:
-  - age=45; gender=female; smoking=never; drinking=never
+  - age=45; gender=female; smoking=0; drinking=0
 femh_1201fcg_0:
   age: 38
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1201fcg
   text_keys:
   - /home/storage/femh/selectwav/1201fcg.wav
   texts:
-  - age=38; gender=female; smoking=never; drinking=never
+  - age=38; gender=female; smoking=0; drinking=0
 femh_1201pke_0:
   age: 70
   gender: female
-  label: organic
+  label: presbyphonia
   speaker_id: 1201pke
   text_keys:
   - /home/storage/femh/selectwav/1201pke.wav
   texts:
-  - age=70; gender=female; smoking=never; drinking=never
+  - age=70; gender=female; smoking=0; drinking=0
 femh_1201pkr_0:
   age: 40
   gender: male
-  label: organic
+  label: papilloma
   speaker_id: 1201pkr
   text_keys:
   - /home/storage/femh/selectwav/1201pkr.wav
   texts:
-  - age=40; gender=male; smoking=never; drinking=active
+  - age=40; gender=male; smoking=0; drinking=2
 femh_1201pkt_0:
   age: 64
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1201pkt
   text_keys:
   - /home/storage/femh/selectwav/1201pkt.wav
   texts:
-  - age=64; gender=male; smoking=never; drinking=never
+  - age=64; gender=male; smoking=0; drinking=0
 femh_1201s1c_0:
   age: 44
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1201s1c
   text_keys:
   - /home/storage/femh/selectwav/1201s1c.wav
   texts:
-  - age=44; gender=female; smoking=active; drinking=never
+  - age=44; gender=female; smoking=2; drinking=0
 femh_1201s3m_0:
   age: 48
   gender: female
-  label: organic
+  label: paralysis
   speaker_id: 1201s3m
   text_keys:
   - /home/storage/femh/selectwav/1201s3m.wav
   texts:
-  - age=48; gender=female; smoking=never; drinking=never
+  - age=48; gender=female; smoking=0; drinking=0
 femh_1201ua1_0:
   age: 37
   gender: female
@@ -1455,97 +1455,97 @@ femh_1201ua1_0:
   text_keys:
   - /home/storage/femh/selectwav/1201ua1.wav
   texts:
-  - age=37; gender=female; smoking=active; drinking=active
+  - age=37; gender=female; smoking=2; drinking=2
 femh_1202a46_0:
   age: 21
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1202a46
   text_keys:
   - /home/storage/femh/selectwav/1202a46.wav
   texts:
-  - age=21; gender=female; smoking=never; drinking=never
+  - age=21; gender=female; smoking=0; drinking=0
 femh_1202dkm_0:
   age: 47
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1202dkm
   text_keys:
   - /home/storage/femh/selectwav/1202dkm.wav
   texts:
-  - age=47; gender=female; smoking=never; drinking=active
+  - age=47; gender=female; smoking=0; drinking=2
 femh_1202l09_0:
   age: 32
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1202l09
   text_keys:
   - /home/storage/femh/selectwav/1202l09.wav
   texts:
-  - age=32; gender=female; smoking=active; drinking=active
+  - age=32; gender=female; smoking=2; drinking=2
 femh_1202lc4_0:
   age: 43
   gender: female
-  label: organic
+  label: reinkes_edema
   speaker_id: 1202lc4
   text_keys:
   - /home/storage/femh/selectwav/1202lc4.wav
   texts:
-  - age=43; gender=female; smoking=active; drinking=active
+  - age=43; gender=female; smoking=2; drinking=2
 femh_1202lfl_0:
   age: 58
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1202lfl
   text_keys:
   - /home/storage/femh/selectwav/1202lfl.wav
   texts:
-  - age=58; gender=male; smoking=active; drinking=never
+  - age=58; gender=male; smoking=2; drinking=0
 femh_1202osk_0:
   age: 51
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1202osk
   text_keys:
   - /home/storage/femh/selectwav/1202osk.wav
   texts:
-  - age=51; gender=male; smoking=past; drinking=never
+  - age=51; gender=male; smoking=1; drinking=0
 femh_1202qag_0:
   age: 64
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1202qag
   text_keys:
   - /home/storage/femh/selectwav/1202qag.wav
   texts:
-  - age=64; gender=male; smoking=never; drinking=never
+  - age=64; gender=male; smoking=0; drinking=0
 femh_1202v5a_0:
   age: 40
   gender: female
-  label: organic
+  label: cyst
   speaker_id: 1202v5a
   text_keys:
   - /home/storage/femh/selectwav/1202v5a.wav
   texts:
-  - age=40; gender=female; smoking=never; drinking=never
+  - age=40; gender=female; smoking=0; drinking=0
 femh_1300moh_0:
   age: 61
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1300moh
   text_keys:
   - /home/storage/femh/selectwav/1300moh.wav
   texts:
-  - age=61; gender=male; smoking=past; drinking=active
+  - age=61; gender=male; smoking=1; drinking=2
 femh_13019nh_0:
   age: 47
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13019nh
   text_keys:
   - /home/storage/femh/selectwav/13019nh.wav
   texts:
-  - age=47; gender=female; smoking=never; drinking=never
+  - age=47; gender=female; smoking=0; drinking=0
 femh_1301e9t_0:
   age: 21
   gender: female
@@ -1554,61 +1554,61 @@ femh_1301e9t_0:
   text_keys:
   - /home/storage/femh/selectwav/1301e9t.wav
   texts:
-  - age=21; gender=female; smoking=never; drinking=never
+  - age=21; gender=female; smoking=0; drinking=0
 femh_1301qj5_0:
   age: 31
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1301qj5
   text_keys:
   - /home/storage/femh/selectwav/1301qj5.wav
   texts:
-  - age=31; gender=female; smoking=active; drinking=active
+  - age=31; gender=female; smoking=2; drinking=2
 femh_1301qve_0:
   age: 71
   gender: male
-  label: organic
+  label: vocal_fold_atrophic
   speaker_id: 1301qve
   text_keys:
   - /home/storage/femh/selectwav/1301qve.wav
   texts:
-  - age=71; gender=male; smoking=never; drinking=never
+  - age=71; gender=male; smoking=0; drinking=0
 femh_1301tuf_0:
   age: 27
   gender: female
-  label: organic
+  label: vocal_fold_sulcus
   speaker_id: 1301tuf
   text_keys:
   - /home/storage/femh/selectwav/1301tuf.wav
   texts:
-  - age=27; gender=female; smoking=never; drinking=never
+  - age=27; gender=female; smoking=0; drinking=0
 femh_13022kb_0:
   age: 37
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13022kb
   text_keys:
   - /home/storage/femh/selectwav/13022kb.wav
   texts:
-  - age=37; gender=female; smoking=never; drinking=never
+  - age=37; gender=female; smoking=0; drinking=0
 femh_13024kr_0:
   age: 35
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 13024kr
   text_keys:
   - /home/storage/femh/selectwav/13024kr.wav
   texts:
-  - age=35; gender=female; smoking=never; drinking=active
+  - age=35; gender=female; smoking=0; drinking=2
 femh_130270h_0:
   age: 35
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 130270h
   text_keys:
   - /home/storage/femh/selectwav/130270h.wav
   texts:
-  - age=35; gender=female; smoking=never; drinking=active
+  - age=35; gender=female; smoking=0; drinking=2
 femh_1302irt_0:
   age: 23
   gender: female
@@ -1617,22 +1617,22 @@ femh_1302irt_0:
   text_keys:
   - /home/storage/femh/selectwav/1302irt.wav
   texts:
-  - age=23; gender=female; smoking=past; drinking=active
+  - age=23; gender=female; smoking=1; drinking=2
 femh_1302j6t_0:
   age: 29
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1302j6t
   text_keys:
   - /home/storage/femh/selectwav/1302j6t.wav
   texts:
-  - age=29; gender=female; smoking=e-cigarette; drinking=active
+  - age=29; gender=female; smoking=3; drinking=2
 femh_1302jtq_0:
   age: 20
   gender: female
-  label: organic
+  label: vocal_fold_nodules
   speaker_id: 1302jtq
   text_keys:
   - /home/storage/femh/selectwav/1302jtq.wav
   texts:
-  - age=20; gender=female; smoking=never; drinking=active
+  - age=20; gender=female; smoking=0; drinking=2

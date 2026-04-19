@@ -31,8 +31,8 @@ def parse_args() -> argparse.Namespace:
         type=str,
         default="wavlm_base",
         help=(
-            "Audio pretrained model name. Supports S3PRL names and "
-            "aliases: hear (Google heAR), clap."
+            "Audio pretrained model name. Supports S3PRL names "
+            "or HuggingFace model IDs."
         ),
     )
     parser.add_argument(
@@ -78,7 +78,6 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument("--text-embedding-dim", type=int, default=128)
-    parser.add_argument("--age-bucket-size", type=int, default=5)
     parser.add_argument("--num-workers", type=int, default=0)
     parser.add_argument(
         "--device",
@@ -158,7 +157,6 @@ def main() -> None:
         text_fields=text_fields,
         text_equals=text_equals,
         text_embedding_dim=args.text_embedding_dim,
-        age_bucket_size=args.age_bucket_size,
         num_workers=args.num_workers,
         tboard_enabled=not args.disable_tensorboard,
         device=torch.device(device),

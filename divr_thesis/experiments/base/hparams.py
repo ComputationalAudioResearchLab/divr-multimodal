@@ -32,7 +32,6 @@ class HParams:
     feature: AudioEncoder | None = None
     text_fields: Sequence[str] | None = None
     text_equals: Sequence[str] | None = None
-    age_bucket_size: int = 5
     num_workers: int = 0
 
     cache_path: Path = Path(f"{project_root}/.cache")

@@ -87,20 +87,32 @@ Database = Tuple[Dataset, Dataset, Dataset]
 Database consisting of training, evaluation and testing dataset
 """
 
-TextTensors = Tuple[torch.Tensor, torch.Tensor]
+DemographicTensors = Tuple[
+    torch.Tensor,
+    torch.Tensor,
+    torch.Tensor,
+    torch.Tensor,
+]
 """
-TextTensors[0]
-    - contains token ids
-    - type = torch.LongTensor
-    - shape = [B, T]
----
-TextTensors[1]
-    - contains number of valid tokens for each sample
+DemographicTensors[0]
+    - contains age values
     - type = torch.LongTensor
     - shape = [B]
 ---
-- B = Batch size
-- T = Token sequence length
+DemographicTensors[1]
+    - contains gender category ids
+    - type = torch.LongTensor
+    - shape = [B]
+---
+DemographicTensors[2]
+    - contains smoking category ids
+    - type = torch.LongTensor
+    - shape = [B]
+---
+DemographicTensors[3]
+    - contains drinking category ids
+    - type = torch.LongTensor
+    - shape = [B]
 ---
 """
 
@@ -121,7 +133,7 @@ class Batch:
     sample_ids: List[str]
     labels: torch.LongTensor
     audio_inputs: InputTensors | None
-    text_inputs: TextTensors | None
+    demographic_inputs: DemographicTensors | None
     audio_paths: List[List[str]]
     selected_texts: List[str]
     metadata: BatchMetadata

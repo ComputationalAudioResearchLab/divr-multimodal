@@ -34,7 +34,6 @@ class RunConfig:
     text_fields: Sequence[str] | None
     text_equals: Sequence[str] | None
     text_embedding_dim: int
-    age_bucket_size: int
     num_workers: int
     tboard_enabled: bool
     device: torch.device
@@ -88,7 +87,6 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
         assert audio_feature_size is not None
         model = AudioTextClassifier(
             input_size=audio_feature_size,
-            vocab_size=data_module.text_vocab_size,
             text_embedding_dim=config.text_embedding_dim,
             num_classes=len(data_module.label_names),
             checkpoint_path=checkpoints_dir,
@@ -124,7 +122,6 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
         tboard_enabled=config.tboard_enabled,
         text_fields=text_fields,
         text_equals=text_equals,
-        age_bucket_size=config.age_bucket_size,
         num_workers=config.num_workers,
     )
 

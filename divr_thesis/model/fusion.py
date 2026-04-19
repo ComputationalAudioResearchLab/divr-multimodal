@@ -193,7 +193,7 @@ class GatedFusion(nn.Module):
         # Gate network: computes a scalar gate from context features
         self.gate_network = nn.Sequential(
             nn.Linear(demographic_dim, hidden_dim),
-            nn.ReLU(inplace=True),
+            nn.ReLU(inplace=False),
             nn.Dropout(0.1),
             nn.Linear(hidden_dim, 1),
             nn.Sigmoid(),  # Output in [0, 1]
@@ -274,7 +274,7 @@ class FiLMFusion(nn.Module):
         # Network to generate scale parameters
         self.scale_network = nn.Sequential(
             nn.Linear(demographic_dim, hidden_dim),
-            nn.ReLU(inplace=True),
+            nn.ReLU(inplace=False),
             nn.Dropout(0.1),
             nn.Linear(hidden_dim, audio_feature_dim),
         )
@@ -282,7 +282,7 @@ class FiLMFusion(nn.Module):
         # Network to generate shift parameters
         self.shift_network = nn.Sequential(
             nn.Linear(demographic_dim, hidden_dim),
-            nn.ReLU(inplace=True),
+            nn.ReLU(inplace=False),
             nn.Dropout(0.1),
             nn.Linear(hidden_dim, audio_feature_dim),
         )

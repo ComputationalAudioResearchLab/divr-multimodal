@@ -42,6 +42,7 @@ Core packages used by the current pipeline:
 - `matplotlib`
 - `scikit-learn`
 - `tqdm`
+- `shap`
 
 If you want TensorBoard logging, install `tensorboard`. If it is not installed, run with `--disable-tensorboard`.
 
@@ -94,7 +95,7 @@ python src/__main__.py --list-tasks
 
 - `--task-dir`: path to a task folder
 - `--combine-mode`: one of `audio`, `concatenation`, `cross_attention`, `gated`, `film`
-- `--feature-model`: audio pretrained model name (S3PRL upstream name, HuggingFace model ID, or aliases `hear`/`clap`)
+- `--feature-model`: audio pretrained model name (S3PRL upstream name or HuggingFace model ID)
 - `--epochs`: number of training epochs
 - `--batch-size`: batch size
 - `--learning-rate`: optimizer learning rate
@@ -102,7 +103,6 @@ python src/__main__.py --list-tasks
 - `--device`: `auto`, `cpu`, or `cuda`
 - `--text-fields`: select which key-value fields from `texts` should be used as text input
 - `--text-equals`: filter text payloads by key-value conditions
-- `--age-bucket-size`: bucket size for age-based analysis
 - `--disable-tensorboard`: disable TensorBoard logging
 
 Notes:
@@ -143,16 +143,15 @@ Filter text payloads:
 python src/__main__.py \
   --task-dir tasks/femh \
   --combine-mode concatenation \
-  --feature-model hear \
+  --feature-model wavlm_base \
   --text-fields age gender \
   --text-equals gender=female
+```
 
 Model selection behavior:
 
-- `hear` and `clap` use HuggingFace audio models (Google heAR and LAION CLAP)
-- other names use S3PRL upstreams
-- you can also pass a HuggingFace model ID directly to `--feature-model`
-```
+- S3PRL upstream names are supported directly.
+- HuggingFace model IDs are also supported when `transformers` is installed.
 
 ## Training and Checkpoints
 
@@ -181,12 +180,15 @@ Outputs are written under the run directory, typically in:
 - `results/analysis/confusion_matrix.png`
 - `results/analysis/accuracy_by_label.csv`
 - `results/analysis/accuracy_by_label.png`
-- `results/analysis/accuracy_by_age_bucket.csv`
-- `results/analysis/accuracy_by_age_bucket.png`
+- `results/analysis/shap_contribution_by_class.csv`
+- `results/analysis/shap_abs_audio_demographic_by_class.png`
+- `results/analysis/shap_abs_demographic_by_class.png`
+- `results/analysis/shap_signed_audio_demographic_by_class.png`
+- `results/analysis/shap_signed_demographic_by_class.png`
 
 `results/training_summary.json` includes the best checkpoint epoch and validation metrics. `results/test_summary.json` includes the loaded checkpoint epoch plus test accuracy and macro F1.
 
-Age-bucket outputs are generated only when the task metadata contains usable age values.
+SHAP outputs are generated when `shap` is installed and test samples contain metadata. The SHAP CSV reports per-class contribution ratios for audio features, age, gender, smoking, and drinking.
 
 ## How Text Input Works
 
@@ -209,7 +211,7 @@ Run directories follow this pattern:
 Examples:
 
 - `femh_wav2vec_large_audio_20260311_152902`
-- `femh_hear_concatenation_20260311_142952`
+- `femh_wavlm_base_concatenation_20260311_142952`
 
 ## Development Notes
 

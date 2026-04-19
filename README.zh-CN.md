@@ -87,7 +87,7 @@ python -m divr_multimodal.src generate_text_tasks <version> <data_store_path> [o
 
 - 通用字段：`dataset`、`speaker_id`、`age`、`gender`、`original_label`、`label`
 - 数据集私有字段：
-  - `femh`：`smoking`
+  - `femh`：`smoking`、`drinking`
   - `svd`：`svd_utterance`
   - `voiced`：`smoker`
 

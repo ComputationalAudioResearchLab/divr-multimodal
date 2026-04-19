@@ -6,11 +6,15 @@ name = "pypi"
 [packages]
 pyyaml = "*"
 divr-benchmark = "*"
-divr-diagnosis = "*"
 class-argparse = "*"
 torch = "==2.5.1"
 torchvision = "==0.20.1"
 torchaudio = "==2.5.1"
+s3prl = "*"
+tensorflow = "*"
+huggingface-hub = "*"
+tensorboard = "*"
+shap = "*"
 
 [dev-packages]
 

@@ -47,11 +47,12 @@ class FEMH(Base):
             # Extract patient basic information
             age = int(row["Age"])  # Age, converted to integer
             gender = Gender.format(row["Sex"])  # Gender, standardized format
-            smoking = int(row["Smoking"])
+            smoking = row["Smoking"]
+            drinking = row["Drinking"]
             text_payload = (
                 f"dataset=femh; speaker_id={speaker_id}; "
                 f"age={age}; gender={gender}; original_label={diagnosis.name};"
-                f"smoking={smoking}"
+                f"smoking={smoking}; drinking={drinking}"
             )
             # Decide whether to include this data based on classification completeness
             if allow_incomplete_classification or not diagnosis.incompletely_classified:
@@ -102,26 +103,58 @@ class FEMH(Base):
         # Read Excel file (contains 2001 rows: 1 header row + 2000 data rows)
         df = pd.read_excel(f"{source_path}/selectwav/medicalhistory.xlsx")
 
-        # Keep only the five required columns
-        df = df[["ID", "Sex", "Age", "Smoking", "Disease category"]]
+        # Keep only the six required columns
+        df = df[
+            [
+                "ID",
+                "Sex",
+                "Age",
+                "Smoking",
+                "Drinking",
+                "Disease category",
+            ]
+        ]
 
-        # Convert gender column to string type, convert 1 and 2 to 'male' and 'female'
+        # Convert gender column codes to standardized labels.
         df["Sex"] = df["Sex"].astype(str).apply(self.__clean_sex)
+        # Codebook: Smoking 0/1/2/3 -> never/past/active/e-cigarette
+        df["Smoking"] = df["Smoking"].astype(str).apply(
+            self.__clean_smoking
+        )
+        # Codebook: Drinking 0/1/2 -> never/past/active
+        df["Drinking"] = df["Drinking"].astype(str).apply(
+            self.__clean_drinking
+        )
         # Clean diagnosis terms
         df["Disease category"] = df[
             "Disease category"
         ].apply(self.__clean_diagnosis)
-       
+
         return df
-    
+
     def __clean_diagnosis(self, diagnosis: str) -> str:
         diagnosis = diagnosis.lower().strip()
         diagnosis = re.sub(r"[0-9\.]+", "", diagnosis)
         diagnosis = diagnosis.replace("’", "'")
         return diagnosis
-    
-    def __clean_sex(self, sex: str) -> str:
-        sex = sex.replace("1", "male").replace("2", "female")
-        return sex
 
-    
+    def __clean_sex(self, sex: str) -> str:
+        return {"1": "male", "2": "female"}.get(
+            str(sex).strip(),
+            "unknown",
+        )
+
+    def __clean_smoking(self, smoking: str) -> str:
+        return {
+            "0": "never",
+            "1": "past",
+            "2": "active",
+            "3": "e-cigarette",
+        }.get(str(smoking).strip(), "unknown")
+
+    def __clean_drinking(self, drinking: str) -> str:
+        return {
+            "0": "never",
+            "1": "past",
+            "2": "active",
+        }.get(str(drinking).strip(), "unknown")
