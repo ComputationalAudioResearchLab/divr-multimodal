@@ -52,7 +52,7 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument("--epochs", type=int, default=100)
-    parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--learning-rate", type=float, default=1e-5)
     parser.add_argument("--save-every", type=int, default=10)
     parser.add_argument("--sample-rate", type=int, default=16000)
@@ -80,7 +80,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--demographic-embedding-dim",
         type=int,
-        default=128,
+        default=256,
         help=(
             "Per-field embedding dimension for age, gender, smoking, "
             "and drinking. Total demographic dimension is 4x this value."
