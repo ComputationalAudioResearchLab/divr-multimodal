@@ -17,40 +17,6 @@ from model.fusion import (
 from model.savable_module import SavableModule
 
 
-def mask_sequence_outputs(
-    per_frame_logits: torch.Tensor,
-    input_lens: torch.Tensor,
-) -> torch.Tensor:
-    if per_frame_logits.dim() != 3:
-        return per_frame_logits
-
-    input_lens = input_lens.to(
-        device=per_frame_logits.device,
-        dtype=torch.long,
-    )
-    batch_size, max_len, _ = per_frame_logits.shape
-    mask = (
-        torch.arange(max_len, device=per_frame_logits.device)
-        .expand(batch_size, max_len)
-        < input_lens.unsqueeze(1)
-    )
-    return per_frame_logits * mask.unsqueeze(-1)
-
-
-def reduce_sequence_outputs(
-    per_frame_logits: torch.Tensor,
-    input_lens: torch.Tensor,
-) -> torch.Tensor:
-    if per_frame_logits.dim() != 3:
-        return per_frame_logits
-
-    masked_logits = mask_sequence_outputs(per_frame_logits, input_lens)
-    return masked_logits.sum(dim=1) / input_lens.to(
-        device=per_frame_logits.device,
-        dtype=per_frame_logits.dtype,
-    ).clamp_min(1).unsqueeze(1)
-
-
 class ClassificationHead(nn.Module):
     def __init__(
         self,
@@ -83,10 +49,7 @@ class ClassificationHead(nn.Module):
     ) -> torch.Tensor:
         if self.attention is not None:
             inputs = self.attention(inputs, sequence_lengths)
-        outputs = self.layers(inputs)
-        if sequence_lengths is not None:
-            outputs = mask_sequence_outputs(outputs, sequence_lengths)
-        return outputs
+        return self.layers(inputs)
 
 
 class AudioClassifier(SavableModule):
@@ -108,7 +71,23 @@ class AudioClassifier(SavableModule):
 
     def forward(self, audio_inputs: InputTensors) -> torch.Tensor:
         audio_features, audio_lens = audio_inputs
-        return self.head(audio_features, audio_lens)
+        per_frame_labels = self.head(audio_features, audio_lens)
+        per_frame_labels = self.__mask(per_frame_labels, audio_lens)
+        per_audio_labels = per_frame_labels.sum(dim=1) / (
+            audio_lens.clamp_min(1).unsqueeze(1)
+        )
+
+        return per_audio_labels
+
+    def __mask(
+        self, per_frame_labels: torch.Tensor, input_lens: torch.Tensor
+    ) -> torch.Tensor:
+        max_len = int(input_lens.max().item())
+        (batch_size,) = input_lens.shape
+        mask = torch.arange(max_len, device=input_lens.device).expand(
+            batch_size, max_len
+        ) < input_lens.unsqueeze(1)
+        return per_frame_labels * mask.unsqueeze(2)
 
 
 class AudioTextClassifier(SavableModule):
@@ -165,4 +144,18 @@ class AudioTextClassifier(SavableModule):
             demographic_embedding,
             audio_lens,
         )
-        return self.head(fused_features, audio_lens)
+        logits = self.head(fused_features, audio_lens)
+        return self._mean_pool_logits(logits, audio_lens)
+
+    def _mean_pool_logits(
+        self,
+        logits: torch.Tensor,
+        audio_lens: torch.Tensor,
+    ) -> torch.Tensor:
+        max_len = logits.size(1)
+        mask = (
+            torch.arange(max_len, device=logits.device)
+            < audio_lens.unsqueeze(1)
+        ).unsqueeze(-1)
+        masked_logits = logits * mask
+        return masked_logits.sum(dim=1) / audio_lens.clamp_min(1).unsqueeze(1)

@@ -11,7 +11,6 @@ from experiments.analysis import (
     analyze_shap_contributions,
 )
 from experiments.base.hparams import HParams
-from model.output import reduce_sequence_outputs
 
 
 class Tester:
@@ -50,7 +49,6 @@ class Tester:
                 audio_inputs,
                 demographic_inputs,
             )
-            logits = self._sample_logits(batch, logits)
             predictions = logits.argmax(dim=1).cpu().tolist()
             actuals = labels.cpu().tolist()
 
@@ -176,15 +174,3 @@ class Tester:
         raise ValueError(
             "Pure-text mode is disabled; audio inputs are required"
         )
-
-    def _sample_logits(self, batch, logits: torch.Tensor) -> torch.Tensor:
-        if logits.dim() == 2:
-            return logits
-        if logits.dim() != 3:
-            raise ValueError(
-                f"Unsupported logits shape: {tuple(logits.shape)}"
-            )
-        if batch.audio_inputs is None:
-            raise ValueError("Sequence logits require audio lengths")
-        audio_lens = batch.audio_inputs[1].to(logits.device)
-        return reduce_sequence_outputs(logits, audio_lens)
