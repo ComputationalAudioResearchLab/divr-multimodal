@@ -6,6 +6,7 @@ import torch
 from torch import nn
 
 from data_loader import DemographicTensors, InputTensors
+from model.classification_attention import build_classification_attention
 from model.demographic_encoder import DemographicEncoder
 from model.fusion import (
     ConcatenationFusion,
@@ -17,8 +18,19 @@ from model.savable_module import SavableModule
 
 
 class ClassificationHead(nn.Module):
-    def __init__(self, input_size: int, num_classes: int) -> None:
+    def __init__(
+        self,
+        input_size: int,
+        num_classes: int,
+        attention_type: str = "none",
+        attention_num_heads: int = 4,
+    ) -> None:
         super().__init__()
+        self.attention = build_classification_attention(
+            attention_type=attention_type,
+            feature_dim=input_size,
+            num_heads=attention_num_heads,
+        )
         hidden_size = 1024
         self.layers = nn.Sequential(
             nn.Linear(input_size, hidden_size),
@@ -30,7 +42,13 @@ class ClassificationHead(nn.Module):
             nn.Linear(hidden_size, num_classes),
         )
 
-    def forward(self, inputs: torch.Tensor) -> torch.Tensor:
+    def forward(
+        self,
+        inputs: torch.Tensor,
+        sequence_lengths: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+        if self.attention is not None:
+            inputs = self.attention(inputs, sequence_lengths)
         return self.layers(inputs)
 
 
@@ -40,11 +58,15 @@ class AudioClassifier(SavableModule):
         input_size: int,
         num_classes: int,
         checkpoint_path: Path,
+        head_attention_type: str = "none",
+        head_attention_num_heads: int = 4,
     ):
         super().__init__(checkpoint_path)
         self.head = ClassificationHead(
             input_size=input_size,
             num_classes=num_classes,
+            attention_type=head_attention_type,
+            attention_num_heads=head_attention_num_heads,
         )
 
     def forward(self, audio_inputs: InputTensors) -> torch.Tensor:
@@ -74,6 +96,8 @@ class AudioTextClassifier(SavableModule):
         num_classes: int,
         checkpoint_path: Path,
         fusion_type: str = "concatenation",
+        head_attention_type: str = "none",
+        head_attention_num_heads: int = 4,
     ) -> None:
         super().__init__(checkpoint_path)
         self.demographic_encoder = DemographicEncoder(
@@ -96,6 +120,8 @@ class AudioTextClassifier(SavableModule):
         self.head = ClassificationHead(
             input_size=self.fusion.output_dim,
             num_classes=num_classes,
+            attention_type=head_attention_type,
+            attention_num_heads=head_attention_num_heads,
         )
 
     def forward(
@@ -116,7 +142,7 @@ class AudioTextClassifier(SavableModule):
             demographic_embedding,
             audio_lens,
         )
-        logits = self.head(fused_features)
+        logits = self.head(fused_features, audio_lens)
         return self._mean_pool_logits(logits, audio_lens)
 
     def _mean_pool_logits(

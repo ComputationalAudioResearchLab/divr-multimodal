@@ -355,6 +355,9 @@ class TaskDataModule:
                 for key, value in payload.items()
                 if key not in RESERVED_TASK_KEYS
             }
+            for text in texts:
+                for key, value in parse_text_payload(text).items():
+                    metadata.setdefault(key, value)
             records.append(
                 TaskRecord(
                     sample_id=str(sample_id),

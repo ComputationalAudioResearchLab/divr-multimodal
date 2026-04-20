@@ -25,6 +25,7 @@ class RunConfig:
     task_dir: Path
     feature_model: str | None
     combine_mode: str
+    classification_head_attention: str
     epochs: int
     batch_size: int
     learning_rate: float
@@ -77,8 +78,12 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
             input_size=audio_feature_size,
             num_classes=len(data_module.label_names),
             checkpoint_path=checkpoints_dir,
+            head_attention_type=config.classification_head_attention,
         )
-        model_name = f"audio_{config.feature_model}"
+        model_name = (
+            f"audio_{config.feature_model}_"
+            f"{config.classification_head_attention}"
+        )
     elif config.combine_mode in {
         "concatenation",
         "cross_attention",
@@ -92,8 +97,12 @@ def run_experiment(config: RunConfig) -> dict[str, object]:
             num_classes=len(data_module.label_names),
             checkpoint_path=checkpoints_dir,
             fusion_type=config.combine_mode,
+            head_attention_type=config.classification_head_attention,
         )
-        model_name = f"{config.feature_model}_{config.combine_mode}"
+        model_name = (
+            f"{config.feature_model}_{config.combine_mode}_"
+            f"{config.classification_head_attention}"
+        )
     else:
         raise ValueError(f"Unsupported combine_mode: {config.combine_mode}")
 
@@ -145,6 +154,7 @@ def build_run_dir(
     task_name: str,
     feature_model: str | None,
     combine_mode: str,
+    classification_head_attention: str,
 ) -> Path:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     model_key = feature_model or "audio"
@@ -152,7 +162,10 @@ def build_run_dir(
         project_root
         / ".cache"
         / "runs"
-        / f"{task_name}_{model_key}_{combine_mode}_{timestamp}"
+        / (
+            f"{task_name}_{model_key}_{combine_mode}_"
+            f"{classification_head_attention}_{timestamp}"
+        )
     )
 
 

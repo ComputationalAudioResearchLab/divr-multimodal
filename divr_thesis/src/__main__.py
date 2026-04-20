@@ -51,6 +51,20 @@ def parse_args() -> argparse.Namespace:
             "Audio is always required."
         ),
     )
+    parser.add_argument(
+        "--classification-head-attention",
+        type=str,
+        default="none",
+        choices=[
+            "none",
+            "cbam",
+            "multi_head_attention",
+        ],
+        help=(
+            "Optional attention block inside ClassificationHead. "
+            "Use none for the baseline."
+        ),
+    )
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--learning-rate", type=float, default=1e-5)
@@ -156,11 +170,13 @@ def main() -> None:
         task_name=task_dir.name,
         feature_model=feature_model,
         combine_mode=args.combine_mode,
+        classification_head_attention=args.classification_head_attention,
     )
     config = RunConfig(
         task_dir=task_dir,
         feature_model=feature_model,
         combine_mode=args.combine_mode,
+        classification_head_attention=args.classification_head_attention,
         epochs=args.epochs,
         batch_size=args.batch_size,
         learning_rate=args.learning_rate,
