@@ -9,6 +9,8 @@ import pandas as pd
 import torch
 from tqdm import tqdm
 
+from model.output import reduce_sequence_outputs
+
 
 class ShapContributionAnalyzer:
     def __init__(
@@ -184,11 +186,8 @@ class ShapContributionAnalyzer:
                             text_embeddings,
                             audio_lens,
                         )
-                        logits = self.model.head(fused_features)
-                        return self.model._mean_pool_logits(
-                            logits,
-                            audio_lens,
-                        )
+                        logits = self.model.head(fused_features, audio_lens)
+                        return reduce_sequence_outputs(logits, audio_lens)
 
                 wrapped_model = _BatchMultimodalWrapper(
                     self.model,
@@ -246,7 +245,8 @@ class ShapContributionAnalyzer:
                             self.audio_dim,
                         )
                         audio_lens = self._expand_lens(audio_inputs.size(0))
-                        return self.model((audio_inputs, audio_lens))
+                        logits = self.model((audio_inputs, audio_lens))
+                        return reduce_sequence_outputs(logits, audio_lens)
 
                 wrapped_model = _BatchAudioWrapper(
                     self.model,

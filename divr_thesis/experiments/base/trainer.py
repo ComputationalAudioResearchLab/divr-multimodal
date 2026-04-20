@@ -9,6 +9,7 @@ from tqdm import tqdm
 
 from experiments.base.hparams import HParams
 from experiments.base.tboard import MockBoard, TBoard
+from model.output import reduce_sequence_outputs
 
 
 class Trainer:
@@ -102,7 +103,7 @@ class Trainer:
         ):
             self.optimizer.zero_grad(set_to_none=True)
             labels = batch.labels.to(self.hparams.device)
-            logits = self._forward_batch(batch)
+            logits = self._sample_logits(batch, self._forward_batch(batch))
             loss = self.criterion(logits, labels)
             loss.backward()
             self.optimizer.step()
@@ -125,7 +126,7 @@ class Trainer:
             leave=False,
         ):
             labels = batch.labels.to(self.hparams.device)
-            logits = self._forward_batch(batch)
+            logits = self._sample_logits(batch, self._forward_batch(batch))
             loss = self.criterion(logits, labels)
             predictions = logits.argmax(dim=1)
             total_loss += loss.item()
@@ -172,6 +173,18 @@ class Trainer:
         raise ValueError(
             "Pure-text mode is disabled; audio inputs are required"
         )
+
+    def _sample_logits(self, batch, logits: torch.Tensor) -> torch.Tensor:
+        if logits.dim() == 2:
+            return logits
+        if logits.dim() != 3:
+            raise ValueError(
+                f"Unsupported logits shape: {tuple(logits.shape)}"
+            )
+        if batch.audio_inputs is None:
+            raise ValueError("Sequence logits require audio lengths")
+        audio_lens = batch.audio_inputs[1].to(logits.device)
+        return reduce_sequence_outputs(logits, audio_lens)
 
     def _save(
         self,
