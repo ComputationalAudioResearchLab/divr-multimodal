@@ -21,6 +21,12 @@ from data_loader.dtypes import (
 
 
 RESERVED_TASK_KEYS = {"label", "text_keys", "texts"}
+SUPPORTED_DEMOGRAPHIC_FIELDS = {
+    "age",
+    "gender",
+    "smoking",
+    "drinking",
+}
 
 
 def parse_text_payload(payload: str) -> dict[str, str]:
@@ -256,6 +262,9 @@ class TaskDataModule:
         self.include_audio = include_audio
         self.include_text = include_text
         self.num_workers = num_workers
+        self.demographic_fields = self._resolve_demographic_fields(
+            text_fields
+        )
 
         train_records = self._load_split("train")
         val_records = self._load_split("val")
@@ -306,6 +315,21 @@ class TaskDataModule:
         ]
         counts = np.bincount(train_label_ids, minlength=len(self.label_names))
         self.class_counts = torch.tensor(counts, dtype=torch.long)
+
+    def _resolve_demographic_fields(
+        self,
+        text_fields: Sequence[str] | None,
+    ) -> set[str]:
+        if not self.include_text:
+            return set()
+        normalized_fields = normalize_text_fields(text_fields)
+        if normalized_fields is None:
+            return set(SUPPORTED_DEMOGRAPHIC_FIELDS)
+        return {
+            field
+            for field in normalized_fields
+            if field in SUPPORTED_DEMOGRAPHIC_FIELDS
+        }
 
     def train(self) -> TorchDataLoader[Batch]:
         return self._make_loader(self.train_dataset, shuffle=True)
@@ -456,24 +480,40 @@ class TaskDataModule:
         genders: list[int] = []
         smokings: list[int] = []
         drinkings: list[int] = []
+        use_age = "age" in self.demographic_fields
+        use_gender = "gender" in self.demographic_fields
+        use_smoking = "smoking" in self.demographic_fields
+        use_drinking = "drinking" in self.demographic_fields
         for sample in batch:
-            age_value = try_parse_age(sample.metadata.get("age"))
-            ages.append(-1 if age_value is None else int(age_value))
+            if use_age:
+                age_value = try_parse_age(sample.metadata.get("age"))
+                ages.append(-1 if age_value is None else int(age_value))
+            else:
+                ages.append(-1)
 
-            raw_gender = str(
-                sample.metadata.get("gender", "unknown")
-            ).strip().lower()
-            genders.append(gender_to_id.get(raw_gender, 2))
+            if use_gender:
+                raw_gender = str(
+                    sample.metadata.get("gender", "unknown")
+                ).strip().lower()
+                genders.append(gender_to_id.get(raw_gender, 2))
+            else:
+                genders.append(2)
 
-            raw_smoking = str(
-                sample.metadata.get("smoking", "unknown")
-            ).strip().lower()
-            smokings.append(smoking_to_id.get(raw_smoking, 4))
+            if use_smoking:
+                raw_smoking = str(
+                    sample.metadata.get("smoking", "unknown")
+                ).strip().lower()
+                smokings.append(smoking_to_id.get(raw_smoking, 4))
+            else:
+                smokings.append(4)
 
-            raw_drinking = str(
-                sample.metadata.get("drinking", "unknown")
-            ).strip().lower()
-            drinkings.append(drinking_to_id.get(raw_drinking, 3))
+            if use_drinking:
+                raw_drinking = str(
+                    sample.metadata.get("drinking", "unknown")
+                ).strip().lower()
+                drinkings.append(drinking_to_id.get(raw_drinking, 3))
+            else:
+                drinkings.append(3)
 
         return (
             torch.tensor(ages, dtype=torch.long),

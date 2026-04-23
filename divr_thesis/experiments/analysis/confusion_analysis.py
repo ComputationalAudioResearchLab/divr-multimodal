@@ -35,7 +35,7 @@ def _save_confusion_plot(
     analysis_dir: Path,
 ) -> None:
     fig, ax = plt.subplots(1, 1, figsize=(8, 8), constrained_layout=True)
-    image = ax.imshow(confusion_frame.values, cmap="magma", aspect="auto")
+    image = ax.imshow(confusion_frame.values, cmap=plt.cm.Blues, aspect="auto")
     ax.set_xticks(range(len(confusion_frame.columns)))
     ax.set_yticks(range(len(confusion_frame.index)))
     ax.set_xticklabels(confusion_frame.columns, rotation=45, ha="right")
@@ -52,7 +52,7 @@ def _save_confusion_plot(
                 str(confusion_frame.iat[row_index, col_index]),
                 ha="center",
                 va="center",
-                color="white",
+                color="black",
             )
 
     fig.savefig(analysis_dir / "confusion_matrix.png")
