@@ -1,1 +1,1 @@
-"""divr_llm source package."""
+"""Command line entry points for divr_llm experiments."""
