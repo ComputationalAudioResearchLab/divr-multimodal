@@ -1,0 +1,61 @@
+seed: 42
+
+model:
+  model_name_or_path: Qwen/Qwen2-Audio-7B-Instruct
+  cache_dir: model/cache/qwen2audio
+  trust_remote_code: true
+  torch_dtype: bfloat16
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+data:
+  system_prompt: 你是一个严谨的语音分析助手，只输出和任务相关的答案。
+  prompt_template: 请根据语音判断说话人的年龄和性别，只输出形如 age=32; gender=male 的文本。
+  response_key: texts
+  response_index: 0
+  train_task_files:
+    - tasks/voiced_0_test/train.yml
+  eval_task_files:
+    - tasks/voiced_0_test/val.yml
+  test_task_files:
+    - tasks/voiced_0_test/test.yml
+
+analysis:
+  output_dir: analysis/qwen2audio_lora
+  test_prompt_template: 请根据语音判断该样本属于哪个标签，只能从 {label_choices} 中选择，并只输出标签本身。
+  test_system_prompt: 你是一个严谨的语音分析助手，只输出和任务相关的答案。
+  max_new_tokens: 16
+  num_beams: 1
+  do_sample: false
+
+train:
+  output_dir: model/qwen2audio_lora
+  num_train_epochs: 3
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 0.0002
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  logging_steps: 10
+  save_steps: 100
+  eval_steps: 100
+  save_total_limit: 2
+  precision: bf16
+  gradient_checkpointing: true
+  report_to: []
+  dataloader_num_workers: 0
+  optim: adamw_torch
+  lr_scheduler_type: cosine
+  run_name: qwen2audio-voiced-lora

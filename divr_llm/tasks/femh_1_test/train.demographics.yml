@@ -1,0 +1,30 @@
+muscle_tension:
+  female:
+    age_stats:
+      max: 73
+      mean: 39.21818181818182
+      min: 20
+      std: 11.991804159648664
+    total: 55
+  male:
+    age_stats:
+      max: 56
+      mean: 32.61538461538461
+      min: 20
+      std: 9.944151740905498
+    total: 26
+organic:
+  female:
+    age_stats:
+      max: 93
+      mean: 48.021246458923514
+      min: 20
+      std: 15.672566324049328
+    total: 706
+  male:
+    age_stats:
+      max: 97
+      mean: 53.74217311233886
+      min: 20
+      std: 15.615768371653553
+    total: 543
