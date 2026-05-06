@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "divr-multimodal"
+version = "0.1.0"
+description = "DiVR multimodal task generation and inspection tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pyyaml",
+  "divr-benchmark",
+  "divr-diagnosis",
+  "class-argparse",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["divr_multimodal*", "divr_StatisticalAnalysis*"]

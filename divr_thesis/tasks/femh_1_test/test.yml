@@ -1,0 +1,3636 @@
+femh_00003h4_0:
+  age: 68
+  gender: female
+  label: organic
+  speaker_id: 00003h4
+  text_keys:
+  - /home/storage/femh/selectwav/00003h4.wav
+  texts:
+  - age=68; gender=female; smoking=never; drinking=never
+femh_0000p01_0:
+  age: 66
+  gender: male
+  label: organic
+  speaker_id: 0000p01
+  text_keys:
+  - /home/storage/femh/selectwav/0000p01.wav
+  texts:
+  - age=66; gender=male; smoking=never; drinking=never
+femh_0001dg0_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 0001dg0
+  text_keys:
+  - /home/storage/femh/selectwav/0001dg0.wav
+  texts:
+  - age=58; gender=male; smoking=never; drinking=never
+femh_0001pte_0:
+  age: 63
+  gender: female
+  label: organic
+  speaker_id: 0001pte
+  text_keys:
+  - /home/storage/femh/selectwav/0001pte.wav
+  texts:
+  - age=63; gender=female; smoking=never; drinking=never
+femh_00022fq_0:
+  age: 78
+  gender: female
+  label: organic
+  speaker_id: 00022fq
+  text_keys:
+  - /home/storage/femh/selectwav/00022fq.wav
+  texts:
+  - age=78; gender=female; smoking=never; drinking=never
+femh_0002ege_0:
+  age: 70
+  gender: female
+  label: organic
+  speaker_id: 0002ege
+  text_keys:
+  - /home/storage/femh/selectwav/0002ege.wav
+  texts:
+  - age=70; gender=female; smoking=never; drinking=never
+femh_0002iop_0:
+  age: 70
+  gender: female
+  label: organic
+  speaker_id: 0002iop
+  text_keys:
+  - /home/storage/femh/selectwav/0002iop.wav
+  texts:
+  - age=70; gender=female; smoking=never; drinking=never
+femh_0002ipt_0:
+  age: 64
+  gender: male
+  label: organic
+  speaker_id: 0002ipt
+  text_keys:
+  - /home/storage/femh/selectwav/0002ipt.wav
+  texts:
+  - age=64; gender=male; smoking=never; drinking=never
+femh_0002lt8_0:
+  age: 74
+  gender: male
+  label: organic
+  speaker_id: 0002lt8
+  text_keys:
+  - /home/storage/femh/selectwav/0002lt8.wav
+  texts:
+  - age=74; gender=male; smoking=past; drinking=active
+femh_0100men_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 0100men
+  text_keys:
+  - /home/storage/femh/selectwav/0100men.wav
+  texts:
+  - age=58; gender=male; smoking=active; drinking=active
+femh_0100os0_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 0100os0
+  text_keys:
+  - /home/storage/femh/selectwav/0100os0.wav
+  texts:
+  - age=68; gender=male; smoking=past; drinking=active
+femh_0100uoo_0:
+  age: 75
+  gender: female
+  label: organic
+  speaker_id: 0100uoo
+  text_keys:
+  - /home/storage/femh/selectwav/0100uoo.wav
+  texts:
+  - age=75; gender=female; smoking=never; drinking=never
+femh_01024cj_0:
+  age: 68
+  gender: female
+  label: organic
+  speaker_id: 01024cj
+  text_keys:
+  - /home/storage/femh/selectwav/01024cj.wav
+  texts:
+  - age=68; gender=female; smoking=never; drinking=never
+femh_0102brp_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: 0102brp
+  text_keys:
+  - /home/storage/femh/selectwav/0102brp.wav
+  texts:
+  - age=70; gender=male; smoking=never; drinking=never
+femh_0102vaf_0:
+  age: 71
+  gender: male
+  label: organic
+  speaker_id: 0102vaf
+  text_keys:
+  - /home/storage/femh/selectwav/0102vaf.wav
+  texts:
+  - age=71; gender=male; smoking=past; drinking=never
+femh_0200cln_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 0200cln
+  text_keys:
+  - /home/storage/femh/selectwav/0200cln.wav
+  texts:
+  - age=58; gender=male; smoking=past; drinking=active
+femh_030039d_0:
+  age: 61
+  gender: female
+  label: organic
+  speaker_id: 030039d
+  text_keys:
+  - /home/storage/femh/selectwav/030039d.wav
+  texts:
+  - age=61; gender=female; smoking=never; drinking=never
+femh_03005so_0:
+  age: 62
+  gender: male
+  label: organic
+  speaker_id: 03005so
+  text_keys:
+  - /home/storage/femh/selectwav/03005so.wav
+  texts:
+  - age=62; gender=male; smoking=active; drinking=active
+femh_0300ahf_0:
+  age: 70
+  gender: female
+  label: organic
+  speaker_id: 0300ahf
+  text_keys:
+  - /home/storage/femh/selectwav/0300ahf.wav
+  texts:
+  - age=70; gender=female; smoking=never; drinking=never
+femh_0300j17_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 0300j17
+  text_keys:
+  - /home/storage/femh/selectwav/0300j17.wav
+  texts:
+  - age=57; gender=male; smoking=past; drinking=never
+femh_03017mj_0:
+  age: 71
+  gender: female
+  label: organic
+  speaker_id: 03017mj
+  text_keys:
+  - /home/storage/femh/selectwav/03017mj.wav
+  texts:
+  - age=71; gender=female; smoking=never; drinking=never
+femh_0301en8_0:
+  age: 44
+  gender: female
+  label: organic
+  speaker_id: 0301en8
+  text_keys:
+  - /home/storage/femh/selectwav/0301en8.wav
+  texts:
+  - age=44; gender=female; smoking=never; drinking=never
+femh_0301kjg_0:
+  age: 66
+  gender: female
+  label: organic
+  speaker_id: 0301kjg
+  text_keys:
+  - /home/storage/femh/selectwav/0301kjg.wav
+  texts:
+  - age=66; gender=female; smoking=never; drinking=never
+femh_0301s42_0:
+  age: 62
+  gender: female
+  label: organic
+  speaker_id: 0301s42
+  text_keys:
+  - /home/storage/femh/selectwav/0301s42.wav
+  texts:
+  - age=62; gender=female; smoking=never; drinking=never
+femh_0301ve2_0:
+  age: 75
+  gender: male
+  label: organic
+  speaker_id: 0301ve2
+  text_keys:
+  - /home/storage/femh/selectwav/0301ve2.wav
+  texts:
+  - age=75; gender=male; smoking=past; drinking=never
+femh_0302irr_0:
+  age: 39
+  gender: male
+  label: organic
+  speaker_id: 0302irr
+  text_keys:
+  - /home/storage/femh/selectwav/0302irr.wav
+  texts:
+  - age=39; gender=male; smoking=active; drinking=active
+femh_04006on_0:
+  age: 61
+  gender: male
+  label: organic
+  speaker_id: 04006on
+  text_keys:
+  - /home/storage/femh/selectwav/04006on.wav
+  texts:
+  - age=61; gender=male; smoking=never; drinking=never
+femh_0400n0h_0:
+  age: 72
+  gender: female
+  label: organic
+  speaker_id: 0400n0h
+  text_keys:
+  - /home/storage/femh/selectwav/0400n0h.wav
+  texts:
+  - age=72; gender=female; smoking=never; drinking=active
+femh_0400og6_0:
+  age: 60
+  gender: female
+  label: organic
+  speaker_id: 0400og6
+  text_keys:
+  - /home/storage/femh/selectwav/0400og6.wav
+  texts:
+  - age=60; gender=female; smoking=never; drinking=never
+femh_0400r7q_0:
+  age: 52
+  gender: male
+  label: organic
+  speaker_id: 0400r7q
+  text_keys:
+  - /home/storage/femh/selectwav/0400r7q.wav
+  texts:
+  - age=52; gender=male; smoking=active; drinking=active
+femh_04013ns_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 04013ns
+  text_keys:
+  - /home/storage/femh/selectwav/04013ns.wav
+  texts:
+  - age=57; gender=male; smoking=active; drinking=never
+femh_04015os_0:
+  age: 60
+  gender: male
+  label: organic
+  speaker_id: 04015os
+  text_keys:
+  - /home/storage/femh/selectwav/04015os.wav
+  texts:
+  - age=60; gender=male; smoking=active; drinking=never
+femh_04027it_0:
+  age: 72
+  gender: male
+  label: organic
+  speaker_id: 04027it
+  text_keys:
+  - /home/storage/femh/selectwav/04027it.wav
+  texts:
+  - age=72; gender=male; smoking=past; drinking=never
+femh_04029np_0:
+  age: 66
+  gender: female
+  label: organic
+  speaker_id: 04029np
+  text_keys:
+  - /home/storage/femh/selectwav/04029np.wav
+  texts:
+  - age=66; gender=female; smoking=never; drinking=active
+femh_05001hk_0:
+  age: 56
+  gender: female
+  label: organic
+  speaker_id: 05001hk
+  text_keys:
+  - /home/storage/femh/selectwav/05001hk.wav
+  texts:
+  - age=56; gender=female; smoking=never; drinking=never
+femh_0500a7j_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 0500a7j
+  text_keys:
+  - /home/storage/femh/selectwav/0500a7j.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=never
+femh_0500cg6_0:
+  age: 75
+  gender: male
+  label: organic
+  speaker_id: 0500cg6
+  text_keys:
+  - /home/storage/femh/selectwav/0500cg6.wav
+  texts:
+  - age=75; gender=male; smoking=past; drinking=never
+femh_0500o35_0:
+  age: 30
+  gender: female
+  label: muscle_tension
+  speaker_id: 0500o35
+  text_keys:
+  - /home/storage/femh/selectwav/0500o35.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=never
+femh_0500oju_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 0500oju
+  text_keys:
+  - /home/storage/femh/selectwav/0500oju.wav
+  texts:
+  - age=63; gender=male; smoking=past; drinking=never
+femh_05014o4_0:
+  age: 56
+  gender: male
+  label: organic
+  speaker_id: 05014o4
+  text_keys:
+  - /home/storage/femh/selectwav/05014o4.wav
+  texts:
+  - age=56; gender=male; smoking=past; drinking=active
+femh_05019iq_0:
+  age: 62
+  gender: female
+  label: organic
+  speaker_id: 05019iq
+  text_keys:
+  - /home/storage/femh/selectwav/05019iq.wav
+  texts:
+  - age=62; gender=female; smoking=never; drinking=never
+femh_05021ge_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: 05021ge
+  text_keys:
+  - /home/storage/femh/selectwav/05021ge.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=never
+femh_0502dmd_0:
+  age: 61
+  gender: female
+  label: organic
+  speaker_id: 0502dmd
+  text_keys:
+  - /home/storage/femh/selectwav/0502dmd.wav
+  texts:
+  - age=61; gender=female; smoking=never; drinking=never
+femh_0502l1d_0:
+  age: 56
+  gender: female
+  label: organic
+  speaker_id: 0502l1d
+  text_keys:
+  - /home/storage/femh/selectwav/0502l1d.wav
+  texts:
+  - age=56; gender=female; smoking=never; drinking=never
+femh_0502rr1_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: 0502rr1
+  text_keys:
+  - /home/storage/femh/selectwav/0502rr1.wav
+  texts:
+  - age=65; gender=male; smoking=past; drinking=never
+femh_05030k6_0:
+  age: 62
+  gender: male
+  label: organic
+  speaker_id: 05030k6
+  text_keys:
+  - /home/storage/femh/selectwav/05030k6.wav
+  texts:
+  - age=62; gender=male; smoking=never; drinking=never
+femh_06008hr_0:
+  age: 48
+  gender: female
+  label: organic
+  speaker_id: 06008hr
+  text_keys:
+  - /home/storage/femh/selectwav/06008hr.wav
+  texts:
+  - age=48; gender=female; smoking=never; drinking=never
+femh_060094r_0:
+  age: 47
+  gender: female
+  label: muscle_tension
+  speaker_id: 060094r
+  text_keys:
+  - /home/storage/femh/selectwav/060094r.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=never
+femh_0600e4t_0:
+  age: 59
+  gender: male
+  label: organic
+  speaker_id: 0600e4t
+  text_keys:
+  - /home/storage/femh/selectwav/0600e4t.wav
+  texts:
+  - age=59; gender=male; smoking=past; drinking=active
+femh_0600q2c_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: 0600q2c
+  text_keys:
+  - /home/storage/femh/selectwav/0600q2c.wav
+  texts:
+  - age=49; gender=female; smoking=never; drinking=active
+femh_0600ve0_0:
+  age: 69
+  gender: male
+  label: organic
+  speaker_id: 0600ve0
+  text_keys:
+  - /home/storage/femh/selectwav/0600ve0.wav
+  texts:
+  - age=69; gender=male; smoking=never; drinking=never
+femh_060142m_0:
+  age: 50
+  gender: male
+  label: organic
+  speaker_id: 060142m
+  text_keys:
+  - /home/storage/femh/selectwav/060142m.wav
+  texts:
+  - age=50; gender=male; smoking=active; drinking=never
+femh_06014ma_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: 06014ma
+  text_keys:
+  - /home/storage/femh/selectwav/06014ma.wav
+  texts:
+  - age=65; gender=male; smoking=never; drinking=never
+femh_0601kia_0:
+  age: 68
+  gender: female
+  label: organic
+  speaker_id: 0601kia
+  text_keys:
+  - /home/storage/femh/selectwav/0601kia.wav
+  texts:
+  - age=68; gender=female; smoking=never; drinking=never
+femh_0601oia_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 0601oia
+  text_keys:
+  - /home/storage/femh/selectwav/0601oia.wav
+  texts:
+  - age=68; gender=male; smoking=past; drinking=never
+femh_0602nc4_0:
+  age: 78
+  gender: female
+  label: organic
+  speaker_id: 0602nc4
+  text_keys:
+  - /home/storage/femh/selectwav/0602nc4.wav
+  texts:
+  - age=78; gender=female; smoking=never; drinking=never
+femh_07006qe_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: 07006qe
+  text_keys:
+  - /home/storage/femh/selectwav/07006qe.wav
+  texts:
+  - age=65; gender=male; smoking=never; drinking=never
+femh_070134s_0:
+  age: 69
+  gender: female
+  label: organic
+  speaker_id: 070134s
+  text_keys:
+  - /home/storage/femh/selectwav/070134s.wav
+  texts:
+  - age=69; gender=female; smoking=active; drinking=never
+femh_07022sc_0:
+  age: 50
+  gender: female
+  label: organic
+  speaker_id: 07022sc
+  text_keys:
+  - /home/storage/femh/selectwav/07022sc.wav
+  texts:
+  - age=50; gender=female; smoking=never; drinking=never
+femh_0702gr9_0:
+  age: 69
+  gender: male
+  label: organic
+  speaker_id: 0702gr9
+  text_keys:
+  - /home/storage/femh/selectwav/0702gr9.wav
+  texts:
+  - age=69; gender=male; smoking=active; drinking=never
+femh_0702mq6_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: 0702mq6
+  text_keys:
+  - /home/storage/femh/selectwav/0702mq6.wav
+  texts:
+  - age=58; gender=female; smoking=never; drinking=never
+femh_0800itm_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 0800itm
+  text_keys:
+  - /home/storage/femh/selectwav/0800itm.wav
+  texts:
+  - age=55; gender=male; smoking=past; drinking=active
+femh_0800rfk_0:
+  age: 69
+  gender: male
+  label: organic
+  speaker_id: 0800rfk
+  text_keys:
+  - /home/storage/femh/selectwav/0800rfk.wav
+  texts:
+  - age=69; gender=male; smoking=never; drinking=never
+femh_0801f9e_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 0801f9e
+  text_keys:
+  - /home/storage/femh/selectwav/0801f9e.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=never
+femh_0802fr9_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 0802fr9
+  text_keys:
+  - /home/storage/femh/selectwav/0802fr9.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=never
+femh_0802hb7_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 0802hb7
+  text_keys:
+  - /home/storage/femh/selectwav/0802hb7.wav
+  texts:
+  - age=38; gender=female; smoking=active; drinking=never
+femh_0803014_0:
+  age: 51
+  gender: male
+  label: organic
+  speaker_id: 0803014
+  text_keys:
+  - /home/storage/femh/selectwav/0803014.wav
+  texts:
+  - age=51; gender=male; smoking=past; drinking=never
+femh_08030kk_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 08030kk
+  text_keys:
+  - /home/storage/femh/selectwav/08030kk.wav
+  texts:
+  - age=58; gender=male; smoking=never; drinking=never
+femh_09009dn_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 09009dn
+  text_keys:
+  - /home/storage/femh/selectwav/09009dn.wav
+  texts:
+  - age=58; gender=male; smoking=never; drinking=never
+femh_0900pis_0:
+  age: 51
+  gender: female
+  label: organic
+  speaker_id: 0900pis
+  text_keys:
+  - /home/storage/femh/selectwav/0900pis.wav
+  texts:
+  - age=51; gender=female; smoking=active; drinking=never
+femh_09012aa_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 09012aa
+  text_keys:
+  - /home/storage/femh/selectwav/09012aa.wav
+  texts:
+  - age=42; gender=male; smoking=active; drinking=never
+femh_09012dj_0:
+  age: 67
+  gender: female
+  label: organic
+  speaker_id: 09012dj
+  text_keys:
+  - /home/storage/femh/selectwav/09012dj.wav
+  texts:
+  - age=67; gender=female; smoking=never; drinking=never
+femh_0901ah3_0:
+  age: 80
+  gender: male
+  label: organic
+  speaker_id: 0901ah3
+  text_keys:
+  - /home/storage/femh/selectwav/0901ah3.wav
+  texts:
+  - age=80; gender=male; smoking=past; drinking=never
+femh_09028u4_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 09028u4
+  text_keys:
+  - /home/storage/femh/selectwav/09028u4.wav
+  texts:
+  - age=35; gender=female; smoking=active; drinking=never
+femh_0A00edq_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: 0A00edq
+  text_keys:
+  - /home/storage/femh/selectwav/0A00edq.wav
+  texts:
+  - age=24; gender=female; smoking=active; drinking=never
+femh_0A00g2q_0:
+  age: 48
+  gender: female
+  label: organic
+  speaker_id: 0A00g2q
+  text_keys:
+  - /home/storage/femh/selectwav/0A00g2q.wav
+  texts:
+  - age=48; gender=female; smoking=never; drinking=never
+femh_0A01612_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 0A01612
+  text_keys:
+  - /home/storage/femh/selectwav/0A01612.wav
+  texts:
+  - age=40; gender=female; smoking=active; drinking=never
+femh_0A01d1s_0:
+  age: 50
+  gender: male
+  label: organic
+  speaker_id: 0A01d1s
+  text_keys:
+  - /home/storage/femh/selectwav/0A01d1s.wav
+  texts:
+  - age=50; gender=male; smoking=past; drinking=never
+femh_0A01rn2_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: 0A01rn2
+  text_keys:
+  - /home/storage/femh/selectwav/0A01rn2.wav
+  texts:
+  - age=49; gender=female; smoking=never; drinking=never
+femh_0A021fv_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 0A021fv
+  text_keys:
+  - /home/storage/femh/selectwav/0A021fv.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=never
+femh_0A02aod_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 0A02aod
+  text_keys:
+  - /home/storage/femh/selectwav/0A02aod.wav
+  texts:
+  - age=38; gender=female; smoking=past; drinking=never
+femh_0A02spo_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 0A02spo
+  text_keys:
+  - /home/storage/femh/selectwav/0A02spo.wav
+  texts:
+  - age=41; gender=female; smoking=never; drinking=never
+femh_0B00490_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 0B00490
+  text_keys:
+  - /home/storage/femh/selectwav/0B00490.wav
+  texts:
+  - age=44; gender=male; smoking=past; drinking=never
+femh_0B00id8_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: 0B00id8
+  text_keys:
+  - /home/storage/femh/selectwav/0B00id8.wav
+  texts:
+  - age=49; gender=female; smoking=never; drinking=never
+femh_0B00onp_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 0B00onp
+  text_keys:
+  - /home/storage/femh/selectwav/0B00onp.wav
+  texts:
+  - age=43; gender=female; smoking=active; drinking=never
+femh_0B013d7_0:
+  age: 64
+  gender: female
+  label: organic
+  speaker_id: 0B013d7
+  text_keys:
+  - /home/storage/femh/selectwav/0B013d7.wav
+  texts:
+  - age=64; gender=female; smoking=never; drinking=never
+femh_0B02fmu_0:
+  age: 46
+  gender: male
+  label: organic
+  speaker_id: 0B02fmu
+  text_keys:
+  - /home/storage/femh/selectwav/0B02fmu.wav
+  texts:
+  - age=46; gender=male; smoking=never; drinking=never
+femh_0C0049f_0:
+  age: 71
+  gender: female
+  label: organic
+  speaker_id: 0C0049f
+  text_keys:
+  - /home/storage/femh/selectwav/0C0049f.wav
+  texts:
+  - age=71; gender=female; smoking=never; drinking=never
+femh_0C013gj_0:
+  age: 66
+  gender: female
+  label: organic
+  speaker_id: 0C013gj
+  text_keys:
+  - /home/storage/femh/selectwav/0C013gj.wav
+  texts:
+  - age=66; gender=female; smoking=never; drinking=never
+femh_0C0147g_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 0C0147g
+  text_keys:
+  - /home/storage/femh/selectwav/0C0147g.wav
+  texts:
+  - age=39; gender=female; smoking=active; drinking=active
+femh_0C01721_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: 0C01721
+  text_keys:
+  - /home/storage/femh/selectwav/0C01721.wav
+  texts:
+  - age=70; gender=male; smoking=past; drinking=never
+femh_0C01a2a_0:
+  age: 44
+  gender: female
+  label: muscle_tension
+  speaker_id: 0C01a2a
+  text_keys:
+  - /home/storage/femh/selectwav/0C01a2a.wav
+  texts:
+  - age=44; gender=female; smoking=never; drinking=never
+femh_0C01nac_0:
+  age: 66
+  gender: female
+  label: organic
+  speaker_id: 0C01nac
+  text_keys:
+  - /home/storage/femh/selectwav/0C01nac.wav
+  texts:
+  - age=66; gender=female; smoking=never; drinking=never
+femh_0C025sk_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 0C025sk
+  text_keys:
+  - /home/storage/femh/selectwav/0C025sk.wav
+  texts:
+  - age=39; gender=female; smoking=active; drinking=active
+femh_0C02gec_0:
+  age: 66
+  gender: male
+  label: organic
+  speaker_id: 0C02gec
+  text_keys:
+  - /home/storage/femh/selectwav/0C02gec.wav
+  texts:
+  - age=66; gender=male; smoking=past; drinking=never
+femh_0F00e1p_0:
+  age: 22
+  gender: female
+  label: organic
+  speaker_id: 0F00e1p
+  text_keys:
+  - /home/storage/femh/selectwav/0F00e1p.wav
+  texts:
+  - age=22; gender=female; smoking=never; drinking=never
+femh_0F00nk8_0:
+  age: 45
+  gender: male
+  label: organic
+  speaker_id: 0F00nk8
+  text_keys:
+  - /home/storage/femh/selectwav/0F00nk8.wav
+  texts:
+  - age=45; gender=male; smoking=past; drinking=active
+femh_0F00u8e_0:
+  age: 38
+  gender: male
+  label: organic
+  speaker_id: 0F00u8e
+  text_keys:
+  - /home/storage/femh/selectwav/0F00u8e.wav
+  texts:
+  - age=38; gender=male; smoking=never; drinking=active
+femh_0F01dug_0:
+  age: 63
+  gender: female
+  label: organic
+  speaker_id: 0F01dug
+  text_keys:
+  - /home/storage/femh/selectwav/0F01dug.wav
+  texts:
+  - age=63; gender=female; smoking=never; drinking=active
+femh_0F020q2_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 0F020q2
+  text_keys:
+  - /home/storage/femh/selectwav/0F020q2.wav
+  texts:
+  - age=44; gender=male; smoking=past; drinking=never
+femh_0F02bi3_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: 0F02bi3
+  text_keys:
+  - /home/storage/femh/selectwav/0F02bi3.wav
+  texts:
+  - age=65; gender=male; smoking=never; drinking=never
+femh_0G00fll_0:
+  age: 76
+  gender: male
+  label: organic
+  speaker_id: 0G00fll
+  text_keys:
+  - /home/storage/femh/selectwav/0G00fll.wav
+  texts:
+  - age=76; gender=male; smoking=past; drinking=never
+femh_0G00n63_0:
+  age: 43
+  gender: female
+  label: muscle_tension
+  speaker_id: 0G00n63
+  text_keys:
+  - /home/storage/femh/selectwav/0G00n63.wav
+  texts:
+  - age=43; gender=female; smoking=never; drinking=never
+femh_0G00r5c_0:
+  age: 41
+  gender: male
+  label: organic
+  speaker_id: 0G00r5c
+  text_keys:
+  - /home/storage/femh/selectwav/0G00r5c.wav
+  texts:
+  - age=41; gender=male; smoking=never; drinking=never
+femh_0G00rs5_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 0G00rs5
+  text_keys:
+  - /home/storage/femh/selectwav/0G00rs5.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=never
+femh_0G012re_0:
+  age: 82
+  gender: male
+  label: organic
+  speaker_id: 0G012re
+  text_keys:
+  - /home/storage/femh/selectwav/0G012re.wav
+  texts:
+  - age=82; gender=male; smoking=never; drinking=never
+femh_0G015l3_0:
+  age: 29
+  gender: female
+  label: organic
+  speaker_id: 0G015l3
+  text_keys:
+  - /home/storage/femh/selectwav/0G015l3.wav
+  texts:
+  - age=29; gender=female; smoking=never; drinking=active
+femh_0G016hn_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 0G016hn
+  text_keys:
+  - /home/storage/femh/selectwav/0G016hn.wav
+  texts:
+  - age=68; gender=male; smoking=past; drinking=active
+femh_0G018t8_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 0G018t8
+  text_keys:
+  - /home/storage/femh/selectwav/0G018t8.wav
+  texts:
+  - age=43; gender=female; smoking=never; drinking=never
+femh_0G02hle_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 0G02hle
+  text_keys:
+  - /home/storage/femh/selectwav/0G02hle.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=never
+femh_0H00fr6_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 0H00fr6
+  text_keys:
+  - /home/storage/femh/selectwav/0H00fr6.wav
+  texts:
+  - age=41; gender=female; smoking=never; drinking=never
+femh_0H00u5o_0:
+  age: 46
+  gender: male
+  label: organic
+  speaker_id: 0H00u5o
+  text_keys:
+  - /home/storage/femh/selectwav/0H00u5o.wav
+  texts:
+  - age=46; gender=male; smoking=active; drinking=never
+femh_0H02vq8_0:
+  age: 69
+  gender: female
+  label: organic
+  speaker_id: 0H02vq8
+  text_keys:
+  - /home/storage/femh/selectwav/0H02vq8.wav
+  texts:
+  - age=69; gender=female; smoking=never; drinking=never
+femh_0J01lnr_0:
+  age: 79
+  gender: female
+  label: organic
+  speaker_id: 0J01lnr
+  text_keys:
+  - /home/storage/femh/selectwav/0J01lnr.wav
+  texts:
+  - age=79; gender=female; smoking=never; drinking=never
+femh_0J01oai_0:
+  age: 76
+  gender: male
+  label: organic
+  speaker_id: 0J01oai
+  text_keys:
+  - /home/storage/femh/selectwav/0J01oai.wav
+  texts:
+  - age=76; gender=male; smoking=never; drinking=never
+femh_0J024fq_0:
+  age: 60
+  gender: female
+  label: organic
+  speaker_id: 0J024fq
+  text_keys:
+  - /home/storage/femh/selectwav/0J024fq.wav
+  texts:
+  - age=60; gender=female; smoking=active; drinking=active
+femh_0J02bg5_0:
+  age: 45
+  gender: male
+  label: organic
+  speaker_id: 0J02bg5
+  text_keys:
+  - /home/storage/femh/selectwav/0J02bg5.wav
+  texts:
+  - age=45; gender=male; smoking=active; drinking=never
+femh_0J02jkr_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 0J02jkr
+  text_keys:
+  - /home/storage/femh/selectwav/0J02jkr.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=never
+femh_0K002gh_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 0K002gh
+  text_keys:
+  - /home/storage/femh/selectwav/0K002gh.wav
+  texts:
+  - age=58; gender=male; smoking=past; drinking=active
+femh_0K022ss_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 0K022ss
+  text_keys:
+  - /home/storage/femh/selectwav/0K022ss.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=never
+femh_0M009e1_0:
+  age: 52
+  gender: female
+  label: organic
+  speaker_id: 0M009e1
+  text_keys:
+  - /home/storage/femh/selectwav/0M009e1.wav
+  texts:
+  - age=52; gender=female; smoking=active; drinking=never
+femh_0M019cg_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: 0M019cg
+  text_keys:
+  - /home/storage/femh/selectwav/0M019cg.wav
+  texts:
+  - age=24; gender=female; smoking=never; drinking=never
+femh_0M01e0j_0:
+  age: 78
+  gender: male
+  label: organic
+  speaker_id: 0M01e0j
+  text_keys:
+  - /home/storage/femh/selectwav/0M01e0j.wav
+  texts:
+  - age=78; gender=male; smoking=past; drinking=never
+femh_0M01k5l_0:
+  age: 30
+  gender: female
+  label: muscle_tension
+  speaker_id: 0M01k5l
+  text_keys:
+  - /home/storage/femh/selectwav/0M01k5l.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=active
+femh_0M021uc_0:
+  age: 32
+  gender: female
+  label: organic
+  speaker_id: 0M021uc
+  text_keys:
+  - /home/storage/femh/selectwav/0M021uc.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=active
+femh_0M0249t_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 0M0249t
+  text_keys:
+  - /home/storage/femh/selectwav/0M0249t.wav
+  texts:
+  - age=37; gender=female; smoking=active; drinking=active
+femh_0M024pb_0:
+  age: 76
+  gender: male
+  label: organic
+  speaker_id: 0M024pb
+  text_keys:
+  - /home/storage/femh/selectwav/0M024pb.wav
+  texts:
+  - age=76; gender=male; smoking=never; drinking=active
+femh_0M02gfs_0:
+  age: 48
+  gender: male
+  label: organic
+  speaker_id: 0M02gfs
+  text_keys:
+  - /home/storage/femh/selectwav/0M02gfs.wav
+  texts:
+  - age=48; gender=male; smoking=past; drinking=active
+femh_0M02h83_0:
+  age: 61
+  gender: male
+  label: organic
+  speaker_id: 0M02h83
+  text_keys:
+  - /home/storage/femh/selectwav/0M02h83.wav
+  texts:
+  - age=61; gender=male; smoking=never; drinking=active
+femh_0M02rf3_0:
+  age: 64
+  gender: female
+  label: organic
+  speaker_id: 0M02rf3
+  text_keys:
+  - /home/storage/femh/selectwav/0M02rf3.wav
+  texts:
+  - age=64; gender=female; smoking=never; drinking=never
+femh_0M02v2a_0:
+  age: 59
+  gender: female
+  label: organic
+  speaker_id: 0M02v2a
+  text_keys:
+  - /home/storage/femh/selectwav/0M02v2a.wav
+  texts:
+  - age=59; gender=female; smoking=active; drinking=active
+femh_0R00pjq_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 0R00pjq
+  text_keys:
+  - /home/storage/femh/selectwav/0R00pjq.wav
+  texts:
+  - age=44; gender=male; smoking=never; drinking=active
+femh_0R01q8i_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: 0R01q8i
+  text_keys:
+  - /home/storage/femh/selectwav/0R01q8i.wav
+  texts:
+  - age=70; gender=male; smoking=past; drinking=never
+femh_0R022j1_0:
+  age: 30
+  gender: male
+  label: muscle_tension
+  speaker_id: 0R022j1
+  text_keys:
+  - /home/storage/femh/selectwav/0R022j1.wav
+  texts:
+  - age=30; gender=male; smoking=active; drinking=never
+femh_0R03090_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 0R03090
+  text_keys:
+  - /home/storage/femh/selectwav/0R03090.wav
+  texts:
+  - age=57; gender=male; smoking=active; drinking=active
+femh_0S001du_0:
+  age: 36
+  gender: female
+  label: muscle_tension
+  speaker_id: 0S001du
+  text_keys:
+  - /home/storage/femh/selectwav/0S001du.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=never
+femh_0S00agl_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 0S00agl
+  text_keys:
+  - /home/storage/femh/selectwav/0S00agl.wav
+  texts:
+  - age=38; gender=female; smoking=active; drinking=active
+femh_0S01f4a_0:
+  age: 69
+  gender: female
+  label: organic
+  speaker_id: 0S01f4a
+  text_keys:
+  - /home/storage/femh/selectwav/0S01f4a.wav
+  texts:
+  - age=69; gender=female; smoking=never; drinking=never
+femh_0S02tsp_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 0S02tsp
+  text_keys:
+  - /home/storage/femh/selectwav/0S02tsp.wav
+  texts:
+  - age=41; gender=female; smoking=active; drinking=never
+femh_0T0092q_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 0T0092q
+  text_keys:
+  - /home/storage/femh/selectwav/0T0092q.wav
+  texts:
+  - age=30; gender=female; smoking=active; drinking=never
+femh_0T00hrm_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 0T00hrm
+  text_keys:
+  - /home/storage/femh/selectwav/0T00hrm.wav
+  texts:
+  - age=63; gender=male; smoking=active; drinking=active
+femh_0T00ted_0:
+  age: 31
+  gender: male
+  label: organic
+  speaker_id: 0T00ted
+  text_keys:
+  - /home/storage/femh/selectwav/0T00ted.wav
+  texts:
+  - age=31; gender=male; smoking=never; drinking=never
+femh_0T01087_0:
+  age: 57
+  gender: female
+  label: organic
+  speaker_id: 0T01087
+  text_keys:
+  - /home/storage/femh/selectwav/0T01087.wav
+  texts:
+  - age=57; gender=female; smoking=active; drinking=never
+femh_0T022un_0:
+  age: 52
+  gender: male
+  label: organic
+  speaker_id: 0T022un
+  text_keys:
+  - /home/storage/femh/selectwav/0T022un.wav
+  texts:
+  - age=52; gender=male; smoking=never; drinking=never
+femh_0T02672_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 0T02672
+  text_keys:
+  - /home/storage/femh/selectwav/0T02672.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=never
+femh_0T02lm3_0:
+  age: 66
+  gender: male
+  label: organic
+  speaker_id: 0T02lm3
+  text_keys:
+  - /home/storage/femh/selectwav/0T02lm3.wav
+  texts:
+  - age=66; gender=male; smoking=never; drinking=never
+femh_0T02s69_0:
+  age: 56
+  gender: male
+  label: organic
+  speaker_id: 0T02s69
+  text_keys:
+  - /home/storage/femh/selectwav/0T02s69.wav
+  texts:
+  - age=56; gender=male; smoking=never; drinking=never
+femh_0U005ek_0:
+  age: 32
+  gender: female
+  label: muscle_tension
+  speaker_id: 0U005ek
+  text_keys:
+  - /home/storage/femh/selectwav/0U005ek.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=active
+femh_0U007ta_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 0U007ta
+  text_keys:
+  - /home/storage/femh/selectwav/0U007ta.wav
+  texts:
+  - age=63; gender=male; smoking=past; drinking=never
+femh_0U00gnr_0:
+  age: 59
+  gender: male
+  label: organic
+  speaker_id: 0U00gnr
+  text_keys:
+  - /home/storage/femh/selectwav/0U00gnr.wav
+  texts:
+  - age=59; gender=male; smoking=active; drinking=never
+femh_0U00kng_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 0U00kng
+  text_keys:
+  - /home/storage/femh/selectwav/0U00kng.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=never
+femh_0U01og8_0:
+  age: 57
+  gender: female
+  label: organic
+  speaker_id: 0U01og8
+  text_keys:
+  - /home/storage/femh/selectwav/0U01og8.wav
+  texts:
+  - age=57; gender=female; smoking=never; drinking=never
+femh_0U023fr_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 0U023fr
+  text_keys:
+  - /home/storage/femh/selectwav/0U023fr.wav
+  texts:
+  - age=47; gender=female; smoking=past; drinking=active
+femh_0U024mj_0:
+  age: 27
+  gender: female
+  label: muscle_tension
+  speaker_id: 0U024mj
+  text_keys:
+  - /home/storage/femh/selectwav/0U024mj.wav
+  texts:
+  - age=27; gender=female; smoking=never; drinking=active
+femh_0U02cco_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 0U02cco
+  text_keys:
+  - /home/storage/femh/selectwav/0U02cco.wav
+  texts:
+  - age=57; gender=male; smoking=active; drinking=never
+femh_0U02n6a_0:
+  age: 56
+  gender: male
+  label: organic
+  speaker_id: 0U02n6a
+  text_keys:
+  - /home/storage/femh/selectwav/0U02n6a.wav
+  texts:
+  - age=56; gender=male; smoking=never; drinking=active
+femh_0U02qnt_0:
+  age: 28
+  gender: male
+  label: muscle_tension
+  speaker_id: 0U02qnt
+  text_keys:
+  - /home/storage/femh/selectwav/0U02qnt.wav
+  texts:
+  - age=28; gender=male; smoking=never; drinking=active
+femh_0W007m3_0:
+  age: 32
+  gender: female
+  label: muscle_tension
+  speaker_id: 0W007m3
+  text_keys:
+  - /home/storage/femh/selectwav/0W007m3.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=never
+femh_0W00bub_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 0W00bub
+  text_keys:
+  - /home/storage/femh/selectwav/0W00bub.wav
+  texts:
+  - age=55; gender=female; smoking=active; drinking=never
+femh_0W00fsv_0:
+  age: 50
+  gender: female
+  label: organic
+  speaker_id: 0W00fsv
+  text_keys:
+  - /home/storage/femh/selectwav/0W00fsv.wav
+  texts:
+  - age=50; gender=female; smoking=never; drinking=never
+femh_0W00jiq_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: 0W00jiq
+  text_keys:
+  - /home/storage/femh/selectwav/0W00jiq.wav
+  texts:
+  - age=58; gender=female; smoking=never; drinking=never
+femh_0W0148h_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: 0W0148h
+  text_keys:
+  - /home/storage/femh/selectwav/0W0148h.wav
+  texts:
+  - age=58; gender=female; smoking=never; drinking=never
+femh_0W017on_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 0W017on
+  text_keys:
+  - /home/storage/femh/selectwav/0W017on.wav
+  texts:
+  - age=68; gender=male; smoking=never; drinking=never
+femh_0W01a47_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 0W01a47
+  text_keys:
+  - /home/storage/femh/selectwav/0W01a47.wav
+  texts:
+  - age=43; gender=female; smoking=never; drinking=never
+femh_0W01gf0_0:
+  age: 72
+  gender: male
+  label: organic
+  speaker_id: 0W01gf0
+  text_keys:
+  - /home/storage/femh/selectwav/0W01gf0.wav
+  texts:
+  - age=72; gender=male; smoking=past; drinking=active
+femh_0W01ljm_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: 0W01ljm
+  text_keys:
+  - /home/storage/femh/selectwav/0W01ljm.wav
+  texts:
+  - age=58; gender=female; smoking=active; drinking=never
+femh_0W01ltt_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 0W01ltt
+  text_keys:
+  - /home/storage/femh/selectwav/0W01ltt.wav
+  texts:
+  - age=30; gender=female; smoking=active; drinking=active
+femh_0W01qei_0:
+  age: 66
+  gender: female
+  label: organic
+  speaker_id: 0W01qei
+  text_keys:
+  - /home/storage/femh/selectwav/0W01qei.wav
+  texts:
+  - age=66; gender=female; smoking=never; drinking=never
+femh_0W01qn5_0:
+  age: 64
+  gender: male
+  label: organic
+  speaker_id: 0W01qn5
+  text_keys:
+  - /home/storage/femh/selectwav/0W01qn5.wav
+  texts:
+  - age=64; gender=male; smoking=never; drinking=never
+femh_0W01r3i_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 0W01r3i
+  text_keys:
+  - /home/storage/femh/selectwav/0W01r3i.wav
+  texts:
+  - age=43; gender=female; smoking=active; drinking=never
+femh_0W020oa_0:
+  age: 40
+  gender: male
+  label: organic
+  speaker_id: 0W020oa
+  text_keys:
+  - /home/storage/femh/selectwav/0W020oa.wav
+  texts:
+  - age=40; gender=male; smoking=active; drinking=never
+femh_0W021oe_0:
+  age: 39
+  gender: female
+  label: muscle_tension
+  speaker_id: 0W021oe
+  text_keys:
+  - /home/storage/femh/selectwav/0W021oe.wav
+  texts:
+  - age=39; gender=female; smoking=never; drinking=never
+femh_0W0227b_0:
+  age: 45
+  gender: male
+  label: organic
+  speaker_id: 0W0227b
+  text_keys:
+  - /home/storage/femh/selectwav/0W0227b.wav
+  texts:
+  - age=45; gender=male; smoking=never; drinking=active
+femh_0W025ql_0:
+  age: 63
+  gender: female
+  label: organic
+  speaker_id: 0W025ql
+  text_keys:
+  - /home/storage/femh/selectwav/0W025ql.wav
+  texts:
+  - age=63; gender=female; smoking=never; drinking=never
+femh_0W029ar_0:
+  age: 38
+  gender: male
+  label: organic
+  speaker_id: 0W029ar
+  text_keys:
+  - /home/storage/femh/selectwav/0W029ar.wav
+  texts:
+  - age=38; gender=male; smoking=past; drinking=never
+femh_0W02ac2_0:
+  age: 36
+  gender: male
+  label: organic
+  speaker_id: 0W02ac2
+  text_keys:
+  - /home/storage/femh/selectwav/0W02ac2.wav
+  texts:
+  - age=36; gender=male; smoking=past; drinking=never
+femh_0W02i90_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 0W02i90
+  text_keys:
+  - /home/storage/femh/selectwav/0W02i90.wav
+  texts:
+  - age=42; gender=male; smoking=never; drinking=never
+femh_0W02ln0_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 0W02ln0
+  text_keys:
+  - /home/storage/femh/selectwav/0W02ln0.wav
+  texts:
+  - age=37; gender=female; smoking=never; drinking=never
+femh_0W02ppq_0:
+  age: 50
+  gender: female
+  label: organic
+  speaker_id: 0W02ppq
+  text_keys:
+  - /home/storage/femh/selectwav/0W02ppq.wav
+  texts:
+  - age=50; gender=female; smoking=never; drinking=never
+femh_0W02vde_0:
+  age: 62
+  gender: female
+  label: organic
+  speaker_id: 0W02vde
+  text_keys:
+  - /home/storage/femh/selectwav/0W02vde.wav
+  texts:
+  - age=62; gender=female; smoking=never; drinking=never
+femh_0Y0006c_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 0Y0006c
+  text_keys:
+  - /home/storage/femh/selectwav/0Y0006c.wav
+  texts:
+  - age=40; gender=female; smoking=past; drinking=never
+femh_0Y00236_0:
+  age: 56
+  gender: female
+  label: organic
+  speaker_id: 0Y00236
+  text_keys:
+  - /home/storage/femh/selectwav/0Y00236.wav
+  texts:
+  - age=56; gender=female; smoking=never; drinking=never
+femh_0Y005nn_0:
+  age: 74
+  gender: male
+  label: organic
+  speaker_id: 0Y005nn
+  text_keys:
+  - /home/storage/femh/selectwav/0Y005nn.wav
+  texts:
+  - age=74; gender=male; smoking=never; drinking=never
+femh_0Y00746_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 0Y00746
+  text_keys:
+  - /home/storage/femh/selectwav/0Y00746.wav
+  texts:
+  - age=37; gender=female; smoking=never; drinking=never
+femh_0Y00lj2_0:
+  age: 26
+  gender: female
+  label: organic
+  speaker_id: 0Y00lj2
+  text_keys:
+  - /home/storage/femh/selectwav/0Y00lj2.wav
+  texts:
+  - age=26; gender=female; smoking=never; drinking=active
+femh_0Y00oeu_0:
+  age: 50
+  gender: male
+  label: organic
+  speaker_id: 0Y00oeu
+  text_keys:
+  - /home/storage/femh/selectwav/0Y00oeu.wav
+  texts:
+  - age=50; gender=male; smoking=never; drinking=never
+femh_0Y00pnn_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 0Y00pnn
+  text_keys:
+  - /home/storage/femh/selectwav/0Y00pnn.wav
+  texts:
+  - age=63; gender=male; smoking=past; drinking=active
+femh_0Y01562_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: 0Y01562
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01562.wav
+  texts:
+  - age=24; gender=female; smoking=active; drinking=active
+femh_0Y01e7c_0:
+  age: 65
+  gender: female
+  label: organic
+  speaker_id: 0Y01e7c
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01e7c.wav
+  texts:
+  - age=65; gender=female; smoking=never; drinking=never
+femh_0Y01la2_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 0Y01la2
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01la2.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=never
+femh_0Y01pbu_0:
+  age: 23
+  gender: female
+  label: organic
+  speaker_id: 0Y01pbu
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01pbu.wav
+  texts:
+  - age=23; gender=female; smoking=never; drinking=never
+femh_0Y01qjj_0:
+  age: 27
+  gender: female
+  label: organic
+  speaker_id: 0Y01qjj
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01qjj.wav
+  texts:
+  - age=27; gender=female; smoking=never; drinking=never
+femh_0Y01qt6_0:
+  age: 37
+  gender: male
+  label: organic
+  speaker_id: 0Y01qt6
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01qt6.wav
+  texts:
+  - age=37; gender=male; smoking=never; drinking=never
+femh_0Y01vnt_0:
+  age: 79
+  gender: female
+  label: organic
+  speaker_id: 0Y01vnt
+  text_keys:
+  - /home/storage/femh/selectwav/0Y01vnt.wav
+  texts:
+  - age=79; gender=female; smoking=never; drinking=never
+femh_0Y0200h_0:
+  age: 46
+  gender: male
+  label: organic
+  speaker_id: 0Y0200h
+  text_keys:
+  - /home/storage/femh/selectwav/0Y0200h.wav
+  texts:
+  - age=46; gender=male; smoking=active; drinking=never
+femh_0Y0200p_0:
+  age: 53
+  gender: female
+  label: organic
+  speaker_id: 0Y0200p
+  text_keys:
+  - /home/storage/femh/selectwav/0Y0200p.wav
+  texts:
+  - age=53; gender=female; smoking=never; drinking=active
+femh_0Y020t2_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 0Y020t2
+  text_keys:
+  - /home/storage/femh/selectwav/0Y020t2.wav
+  texts:
+  - age=37; gender=female; smoking=active; drinking=active
+femh_0Y021e7_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 0Y021e7
+  text_keys:
+  - /home/storage/femh/selectwav/0Y021e7.wav
+  texts:
+  - age=42; gender=male; smoking=never; drinking=active
+femh_0Y021eu_0:
+  age: 74
+  gender: female
+  label: organic
+  speaker_id: 0Y021eu
+  text_keys:
+  - /home/storage/femh/selectwav/0Y021eu.wav
+  texts:
+  - age=74; gender=female; smoking=never; drinking=never
+femh_0Y026df_0:
+  age: 35
+  gender: male
+  label: organic
+  speaker_id: 0Y026df
+  text_keys:
+  - /home/storage/femh/selectwav/0Y026df.wav
+  texts:
+  - age=35; gender=male; smoking=never; drinking=never
+femh_0Y026r6_0:
+  age: 67
+  gender: male
+  label: organic
+  speaker_id: 0Y026r6
+  text_keys:
+  - /home/storage/femh/selectwav/0Y026r6.wav
+  texts:
+  - age=67; gender=male; smoking=never; drinking=never
+femh_0Y029vr_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 0Y029vr
+  text_keys:
+  - /home/storage/femh/selectwav/0Y029vr.wav
+  texts:
+  - age=39; gender=female; smoking=past; drinking=never
+femh_0Y02bv3_0:
+  age: 58
+  gender: male
+  label: organic
+  speaker_id: 0Y02bv3
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02bv3.wav
+  texts:
+  - age=58; gender=male; smoking=past; drinking=never
+femh_0Y02c2e_0:
+  age: 31
+  gender: male
+  label: organic
+  speaker_id: 0Y02c2e
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02c2e.wav
+  texts:
+  - age=31; gender=male; smoking=never; drinking=never
+femh_0Y02cls_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 0Y02cls
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02cls.wav
+  texts:
+  - age=45; gender=female; smoking=active; drinking=active
+femh_0Y02g2c_0:
+  age: 62
+  gender: female
+  label: organic
+  speaker_id: 0Y02g2c
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02g2c.wav
+  texts:
+  - age=62; gender=female; smoking=never; drinking=never
+femh_0Y02g90_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: 0Y02g90
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02g90.wav
+  texts:
+  - age=46; gender=female; smoking=never; drinking=never
+femh_0Y02g9e_0:
+  age: 45
+  gender: male
+  label: organic
+  speaker_id: 0Y02g9e
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02g9e.wav
+  texts:
+  - age=45; gender=male; smoking=never; drinking=active
+femh_0Y02q4e_0:
+  age: 56
+  gender: female
+  label: organic
+  speaker_id: 0Y02q4e
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02q4e.wav
+  texts:
+  - age=56; gender=female; smoking=active; drinking=never
+femh_0Y02su0_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 0Y02su0
+  text_keys:
+  - /home/storage/femh/selectwav/0Y02su0.wav
+  texts:
+  - age=40; gender=female; smoking=active; drinking=active
+femh_0Y031e9_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 0Y031e9
+  text_keys:
+  - /home/storage/femh/selectwav/0Y031e9.wav
+  texts:
+  - age=37; gender=female; smoking=past; drinking=active
+femh_10009js_0:
+  age: 77
+  gender: male
+  label: organic
+  speaker_id: 10009js
+  text_keys:
+  - /home/storage/femh/selectwav/10009js.wav
+  texts:
+  - age=77; gender=male; smoking=never; drinking=active
+femh_1000cdl_0:
+  age: 43
+  gender: male
+  label: organic
+  speaker_id: 1000cdl
+  text_keys:
+  - /home/storage/femh/selectwav/1000cdl.wav
+  texts:
+  - age=43; gender=male; smoking=never; drinking=active
+femh_1000euc_0:
+  age: 65
+  gender: female
+  label: organic
+  speaker_id: 1000euc
+  text_keys:
+  - /home/storage/femh/selectwav/1000euc.wav
+  texts:
+  - age=65; gender=female; smoking=never; drinking=never
+femh_1000f4l_0:
+  age: 27
+  gender: male
+  label: organic
+  speaker_id: 1000f4l
+  text_keys:
+  - /home/storage/femh/selectwav/1000f4l.wav
+  texts:
+  - age=27; gender=male; smoking=never; drinking=active
+femh_1000g13_0:
+  age: 51
+  gender: male
+  label: organic
+  speaker_id: 1000g13
+  text_keys:
+  - /home/storage/femh/selectwav/1000g13.wav
+  texts:
+  - age=51; gender=male; smoking=never; drinking=never
+femh_1000jgg_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 1000jgg
+  text_keys:
+  - /home/storage/femh/selectwav/1000jgg.wav
+  texts:
+  - age=44; gender=male; smoking=past; drinking=never
+femh_1000oip_0:
+  age: 56
+  gender: male
+  label: organic
+  speaker_id: 1000oip
+  text_keys:
+  - /home/storage/femh/selectwav/1000oip.wav
+  texts:
+  - age=56; gender=male; smoking=past; drinking=never
+femh_1000otg_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 1000otg
+  text_keys:
+  - /home/storage/femh/selectwav/1000otg.wav
+  texts:
+  - age=43; gender=female; smoking=never; drinking=never
+femh_1000pa3_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1000pa3
+  text_keys:
+  - /home/storage/femh/selectwav/1000pa3.wav
+  texts:
+  - age=41; gender=female; smoking=past; drinking=never
+femh_1000rbo_0:
+  age: 41
+  gender: male
+  label: organic
+  speaker_id: 1000rbo
+  text_keys:
+  - /home/storage/femh/selectwav/1000rbo.wav
+  texts:
+  - age=41; gender=male; smoking=past; drinking=active
+femh_1000u66_0:
+  age: 52
+  gender: female
+  label: organic
+  speaker_id: 1000u66
+  text_keys:
+  - /home/storage/femh/selectwav/1000u66.wav
+  texts:
+  - age=52; gender=female; smoking=never; drinking=never
+femh_10012no_0:
+  age: 41
+  gender: male
+  label: organic
+  speaker_id: 10012no
+  text_keys:
+  - /home/storage/femh/selectwav/10012no.wav
+  texts:
+  - age=41; gender=male; smoking=never; drinking=never
+femh_100139p_0:
+  age: 82
+  gender: male
+  label: organic
+  speaker_id: 100139p
+  text_keys:
+  - /home/storage/femh/selectwav/100139p.wav
+  texts:
+  - age=82; gender=male; smoking=never; drinking=never
+femh_10016l8_0:
+  age: 67
+  gender: female
+  label: organic
+  speaker_id: 10016l8
+  text_keys:
+  - /home/storage/femh/selectwav/10016l8.wav
+  texts:
+  - age=67; gender=female; smoking=never; drinking=never
+femh_1001fpr_0:
+  age: 22
+  gender: male
+  label: organic
+  speaker_id: 1001fpr
+  text_keys:
+  - /home/storage/femh/selectwav/1001fpr.wav
+  texts:
+  - age=22; gender=male; smoking=active; drinking=active
+femh_1001fr4_0:
+  age: 53
+  gender: female
+  label: muscle_tension
+  speaker_id: 1001fr4
+  text_keys:
+  - /home/storage/femh/selectwav/1001fr4.wav
+  texts:
+  - age=53; gender=female; smoking=never; drinking=never
+femh_1001hph_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 1001hph
+  text_keys:
+  - /home/storage/femh/selectwav/1001hph.wav
+  texts:
+  - age=38; gender=female; smoking=active; drinking=active
+femh_1001i3p_0:
+  age: 31
+  gender: female
+  label: organic
+  speaker_id: 1001i3p
+  text_keys:
+  - /home/storage/femh/selectwav/1001i3p.wav
+  texts:
+  - age=31; gender=female; smoking=active; drinking=never
+femh_1001i68_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 1001i68
+  text_keys:
+  - /home/storage/femh/selectwav/1001i68.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_1001jlh_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 1001jlh
+  text_keys:
+  - /home/storage/femh/selectwav/1001jlh.wav
+  texts:
+  - age=30; gender=female; smoking=active; drinking=active
+femh_1001odn_0:
+  age: 48
+  gender: male
+  label: organic
+  speaker_id: 1001odn
+  text_keys:
+  - /home/storage/femh/selectwav/1001odn.wav
+  texts:
+  - age=48; gender=male; smoking=never; drinking=never
+femh_1001pnf_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: 1001pnf
+  text_keys:
+  - /home/storage/femh/selectwav/1001pnf.wav
+  texts:
+  - age=24; gender=female; smoking=never; drinking=never
+femh_1001qe7_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: 1001qe7
+  text_keys:
+  - /home/storage/femh/selectwav/1001qe7.wav
+  texts:
+  - age=65; gender=male; smoking=past; drinking=never
+femh_1001u83_0:
+  age: 52
+  gender: male
+  label: organic
+  speaker_id: 1001u83
+  text_keys:
+  - /home/storage/femh/selectwav/1001u83.wav
+  texts:
+  - age=52; gender=male; smoking=past; drinking=active
+femh_1001uln_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 1001uln
+  text_keys:
+  - /home/storage/femh/selectwav/1001uln.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=active
+femh_10020ll_0:
+  age: 34
+  gender: female
+  label: organic
+  speaker_id: 10020ll
+  text_keys:
+  - /home/storage/femh/selectwav/10020ll.wav
+  texts:
+  - age=34; gender=female; smoking=never; drinking=never
+femh_10026m9_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 10026m9
+  text_keys:
+  - /home/storage/femh/selectwav/10026m9.wav
+  texts:
+  - age=35; gender=female; smoking=never; drinking=never
+femh_10027tr_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 10027tr
+  text_keys:
+  - /home/storage/femh/selectwav/10027tr.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=never
+femh_1002977_0:
+  age: 48
+  gender: male
+  label: organic
+  speaker_id: '1002977'
+  text_keys:
+  - /home/storage/femh/selectwav/1002977.wav
+  texts:
+  - age=48; gender=male; smoking=never; drinking=never
+femh_1002an0_0:
+  age: 68
+  gender: female
+  label: organic
+  speaker_id: 1002an0
+  text_keys:
+  - /home/storage/femh/selectwav/1002an0.wav
+  texts:
+  - age=68; gender=female; smoking=never; drinking=never
+femh_1002csk_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 1002csk
+  text_keys:
+  - /home/storage/femh/selectwav/1002csk.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=active
+femh_1002fki_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1002fki
+  text_keys:
+  - /home/storage/femh/selectwav/1002fki.wav
+  texts:
+  - age=45; gender=female; smoking=active; drinking=never
+femh_1002ieq_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 1002ieq
+  text_keys:
+  - /home/storage/femh/selectwav/1002ieq.wav
+  texts:
+  - age=55; gender=male; smoking=past; drinking=never
+femh_1002l05_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 1002l05
+  text_keys:
+  - /home/storage/femh/selectwav/1002l05.wav
+  texts:
+  - age=68; gender=male; smoking=past; drinking=active
+femh_1002lbq_0:
+  age: 31
+  gender: male
+  label: organic
+  speaker_id: 1002lbq
+  text_keys:
+  - /home/storage/femh/selectwav/1002lbq.wav
+  texts:
+  - age=31; gender=male; smoking=never; drinking=never
+femh_1002mhg_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 1002mhg
+  text_keys:
+  - /home/storage/femh/selectwav/1002mhg.wav
+  texts:
+  - age=57; gender=male; smoking=past; drinking=active
+femh_1002ngj_0:
+  age: 29
+  gender: female
+  label: organic
+  speaker_id: 1002ngj
+  text_keys:
+  - /home/storage/femh/selectwav/1002ngj.wav
+  texts:
+  - age=29; gender=female; smoking=never; drinking=active
+femh_1002nhi_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 1002nhi
+  text_keys:
+  - /home/storage/femh/selectwav/1002nhi.wav
+  texts:
+  - age=37; gender=female; smoking=never; drinking=never
+femh_1002o1s_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 1002o1s
+  text_keys:
+  - /home/storage/femh/selectwav/1002o1s.wav
+  texts:
+  - age=63; gender=male; smoking=past; drinking=past
+femh_1002s94_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 1002s94
+  text_keys:
+  - /home/storage/femh/selectwav/1002s94.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=never
+femh_1003124_0:
+  age: 65
+  gender: female
+  label: organic
+  speaker_id: '1003124'
+  text_keys:
+  - /home/storage/femh/selectwav/1003124.wav
+  texts:
+  - age=65; gender=female; smoking=never; drinking=never
+femh_11006gi_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 11006gi
+  text_keys:
+  - /home/storage/femh/selectwav/11006gi.wav
+  texts:
+  - age=42; gender=male; smoking=never; drinking=never
+femh_11006ip_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 11006ip
+  text_keys:
+  - /home/storage/femh/selectwav/11006ip.wav
+  texts:
+  - age=38; gender=female; smoking=active; drinking=active
+femh_1100b3e_0:
+  age: 27
+  gender: female
+  label: muscle_tension
+  speaker_id: 1100b3e
+  text_keys:
+  - /home/storage/femh/selectwav/1100b3e.wav
+  texts:
+  - age=27; gender=female; smoking=never; drinking=never
+femh_1100cai_0:
+  age: 29
+  gender: male
+  label: muscle_tension
+  speaker_id: 1100cai
+  text_keys:
+  - /home/storage/femh/selectwav/1100cai.wav
+  texts:
+  - age=29; gender=male; smoking=never; drinking=never
+femh_1100cak_0:
+  age: 28
+  gender: female
+  label: organic
+  speaker_id: 1100cak
+  text_keys:
+  - /home/storage/femh/selectwav/1100cak.wav
+  texts:
+  - age=28; gender=female; smoking=never; drinking=active
+femh_1100ctl_0:
+  age: 61
+  gender: male
+  label: organic
+  speaker_id: 1100ctl
+  text_keys:
+  - /home/storage/femh/selectwav/1100ctl.wav
+  texts:
+  - age=61; gender=male; smoking=never; drinking=active
+femh_1100edv_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1100edv
+  text_keys:
+  - /home/storage/femh/selectwav/1100edv.wav
+  texts:
+  - age=45; gender=female; smoking=never; drinking=active
+femh_1100h50_0:
+  age: 48
+  gender: female
+  label: organic
+  speaker_id: 1100h50
+  text_keys:
+  - /home/storage/femh/selectwav/1100h50.wav
+  texts:
+  - age=48; gender=female; smoking=never; drinking=never
+femh_1100j1i_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: 1100j1i
+  text_keys:
+  - /home/storage/femh/selectwav/1100j1i.wav
+  texts:
+  - age=49; gender=female; smoking=active; drinking=active
+femh_1100jd9_0:
+  age: 73
+  gender: male
+  label: organic
+  speaker_id: 1100jd9
+  text_keys:
+  - /home/storage/femh/selectwav/1100jd9.wav
+  texts:
+  - age=73; gender=male; smoking=past; drinking=active
+femh_1100mt5_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 1100mt5
+  text_keys:
+  - /home/storage/femh/selectwav/1100mt5.wav
+  texts:
+  - age=43; gender=female; smoking=never; drinking=never
+femh_1100nun_0:
+  age: 31
+  gender: male
+  label: organic
+  speaker_id: 1100nun
+  text_keys:
+  - /home/storage/femh/selectwav/1100nun.wav
+  texts:
+  - age=31; gender=male; smoking=never; drinking=never
+femh_1100t99_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1100t99
+  text_keys:
+  - /home/storage/femh/selectwav/1100t99.wav
+  texts:
+  - age=41; gender=female; smoking=never; drinking=never
+femh_1100tt9_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: 1100tt9
+  text_keys:
+  - /home/storage/femh/selectwav/1100tt9.wav
+  texts:
+  - age=24; gender=female; smoking=never; drinking=active
+femh_1100uab_0:
+  age: 69
+  gender: female
+  label: organic
+  speaker_id: 1100uab
+  text_keys:
+  - /home/storage/femh/selectwav/1100uab.wav
+  texts:
+  - age=69; gender=female; smoking=never; drinking=never
+femh_11011gt_0:
+  age: 23
+  gender: female
+  label: muscle_tension
+  speaker_id: 11011gt
+  text_keys:
+  - /home/storage/femh/selectwav/11011gt.wav
+  texts:
+  - age=23; gender=female; smoking=never; drinking=never
+femh_1101260_0:
+  age: 24
+  gender: female
+  label: organic
+  speaker_id: '1101260'
+  text_keys:
+  - /home/storage/femh/selectwav/1101260.wav
+  texts:
+  - age=24; gender=female; smoking=never; drinking=active
+femh_11012pj_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 11012pj
+  text_keys:
+  - /home/storage/femh/selectwav/11012pj.wav
+  texts:
+  - age=37; gender=female; smoking=active; drinking=active
+femh_11013cv_0:
+  age: 38
+  gender: male
+  label: organic
+  speaker_id: 11013cv
+  text_keys:
+  - /home/storage/femh/selectwav/11013cv.wav
+  texts:
+  - age=38; gender=male; smoking=active; drinking=never
+femh_11014al_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 11014al
+  text_keys:
+  - /home/storage/femh/selectwav/11014al.wav
+  texts:
+  - age=38; gender=female; smoking=never; drinking=never
+femh_11014kh_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 11014kh
+  text_keys:
+  - /home/storage/femh/selectwav/11014kh.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=never
+femh_11014km_0:
+  age: 33
+  gender: female
+  label: organic
+  speaker_id: 11014km
+  text_keys:
+  - /home/storage/femh/selectwav/11014km.wav
+  texts:
+  - age=33; gender=female; smoking=never; drinking=active
+femh_11014l9_0:
+  age: 43
+  gender: female
+  label: organic
+  speaker_id: 11014l9
+  text_keys:
+  - /home/storage/femh/selectwav/11014l9.wav
+  texts:
+  - age=43; gender=female; smoking=active; drinking=active
+femh_110169f_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: 110169f
+  text_keys:
+  - /home/storage/femh/selectwav/110169f.wav
+  texts:
+  - age=70; gender=male; smoking=past; drinking=active
+femh_11016ol_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 11016ol
+  text_keys:
+  - /home/storage/femh/selectwav/11016ol.wav
+  texts:
+  - age=42; gender=male; smoking=never; drinking=never
+femh_11017jh_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 11017jh
+  text_keys:
+  - /home/storage/femh/selectwav/11017jh.wav
+  texts:
+  - age=39; gender=female; smoking=active; drinking=never
+femh_11018as_0:
+  age: 56
+  gender: female
+  label: organic
+  speaker_id: 11018as
+  text_keys:
+  - /home/storage/femh/selectwav/11018as.wav
+  texts:
+  - age=56; gender=female; smoking=never; drinking=never
+femh_1101af3_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1101af3
+  text_keys:
+  - /home/storage/femh/selectwav/1101af3.wav
+  texts:
+  - age=45; gender=female; smoking=active; drinking=never
+femh_1101aug_0:
+  age: 40
+  gender: male
+  label: organic
+  speaker_id: 1101aug
+  text_keys:
+  - /home/storage/femh/selectwav/1101aug.wav
+  texts:
+  - age=40; gender=male; smoking=never; drinking=never
+femh_1101bu8_0:
+  age: 21
+  gender: female
+  label: organic
+  speaker_id: 1101bu8
+  text_keys:
+  - /home/storage/femh/selectwav/1101bu8.wav
+  texts:
+  - age=21; gender=female; smoking=never; drinking=active
+femh_1101dci_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 1101dci
+  text_keys:
+  - /home/storage/femh/selectwav/1101dci.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=never
+femh_1101dof_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: 1101dof
+  text_keys:
+  - /home/storage/femh/selectwav/1101dof.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=never
+femh_1101drd_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 1101drd
+  text_keys:
+  - /home/storage/femh/selectwav/1101drd.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=active
+femh_1101drs_0:
+  age: 50
+  gender: female
+  label: organic
+  speaker_id: 1101drs
+  text_keys:
+  - /home/storage/femh/selectwav/1101drs.wav
+  texts:
+  - age=50; gender=female; smoking=never; drinking=never
+femh_1101fh2_0:
+  age: 28
+  gender: female
+  label: organic
+  speaker_id: 1101fh2
+  text_keys:
+  - /home/storage/femh/selectwav/1101fh2.wav
+  texts:
+  - age=28; gender=female; smoking=never; drinking=never
+femh_1101k85_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 1101k85
+  text_keys:
+  - /home/storage/femh/selectwav/1101k85.wav
+  texts:
+  - age=57; gender=male; smoking=past; drinking=active
+femh_1101ko5_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 1101ko5
+  text_keys:
+  - /home/storage/femh/selectwav/1101ko5.wav
+  texts:
+  - age=39; gender=female; smoking=never; drinking=never
+femh_1101l4b_0:
+  age: 32
+  gender: female
+  label: organic
+  speaker_id: 1101l4b
+  text_keys:
+  - /home/storage/femh/selectwav/1101l4b.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=never
+femh_1101m55_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 1101m55
+  text_keys:
+  - /home/storage/femh/selectwav/1101m55.wav
+  texts:
+  - age=68; gender=male; smoking=never; drinking=never
+femh_1101m6h_0:
+  age: 67
+  gender: male
+  label: organic
+  speaker_id: 1101m6h
+  text_keys:
+  - /home/storage/femh/selectwav/1101m6h.wav
+  texts:
+  - age=67; gender=male; smoking=never; drinking=active
+femh_1101mjk_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 1101mjk
+  text_keys:
+  - /home/storage/femh/selectwav/1101mjk.wav
+  texts:
+  - age=44; gender=male; smoking=active; drinking=never
+femh_1101p4t_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: 1101p4t
+  text_keys:
+  - /home/storage/femh/selectwav/1101p4t.wav
+  texts:
+  - age=63; gender=male; smoking=never; drinking=active
+femh_1101rfa_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1101rfa
+  text_keys:
+  - /home/storage/femh/selectwav/1101rfa.wav
+  texts:
+  - age=45; gender=female; smoking=never; drinking=never
+femh_1101s2i_0:
+  age: 51
+  gender: female
+  label: organic
+  speaker_id: 1101s2i
+  text_keys:
+  - /home/storage/femh/selectwav/1101s2i.wav
+  texts:
+  - age=51; gender=female; smoking=active; drinking=never
+femh_1101seg_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1101seg
+  text_keys:
+  - /home/storage/femh/selectwav/1101seg.wav
+  texts:
+  - age=45; gender=female; smoking=active; drinking=active
+femh_1101uri_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: 1101uri
+  text_keys:
+  - /home/storage/femh/selectwav/1101uri.wav
+  texts:
+  - age=46; gender=female; smoking=never; drinking=never
+femh_1101urr_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 1101urr
+  text_keys:
+  - /home/storage/femh/selectwav/1101urr.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=never
+femh_11025t2_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: 11025t2
+  text_keys:
+  - /home/storage/femh/selectwav/11025t2.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=never
+femh_110268p_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: 110268p
+  text_keys:
+  - /home/storage/femh/selectwav/110268p.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=never
+femh_11026di_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 11026di
+  text_keys:
+  - /home/storage/femh/selectwav/11026di.wav
+  texts:
+  - age=44; gender=male; smoking=past; drinking=never
+femh_11027pn_0:
+  age: 48
+  gender: male
+  label: organic
+  speaker_id: 11027pn
+  text_keys:
+  - /home/storage/femh/selectwav/11027pn.wav
+  texts:
+  - age=48; gender=male; smoking=past; drinking=active
+femh_11029gt_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: 11029gt
+  text_keys:
+  - /home/storage/femh/selectwav/11029gt.wav
+  texts:
+  - age=58; gender=female; smoking=never; drinking=never
+femh_11029q0_0:
+  age: 52
+  gender: female
+  label: organic
+  speaker_id: 11029q0
+  text_keys:
+  - /home/storage/femh/selectwav/11029q0.wav
+  texts:
+  - age=52; gender=female; smoking=never; drinking=never
+femh_1102abs_0:
+  age: 29
+  gender: female
+  label: muscle_tension
+  speaker_id: 1102abs
+  text_keys:
+  - /home/storage/femh/selectwav/1102abs.wav
+  texts:
+  - age=29; gender=female; smoking=never; drinking=active
+femh_1102c68_0:
+  age: 44
+  gender: female
+  label: organic
+  speaker_id: 1102c68
+  text_keys:
+  - /home/storage/femh/selectwav/1102c68.wav
+  texts:
+  - age=44; gender=female; smoking=never; drinking=never
+femh_1102d8u_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1102d8u
+  text_keys:
+  - /home/storage/femh/selectwav/1102d8u.wav
+  texts:
+  - age=41; gender=female; smoking=active; drinking=active
+femh_1102di6_0:
+  age: 53
+  gender: female
+  label: organic
+  speaker_id: 1102di6
+  text_keys:
+  - /home/storage/femh/selectwav/1102di6.wav
+  texts:
+  - age=53; gender=female; smoking=never; drinking=never
+femh_1102fso_0:
+  age: 44
+  gender: male
+  label: organic
+  speaker_id: 1102fso
+  text_keys:
+  - /home/storage/femh/selectwav/1102fso.wav
+  texts:
+  - age=44; gender=male; smoking=never; drinking=active
+femh_1102hbe_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: 1102hbe
+  text_keys:
+  - /home/storage/femh/selectwav/1102hbe.wav
+  texts:
+  - age=46; gender=female; smoking=never; drinking=never
+femh_1102hmt_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 1102hmt
+  text_keys:
+  - /home/storage/femh/selectwav/1102hmt.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=never
+femh_1102jid_0:
+  age: 69
+  gender: male
+  label: organic
+  speaker_id: 1102jid
+  text_keys:
+  - /home/storage/femh/selectwav/1102jid.wav
+  texts:
+  - age=69; gender=male; smoking=never; drinking=active
+femh_1102k04_0:
+  age: 34
+  gender: female
+  label: muscle_tension
+  speaker_id: 1102k04
+  text_keys:
+  - /home/storage/femh/selectwav/1102k04.wav
+  texts:
+  - age=34; gender=female; smoking=never; drinking=active
+femh_1102m8v_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 1102m8v
+  text_keys:
+  - /home/storage/femh/selectwav/1102m8v.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=never
+femh_1102mbb_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1102mbb
+  text_keys:
+  - /home/storage/femh/selectwav/1102mbb.wav
+  texts:
+  - age=41; gender=female; smoking=active; drinking=never
+femh_1102nie_0:
+  age: 34
+  gender: female
+  label: organic
+  speaker_id: 1102nie
+  text_keys:
+  - /home/storage/femh/selectwav/1102nie.wav
+  texts:
+  - age=34; gender=female; smoking=never; drinking=active
+femh_1102q9u_0:
+  age: 28
+  gender: female
+  label: organic
+  speaker_id: 1102q9u
+  text_keys:
+  - /home/storage/femh/selectwav/1102q9u.wav
+  texts:
+  - age=28; gender=female; smoking=never; drinking=never
+femh_1102s9h_0:
+  age: 29
+  gender: female
+  label: organic
+  speaker_id: 1102s9h
+  text_keys:
+  - /home/storage/femh/selectwav/1102s9h.wav
+  texts:
+  - age=29; gender=female; smoking=never; drinking=never
+femh_1102sa5_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: 1102sa5
+  text_keys:
+  - /home/storage/femh/selectwav/1102sa5.wav
+  texts:
+  - age=46; gender=female; smoking=never; drinking=never
+femh_1102t1k_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1102t1k
+  text_keys:
+  - /home/storage/femh/selectwav/1102t1k.wav
+  texts:
+  - age=41; gender=female; smoking=never; drinking=active
+femh_1102t51_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 1102t51
+  text_keys:
+  - /home/storage/femh/selectwav/1102t51.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=active
+femh_1102tn2_0:
+  age: 31
+  gender: female
+  label: muscle_tension
+  speaker_id: 1102tn2
+  text_keys:
+  - /home/storage/femh/selectwav/1102tn2.wav
+  texts:
+  - age=31; gender=female; smoking=never; drinking=active
+femh_1102up1_0:
+  age: 21
+  gender: female
+  label: organic
+  speaker_id: 1102up1
+  text_keys:
+  - /home/storage/femh/selectwav/1102up1.wav
+  texts:
+  - age=21; gender=female; smoking=never; drinking=never
+femh_1102v9e_0:
+  age: 32
+  gender: male
+  label: organic
+  speaker_id: 1102v9e
+  text_keys:
+  - /home/storage/femh/selectwav/1102v9e.wav
+  texts:
+  - age=32; gender=male; smoking=never; drinking=active
+femh_11030a3_0:
+  age: 32
+  gender: female
+  label: organic
+  speaker_id: 11030a3
+  text_keys:
+  - /home/storage/femh/selectwav/11030a3.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=never
+femh_11030kc_0:
+  age: 64
+  gender: female
+  label: organic
+  speaker_id: 11030kc
+  text_keys:
+  - /home/storage/femh/selectwav/11030kc.wav
+  texts:
+  - age=64; gender=female; smoking=never; drinking=never
+femh_12000u8_0:
+  age: 66
+  gender: male
+  label: organic
+  speaker_id: 12000u8
+  text_keys:
+  - /home/storage/femh/selectwav/12000u8.wav
+  texts:
+  - age=66; gender=male; smoking=past; drinking=never
+femh_12002i1_0:
+  age: 36
+  gender: female
+  label: organic
+  speaker_id: 12002i1
+  text_keys:
+  - /home/storage/femh/selectwav/12002i1.wav
+  texts:
+  - age=36; gender=female; smoking=never; drinking=active
+femh_12004an_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 12004an
+  text_keys:
+  - /home/storage/femh/selectwav/12004an.wav
+  texts:
+  - age=35; gender=female; smoking=never; drinking=never
+femh_120061e_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: 120061e
+  text_keys:
+  - /home/storage/femh/selectwav/120061e.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=active
+femh_1200841_0:
+  age: 54
+  gender: male
+  label: organic
+  speaker_id: '1200841'
+  text_keys:
+  - /home/storage/femh/selectwav/1200841.wav
+  texts:
+  - age=54; gender=male; smoking=past; drinking=never
+femh_120086t_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 120086t
+  text_keys:
+  - /home/storage/femh/selectwav/120086t.wav
+  texts:
+  - age=38; gender=female; smoking=active; drinking=active
+femh_1200meh_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 1200meh
+  text_keys:
+  - /home/storage/femh/selectwav/1200meh.wav
+  texts:
+  - age=35; gender=female; smoking=never; drinking=never
+femh_12011ak_0:
+  age: 52
+  gender: female
+  label: organic
+  speaker_id: 12011ak
+  text_keys:
+  - /home/storage/femh/selectwav/12011ak.wav
+  texts:
+  - age=52; gender=female; smoking=never; drinking=never
+femh_12011qo_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 12011qo
+  text_keys:
+  - /home/storage/femh/selectwav/12011qo.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=never
+femh_12017qh_0:
+  age: 39
+  gender: male
+  label: organic
+  speaker_id: 12017qh
+  text_keys:
+  - /home/storage/femh/selectwav/12017qh.wav
+  texts:
+  - age=39; gender=male; smoking=past; drinking=active
+femh_12018r6_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 12018r6
+  text_keys:
+  - /home/storage/femh/selectwav/12018r6.wav
+  texts:
+  - age=39; gender=female; smoking=past; drinking=active
+femh_12019oc_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 12019oc
+  text_keys:
+  - /home/storage/femh/selectwav/12019oc.wav
+  texts:
+  - age=35; gender=female; smoking=never; drinking=active
+femh_1201ad3_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 1201ad3
+  text_keys:
+  - /home/storage/femh/selectwav/1201ad3.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=never
+femh_1201c1q_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 1201c1q
+  text_keys:
+  - /home/storage/femh/selectwav/1201c1q.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=active
+femh_1201cut_0:
+  age: 49
+  gender: male
+  label: organic
+  speaker_id: 1201cut
+  text_keys:
+  - /home/storage/femh/selectwav/1201cut.wav
+  texts:
+  - age=49; gender=male; smoking=past; drinking=active
+femh_1201gaq_0:
+  age: 32
+  gender: female
+  label: organic
+  speaker_id: 1201gaq
+  text_keys:
+  - /home/storage/femh/selectwav/1201gaq.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=never
+femh_1201hp2_0:
+  age: 41
+  gender: female
+  label: organic
+  speaker_id: 1201hp2
+  text_keys:
+  - /home/storage/femh/selectwav/1201hp2.wav
+  texts:
+  - age=41; gender=female; smoking=never; drinking=never
+femh_1201j5l_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: 1201j5l
+  text_keys:
+  - /home/storage/femh/selectwav/1201j5l.wav
+  texts:
+  - age=70; gender=male; smoking=never; drinking=never
+femh_1201kuh_0:
+  age: 35
+  gender: female
+  label: organic
+  speaker_id: 1201kuh
+  text_keys:
+  - /home/storage/femh/selectwav/1201kuh.wav
+  texts:
+  - age=35; gender=female; smoking=never; drinking=never
+femh_1201mhj_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 1201mhj
+  text_keys:
+  - /home/storage/femh/selectwav/1201mhj.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=never
+femh_1201mui_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 1201mui
+  text_keys:
+  - /home/storage/femh/selectwav/1201mui.wav
+  texts:
+  - age=30; gender=female; smoking=never; drinking=never
+femh_1201rg5_0:
+  age: 34
+  gender: female
+  label: organic
+  speaker_id: 1201rg5
+  text_keys:
+  - /home/storage/femh/selectwav/1201rg5.wav
+  texts:
+  - age=34; gender=female; smoking=never; drinking=active
+femh_1201vfl_0:
+  age: 66
+  gender: male
+  label: organic
+  speaker_id: 1201vfl
+  text_keys:
+  - /home/storage/femh/selectwav/1201vfl.wav
+  texts:
+  - age=66; gender=male; smoking=never; drinking=never
+femh_120246j_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 120246j
+  text_keys:
+  - /home/storage/femh/selectwav/120246j.wav
+  texts:
+  - age=38; gender=female; smoking=never; drinking=active
+femh_12024lq_0:
+  age: 30
+  gender: female
+  label: organic
+  speaker_id: 12024lq
+  text_keys:
+  - /home/storage/femh/selectwav/12024lq.wav
+  texts:
+  - age=30; gender=female; smoking=active; drinking=active
+femh_12027pq_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: 12027pq
+  text_keys:
+  - /home/storage/femh/selectwav/12027pq.wav
+  texts:
+  - age=49; gender=female; smoking=never; drinking=never
+femh_120280u_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 120280u
+  text_keys:
+  - /home/storage/femh/selectwav/120280u.wav
+  texts:
+  - age=57; gender=male; smoking=past; drinking=never
+femh_12028sh_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 12028sh
+  text_keys:
+  - /home/storage/femh/selectwav/12028sh.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_12029bd_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: 12029bd
+  text_keys:
+  - /home/storage/femh/selectwav/12029bd.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=active
+femh_1202avj_0:
+  age: 20
+  gender: female
+  label: organic
+  speaker_id: 1202avj
+  text_keys:
+  - /home/storage/femh/selectwav/1202avj.wav
+  texts:
+  - age=20; gender=female; smoking=never; drinking=never
+femh_1202cb1_0:
+  age: 57
+  gender: male
+  label: organic
+  speaker_id: 1202cb1
+  text_keys:
+  - /home/storage/femh/selectwav/1202cb1.wav
+  texts:
+  - age=57; gender=male; smoking=never; drinking=never
+femh_1202g06_0:
+  age: 53
+  gender: male
+  label: organic
+  speaker_id: 1202g06
+  text_keys:
+  - /home/storage/femh/selectwav/1202g06.wav
+  texts:
+  - age=53; gender=male; smoking=never; drinking=never
+femh_1202gvi_0:
+  age: 43
+  gender: male
+  label: organic
+  speaker_id: 1202gvi
+  text_keys:
+  - /home/storage/femh/selectwav/1202gvi.wav
+  texts:
+  - age=43; gender=male; smoking=active; drinking=active
+femh_1202hr0_0:
+  age: 44
+  gender: female
+  label: muscle_tension
+  speaker_id: 1202hr0
+  text_keys:
+  - /home/storage/femh/selectwav/1202hr0.wav
+  texts:
+  - age=44; gender=female; smoking=past; drinking=active
+femh_1202kf2_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: 1202kf2
+  text_keys:
+  - /home/storage/femh/selectwav/1202kf2.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=active
+femh_1202kvm_0:
+  age: 33
+  gender: female
+  label: organic
+  speaker_id: 1202kvm
+  text_keys:
+  - /home/storage/femh/selectwav/1202kvm.wav
+  texts:
+  - age=33; gender=female; smoking=never; drinking=never
+femh_1202n51_0:
+  age: 61
+  gender: male
+  label: organic
+  speaker_id: 1202n51
+  text_keys:
+  - /home/storage/femh/selectwav/1202n51.wav
+  texts:
+  - age=61; gender=male; smoking=past; drinking=never
+femh_1202t7v_0:
+  age: 54
+  gender: female
+  label: muscle_tension
+  speaker_id: 1202t7v
+  text_keys:
+  - /home/storage/femh/selectwav/1202t7v.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=never
+femh_1202uos_0:
+  age: 34
+  gender: female
+  label: organic
+  speaker_id: 1202uos
+  text_keys:
+  - /home/storage/femh/selectwav/1202uos.wav
+  texts:
+  - age=34; gender=female; smoking=never; drinking=never
+femh_1202v6e_0:
+  age: 38
+  gender: male
+  label: muscle_tension
+  speaker_id: 1202v6e
+  text_keys:
+  - /home/storage/femh/selectwav/1202v6e.wav
+  texts:
+  - age=38; gender=male; smoking=never; drinking=never
+femh_12030o1_0:
+  age: 42
+  gender: male
+  label: organic
+  speaker_id: 12030o1
+  text_keys:
+  - /home/storage/femh/selectwav/12030o1.wav
+  texts:
+  - age=42; gender=male; smoking=never; drinking=active
+femh_13000k0_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 13000k0
+  text_keys:
+  - /home/storage/femh/selectwav/13000k0.wav
+  texts:
+  - age=37; gender=female; smoking=never; drinking=never
+femh_13005df_0:
+  age: 71
+  gender: female
+  label: organic
+  speaker_id: 13005df
+  text_keys:
+  - /home/storage/femh/selectwav/13005df.wav
+  texts:
+  - age=71; gender=female; smoking=never; drinking=never
+femh_130070b_0:
+  age: 31
+  gender: male
+  label: organic
+  speaker_id: 130070b
+  text_keys:
+  - /home/storage/femh/selectwav/130070b.wav
+  texts:
+  - age=31; gender=male; smoking=never; drinking=never
+femh_1301aju_0:
+  age: 29
+  gender: female
+  label: organic
+  speaker_id: 1301aju
+  text_keys:
+  - /home/storage/femh/selectwav/1301aju.wav
+  texts:
+  - age=29; gender=female; smoking=active; drinking=active
+femh_1301c9p_0:
+  age: 64
+  gender: male
+  label: organic
+  speaker_id: 1301c9p
+  text_keys:
+  - /home/storage/femh/selectwav/1301c9p.wav
+  texts:
+  - age=64; gender=male; smoking=active; drinking=active
+femh_1301eaq_0:
+  age: 26
+  gender: female
+  label: muscle_tension
+  speaker_id: 1301eaq
+  text_keys:
+  - /home/storage/femh/selectwav/1301eaq.wav
+  texts:
+  - age=26; gender=female; smoking=never; drinking=never
+femh_1301evn_0:
+  age: 40
+  gender: female
+  label: organic
+  speaker_id: 1301evn
+  text_keys:
+  - /home/storage/femh/selectwav/1301evn.wav
+  texts:
+  - age=40; gender=female; smoking=never; drinking=never
+femh_1301ii9_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 1301ii9
+  text_keys:
+  - /home/storage/femh/selectwav/1301ii9.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_1301iib_0:
+  age: 47
+  gender: female
+  label: organic
+  speaker_id: 1301iib
+  text_keys:
+  - /home/storage/femh/selectwav/1301iib.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=never
+femh_1301l5m_0:
+  age: 28
+  gender: female
+  label: organic
+  speaker_id: 1301l5m
+  text_keys:
+  - /home/storage/femh/selectwav/1301l5m.wav
+  texts:
+  - age=28; gender=female; smoking=never; drinking=never
+femh_1301ncd_0:
+  age: 33
+  gender: female
+  label: organic
+  speaker_id: 1301ncd
+  text_keys:
+  - /home/storage/femh/selectwav/1301ncd.wav
+  texts:
+  - age=33; gender=female; smoking=never; drinking=active
+femh_1301t9c_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: 1301t9c
+  text_keys:
+  - /home/storage/femh/selectwav/1301t9c.wav
+  texts:
+  - age=46; gender=female; smoking=never; drinking=never
+femh_1301tch_0:
+  age: 69
+  gender: female
+  label: organic
+  speaker_id: 1301tch
+  text_keys:
+  - /home/storage/femh/selectwav/1301tch.wav
+  texts:
+  - age=69; gender=female; smoking=never; drinking=never
+femh_1301tu1_0:
+  age: 75
+  gender: female
+  label: organic
+  speaker_id: 1301tu1
+  text_keys:
+  - /home/storage/femh/selectwav/1301tu1.wav
+  texts:
+  - age=75; gender=female; smoking=never; drinking=never
+femh_1301v4e_0:
+  age: 68
+  gender: male
+  label: organic
+  speaker_id: 1301v4e
+  text_keys:
+  - /home/storage/femh/selectwav/1301v4e.wav
+  texts:
+  - age=68; gender=male; smoking=past; drinking=never
+femh_130203u_0:
+  age: 42
+  gender: female
+  label: muscle_tension
+  speaker_id: 130203u
+  text_keys:
+  - /home/storage/femh/selectwav/130203u.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_13021h2_0:
+  age: 54
+  gender: male
+  label: organic
+  speaker_id: 13021h2
+  text_keys:
+  - /home/storage/femh/selectwav/13021h2.wav
+  texts:
+  - age=54; gender=male; smoking=never; drinking=active
+femh_13021jg_0:
+  age: 60
+  gender: female
+  label: organic
+  speaker_id: 13021jg
+  text_keys:
+  - /home/storage/femh/selectwav/13021jg.wav
+  texts:
+  - age=60; gender=female; smoking=never; drinking=never
+femh_1302358_0:
+  age: 65
+  gender: female
+  label: organic
+  speaker_id: '1302358'
+  text_keys:
+  - /home/storage/femh/selectwav/1302358.wav
+  texts:
+  - age=65; gender=female; smoking=active; drinking=never
+femh_1302424_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: '1302424'
+  text_keys:
+  - /home/storage/femh/selectwav/1302424.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=active
+femh_13025s8_0:
+  age: 20
+  gender: female
+  label: organic
+  speaker_id: 13025s8
+  text_keys:
+  - /home/storage/femh/selectwav/13025s8.wav
+  texts:
+  - age=20; gender=female; smoking=never; drinking=never
+femh_13026u6_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 13026u6
+  text_keys:
+  - /home/storage/femh/selectwav/13026u6.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_13027no_0:
+  age: 74
+  gender: male
+  label: organic
+  speaker_id: 13027no
+  text_keys:
+  - /home/storage/femh/selectwav/13027no.wav
+  texts:
+  - age=74; gender=male; smoking=never; drinking=never
+femh_13028ek_0:
+  age: 37
+  gender: female
+  label: organic
+  speaker_id: 13028ek
+  text_keys:
+  - /home/storage/femh/selectwav/13028ek.wav
+  texts:
+  - age=37; gender=female; smoking=active; drinking=active
+femh_13028gn_0:
+  age: 25
+  gender: female
+  label: muscle_tension
+  speaker_id: 13028gn
+  text_keys:
+  - /home/storage/femh/selectwav/13028gn.wav
+  texts:
+  - age=25; gender=female; smoking=never; drinking=never
+femh_13028p7_0:
+  age: 59
+  gender: male
+  label: organic
+  speaker_id: 13028p7
+  text_keys:
+  - /home/storage/femh/selectwav/13028p7.wav
+  texts:
+  - age=59; gender=male; smoking=never; drinking=active
+femh_13028qh_0:
+  age: 48
+  gender: female
+  label: organic
+  speaker_id: 13028qh
+  text_keys:
+  - /home/storage/femh/selectwav/13028qh.wav
+  texts:
+  - age=48; gender=female; smoking=never; drinking=active
+femh_1302aad_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: 1302aad
+  text_keys:
+  - /home/storage/femh/selectwav/1302aad.wav
+  texts:
+  - age=39; gender=female; smoking=never; drinking=active
+femh_1302had_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 1302had
+  text_keys:
+  - /home/storage/femh/selectwav/1302had.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_1302hle_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: 1302hle
+  text_keys:
+  - /home/storage/femh/selectwav/1302hle.wav
+  texts:
+  - age=38; gender=female; smoking=never; drinking=never
+femh_1302lpp_0:
+  age: 42
+  gender: female
+  label: organic
+  speaker_id: 1302lpp
+  text_keys:
+  - /home/storage/femh/selectwav/1302lpp.wav
+  texts:
+  - age=42; gender=female; smoking=never; drinking=never
+femh_1302lq4_0:
+  age: 32
+  gender: female
+  label: organic
+  speaker_id: 1302lq4
+  text_keys:
+  - /home/storage/femh/selectwav/1302lq4.wav
+  texts:
+  - age=32; gender=female; smoking=never; drinking=active
+femh_1302oal_0:
+  age: 50
+  gender: female
+  label: organic
+  speaker_id: 1302oal
+  text_keys:
+  - /home/storage/femh/selectwav/1302oal.wav
+  texts:
+  - age=50; gender=female; smoking=never; drinking=never
+femh_1302ojj_0:
+  age: 36
+  gender: male
+  label: organic
+  speaker_id: 1302ojj
+  text_keys:
+  - /home/storage/femh/selectwav/1302ojj.wav
+  texts:
+  - age=36; gender=male; smoking=never; drinking=active
+femh_1302p6f_0:
+  age: 57
+  gender: female
+  label: organic
+  speaker_id: 1302p6f
+  text_keys:
+  - /home/storage/femh/selectwav/1302p6f.wav
+  texts:
+  - age=57; gender=female; smoking=never; drinking=never
+femh_1302pia_0:
+  age: 45
+  gender: female
+  label: organic
+  speaker_id: 1302pia
+  text_keys:
+  - /home/storage/femh/selectwav/1302pia.wav
+  texts:
+  - age=45; gender=female; smoking=past; drinking=active

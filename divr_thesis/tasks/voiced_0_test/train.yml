@@ -1,0 +1,1125 @@
+voiced_voice001_0:
+  age: 32
+  gender: male
+  label: pathological
+  speaker_id: voice001
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice001.wav
+  texts:
+  - age=32; gender=male
+voiced_voice002_0:
+  age: 55
+  gender: male
+  label: normal
+  speaker_id: voice002
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice002.wav
+  texts:
+  - age=55; gender=male
+voiced_voice003_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: voice003
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice003.wav
+  texts:
+  - age=34; gender=male
+voiced_voice004_0:
+  age: 28
+  gender: female
+  label: pathological
+  speaker_id: voice004
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice004.wav
+  texts:
+  - age=28; gender=female
+voiced_voice005_0:
+  age: 54
+  gender: female
+  label: pathological
+  speaker_id: voice005
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice005.wav
+  texts:
+  - age=54; gender=female
+voiced_voice007_0:
+  age: 41
+  gender: male
+  label: pathological
+  speaker_id: voice007
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice007.wav
+  texts:
+  - age=41; gender=male
+voiced_voice009_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: voice009
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice009.wav
+  texts:
+  - age=53; gender=female
+voiced_voice010_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: voice010
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice010.wav
+  texts:
+  - age=47; gender=female
+voiced_voice012_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: voice012
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice012.wav
+  texts:
+  - age=56; gender=male
+voiced_voice013_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: voice013
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice013.wav
+  texts:
+  - age=42; gender=female
+voiced_voice014_0:
+  age: 31
+  gender: female
+  label: pathological
+  speaker_id: voice014
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice014.wav
+  texts:
+  - age=31; gender=female
+voiced_voice017_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: voice017
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice017.wav
+  texts:
+  - age=56; gender=male
+voiced_voice018_0:
+  age: 57
+  gender: female
+  label: pathological
+  speaker_id: voice018
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice018.wav
+  texts:
+  - age=57; gender=female
+voiced_voice019_0:
+  age: 46
+  gender: female
+  label: normal
+  speaker_id: voice019
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice019.wav
+  texts:
+  - age=46; gender=female
+voiced_voice020_0:
+  age: 53
+  gender: male
+  label: pathological
+  speaker_id: voice020
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice020.wav
+  texts:
+  - age=53; gender=male
+voiced_voice021_0:
+  age: 49
+  gender: female
+  label: pathological
+  speaker_id: voice021
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice021.wav
+  texts:
+  - age=49; gender=female
+voiced_voice022_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: voice022
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice022.wav
+  texts:
+  - age=53; gender=female
+voiced_voice023_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: voice023
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice023.wav
+  texts:
+  - age=60; gender=female
+voiced_voice025_0:
+  age: 45
+  gender: male
+  label: normal
+  speaker_id: voice025
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice025.wav
+  texts:
+  - age=45; gender=male
+voiced_voice026_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: voice026
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice026.wav
+  texts:
+  - age=34; gender=male
+voiced_voice027_0:
+  age: 44
+  gender: male
+  label: pathological
+  speaker_id: voice027
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice027.wav
+  texts:
+  - age=44; gender=male
+voiced_voice028_0:
+  age: 51
+  gender: female
+  label: pathological
+  speaker_id: voice028
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice028.wav
+  texts:
+  - age=51; gender=female
+voiced_voice029_0:
+  age: 36
+  gender: male
+  label: pathological
+  speaker_id: voice029
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice029.wav
+  texts:
+  - age=36; gender=male
+voiced_voice030_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: voice030
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice030.wav
+  texts:
+  - age=39; gender=female
+voiced_voice031_0:
+  age: 58
+  gender: male
+  label: pathological
+  speaker_id: voice031
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice031.wav
+  texts:
+  - age=58; gender=male
+voiced_voice032_0:
+  age: 35
+  gender: male
+  label: normal
+  speaker_id: voice032
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice032.wav
+  texts:
+  - age=35; gender=male
+voiced_voice036_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: voice036
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice036.wav
+  texts:
+  - age=38; gender=female
+voiced_voice037_0:
+  age: 56
+  gender: male
+  label: pathological
+  speaker_id: voice037
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice037.wav
+  texts:
+  - age=56; gender=male
+voiced_voice038_0:
+  age: 33
+  gender: male
+  label: pathological
+  speaker_id: voice038
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice038.wav
+  texts:
+  - age=33; gender=male
+voiced_voice039_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: voice039
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice039.wav
+  texts:
+  - age=44; gender=female
+voiced_voice040_0:
+  age: 30
+  gender: male
+  label: normal
+  speaker_id: voice040
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice040.wav
+  texts:
+  - age=30; gender=male
+voiced_voice041_0:
+  age: 34
+  gender: male
+  label: pathological
+  speaker_id: voice041
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice041.wav
+  texts:
+  - age=34; gender=male
+voiced_voice044_0:
+  age: 38
+  gender: female
+  label: pathological
+  speaker_id: voice044
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice044.wav
+  texts:
+  - age=38; gender=female
+voiced_voice045_0:
+  age: 42
+  gender: female
+  label: normal
+  speaker_id: voice045
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice045.wav
+  texts:
+  - age=42; gender=female
+voiced_voice047_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: voice047
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice047.wav
+  texts:
+  - age=46; gender=male
+voiced_voice049_0:
+  age: 44
+  gender: female
+  label: normal
+  speaker_id: voice049
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice049.wav
+  texts:
+  - age=44; gender=female
+voiced_voice050_0:
+  age: 41
+  gender: female
+  label: pathological
+  speaker_id: voice050
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice050.wav
+  texts:
+  - age=41; gender=female
+voiced_voice051_0:
+  age: 62
+  gender: female
+  label: normal
+  speaker_id: voice051
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice051.wav
+  texts:
+  - age=62; gender=female
+voiced_voice052_0:
+  age: 34
+  gender: female
+  label: pathological
+  speaker_id: voice052
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice052.wav
+  texts:
+  - age=34; gender=female
+voiced_voice053_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: voice053
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice053.wav
+  texts:
+  - age=60; gender=female
+voiced_voice054_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: voice054
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice054.wav
+  texts:
+  - age=46; gender=male
+voiced_voice055_0:
+  age: 46
+  gender: male
+  label: pathological
+  speaker_id: voice055
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice055.wav
+  texts:
+  - age=46; gender=male
+voiced_voice057_0:
+  age: 68
+  gender: male
+  label: pathological
+  speaker_id: voice057
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice057.wav
+  texts:
+  - age=68; gender=male
+voiced_voice059_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: voice059
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice059.wav
+  texts:
+  - age=39; gender=female
+voiced_voice060_0:
+  age: 39
+  gender: male
+  label: normal
+  speaker_id: voice060
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice060.wav
+  texts:
+  - age=39; gender=male
+voiced_voice061_0:
+  age: 33
+  gender: female
+  label: normal
+  speaker_id: voice061
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice061.wav
+  texts:
+  - age=33; gender=female
+voiced_voice063_0:
+  age: 52
+  gender: female
+  label: pathological
+  speaker_id: voice063
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice063.wav
+  texts:
+  - age=52; gender=female
+voiced_voice065_0:
+  age: 60
+  gender: female
+  label: pathological
+  speaker_id: voice065
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice065.wav
+  texts:
+  - age=60; gender=female
+voiced_voice067_0:
+  age: 51
+  gender: female
+  label: normal
+  speaker_id: voice067
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice067.wav
+  texts:
+  - age=51; gender=female
+voiced_voice068_0:
+  age: 59
+  gender: female
+  label: pathological
+  speaker_id: voice068
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice068.wav
+  texts:
+  - age=59; gender=female
+voiced_voice070_0:
+  age: 39
+  gender: female
+  label: normal
+  speaker_id: voice070
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice070.wav
+  texts:
+  - age=39; gender=female
+voiced_voice071_0:
+  age: 35
+  gender: female
+  label: pathological
+  speaker_id: voice071
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice071.wav
+  texts:
+  - age=35; gender=female
+voiced_voice072_0:
+  age: 32
+  gender: male
+  label: pathological
+  speaker_id: voice072
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice072.wav
+  texts:
+  - age=32; gender=male
+voiced_voice073_0:
+  age: 56
+  gender: female
+  label: pathological
+  speaker_id: voice073
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice073.wav
+  texts:
+  - age=56; gender=female
+voiced_voice075_0:
+  age: 30
+  gender: female
+  label: pathological
+  speaker_id: voice075
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice075.wav
+  texts:
+  - age=30; gender=female
+voiced_voice076_0:
+  age: 27
+  gender: male
+  label: pathological
+  speaker_id: voice076
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice076.wav
+  texts:
+  - age=27; gender=male
+voiced_voice077_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: voice077
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice077.wav
+  texts:
+  - age=42; gender=female
+voiced_voice078_0:
+  age: 53
+  gender: female
+  label: pathological
+  speaker_id: voice078
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice078.wav
+  texts:
+  - age=53; gender=female
+voiced_voice079_0:
+  age: 52
+  gender: male
+  label: pathological
+  speaker_id: voice079
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice079.wav
+  texts:
+  - age=52; gender=male
+voiced_voice081_0:
+  age: 31
+  gender: male
+  label: pathological
+  speaker_id: voice081
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice081.wav
+  texts:
+  - age=31; gender=male
+voiced_voice082_0:
+  age: 64
+  gender: male
+  label: pathological
+  speaker_id: voice082
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice082.wav
+  texts:
+  - age=64; gender=male
+voiced_voice083_0:
+  age: 48
+  gender: male
+  label: pathological
+  speaker_id: voice083
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice083.wav
+  texts:
+  - age=48; gender=male
+voiced_voice086_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: voice086
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice086.wav
+  texts:
+  - age=27; gender=female
+voiced_voice089_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: voice089
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice089.wav
+  texts:
+  - age=63; gender=male
+voiced_voice091_0:
+  age: 55
+  gender: male
+  label: normal
+  speaker_id: voice091
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice091.wav
+  texts:
+  - age=55; gender=male
+voiced_voice092_0:
+  age: 66
+  gender: male
+  label: normal
+  speaker_id: voice092
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice092.wav
+  texts:
+  - age=66; gender=male
+voiced_voice095_0:
+  age: 24
+  gender: male
+  label: normal
+  speaker_id: voice095
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice095.wav
+  texts:
+  - age=24; gender=male
+voiced_voice096_0:
+  age: 30
+  gender: female
+  label: normal
+  speaker_id: voice096
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice096.wav
+  texts:
+  - age=30; gender=female
+voiced_voice097_0:
+  age: 26
+  gender: female
+  label: normal
+  speaker_id: voice097
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice097.wav
+  texts:
+  - age=26; gender=female
+voiced_voice099_0:
+  age: 29
+  gender: male
+  label: normal
+  speaker_id: voice099
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice099.wav
+  texts:
+  - age=29; gender=male
+voiced_voice100_0:
+  age: 24
+  gender: male
+  label: normal
+  speaker_id: voice100
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice100.wav
+  texts:
+  - age=24; gender=male
+voiced_voice101_0:
+  age: 60
+  gender: male
+  label: normal
+  speaker_id: voice101
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice101.wav
+  texts:
+  - age=60; gender=male
+voiced_voice104_0:
+  age: 32
+  gender: male
+  label: normal
+  speaker_id: voice104
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice104.wav
+  texts:
+  - age=32; gender=male
+voiced_voice106_0:
+  age: 21
+  gender: male
+  label: pathological
+  speaker_id: voice106
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice106.wav
+  texts:
+  - age=21; gender=male
+voiced_voice107_0:
+  age: 32
+  gender: male
+  label: normal
+  speaker_id: voice107
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice107.wav
+  texts:
+  - age=32; gender=male
+voiced_voice110_0:
+  age: 50
+  gender: male
+  label: normal
+  speaker_id: voice110
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice110.wav
+  texts:
+  - age=50; gender=male
+voiced_voice112_0:
+  age: 62
+  gender: female
+  label: pathological
+  speaker_id: voice112
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice112.wav
+  texts:
+  - age=62; gender=female
+voiced_voice114_0:
+  age: 49
+  gender: male
+  label: normal
+  speaker_id: voice114
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice114.wav
+  texts:
+  - age=49; gender=male
+voiced_voice119_0:
+  age: 47
+  gender: female
+  label: pathological
+  speaker_id: voice119
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice119.wav
+  texts:
+  - age=47; gender=female
+voiced_voice120_0:
+  age: 64
+  gender: male
+  label: normal
+  speaker_id: voice120
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice120.wav
+  texts:
+  - age=64; gender=male
+voiced_voice123_0:
+  age: 35
+  gender: female
+  label: normal
+  speaker_id: voice123
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice123.wav
+  texts:
+  - age=35; gender=female
+voiced_voice124_0:
+  age: 64
+  gender: female
+  label: pathological
+  speaker_id: voice124
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice124.wav
+  texts:
+  - age=64; gender=female
+voiced_voice126_0:
+  age: 67
+  gender: female
+  label: pathological
+  speaker_id: voice126
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice126.wav
+  texts:
+  - age=67; gender=female
+voiced_voice127_0:
+  age: 70
+  gender: male
+  label: pathological
+  speaker_id: voice127
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice127.wav
+  texts:
+  - age=70; gender=male
+voiced_voice130_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: voice130
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice130.wav
+  texts:
+  - age=58; gender=female
+voiced_voice133_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: voice133
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice133.wav
+  texts:
+  - age=70; gender=female
+voiced_voice134_0:
+  age: 45
+  gender: female
+  label: normal
+  speaker_id: voice134
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice134.wav
+  texts:
+  - age=45; gender=female
+voiced_voice136_0:
+  age: 43
+  gender: female
+  label: pathological
+  speaker_id: voice136
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice136.wav
+  texts:
+  - age=43; gender=female
+voiced_voice137_0:
+  age: 42
+  gender: male
+  label: pathological
+  speaker_id: voice137
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice137.wav
+  texts:
+  - age=42; gender=male
+voiced_voice139_0:
+  age: 53
+  gender: female
+  label: normal
+  speaker_id: voice139
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice139.wav
+  texts:
+  - age=53; gender=female
+voiced_voice140_0:
+  age: 50
+  gender: male
+  label: pathological
+  speaker_id: voice140
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice140.wav
+  texts:
+  - age=50; gender=male
+voiced_voice141_0:
+  age: 18
+  gender: female
+  label: pathological
+  speaker_id: voice141
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice141.wav
+  texts:
+  - age=18; gender=female
+voiced_voice144_0:
+  age: 22
+  gender: female
+  label: pathological
+  speaker_id: voice144
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice144.wav
+  texts:
+  - age=22; gender=female
+voiced_voice146_0:
+  age: 70
+  gender: male
+  label: pathological
+  speaker_id: voice146
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice146.wav
+  texts:
+  - age=70; gender=male
+voiced_voice151_0:
+  age: 42
+  gender: female
+  label: pathological
+  speaker_id: voice151
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice151.wav
+  texts:
+  - age=42; gender=female
+voiced_voice155_0:
+  age: 33
+  gender: female
+  label: pathological
+  speaker_id: voice155
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice155.wav
+  texts:
+  - age=33; gender=female
+voiced_voice156_0:
+  age: 47
+  gender: male
+  label: pathological
+  speaker_id: voice156
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice156.wav
+  texts:
+  - age=47; gender=male
+voiced_voice158_0:
+  age: 45
+  gender: male
+  label: normal
+  speaker_id: voice158
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice158.wav
+  texts:
+  - age=45; gender=male
+voiced_voice160_0:
+  age: 32
+  gender: female
+  label: pathological
+  speaker_id: voice160
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice160.wav
+  texts:
+  - age=32; gender=female
+voiced_voice164_0:
+  age: 65
+  gender: female
+  label: pathological
+  speaker_id: voice164
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice164.wav
+  texts:
+  - age=65; gender=female
+voiced_voice167_0:
+  age: 69
+  gender: male
+  label: pathological
+  speaker_id: voice167
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice167.wav
+  texts:
+  - age=69; gender=male
+voiced_voice168_0:
+  age: 58
+  gender: female
+  label: pathological
+  speaker_id: voice168
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice168.wav
+  texts:
+  - age=58; gender=female
+voiced_voice171_0:
+  age: 55
+  gender: female
+  label: pathological
+  speaker_id: voice171
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice171.wav
+  texts:
+  - age=55; gender=female
+voiced_voice172_0:
+  age: 70
+  gender: female
+  label: pathological
+  speaker_id: voice172
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice172.wav
+  texts:
+  - age=70; gender=female
+voiced_voice174_0:
+  age: 59
+  gender: male
+  label: pathological
+  speaker_id: voice174
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice174.wav
+  texts:
+  - age=59; gender=male
+voiced_voice176_0:
+  age: 23
+  gender: female
+  label: normal
+  speaker_id: voice176
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice176.wav
+  texts:
+  - age=23; gender=female
+voiced_voice177_0:
+  age: 22
+  gender: female
+  label: normal
+  speaker_id: voice177
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice177.wav
+  texts:
+  - age=22; gender=female
+voiced_voice178_0:
+  age: 20
+  gender: female
+  label: normal
+  speaker_id: voice178
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice178.wav
+  texts:
+  - age=20; gender=female
+voiced_voice179_0:
+  age: 21
+  gender: female
+  label: normal
+  speaker_id: voice179
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice179.wav
+  texts:
+  - age=21; gender=female
+voiced_voice184_0:
+  age: 23
+  gender: female
+  label: normal
+  speaker_id: voice184
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice184.wav
+  texts:
+  - age=23; gender=female
+voiced_voice186_0:
+  age: 63
+  gender: male
+  label: pathological
+  speaker_id: voice186
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice186.wav
+  texts:
+  - age=63; gender=male
+voiced_voice189_0:
+  age: 61
+  gender: female
+  label: pathological
+  speaker_id: voice189
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice189.wav
+  texts:
+  - age=61; gender=female
+voiced_voice191_0:
+  age: 24
+  gender: female
+  label: pathological
+  speaker_id: voice191
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice191.wav
+  texts:
+  - age=24; gender=female
+voiced_voice192_0:
+  age: 22
+  gender: male
+  label: pathological
+  speaker_id: voice192
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice192.wav
+  texts:
+  - age=22; gender=male
+voiced_voice193_0:
+  age: 46
+  gender: female
+  label: pathological
+  speaker_id: voice193
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice193.wav
+  texts:
+  - age=46; gender=female
+voiced_voice194_0:
+  age: 26
+  gender: female
+  label: pathological
+  speaker_id: voice194
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice194.wav
+  texts:
+  - age=26; gender=female
+voiced_voice195_0:
+  age: 23
+  gender: female
+  label: normal
+  speaker_id: voice195
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice195.wav
+  texts:
+  - age=23; gender=female
+voiced_voice196_0:
+  age: 57
+  gender: female
+  label: normal
+  speaker_id: voice196
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice196.wav
+  texts:
+  - age=57; gender=female
+voiced_voice197_0:
+  age: 22
+  gender: female
+  label: normal
+  speaker_id: voice197
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice197.wav
+  texts:
+  - age=22; gender=female
+voiced_voice200_0:
+  age: 57
+  gender: male
+  label: pathological
+  speaker_id: voice200
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice200.wav
+  texts:
+  - age=57; gender=male
+voiced_voice201_0:
+  age: 44
+  gender: female
+  label: pathological
+  speaker_id: voice201
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice201.wav
+  texts:
+  - age=44; gender=female
+voiced_voice202_0:
+  age: 27
+  gender: female
+  label: pathological
+  speaker_id: voice202
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice202.wav
+  texts:
+  - age=27; gender=female
+voiced_voice204_0:
+  age: 59
+  gender: female
+  label: normal
+  speaker_id: voice204
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice204.wav
+  texts:
+  - age=59; gender=female
+voiced_voice207_0:
+  age: 30
+  gender: female
+  label: normal
+  speaker_id: voice207
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice207.wav
+  texts:
+  - age=30; gender=female
+voiced_voice208_0:
+  age: 39
+  gender: female
+  label: pathological
+  speaker_id: voice208
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice208.wav
+  texts:
+  - age=39; gender=female

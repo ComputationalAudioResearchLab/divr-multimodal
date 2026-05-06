@@ -1,0 +1,360 @@
+voiced_voice006_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: voice006
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice006.wav
+  texts:
+  - age=54; gender=female; smoking=never; drinking=active
+voiced_voice008_0:
+  age: 51
+  gender: female
+  label: organic
+  speaker_id: voice008
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice008.wav
+  texts:
+  - age=51; gender=female; smoking=never; drinking=active
+voiced_voice015_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: voice015
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice015.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=active
+voiced_voice033_0:
+  age: 52
+  gender: female
+  label: muscle_tension
+  speaker_id: voice033
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice033.wav
+  texts:
+  - age=52; gender=female; smoking=never; drinking=never
+voiced_voice042_0:
+  age: 39
+  gender: female
+  label: organic
+  speaker_id: voice042
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice042.wav
+  texts:
+  - age=39; gender=female; smoking=never; drinking=never
+voiced_voice043_0:
+  age: 38
+  gender: female
+  label: organic
+  speaker_id: voice043
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice043.wav
+  texts:
+  - age=38; gender=female; smoking=never; drinking=never
+voiced_voice048_0:
+  age: 49
+  gender: male
+  label: organic
+  speaker_id: voice048
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice048.wav
+  texts:
+  - age=49; gender=male; smoking=never; drinking=active
+voiced_voice056_0:
+  age: 54
+  gender: female
+  label: organic
+  speaker_id: voice056
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice056.wav
+  texts:
+  - age=54; gender=female; smoking=active; drinking=never
+voiced_voice058_0:
+  age: 26
+  gender: female
+  label: organic
+  speaker_id: voice058
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice058.wav
+  texts:
+  - age=26; gender=female; smoking=never; drinking=active
+voiced_voice062_0:
+  age: 36
+  gender: male
+  label: organic
+  speaker_id: voice062
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice062.wav
+  texts:
+  - age=36; gender=male; smoking=never; drinking=never
+voiced_voice066_0:
+  age: 51
+  gender: female
+  label: organic
+  speaker_id: voice066
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice066.wav
+  texts:
+  - age=51; gender=female; smoking=never; drinking=active
+voiced_voice069_0:
+  age: 63
+  gender: male
+  label: organic
+  speaker_id: voice069
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice069.wav
+  texts:
+  - age=63; gender=male; smoking=active; drinking=never
+voiced_voice074_0:
+  age: 63
+  gender: female
+  label: organic
+  speaker_id: voice074
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice074.wav
+  texts:
+  - age=63; gender=female; smoking=active; drinking=never
+voiced_voice084_0:
+  age: 48
+  gender: female
+  label: organic
+  speaker_id: voice084
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice084.wav
+  texts:
+  - age=48; gender=female; smoking=never; drinking=active
+voiced_voice087_0:
+  age: 61
+  gender: female
+  label: organic
+  speaker_id: voice087
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice087.wav
+  texts:
+  - age=61; gender=female; smoking=active; drinking=active
+voiced_voice088_0:
+  age: 70
+  gender: female
+  label: organic
+  speaker_id: voice088
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice088.wav
+  texts:
+  - age=70; gender=female; smoking=never; drinking=active
+voiced_voice093_0:
+  age: 49
+  gender: female
+  label: organic
+  speaker_id: voice093
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice093.wav
+  texts:
+  - age=49; gender=female; smoking=never; drinking=active
+voiced_voice094_0:
+  age: 67
+  gender: female
+  label: organic
+  speaker_id: voice094
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice094.wav
+  texts:
+  - age=67; gender=female; smoking=never; drinking=active
+voiced_voice129_0:
+  age: 26
+  gender: male
+  label: muscle_tension
+  speaker_id: voice129
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice129.wav
+  texts:
+  - age=26; gender=male; smoking=active; drinking=active
+voiced_voice131_0:
+  age: 47
+  gender: male
+  label: muscle_tension
+  speaker_id: voice131
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice131.wav
+  texts:
+  - age=47; gender=male; smoking=never; drinking=never
+voiced_voice132_0:
+  age: 50
+  gender: male
+  label: muscle_tension
+  speaker_id: voice132
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice132.wav
+  texts:
+  - age=50; gender=male; smoking=never; drinking=never
+voiced_voice138_0:
+  age: 23
+  gender: female
+  label: organic
+  speaker_id: voice138
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice138.wav
+  texts:
+  - age=23; gender=female; smoking=never; drinking=never
+voiced_voice147_0:
+  age: 43
+  gender: male
+  label: muscle_tension
+  speaker_id: voice147
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice147.wav
+  texts:
+  - age=43; gender=male; smoking=never; drinking=active
+voiced_voice148_0:
+  age: 70
+  gender: male
+  label: organic
+  speaker_id: voice148
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice148.wav
+  texts:
+  - age=70; gender=male; smoking=never; drinking=never
+voiced_voice149_0:
+  age: 35
+  gender: male
+  label: muscle_tension
+  speaker_id: voice149
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice149.wav
+  texts:
+  - age=35; gender=male; smoking=active; drinking=active
+voiced_voice150_0:
+  age: 38
+  gender: female
+  label: muscle_tension
+  speaker_id: voice150
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice150.wav
+  texts:
+  - age=38; gender=female; smoking=never; drinking=never
+voiced_voice152_0:
+  age: 51
+  gender: female
+  label: muscle_tension
+  speaker_id: voice152
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice152.wav
+  texts:
+  - age=51; gender=female; smoking=active; drinking=active
+voiced_voice153_0:
+  age: 43
+  gender: female
+  label: muscle_tension
+  speaker_id: voice153
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice153.wav
+  texts:
+  - age=43; gender=female; smoking=active; drinking=active
+voiced_voice154_0:
+  age: 46
+  gender: female
+  label: organic
+  speaker_id: voice154
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice154.wav
+  texts:
+  - age=46; gender=female; smoking=active; drinking=active
+voiced_voice159_0:
+  age: 47
+  gender: female
+  label: muscle_tension
+  speaker_id: voice159
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice159.wav
+  texts:
+  - age=47; gender=female; smoking=never; drinking=active
+voiced_voice161_0:
+  age: 65
+  gender: male
+  label: organic
+  speaker_id: voice161
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice161.wav
+  texts:
+  - age=65; gender=male; smoking=active; drinking=active
+voiced_voice163_0:
+  age: 44
+  gender: female
+  label: muscle_tension
+  speaker_id: voice163
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice163.wav
+  texts:
+  - age=44; gender=female; smoking=active; drinking=never
+voiced_voice165_0:
+  age: 55
+  gender: male
+  label: organic
+  speaker_id: voice165
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice165.wav
+  texts:
+  - age=55; gender=male; smoking=never; drinking=active
+voiced_voice169_0:
+  age: 62
+  gender: female
+  label: muscle_tension
+  speaker_id: voice169
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice169.wav
+  texts:
+  - age=62; gender=female; smoking=never; drinking=active
+voiced_voice170_0:
+  age: 58
+  gender: female
+  label: organic
+  speaker_id: voice170
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice170.wav
+  texts:
+  - age=58; gender=female; smoking=never; drinking=active
+voiced_voice173_0:
+  age: 57
+  gender: female
+  label: muscle_tension
+  speaker_id: voice173
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice173.wav
+  texts:
+  - age=57; gender=female; smoking=active; drinking=active
+voiced_voice175_0:
+  age: 55
+  gender: female
+  label: organic
+  speaker_id: voice175
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice175.wav
+  texts:
+  - age=55; gender=female; smoking=never; drinking=never
+voiced_voice188_0:
+  age: 31
+  gender: female
+  label: muscle_tension
+  speaker_id: voice188
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice188.wav
+  texts:
+  - age=31; gender=female; smoking=never; drinking=never
+voiced_voice199_0:
+  age: 26
+  gender: female
+  label: muscle_tension
+  speaker_id: voice199
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice199.wav
+  texts:
+  - age=26; gender=female; smoking=never; drinking=never
+voiced_voice205_0:
+  age: 30
+  gender: female
+  label: muscle_tension
+  speaker_id: voice205
+  text_keys:
+  - /home/storage/voiced/voice-icar-federico-ii-database-1.0.0/voice205.wav
+  texts:
+  - age=30; gender=female; smoking=active; drinking=active

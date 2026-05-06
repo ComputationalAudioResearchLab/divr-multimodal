@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = "*"
+divr-benchmark = "*"
+class-argparse = "*"
+torch = "==2.5.1"
+torchvision = "==0.20.1"
+torchaudio = "==2.5.1"
+s3prl = "*"
+tensorflow = "*"
+huggingface-hub = "*"
+tensorboard = "*"
+shap = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

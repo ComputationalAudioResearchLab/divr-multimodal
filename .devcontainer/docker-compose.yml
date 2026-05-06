@@ -1,0 +1,37 @@
+services:
+  dev:
+    build: .
+    image: divr-multimodal:v1
+    # We do not want to recreate the container or have multiple instances of it running ever
+    container_name: divr-multimodal
+    volumes:
+      # Mount SSH Keys as readonly
+      # The owners for the ssh/config file should be root:$USER (this ensures both root and $USER can access it)
+      # Run the following commands on the host machine
+      #   sudo chown root$USER ~/.ssh/config
+      #   sudo chmod 644 ~/.ssh/config
+      # https://stackoverflow.com/a/63607708/1609066
+      - ~/.ssh:/root/.ssh:ro
+      # Mount gitconfig
+      - ~/.gitconfig:/root/.gitconfig:ro
+      # Mount working folder
+      - ../:/home/workspace
+      # Mount storage and cache
+      - ../.cache/s3prl:/root/.cache/s3prl/
+      - "${RESEARCH_DATA_PATH}:/home/storage"
+    # Explicitly request GPU devices for this container.
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    environment:
+      - RELEASE_VERSION=v0.0.0
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    # The following commands ensure that the container stays active
+    entrypoint: bash
+    stdin_open: true
+    tty: true
