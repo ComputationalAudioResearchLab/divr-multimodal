@@ -117,7 +117,7 @@ class MultiHeadSequenceAttention(nn.Module):
     def __init__(
         self,
         feature_dim: int,
-        num_heads: int = 4,
+        num_heads: int = 1,
         dropout: float = 0.1,
     ) -> None:
         super().__init__()
@@ -142,11 +142,12 @@ class MultiHeadSequenceAttention(nn.Module):
 
         key_padding_mask = None
         if sequence_lengths is not None:
-            key_padding_mask = _build_sequence_mask(
+            valid_mask = _build_sequence_mask(
                 sequence_lengths=sequence_lengths,
                 max_len=inputs.size(1),
                 device=inputs.device,
             )
+            key_padding_mask = ~valid_mask
 
         attended, _ = self.attention(
             query=inputs,

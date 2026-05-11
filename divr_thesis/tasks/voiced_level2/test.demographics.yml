@@ -1,0 +1,53 @@
+muscle_tension:
+  female:
+    age_stats:
+      max: 62
+      mean: 43.72727272727273
+      min: 26
+      std: 11.576622211084796
+    total: 11
+  male:
+    age_stats:
+      max: 47
+      mean: 36
+      min: 26
+      std: 10.535653752852738
+    total: 3
+organic_inflammatory:
+  female:
+    age_stats:
+      max: 63
+      mean: 50
+      min: 39
+      std: 8.774964387392123
+    total: 5
+  male:
+    age_stats:
+      max: 63
+      mean: 50.75
+      min: 36
+      std: 11.38346754435279
+    total: 4
+organic_neuro_muscular:
+  female:
+    age_stats:
+      max: 70
+      mean: 51.3
+      min: 26
+      std: 12.247902314727657
+    total: 10
+organic_structural:
+  female:
+    age_stats:
+      max: 67
+      mean: 45
+      min: 23
+      std: 31.11269837220809
+    total: 2
+  male:
+    age_stats:
+      max: 70
+      mean: 63.333333333333336
+      min: 55
+      std: 7.637626158259733
+    total: 3

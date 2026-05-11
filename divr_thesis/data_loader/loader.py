@@ -511,6 +511,7 @@ class TaskDataModule:
         gender_to_id = {
             "male": 0,
             "female": 1,
+            "unknown": 2,
         }
         smoking_to_id = {
             "never": 0,
@@ -552,9 +553,9 @@ class TaskDataModule:
                 raw_smoking = str(
                     sample.metadata.get("smoking", "unknown")
                 ).strip().lower()
-                smokings.append(smoking_to_id.get(raw_smoking, 4))
+                smokings.append(smoking_to_id.get(raw_smoking, 3))
             else:
-                smokings.append(4)
+                smokings.append(3)
 
             if use_drinking:
                 raw_drinking = str(

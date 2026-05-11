@@ -49,10 +49,10 @@ class ClassificationHead(nn.Module):
         self.feature_extractor = nn.Sequential(
             nn.Linear(input_size, self.hidden_size),
             nn.ReLU(inplace=False),
-            nn.Dropout(0.1),
+            nn.Dropout(0.5),
             nn.Linear(self.hidden_size, self.hidden_size),
             nn.ReLU(inplace=False),
-            nn.Dropout(0.1),
+            nn.Dropout(0.5),
         )
         self.classifier = nn.Linear(self.hidden_size, num_classes)
 
@@ -84,7 +84,7 @@ class AudioClassifier(SavableModule):
         num_classes: int,
         checkpoint_path: Path,
         head_attention_type: str = "none",
-        head_attention_num_heads: int = 4,
+        head_attention_num_heads: int = 2,
         contrastive_projection_dim: int | None = None,
     ):
         super().__init__(checkpoint_path)
@@ -145,7 +145,7 @@ class AudioTextClassifier(SavableModule):
         checkpoint_path: Path,
         fusion_type: str = "concatenation",
         head_attention_type: str = "none",
-        head_attention_num_heads: int = 4,
+        head_attention_num_heads: int = 1,
         contrastive_projection_dim: int | None = None,
     ) -> None:
         super().__init__(checkpoint_path)

@@ -128,7 +128,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--supcon-weight",
         type=float,
-        default=0.5,
+        default=0.1,
         help="Weight applied to the supervised contrastive loss",
     )
     parser.add_argument(
@@ -140,7 +140,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--supcon-projection-dim",
         type=int,
-        default=512,
+        default=64,
         help="Projection dimension for the supervised contrastive head",
     )
     parser.add_argument(
@@ -208,17 +208,17 @@ def list_task_dirs() -> list[str]:
 
 
 def main() -> None:
+    args = parse_args()
+    if args.list_tasks:
+        print(json.dumps(list_task_dirs(), indent=2))
+        return
+
     from experiments import (
         RunConfig,
         build_run_dir,
         run_evaluation,
         run_experiment,
     )
-
-    args = parse_args()
-    if args.list_tasks:
-        print(json.dumps(list_task_dirs(), indent=2))
-        return
 
     if args.evaluate:
         if args.source_run_dir is None:

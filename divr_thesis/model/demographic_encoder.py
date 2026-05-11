@@ -52,7 +52,6 @@ class DemographicEncoder(nn.Module):
             "never",
             "past",
             "active",
-            "e-cigarette",
             "unknown",
         ]
         self.smoking_embedding = nn.Embedding(
