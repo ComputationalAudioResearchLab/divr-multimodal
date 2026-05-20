@@ -1,7 +1,34 @@
 from importlib import import_module
+import sys
+import types
 
 import numpy as np
 import torch
+import torchaudio
+
+if not hasattr(torchaudio, "set_audio_backend"):
+    torchaudio.set_audio_backend = lambda backend=None: None
+if not hasattr(torchaudio, "get_audio_backend"):
+    torchaudio.get_audio_backend = lambda: None
+
+
+if "torchaudio.sox_effects" not in sys.modules:
+    try:
+        import torchaudio.sox_effects  # noqa: F401
+    except ModuleNotFoundError:
+        sox_effects = types.ModuleType("torchaudio.sox_effects")
+
+        def apply_effects_tensor(*args, **kwargs):
+            raise ModuleNotFoundError(
+                "torchaudio.sox_effects is unavailable in this torchaudio "
+                "version. This compatibility stub only allows s3prl to "
+                "import; install a torchaudio build with sox support if "
+                "your selected upstream uses sox effects."
+            )
+
+        sox_effects.apply_effects_tensor = apply_effects_tensor
+        sys.modules["torchaudio.sox_effects"] = sox_effects
+
 from s3prl.nn import S3PRLUpstream
 from data_loader import InputTensors
 
